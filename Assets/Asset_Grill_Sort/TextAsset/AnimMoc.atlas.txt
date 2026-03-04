@@ -1,0 +1,10 @@
+AnimMoc.png
+size:316,320
+filter:Linear,Linear
+pma:true
+GiaTrao
+bounds:250,118,62,62
+Main
+bounds:2,2,246,314
+Moc
+bounds:250,182,61,134

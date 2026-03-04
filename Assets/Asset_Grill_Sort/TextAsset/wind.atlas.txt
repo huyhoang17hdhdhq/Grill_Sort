@@ -1,0 +1,82 @@
+wind.png
+size:1108,528
+filter:Linear,Linear
+pma:true
+Lines007/Lines 007_00002
+bounds:217,5,20,17
+offsets:328,92,512,288
+rotate:90
+Lines007/Lines 007_00003
+bounds:236,7,39,18
+offsets:308,96,512,288
+Lines007/Lines 007_00004
+bounds:150,4,65,21
+offsets:280,96,512,288
+Lines007/Lines 007_00005
+bounds:53,3,95,22
+offsets:249,97,512,288
+Lines007/Lines 007_00006
+bounds:518,7,143,42
+offsets:216,76,512,288
+Lines007/Lines 007_00007
+bounds:478,40,182,38
+offsets:179,78,512,288
+rotate:90
+Lines007/Lines 007_00008
+bounds:2,6,213,49
+offsets:150,80,512,288
+rotate:90
+Lines007/Lines 007_00009
+bounds:785,2,237,75
+offsets:126,82,512,288
+rotate:90
+Lines007/Lines 007_00010
+bounds:840,413,263,110
+offsets:100,76,512,288
+Lines007/Lines 007_00011
+bounds:692,241,282,146
+offsets:80,66,512,288
+rotate:90
+Lines007/Lines 007_00012
+bounds:351,224,299,163
+offsets:62,61,512,288
+rotate:90
+Lines007/Lines 007_00013
+bounds:2,221,302,170
+offsets:58,59,512,288
+rotate:90
+Lines007/Lines 007_00014
+bounds:174,222,301,175
+offsets:57,57,512,288
+rotate:90
+Lines007/Lines 007_00015
+bounds:516,234,289,174
+offsets:56,58,512,288
+rotate:90
+Lines007/Lines 007_00016
+bounds:518,51,265,181
+offsets:54,59,512,288
+Lines007/Lines 007_00017
+bounds:246,33,230,187
+offsets:53,61,512,288
+Lines007/Lines 007_00018
+bounds:53,27,192,191
+offsets:52,68,512,288
+rotate:90
+Lines007/Lines 007_00019
+bounds:840,245,166,174
+offsets:50,86,512,288
+rotate:90
+Lines007/Lines 007_00020
+bounds:862,84,126,159
+offsets:49,103,512,288
+Lines007/Lines 007_00021
+bounds:990,100,104,143
+offsets:44,120,512,288
+Lines007/Lines 007_00022
+bounds:1016,278,85,133
+offsets:41,132,512,288
+Lines007/Lines 007_00023
+bounds:277,17,14,135
+offsets:100,133,512,288
+rotate:90

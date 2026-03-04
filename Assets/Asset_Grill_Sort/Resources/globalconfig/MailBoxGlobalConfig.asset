@@ -1,0 +1,1355 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f1cb9bed7df82f21c53b66b25b927df, type: 3}
+  m_Name: MailBoxGlobalConfig
+  m_EditorClassIdentifier:
+  <MailBoxConfig>k__BackingField:
+  - MailId: 0
+    UserId: 14457467
+    Gift: Pack
+    Title:
+    Value: 9
+  - MailId: 1
+    UserId: 14457467
+    Gift: Money
+    Title:
+    Value: 14500
+  - MailId: 3
+    UserId: 14457467
+    Gift: NoAds
+    Title:
+    Value: 1
+  - MailId: 1
+    UserId: 14457467
+    Gift: Wand
+    Title:
+    Value: 9
+  - MailId: 4
+    UserId: 14457467
+    Gift: Swap
+    Title:
+    Value: 9
+  - MailId: 5
+    UserId: 14457467
+    Gift: IndicatedPack
+    Title:
+    Value: 9
+  - MailId: 6
+    UserId: 14457467
+    Gift: InfiniteLife
+    Title:
+    Value: 18000
+  - MailId: 7
+    UserId: 14457467
+    Gift: InfiniteExtraReward
+    Title:
+    Value: 7200
+  - MailId: 8
+    UserId: 3120432
+    Gift: Level
+    Title:
+    Value: 786
+  - MailId: 9
+    UserId: 15527968
+    Gift: Level
+    Title:
+    Value: 50
+  - MailId: 10
+    UserId: 15527968
+    Gift: Money
+    Title:
+    Value: 4560
+  - MailId: 11
+    UserId: 16181127
+    Gift: Level
+    Title:
+    Value: 242
+  - MailId: 12
+    UserId: 16181127
+    Gift: Money
+    Title:
+    Value: 7167
+  - MailId: 14
+    UserId: 14457467
+    Gift: InfiniteExtraTime
+    Title:
+    Value: 7200
+  - MailId: 100
+    UserId: 8042777
+    Gift: Money
+    Title:
+    Value: 2000
+  - MailId: 16
+    UserId: 501101
+    Gift: Wand
+    Title:
+    Value: 3
+  - MailId: 17
+    UserId: 501101
+    Gift: Swap
+    Title:
+    Value: 3
+  - MailId: 18
+    UserId: 501101
+    Gift: InfiniteLife
+    Title:
+    Value: 10800
+  - MailId: 19
+    UserId: 501101
+    Gift: Money
+    Title:
+    Value: 5500
+  - MailId: 20
+    UserId: 501101
+    Gift: NoAds
+    Title:
+    Value: 1
+  - MailId: 21
+    UserId: 3491131
+    Gift: Money
+    Title:
+    Value: 1000
+  - MailId: 22
+    UserId: 681640
+    Gift: Wand
+    Title:
+    Value: 5
+  - MailId: 23
+    UserId: 681640
+    Gift: Swap
+    Title:
+    Value: 5
+  - MailId: 24
+    UserId: 16075583
+    Gift: Level
+    Title:
+    Value: 480
+  - MailId: 150
+    UserId: 16075583
+    Gift: Money
+    Title:
+    Value: 20350
+  - MailId: 25
+    UserId: 7018800
+    Gift: Frame
+    Title:
+    Value: 14
+  - MailId: 130
+    UserId: 14457467
+    Gift: Swap
+    Title:
+    Value: 2
+  - MailId: 131
+    UserId: 14457467
+    Gift: IndicatedPack
+    Title:
+    Value: 2
+  - MailId: 132
+    UserId: 14457467
+    Gift: Wand
+    Title:
+    Value: 2
+  - MailId: 331
+    UserId: 14457467
+    Gift: Swap
+    Title:
+    Value: 2
+  - MailId: 341
+    UserId: 14457467
+    Gift: Money
+    Title:
+    Value: 4000
+  - MailId: 351
+    UserId: 14457467
+    Gift: NoAds
+    Title:
+    Value: 1
+  - MailId: 36
+    UserId: 818225
+    Gift: Level
+    Title:
+    Value: 135
+  - MailId: 37
+    UserId: 3697102
+    Gift: Money
+    Title:
+    Value: 1000
+  - MailId: 38
+    UserId: 818225
+    Gift: Swap
+    Title:
+    Value: 5
+  - MailId: 39
+    UserId: 818225
+    Gift: IndicatedPack
+    Title:
+    Value: 5
+  - MailId: 40
+    UserId: 818225
+    Gift: Wand
+    Title:
+    Value: 5
+  - MailId: 41
+    UserId: 818225
+    Gift: Swap
+    Title:
+    Value: 5
+  - MailId: 42
+    UserId: 16801501
+    Gift: Level
+    Title:
+    Value: 1509
+  - MailId: 43
+    UserId: 16801501
+    Gift: Money
+    Title:
+    Value: 2461
+  - MailId: 44
+    UserId: 16801501
+    Gift: Swap
+    Title:
+    Value: 10
+  - MailId: 45
+    UserId: 16801501
+    Gift: IndicatedPack
+    Title:
+    Value: 5
+  - MailId: 46
+    UserId: 16801501
+    Gift: Wand
+    Title:
+    Value: 5
+  - MailId: 47
+    UserId: 16801501
+    Gift: Swap
+    Title:
+    Value: 5
+  - MailId: 48
+    UserId: 15856038
+    Gift: InfiniteLife
+    Title:
+    Value: 7200
+  - MailId: 49
+    UserId: 15856038
+    Gift: NoAds
+    Title:
+    Value: 1
+  - MailId: 50
+    UserId: 4744787
+    Gift: Swap
+    Title:
+    Value: 2
+  - MailId: 51
+    UserId: 4744787
+    Gift: IndicatedPack
+    Title:
+    Value: 2
+  - MailId: 52
+    UserId: 4744787
+    Gift: Wand
+    Title:
+    Value: 2
+  - MailId: 53
+    UserId: 4744787
+    Gift: Swap
+    Title:
+    Value: 2
+  - MailId: 54
+    UserId: 1469103
+    Gift: Level
+    Title:
+    Value: 115
+  - MailId: 55
+    UserId: 1469103
+    Gift: Money
+    Title:
+    Value: 2000
+  - MailId: 56
+    UserId: 1469103
+    Gift: Swap
+    Title:
+    Value: 5
+  - MailId: 57
+    UserId: 1469103
+    Gift: IndicatedPack
+    Title:
+    Value: 5
+  - MailId: 58
+    UserId: 1469103
+    Gift: Wand
+    Title:
+    Value: 5
+  - MailId: 59
+    UserId: 1469103
+    Gift: Swap
+    Title:
+    Value: 5
+  - MailId: 60
+    UserId: 850896
+    Gift: Level
+    Title:
+    Value: 410
+  - MailId: 61
+    UserId: 850896
+    Gift: Money
+    Title:
+    Value: 2000
+  - MailId: 62
+    UserId: 850896
+    Gift: Swap
+    Title:
+    Value: 5
+  - MailId: 63
+    UserId: 850896
+    Gift: IndicatedPack
+    Title:
+    Value: 5
+  - MailId: 64
+    UserId: 850896
+    Gift: Wand
+    Title:
+    Value: 5
+  - MailId: 65
+    UserId: 850896
+    Gift: Swap
+    Title:
+    Value: 5
+  - MailId: 66
+    UserId: 1414540
+    Gift: Level
+    Title:
+    Value: 5086
+  - MailId: 67
+    UserId: 1414540
+    Gift: Money
+    Title:
+    Value: 2600
+  - MailId: 68
+    UserId: 1414540
+    Gift: Swap
+    Title:
+    Value: 7
+  - MailId: 69
+    UserId: 1414540
+    Gift: IndicatedPack
+    Title:
+    Value: 7
+  - MailId: 70
+    UserId: 1414540
+    Gift: Wand
+    Title:
+    Value: 7
+  - MailId: 71
+    UserId: 1414540
+    Gift: Pack
+    Title:
+    Value: 7
+  - MailId: 72
+    UserId: 6195397
+    Gift: Level
+    Title:
+    Value: 375
+  - MailId: 73
+    UserId: 14548795
+    Gift: NoAds
+    Title:
+    Value: 1
+  - MailId: 74
+    UserId: 11086836
+    Gift: Swap
+    Title:
+    Value: 4
+  - MailId: 75
+    UserId: 11086836
+    Gift: IndicatedPack
+    Title:
+    Value: 4
+  - MailId: 76
+    UserId: 11086836
+    Gift: Wand
+    Title:
+    Value: 4
+  - MailId: 77
+    UserId: 11086836
+    Gift: Swap
+    Title:
+    Value: 4
+  - MailId: 78
+    UserId: 3123137
+    Gift: Money
+    Title:
+    Value: 50000
+  - MailId: 79
+    UserId: 3123137
+    Gift: Level
+    Title:
+    Value: 1050
+  - MailId: 80
+    UserId: 3123137
+    Gift: Swap
+    Title:
+    Value: 45
+  - MailId: 82
+    UserId: 3123137
+    Gift: Wand
+    Title:
+    Value: 2
+  - MailId: 83
+    UserId: 3123137
+    Gift: Pack
+    Title:
+    Value: 22
+  - MailId: 84
+    UserId: 11290075
+    Gift: InfiniteLife
+    Title:
+    Value: 7200
+  - MailId: 85
+    UserId: 11290075
+    Gift: NoAds
+    Title:
+    Value: 1
+  - MailId: 91
+    UserId: 4744787
+    Gift: Swap
+    Title:
+    Value: 2
+  - MailId: 92
+    UserId: 4744787
+    Gift: IndicatedPack
+    Title:
+    Value: 2
+  - MailId: 93
+    UserId: 4744787
+    Gift: Wand
+    Title:
+    Value: 2
+  - MailId: 94
+    UserId: 4744787
+    Gift: Pack
+    Title:
+    Value: 2
+  - MailId: 95
+    UserId: 4744787
+    Gift: Money
+    Title:
+    Value: 1000
+  - MailId: 96
+    UserId: 4744787
+    Gift: InfiniteLife
+    Title:
+    Value: 7200
+  - MailId: 97
+    UserId: 4744787
+    Gift: InfiniteExtraReward
+    Title:
+    Value: 7200
+  - MailId: 99
+    UserId: 3552396
+    Gift: Level
+    Title:
+    Value: 357
+  - MailId: 100
+    UserId: 3794527
+    Gift: Level
+    Title:
+    Value: 241
+  - MailId: 101
+    UserId: 3794527
+    Gift: Money
+    Title:
+    Value: 200
+  - MailId: 102
+    UserId: 105336
+    Gift: Money
+    Title:
+    Value: 100000
+  - MailId: 105
+    UserId: 105336
+    Gift: Frame
+    Title:
+    Value: 19
+  - MailId: 106
+    UserId: 105336
+    Gift: Name
+    Title:
+    Value: 1
+  - MailId: 107
+    UserId: 11237307
+    Gift: Frame
+    Title:
+    Value: 21
+  - MailId: 108
+    UserId: 11237307
+    Gift: Name
+    Title:
+    Value: 2
+  - MailId: 109
+    UserId: 11237307
+    Gift: Avatar
+    Title:
+    Value: 12
+  - MailId: 110
+    UserId: 1116653
+    Gift: Frame
+    Title:
+    Value: 21
+  - MailId: 111
+    UserId: 1116653
+    Gift: Name
+    Title:
+    Value: 2
+  - MailId: 112
+    UserId: 3465133
+    Gift: Avatar
+    Title:
+    Value: 12
+  - MailId: 113
+    UserId: 333893
+    Gift: Frame
+    Title:
+    Value: 21
+  - MailId: 114
+    UserId: 333893
+    Gift: Name
+    Title:
+    Value: 2
+  - MailId: 115
+    UserId: 2865631
+    Gift: Level
+    Title:
+    Value: 172
+  - MailId: 116
+    UserId: 2865631
+    Gift: Money
+    Title:
+    Value: 200
+  - MailId: 119
+    UserId: 868394
+    Gift: Money
+    Title:
+    Value: 100000
+  - MailId: 120
+    UserId: 868394
+    Gift: NoAds
+    Title:
+    Value: 1
+  - MailId: 121
+    UserId: 105336
+    Gift: Avatar
+    Title:
+    Value: 14
+  - MailId: 122
+    UserId: 105336
+    Gift: Frame
+    Title:
+    Value: 24
+  - MailId: 124
+    UserId: 2759834
+    Gift: Level
+    Title:
+    Value: 116
+  - MailId: 125
+    UserId: 2759834
+    Gift: Money
+    Title:
+    Value: 300
+  - MailId: 126
+    UserId: 2759834
+    Gift: Avatar
+    Title:
+    Value: 13
+  - MailId: 127
+    UserId: 8841727
+    Gift: Level
+    Title:
+    Value: 644
+  - MailId: 128
+    UserId: 8841727
+    Gift: Money
+    Title:
+    Value: 300
+  - MailId: 130
+    UserId: 1278419
+    Gift: Level
+    Title:
+    Value: 6
+  - MailId: 131
+    UserId: 11322133
+    Gift: NoAds
+    Title:
+    Value: 1
+  - MailId: 132
+    UserId: 11322133
+    Gift: Money
+    Title:
+    Value: 1000
+  - MailId: 133
+    UserId: 13607872
+    Gift: Level
+    Title:
+    Value: 60
+  - MailId: 134
+    UserId: 13607872
+    Gift: Money
+    Title:
+    Value: 9000
+  - MailId: 135
+    UserId: 13607872
+    Gift: NoAds
+    Title:
+    Value: 1
+  - MailId: 136
+    UserId: 13607872
+    Gift: Frame
+    Title:
+    Value: 13
+  - MailId: 137
+    UserId: 13607872
+    Gift: Avatar
+    Title:
+    Value: 17
+  - MailId: 138
+    UserId: 13607872
+    Gift: Name
+    Title:
+    Value: 5
+  - MailId: 139
+    UserId: 13607872
+    Gift: Frame
+    Title:
+    Value: 17
+  - MailId: 140
+    UserId: 13607872
+    Gift: Avatar
+    Title:
+    Value: 14
+  - MailId: 141
+    UserId: 13607872
+    Gift: Frame
+    Title:
+    Value: 24
+  - MailId: 142
+    UserId: 13607872
+    Gift: Avatar
+    Title:
+    Value: 12
+  - MailId: 143
+    UserId: 13607872
+    Gift: Frame
+    Title:
+    Value: 25
+  - MailId: 144
+    UserId: 13862423
+    Gift: NoAds
+    Title:
+    Value: 1
+  - MailId: 145
+    UserId: 13862423
+    Gift: Money
+    Title:
+    Value: 1000
+  - MailId: 146
+    UserId: 13862423
+    Gift: Level
+    Title:
+    Value: 60
+  - MailId: 147
+    UserId: 13862423
+    Gift: Money
+    Title:
+    Value: 9000
+  - MailId: 148
+    UserId: 13862423
+    Gift: NoAds
+    Title:
+    Value: 1
+  - MailId: 149
+    UserId: 13862423
+    Gift: Frame
+    Title:
+    Value: 13
+  - MailId: 150
+    UserId: 13862423
+    Gift: Avatar
+    Title:
+    Value: 17
+  - MailId: 151
+    UserId: 13862423
+    Gift: Name
+    Title:
+    Value: 5
+  - MailId: 152
+    UserId: 13862423
+    Gift: Frame
+    Title:
+    Value: 17
+  - MailId: 153
+    UserId: 13862423
+    Gift: Avatar
+    Title:
+    Value: 14
+  - MailId: 154
+    UserId: 13862423
+    Gift: Frame
+    Title:
+    Value: 24
+  - MailId: 155
+    UserId: 13862423
+    Gift: Avatar
+    Title:
+    Value: 12
+  - MailId: 156
+    UserId: 13862423
+    Gift: Frame
+    Title:
+    Value: 25
+  - MailId: 159
+    UserId: 11373181
+    Gift: Avatar
+    Title:
+    Value: 18
+  - MailId: 160
+    UserId: 4303663
+    Gift: Frame
+    Title:
+    Value: 29
+  - MailId: 161
+    UserId: 102559
+    Gift: Level
+    Title:
+    Value: 101
+  - MailId: 162
+    UserId: 102559
+    Gift: Money
+    Title:
+    Value: 99999
+  - MailId: 163
+    UserId: 4108093
+    Gift: Level
+    Title:
+    Value: 14
+  - MailId: 164
+    UserId: 4108093
+    Gift: NoAds
+    Title:
+    Value: 1
+  - MailId: 165
+    UserId: 3985771
+    Gift: Level
+    Title:
+    Value: 416
+  - MailId: 166
+    UserId: 3985771
+    Gift: Money
+    Title:
+    Value: 1000
+  - MailId: 167
+    UserId: 3985771
+    Gift: Pack
+    Title:
+    Value: 1
+  - MailId: 168
+    UserId: 3985771
+    Gift: Wand
+    Title:
+    Value: 1
+  - MailId: 169
+    UserId: 3985771
+    Gift: Swap
+    Title:
+    Value: 1
+  - MailId: 170
+    UserId: 3985771
+    Gift: IndicatedPack
+    Title:
+    Value: 1
+  - MailId: 171
+    UserId: 3637442
+    Gift: Level
+    Title:
+    Value: 116
+  - MailId: 172
+    UserId: 3637442
+    Gift: Money
+    Title:
+    Value: 500
+  - MailId: 173
+    UserId: 3637442
+    Gift: Pack
+    Title:
+    Value: 1
+  - MailId: 174
+    UserId: 3637442
+    Gift: Wand
+    Title:
+    Value: 1
+  - MailId: 175
+    UserId: 3637442
+    Gift: Swap
+    Title:
+    Value: 1
+  - MailId: 176
+    UserId: 3637442
+    Gift: IndicatedPack
+    Title:
+    Value: 1
+  - MailId: 177
+    UserId: 13883693
+    Gift: Level
+    Title:
+    Value: 226
+  - MailId: 178
+    UserId: 13883693
+    Gift: Money
+    Title:
+    Value: 500
+  - MailId: 179
+    UserId: 13883693
+    Gift: Pack
+    Title:
+    Value: 1
+  - MailId: 180
+    UserId: 13883693
+    Gift: Wand
+    Title:
+    Value: 1
+  - MailId: 181
+    UserId: 13883693
+    Gift: Swap
+    Title:
+    Value: 1
+  - MailId: 182
+    UserId: 13883693
+    Gift: IndicatedPack
+    Title:
+    Value: 1
+  - MailId: 183
+    UserId: 665182
+    Gift: Level
+    Title:
+    Value: 2
+  - MailId: 184
+    UserId: 4406601
+    Gift: Money
+    Title:
+    Value: 50000
+  - MailId: 185
+    UserId: 4406601
+    Gift: Frame
+    Title:
+    Value: 20
+  - MailId: 186
+    UserId: 4406601
+    Gift: Avatar
+    Title:
+    Value: 13
+  - MailId: 187
+    UserId: 4406601
+    Gift: Frame
+    Title:
+    Value: 21
+  - MailId: 188
+    UserId: 4406601
+    Gift: Avatar
+    Title:
+    Value: 14
+  - MailId: 189
+    UserId: 4406601
+    Gift: NoAds
+    Title:
+    Value: 1
+  - MailId: 190
+    UserId: 3509093
+    Gift: Level
+    Title:
+    Value: 226
+  - MailId: 191
+    UserId: 3509093
+    Gift: Money
+    Title:
+    Value: 500
+  - MailId: 192
+    UserId: 3509093
+    Gift: Pack
+    Title:
+    Value: 1
+  - MailId: 193
+    UserId: 3509093
+    Gift: Wand
+    Title:
+    Value: 1
+  - MailId: 194
+    UserId: 3509093
+    Gift: Swap
+    Title:
+    Value: 1
+  - MailId: 195
+    UserId: 3509093
+    Gift: IndicatedPack
+    Title:
+    Value: 1
+  - MailId: 196
+    UserId: 1465394
+    Gift: Money
+    Title:
+    Value: 8000
+  - MailId: 197
+    UserId: 1465394
+    Gift: Pack
+    Title:
+    Value: 5
+  - MailId: 198
+    UserId: 1465394
+    Gift: Wand
+    Title:
+    Value: 5
+  - MailId: 199
+    UserId: 1465394
+    Gift: Swap
+    Title:
+    Value: 5
+  - MailId: 200
+    UserId: 1465394
+    Gift: IndicatedPack
+    Title:
+    Value: 5
+  - MailId: 201
+    UserId: 1465394
+    Gift: Frame
+    Title:
+    Value: 33
+  - MailId: 202
+    UserId: 2384249
+    Gift: Level
+    Title:
+    Value: 226
+  - MailId: 203
+    UserId: 2384249
+    Gift: Money
+    Title:
+    Value: 1000
+  - MailId: 204
+    UserId: 2384249
+    Gift: Pack
+    Title:
+    Value: 1
+  - MailId: 205
+    UserId: 2384249
+    Gift: Wand
+    Title:
+    Value: 1
+  - MailId: 206
+    UserId: 2384249
+    Gift: Swap
+    Title:
+    Value: 1
+  - MailId: 207
+    UserId: 2384249
+    Gift: IndicatedPack
+    Title:
+    Value: 1
+  - MailId: 208
+    UserId: 101324111
+    Gift: Frame
+    Title:
+    Value: 12
+  - MailId: 209
+    UserId: 101324111
+    Gift: Frame
+    Title:
+    Value: 13
+  - MailId: 210
+    UserId: 101324111
+    Gift: Frame
+    Title:
+    Value: 14
+  - MailId: 211
+    UserId: 101324111
+    Gift: Frame
+    Title:
+    Value: 15
+  - MailId: 212
+    UserId: 101324111
+    Gift: Frame
+    Title:
+    Value: 16
+  - MailId: 213
+    UserId: 101324111
+    Gift: Frame
+    Title:
+    Value: 17
+  - MailId: 214
+    UserId: 101324111
+    Gift: Frame
+    Title:
+    Value: 18
+  - MailId: 215
+    UserId: 101324111
+    Gift: Frame
+    Title:
+    Value: 19
+  - MailId: 216
+    UserId: 101324111
+    Gift: Frame
+    Title:
+    Value: 20
+  - MailId: 217
+    UserId: 101324111
+    Gift: Frame
+    Title:
+    Value: 21
+  - MailId: 218
+    UserId: 101324111
+    Gift: Frame
+    Title:
+    Value: 22
+  - MailId: 221
+    UserId: 101324111
+    Gift: Frame
+    Title:
+    Value: 25
+  - MailId: 222
+    UserId: 101324111
+    Gift: Frame
+    Title:
+    Value: 26
+  - MailId: 223
+    UserId: 101324111
+    Gift: Frame
+    Title:
+    Value: 27
+  - MailId: 224
+    UserId: 101324111
+    Gift: Frame
+    Title:
+    Value: 28
+  - MailId: 225
+    UserId: 101324111
+    Gift: Frame
+    Title:
+    Value: 29
+  - MailId: 226
+    UserId: 101324111
+    Gift: Frame
+    Title:
+    Value: 30
+  - MailId: 227
+    UserId: 101324111
+    Gift: Frame
+    Title:
+    Value: 31
+  - MailId: 228
+    UserId: 101324111
+    Gift: Frame
+    Title:
+    Value: 32
+  - MailId: 229
+    UserId: 101324111
+    Gift: Frame
+    Title:
+    Value: 33
+  - MailId: 230
+    UserId: 101324111
+    Gift: Frame
+    Title:
+    Value: 34
+  - MailId: 231
+    UserId: 101324111
+    Gift: Avatar
+    Title:
+    Value: 12
+  - MailId: 232
+    UserId: 101324111
+    Gift: Avatar
+    Title:
+    Value: 13
+  - MailId: 233
+    UserId: 101324111
+    Gift: Avatar
+    Title:
+    Value: 14
+  - MailId: 236
+    UserId: 101324111
+    Gift: Avatar
+    Title:
+    Value: 17
+  - MailId: 237
+    UserId: 101324111
+    Gift: Avatar
+    Title:
+    Value: 18
+  - MailId: 238
+    UserId: 101324111
+    Gift: Avatar
+    Title:
+    Value: 19
+  - MailId: 239
+    UserId: 101324111
+    Gift: Avatar
+    Title:
+    Value: 20
+  - MailId: 240
+    UserId: 101324111
+    Gift: Avatar
+    Title:
+    Value: 21
+  - MailId: 241
+    UserId: 101324111
+    Gift: Avatar
+    Title:
+    Value: 22
+  - MailId: 242
+    UserId: 2494246
+    Gift: Frame
+    Title:
+    Value: 33
+  - MailId: 243
+    UserId: 2494246
+    Gift: Money
+    Title:
+    Value: 10000
+  - MailId: 244
+    UserId: 2494246
+    Gift: Pack
+    Title:
+    Value: 5
+  - MailId: 245
+    UserId: 2494246
+    Gift: Wand
+    Title:
+    Value: 5
+  - MailId: 246
+    UserId: 2494246
+    Gift: Swap
+    Title:
+    Value: 5
+  - MailId: 247
+    UserId: 2494246
+    Gift: IndicatedPack
+    Title:
+    Value: 5
+  - MailId: 248
+    UserId: 105336
+    Gift: Level
+    Title:
+    Value: 500
+  - MailId: 249
+    UserId: 105336
+    Gift: Frame
+    Title:
+    Value: 33
+  - MailId: 250
+    UserId: 105336
+    Gift: Badge
+    Title:
+    Value: 0
+  - MailId: 251
+    UserId: 1465394
+    Gift: Badge
+    Title:
+    Value: 0
+  - MailId: 252
+    UserId: 665933
+    Gift: Money
+    Title:
+    Value: 1
+  - MailId: 253
+    UserId: 3494440
+    Gift: Frame
+    Title:
+    Value: 34
+  - MailId: 254
+    UserId: 3494440
+    Gift: Badge
+    Title:
+    Value: 1
+  - MailId: 255
+    UserId: 3494440
+    Gift: Money
+    Title:
+    Value: 5000
+  - MailId: 256
+    UserId: 3494440
+    Gift: Pack
+    Title:
+    Value: 5
+  - MailId: 257
+    UserId: 3494440
+    Gift: Wand
+    Title:
+    Value: 5
+  - MailId: 258
+    UserId: 3494440
+    Gift: Swap
+    Title:
+    Value: 5
+  - MailId: 259
+    UserId: 3494440
+    Gift: IndicatedPack
+    Title:
+    Value: 5
+  - MailId: 262
+    UserId: 6651819999
+    Gift: Level
+    Title:
+    Value: 101
+  - MailId: 263
+    UserId: 11373181
+    Gift: Frame
+    Title:
+    Value: 22
+  - MailId: 264
+    UserId: 11373181
+    Gift: Avatar
+    Title:
+    Value: 22
+  - MailId: 265
+    UserId: 6651811111
+    Gift: Level
+    Title:
+    Value: 101
+  - MailId: 266
+    UserId: 16296942
+    Gift: Level
+    Title:
+    Value: 101
+  - MailId: 267
+    UserId: 2494246
+    Gift: Frame
+    Title:
+    Value: 34
+  - MailId: 268
+    UserId: 2494246
+    Gift: Badge
+    Title:
+    Value: 1
+  - MailId: 269
+    UserId: 2494246
+    Gift: Money
+    Title:
+    Value: 5000
+  - MailId: 270
+    UserId: 2494246
+    Gift: Pack
+    Title:
+    Value: 5
+  - MailId: 271
+    UserId: 2494246
+    Gift: Wand
+    Title:
+    Value: 5
+  - MailId: 272
+    UserId: 2494246
+    Gift: Swap
+    Title:
+    Value: 5
+  - MailId: 273
+    UserId: 2494246
+    Gift: IndicatedPack
+    Title:
+    Value: 5
+  - MailId: 274
+    UserId: 3231864
+    Gift: Frame
+    Title:
+    Value: 34
+  - MailId: 275
+    UserId: 3231864
+    Gift: Badge
+    Title:
+    Value: 1
+  - MailId: 276
+    UserId: 3231864
+    Gift: Money
+    Title:
+    Value: 5000
+  - MailId: 277
+    UserId: 3231864
+    Gift: Pack
+    Title:
+    Value: 5
+  - MailId: 278
+    UserId: 3231864
+    Gift: Wand
+    Title:
+    Value: 5
+  - MailId: 279
+    UserId: 3231864
+    Gift: Swap
+    Title:
+    Value: 5
+  - MailId: 280
+    UserId: 3231864
+    Gift: IndicatedPack
+    Title:
+    Value: 5
+  - MailId: 281
+    UserId: 3219329
+    Gift: Money
+    Title:
+    Value: 55000
+  - MailId: 282
+    UserId: 3219329
+    Gift: Level
+    Title:
+    Value: 3123
+  - MailId: 283
+    UserId: 3219329
+    Gift: Pack
+    Title:
+    Value: 1
+  - MailId: 284
+    UserId: 3219329
+    Gift: Wand
+    Title:
+    Value: 1
+  - MailId: 285
+    UserId: 3219329
+    Gift: Swap
+    Title:
+    Value: 1
+  - MailId: 286
+    UserId: 3219329
+    Gift: IndicatedPack
+    Title:
+    Value: 1
+  - MailId: 287
+    UserId: 1600464
+    Gift: Level
+    Title:
+    Value: 778
+  - MailId: 288
+    UserId: 4606529
+    Gift: NoAds
+    Title:
+    Value: 1
+  - MailId: 289
+    UserId: 4606529
+    Gift: Pack
+    Title:
+    Value: 1
+  - MailId: 290
+    UserId: 4606529
+    Gift: Wand
+    Title:
+    Value: 1
+  - MailId: 291
+    UserId: 4606529
+    Gift: Swap
+    Title:
+    Value: 1
+  - MailId: 292
+    UserId: 4606529
+    Gift: IndicatedPack
+    Title:
+    Value: 1

@@ -1,0 +1,700 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10093f8a0c46566445feb3fdbdd21a1f, type: 3}
+  m_Name: ProfileGlobalConfig
+  m_EditorClassIdentifier:
+  UserAvatarDatas:
+  - Id: 0
+    Sprite: {fileID: 21300000, guid: 10478dbb3667b13439be247689076f54, type: 2}
+    requireToUnlock: 0
+    levelRequire: 0
+    HowToCollect:
+    priorityLevel: 0
+  - Id: 1
+    Sprite: {fileID: 21300000, guid: d10e17d0bb4100f488039a7d5b6ac0ee, type: 2}
+    requireToUnlock: 0
+    levelRequire: 0
+    HowToCollect:
+    priorityLevel: 0
+  - Id: 2
+    Sprite: {fileID: 21300000, guid: 75cc9bb70b9a10f40bffd815b12bc293, type: 2}
+    requireToUnlock: 0
+    levelRequire: 0
+    HowToCollect:
+    priorityLevel: 0
+  - Id: 3
+    Sprite: {fileID: 21300000, guid: 55f58bbb36710ec4cb85a52cc2f3ba96, type: 2}
+    requireToUnlock: 0
+    levelRequire: 0
+    HowToCollect:
+    priorityLevel: 0
+  - Id: 4
+    Sprite: {fileID: 21300000, guid: c4232c83793b47446bc794a85ffb469a, type: 2}
+    requireToUnlock: 0
+    levelRequire: 0
+    HowToCollect:
+    priorityLevel: 0
+  - Id: 5
+    Sprite: {fileID: 21300000, guid: e960635e4f886f643b353fb82e1fcf39, type: 2}
+    requireToUnlock: 0
+    levelRequire: 0
+    HowToCollect:
+    priorityLevel: 0
+  - Id: 6
+    Sprite: {fileID: 21300000, guid: 9da4925741cfe0e4e9869618f1dfbbae, type: 2}
+    requireToUnlock: 1
+    levelRequire: 10
+    HowToCollect: level 10
+    priorityLevel: 1
+  - Id: 7
+    Sprite: {fileID: 21300000, guid: 8e60b7c57649a1c48a3dcc5a2bea48c1, type: 2}
+    requireToUnlock: 1
+    levelRequire: 50
+    HowToCollect: level 50
+    priorityLevel: 2
+  - Id: 8
+    Sprite: {fileID: 21300000, guid: 84b3375ee577ee54e9aa68b242a32589, type: 2}
+    requireToUnlock: 1
+    levelRequire: 100
+    HowToCollect: level 100
+    priorityLevel: 3
+  - Id: 9
+    Sprite: {fileID: 21300000, guid: d40d44f489a54264d981c58bbd6cd230, type: 2}
+    requireToUnlock: 1
+    levelRequire: 200
+    HowToCollect: level 200
+    priorityLevel: 4
+  - Id: 10
+    Sprite: {fileID: 21300000, guid: d1a51f2c31c225e4b9dba5c67f45ba46, type: 2}
+    requireToUnlock: 1
+    levelRequire: 500
+    HowToCollect: level 500
+    priorityLevel: 5
+  - Id: 11
+    Sprite: {fileID: 21300000, guid: 05f9cd91707a5b742bd942254e3237dc, type: 2}
+    requireToUnlock: 1
+    levelRequire: 1000
+    HowToCollect: level 1000
+    priorityLevel: 6
+  - Id: 12
+    Sprite: {fileID: 21300000, guid: 7d6fe63af7724814cb6bc92c5d14ee98, type: 2}
+    requireToUnlock: 0
+    levelRequire: 0
+    HowToCollect: Black Friday 2025
+    priorityLevel: 7
+  - Id: 13
+    Sprite: {fileID: 21300000, guid: a0f287f4cc5af6e41973476109fc6fe1, type: 2}
+    requireToUnlock: 0
+    levelRequire: 0
+    HowToCollect: Foodie Streak
+    priorityLevel: 8
+  - Id: 14
+    Sprite: {fileID: 21300000, guid: de6bdf3a69b60e646aade792fbe6fca3, type: 2}
+    requireToUnlock: 0
+    levelRequire: 0
+    HowToCollect: Streaks Giving
+    priorityLevel: 9
+  - Id: 15
+    Sprite: {fileID: 21300000, guid: 80d10057a3a0fd041b02eeb8a92e7db6, type: 2}
+    requireToUnlock: 0
+    levelRequire: 0
+    HowToCollect: Foodie Streak
+    priorityLevel: 10
+  - Id: 16
+    Sprite: {fileID: 21300000, guid: 14ee61d32a1b1c8499f20514cd027621, type: 2}
+    requireToUnlock: 0
+    levelRequire: 0
+    HowToCollect: Foodie Streak
+    priorityLevel: 11
+  - Id: 17
+    Sprite: {fileID: 21300000, guid: b9dc452f3548d2f4cab9fe03916ec801, type: 2}
+    requireToUnlock: 0
+    levelRequire: 0
+    HowToCollect: Xmas Streak
+    priorityLevel: 12
+  - Id: 18
+    Sprite: {fileID: 21300000, guid: c7fadaf3416cfcc4dbe5d366b63e47d3, type: 2}
+    requireToUnlock: 0
+    levelRequire: 0
+    HowToCollect: Foodie Puzzle
+    priorityLevel: 13
+  - Id: 19
+    Sprite: {fileID: 21300000, guid: fc5164a84d63fdc4ebac6c15658bf876, type: 2}
+    requireToUnlock: 0
+    levelRequire: 0
+    HowToCollect: Xmas Streak
+    priorityLevel: 14
+  - Id: 20
+    Sprite: {fileID: 21300000, guid: 288a4ae54c35795409cc962895c8ceb8, type: 2}
+    requireToUnlock: 0
+    levelRequire: 0
+    HowToCollect: Xmas Streak
+    priorityLevel: 15
+  - Id: 21
+    Sprite: {fileID: 21300000, guid: 8495cf50c10a73e448f66686ef1c3f18, type: 2}
+    requireToUnlock: 0
+    levelRequire: 0
+    HowToCollect: New Year Streak
+    priorityLevel: 16
+  - Id: 22
+    Sprite: {fileID: 21300000, guid: b017525997c52af47b675f9001553d6a, type: 2}
+    requireToUnlock: 0
+    levelRequire: 0
+    HowToCollect: New Year Party
+    priorityLevel: 17
+  - Id: 23
+    Sprite: {fileID: 21300000, guid: 545a62b03e68634428bb2356fb87d326, type: 2}
+    requireToUnlock: 0
+    levelRequire: 0
+    HowToCollect: Profile Pack Limited
+    priorityLevel: 18
+  UserFrameDatas:
+  - Id: 0
+    Sprite: {fileID: 21300000, guid: b8273a5a945c47c46b29e3973281d094, type: 2}
+    requireToUnlock: 0
+    levelRequire: 0
+    HowToCollect:
+    priorityLevel: 0
+  - Id: 1
+    Sprite: {fileID: 21300000, guid: 987beb8dac8121d4abc8729cf757cd60, type: 2}
+    requireToUnlock: 0
+    levelRequire: 0
+    HowToCollect:
+    priorityLevel: 0
+  - Id: 2
+    Sprite: {fileID: 21300000, guid: cb3a7b38536a20f4f971cf417077f67c, type: 2}
+    requireToUnlock: 0
+    levelRequire: 0
+    HowToCollect:
+    priorityLevel: 0
+  - Id: 3
+    Sprite: {fileID: 21300000, guid: 9f4584405dab19c4bb8936b901374b7d, type: 2}
+    requireToUnlock: 0
+    levelRequire: 0
+    HowToCollect:
+    priorityLevel: 0
+  - Id: 4
+    Sprite: {fileID: 21300000, guid: bc4869e440bc5964d83d327592fc7c21, type: 2}
+    requireToUnlock: 0
+    levelRequire: 0
+    HowToCollect:
+    priorityLevel: 0
+  - Id: 5
+    Sprite: {fileID: 21300000, guid: fbc2b0b31d5faff4e982b398c6b9565a, type: 2}
+    requireToUnlock: 0
+    levelRequire: 0
+    HowToCollect:
+    priorityLevel: 0
+  - Id: 6
+    Sprite: {fileID: 21300000, guid: 4d097b5bec4eb1d4f8a0e7c23b9601bb, type: 2}
+    requireToUnlock: 1
+    levelRequire: 10
+    HowToCollect: level 10
+    priorityLevel: 1
+  - Id: 7
+    Sprite: {fileID: 21300000, guid: 5c9c76b68974a5949a06c7108e0a92ab, type: 2}
+    requireToUnlock: 1
+    levelRequire: 50
+    HowToCollect: level 50
+    priorityLevel: 2
+  - Id: 8
+    Sprite: {fileID: 21300000, guid: 963cd082a8635a3439b8400abc66f5c1, type: 2}
+    requireToUnlock: 1
+    levelRequire: 100
+    HowToCollect: level 100
+    priorityLevel: 3
+  - Id: 9
+    Sprite: {fileID: 21300000, guid: b16465e6f79f1c04eb3da3306c3cae59, type: 2}
+    requireToUnlock: 1
+    levelRequire: 200
+    HowToCollect: level 200
+    priorityLevel: 4
+  - Id: 10
+    Sprite: {fileID: 21300000, guid: 18b427475374cc1408f3a02d7c586a4d, type: 2}
+    requireToUnlock: 1
+    levelRequire: 500
+    HowToCollect: level 500
+    priorityLevel: 5
+  - Id: 11
+    Sprite: {fileID: 21300000, guid: 53a663cfd01107f4a98c6e6c04fcfc8e, type: 2}
+    requireToUnlock: 1
+    levelRequire: 1000
+    HowToCollect: level 1000
+    priorityLevel: 6
+  - Id: 12
+    Sprite: {fileID: 21300000, guid: 42cc1213347837241b831898d04749ff, type: 2}
+    requireToUnlock: 0
+    levelRequire: 0
+    HowToCollect: Foodie Pass
+    priorityLevel: 100
+  - Id: 13
+    Sprite: {fileID: 21300000, guid: c2ed643475bcd344b8b10f9226eafefc, type: 2}
+    requireToUnlock: 0
+    levelRequire: 0
+    HowToCollect: Moon Cake Festival
+    priorityLevel: 200
+  - Id: 14
+    Sprite: {fileID: 21300000, guid: 9839366c9a592f743988c1585d56047e, type: 2}
+    requireToUnlock: 0
+    levelRequire: 0
+    HowToCollect: Moon Cake Festival
+    priorityLevel: 201
+  - Id: 15
+    Sprite: {fileID: 21300000, guid: 94af408c85be98c4495df6ba23a7870c, type: 2}
+    requireToUnlock: 0
+    levelRequire: 0
+    HowToCollect: Moon Cake Festival
+    priorityLevel: 202
+  - Id: 16
+    Sprite: {fileID: 21300000, guid: c2419a386606ea74bb4a223541dce372, type: 2}
+    requireToUnlock: 0
+    levelRequire: 0
+    HowToCollect: Halloween Event
+    priorityLevel: 300
+  - Id: 17
+    Sprite: {fileID: 21300000, guid: e4b42ceab4d308149b51346aef8171ed, type: 2}
+    requireToUnlock: 0
+    levelRequire: 0
+    HowToCollect: Halloween Event
+    priorityLevel: 301
+  - Id: 18
+    Sprite: {fileID: 21300000, guid: e4564dab85bf81647b315c6290d9d310, type: 2}
+    requireToUnlock: 0
+    levelRequire: 0
+    HowToCollect: Black Friday 2025
+    priorityLevel: 400
+  - Id: 19
+    Sprite: {fileID: 21300000, guid: 18b427475374cc1408f3a02d7c586a4d, type: 2}
+    requireToUnlock: 0
+    levelRequire: 0
+    HowToCollect: Black Friday 2025
+    priorityLevel: 401
+  - Id: 20
+    Sprite: {fileID: 21300000, guid: 18b427475374cc1408f3a02d7c586a4d, type: 2}
+    requireToUnlock: 0
+    levelRequire: 0
+    HowToCollect: Foodie Streak
+    priorityLevel: 402
+  - Id: 21
+    Sprite: {fileID: 21300000, guid: 987beb8dac8121d4abc8729cf757cd60, type: 2}
+    requireToUnlock: 0
+    levelRequire: 0
+    HowToCollect: Foodie Streak
+    priorityLevel: 403
+  - Id: 22
+    Sprite: {fileID: 21300000, guid: cb6af78f10305cf4989875333214d819, type: 2}
+    requireToUnlock: 0
+    levelRequire: 1500
+    HowToCollect: Foodie Streak
+    priorityLevel: 7
+  - Id: 23
+    Sprite: {fileID: 21300000, guid: b8d3f090a9f4b1c44ba9e346bc47d77d, type: 2}
+    requireToUnlock: 0
+    levelRequire: 1500
+    HowToCollect: Foodie Streak
+    priorityLevel: 800
+  - Id: 24
+    Sprite: {fileID: 21300000, guid: e54e4888febd0d34cb19dd5befb72395, type: 2}
+    requireToUnlock: 0
+    levelRequire: 1500
+    HowToCollect: Foodie Streak
+    priorityLevel: 801
+  - Id: 25
+    Sprite: {fileID: 21300000, guid: f329a576baa785d46a8a2b9b5381bbbb, type: 2}
+    requireToUnlock: 0
+    levelRequire: 1500
+    HowToCollect: Turkey Feast Bundle
+    priorityLevel: 802
+  - Id: 26
+    Sprite: {fileID: 21300000, guid: 61de50192248f3943a3db1767ea52bb2, type: 2}
+    requireToUnlock: 0
+    levelRequire: 1500
+    HowToCollect: Foodie Streak
+    priorityLevel: 802
+  - Id: 27
+    Sprite: {fileID: 21300000, guid: 0a97676efb684184d88df9a2364e1388, type: 2}
+    requireToUnlock: 0
+    levelRequire: 1500
+    HowToCollect: Xmas Offer
+    priorityLevel: 850
+  - Id: 28
+    Sprite: {fileID: 21300000, guid: d15d40bd4b5afdf48a45673005fca43b, type: 2}
+    requireToUnlock: 0
+    levelRequire: 1500
+    HowToCollect: Foodie Puzzle
+    priorityLevel: 849
+  - Id: 29
+    Sprite: {fileID: 21300000, guid: 3eb51330e83ad114ab56470c1782b3bd, type: 2}
+    requireToUnlock: 0
+    levelRequire: 1500
+    HowToCollect: Foodie Puzzle
+    priorityLevel: 848
+  - Id: 30
+    Sprite: {fileID: 21300000, guid: a503cfb2456c31448b8803d1f1842ec7, type: 2}
+    requireToUnlock: 0
+    levelRequire: 1500
+    HowToCollect: Xmas Offer
+    priorityLevel: 851
+  - Id: 31
+    Sprite: {fileID: 21300000, guid: ef6a313818b17a948a069dcce45b3e47, type: 2}
+    requireToUnlock: 0
+    levelRequire: 1500
+    HowToCollect: New Year Offer
+    priorityLevel: 852
+  - Id: 32
+    Sprite: {fileID: 21300000, guid: d36c8b903614d4d4fbf98f746d2c3fa0, type: 2}
+    requireToUnlock: 0
+    levelRequire: 1500
+    HowToCollect: New Year Offer
+    priorityLevel: 853
+  - Id: 33
+    Sprite: {fileID: 21300000, guid: aaa2bf03fb236fc44909d876a92ba3df, type: 2}
+    requireToUnlock: 0
+    levelRequire: 1500
+    HowToCollect: Card Collection
+    priorityLevel: 854
+  - Id: 34
+    Sprite: {fileID: 21300000, guid: d0bbeb0dadb17db48adaf3b21dca21ac, type: 2}
+    requireToUnlock: 0
+    levelRequire: 1500
+    HowToCollect: Card Collection
+    priorityLevel: 855
+  - Id: 35
+    Sprite: {fileID: 21300000, guid: ce7e4e4199e155c479fa2b74554c00cc, type: 2}
+    requireToUnlock: 0
+    levelRequire: 1500
+    HowToCollect: Valentine Offer
+    priorityLevel: 856
+  - Id: 36
+    Sprite: {fileID: 21300000, guid: aa9f72a9e225e3141a2a284c13b175a7, type: 2}
+    requireToUnlock: 0
+    levelRequire: 1500
+    HowToCollect: Spring Collection
+    priorityLevel: 857
+  - Id: 37
+    Sprite: {fileID: 21300000, guid: e41c588728f345f4ebcffbc1b3a097a0, type: 2}
+    requireToUnlock: 0
+    levelRequire: 1500
+    HowToCollect: Spring Collection
+    priorityLevel: 858
+  - Id: 38
+    Sprite: {fileID: 21300000, guid: 67cdadca1d4490e418255590270b7c66, type: 2}
+    requireToUnlock: 0
+    levelRequire: 1500
+    HowToCollect: Spring Collection
+    priorityLevel: 859
+  UserBadgeDatas:
+  - Id: 0
+    Sprite: {fileID: 21300000, guid: 3b3aaa01730ac3d42a5b75a2ea8a81b1, type: 2}
+    requireToUnlock: 0
+    levelRequire: 0
+    HowToCollect: Card Collection
+    priorityLevel: 0
+  - Id: 1
+    Sprite: {fileID: 21300000, guid: fa0d18b08353a444d9f9cf68debb9468, type: 2}
+    requireToUnlock: 0
+    levelRequire: 0
+    HowToCollect: Card Collection
+    priorityLevel: 1
+  - Id: 2
+    Sprite: {fileID: 21300000, guid: 61cba278b7646c44f95305d15a51c4d6, type: 2}
+    requireToUnlock: 0
+    levelRequire: 0
+    HowToCollect: Spring Collection
+    priorityLevel: 2
+  - Id: 3
+    Sprite: {fileID: 21300000, guid: 2df7937eaa8f14841a3ea173aa4b2ca0, type: 2}
+    requireToUnlock: 0
+    levelRequire: 0
+    HowToCollect: Spring Collection
+    priorityLevel: 3
+  - Id: 4
+    Sprite: {fileID: 21300000, guid: 215e8314e6e6a2f41aeb4945deaa9f85, type: 2}
+    requireToUnlock: 0
+    levelRequire: 0
+    HowToCollect: Spring Collection
+    priorityLevel: 4
+  frameRewards:
+  - frameIndex: 12
+    spriteFrame: {fileID: 21300000, guid: 2b8d7283de8468a4facf4dffbd36f588, type: 2}
+  - frameIndex: 13
+    spriteFrame: {fileID: 21300000, guid: 48103dbb8110769429e981f898450a0a, type: 2}
+  - frameIndex: 14
+    spriteFrame: {fileID: 21300000, guid: e518abb95d993ef4b84b167002f544e8, type: 2}
+  - frameIndex: 15
+    spriteFrame: {fileID: 21300000, guid: fc3e97c7f7de2a04dbb66ca838d5612f, type: 2}
+  - frameIndex: 16
+    spriteFrame: {fileID: 21300000, guid: 57f46406069c47e4d83a53055d7cbea1, type: 2}
+  - frameIndex: 17
+    spriteFrame: {fileID: 21300000, guid: 5d44cf4eb1144cf4bbe53e7908f51778, type: 2}
+  - frameIndex: 18
+    spriteFrame: {fileID: 21300000, guid: 7c5f3096d71b9884c9be417e86ca4fa8, type: 2}
+  - frameIndex: 19
+    spriteFrame: {fileID: 21300000, guid: e48058578cb1b7d4abc1390f8118047c, type: 2}
+  - frameIndex: 20
+    spriteFrame: {fileID: 21300000, guid: ad57bd3869dd08749beefda5d296cf68, type: 2}
+  - frameIndex: 21
+    spriteFrame: {fileID: 21300000, guid: 87b5b68a7cd47154fad6d735d6eb4b4d, type: 2}
+  - frameIndex: 22
+    spriteFrame: {fileID: 21300000, guid: a443e1373eabbde4bba923e831909b35, type: 2}
+  - frameIndex: 23
+    spriteFrame: {fileID: 21300000, guid: e152058ae2167d14198cb116a1d5ffd3, type: 2}
+  - frameIndex: 24
+    spriteFrame: {fileID: 21300000, guid: 27fa4c45eff84a14ca6c4c3717613407, type: 2}
+  - frameIndex: 25
+    spriteFrame: {fileID: 21300000, guid: 957e73bdbaaab1b45b8f674a25457938, type: 2}
+  - frameIndex: 26
+    spriteFrame: {fileID: 21300000, guid: 0c27e7b8ee7c5e440b160c8bdaade097, type: 2}
+  - frameIndex: 27
+    spriteFrame: {fileID: 21300000, guid: 770259de4388f4844a902b5307b2dcf8, type: 2}
+  - frameIndex: 28
+    spriteFrame: {fileID: 21300000, guid: e0e53ec557c6d9f4997de380f564378b, type: 2}
+  - frameIndex: 29
+    spriteFrame: {fileID: 21300000, guid: 06cc407a5b7f6434e94952042de35469, type: 2}
+  - frameIndex: 30
+    spriteFrame: {fileID: 21300000, guid: 1e1d5454e1f3d9a499c8a4a85a0cabbc, type: 2}
+  - frameIndex: 31
+    spriteFrame: {fileID: 21300000, guid: eb18d6b1b7735074c861676f5ce7cd35, type: 2}
+  - frameIndex: 32
+    spriteFrame: {fileID: 21300000, guid: 2c482f895fbd2d842a0330c9cce7dfe4, type: 2}
+  - frameIndex: 33
+    spriteFrame: {fileID: 21300000, guid: 34a54a77a04465b46b2ecab69b94aa84, type: 2}
+  - frameIndex: 34
+    spriteFrame: {fileID: 21300000, guid: 0e2083b89abae1342b1183dd2abf6765, type: 2}
+  - frameIndex: 35
+    spriteFrame: {fileID: 21300000, guid: 681f8e2746e6cfe49ad01889c4fa88d7, type: 2}
+  - frameIndex: 36
+    spriteFrame: {fileID: 21300000, guid: f00541652e67b3145845123e468a813e, type: 2}
+  - frameIndex: 37
+    spriteFrame: {fileID: 21300000, guid: cd93b06a8100346429e6ce7595a2da72, type: 2}
+  - frameIndex: 38
+    spriteFrame: {fileID: 21300000, guid: 570316488bf20f94c80694e41598d41c, type: 2}
+  avatarRewards:
+  - avatarIndex: 12
+    spriteAvatar: {fileID: 21300000, guid: 7d6fe63af7724814cb6bc92c5d14ee98, type: 2}
+  - avatarIndex: 13
+    spriteAvatar: {fileID: 21300000, guid: a0f287f4cc5af6e41973476109fc6fe1, type: 2}
+  - avatarIndex: 14
+    spriteAvatar: {fileID: 21300000, guid: de6bdf3a69b60e646aade792fbe6fca3, type: 2}
+  - avatarIndex: 15
+    spriteAvatar: {fileID: 21300000, guid: 80d10057a3a0fd041b02eeb8a92e7db6, type: 2}
+  - avatarIndex: 16
+    spriteAvatar: {fileID: 21300000, guid: 14ee61d32a1b1c8499f20514cd027621, type: 2}
+  - avatarIndex: 17
+    spriteAvatar: {fileID: 21300000, guid: b9dc452f3548d2f4cab9fe03916ec801, type: 2}
+  - avatarIndex: 18
+    spriteAvatar: {fileID: 21300000, guid: c7fadaf3416cfcc4dbe5d366b63e47d3, type: 2}
+  - avatarIndex: 19
+    spriteAvatar: {fileID: 21300000, guid: fc5164a84d63fdc4ebac6c15658bf876, type: 2}
+  - avatarIndex: 20
+    spriteAvatar: {fileID: 21300000, guid: 288a4ae54c35795409cc962895c8ceb8, type: 2}
+  - avatarIndex: 21
+    spriteAvatar: {fileID: 21300000, guid: 8495cf50c10a73e448f66686ef1c3f18, type: 2}
+  - avatarIndex: 22
+    spriteAvatar: {fileID: 21300000, guid: b017525997c52af47b675f9001553d6a, type: 2}
+  - avatarIndex: 23
+    spriteAvatar: {fileID: 21300000, guid: 545a62b03e68634428bb2356fb87d326, type: 2}
+  badgeRewards:
+  - badgeIndex: 0
+    spriteBadge: {fileID: 21300000, guid: 3b3aaa01730ac3d42a5b75a2ea8a81b1, type: 2}
+  - badgeIndex: 1
+    spriteBadge: {fileID: 21300000, guid: fa0d18b08353a444d9f9cf68debb9468, type: 2}
+  - badgeIndex: 2
+    spriteBadge: {fileID: 21300000, guid: 61cba278b7646c44f95305d15a51c4d6, type: 2}
+  - badgeIndex: 3
+    spriteBadge: {fileID: 21300000, guid: 2df7937eaa8f14841a3ea173aa4b2ca0, type: 2}
+  - badgeIndex: 4
+    spriteBadge: {fileID: 21300000, guid: 215e8314e6e6a2f41aeb4945deaa9f85, type: 2}
+  avatarEditProfile:
+  - avatarIndex: 0
+    spriteAvatar: {fileID: 21300000, guid: 10478dbb3667b13439be247689076f54, type: 2}
+  - avatarIndex: 1
+    spriteAvatar: {fileID: 21300000, guid: d10e17d0bb4100f488039a7d5b6ac0ee, type: 2}
+  - avatarIndex: 2
+    spriteAvatar: {fileID: 21300000, guid: 75cc9bb70b9a10f40bffd815b12bc293, type: 2}
+  - avatarIndex: 3
+    spriteAvatar: {fileID: 21300000, guid: 55f58bbb36710ec4cb85a52cc2f3ba96, type: 2}
+  - avatarIndex: 4
+    spriteAvatar: {fileID: 21300000, guid: c4232c83793b47446bc794a85ffb469a, type: 2}
+  - avatarIndex: 5
+    spriteAvatar: {fileID: 21300000, guid: e960635e4f886f643b353fb82e1fcf39, type: 2}
+  - avatarIndex: 6
+    spriteAvatar: {fileID: 21300000, guid: 9da4925741cfe0e4e9869618f1dfbbae, type: 2}
+  - avatarIndex: 7
+    spriteAvatar: {fileID: 21300000, guid: 8e60b7c57649a1c48a3dcc5a2bea48c1, type: 2}
+  - avatarIndex: 8
+    spriteAvatar: {fileID: 21300000, guid: 84b3375ee577ee54e9aa68b242a32589, type: 2}
+  - avatarIndex: 9
+    spriteAvatar: {fileID: 21300000, guid: d40d44f489a54264d981c58bbd6cd230, type: 2}
+  - avatarIndex: 10
+    spriteAvatar: {fileID: 21300000, guid: d1a51f2c31c225e4b9dba5c67f45ba46, type: 2}
+  - avatarIndex: 11
+    spriteAvatar: {fileID: 21300000, guid: 05f9cd91707a5b742bd942254e3237dc, type: 2}
+  - avatarIndex: 12
+    spriteAvatar: {fileID: 21300000, guid: 7d6fe63af7724814cb6bc92c5d14ee98, type: 2}
+  - avatarIndex: 13
+    spriteAvatar: {fileID: 21300000, guid: a0f287f4cc5af6e41973476109fc6fe1, type: 2}
+  - avatarIndex: 14
+    spriteAvatar: {fileID: 21300000, guid: de6bdf3a69b60e646aade792fbe6fca3, type: 2}
+  - avatarIndex: 15
+    spriteAvatar: {fileID: 21300000, guid: 80d10057a3a0fd041b02eeb8a92e7db6, type: 2}
+  - avatarIndex: 16
+    spriteAvatar: {fileID: 21300000, guid: 14ee61d32a1b1c8499f20514cd027621, type: 2}
+  - avatarIndex: 17
+    spriteAvatar: {fileID: 21300000, guid: b9dc452f3548d2f4cab9fe03916ec801, type: 2}
+  - avatarIndex: 18
+    spriteAvatar: {fileID: 21300000, guid: c7fadaf3416cfcc4dbe5d366b63e47d3, type: 2}
+  - avatarIndex: 19
+    spriteAvatar: {fileID: 21300000, guid: fc5164a84d63fdc4ebac6c15658bf876, type: 2}
+  - avatarIndex: 20
+    spriteAvatar: {fileID: 21300000, guid: 288a4ae54c35795409cc962895c8ceb8, type: 2}
+  - avatarIndex: 21
+    spriteAvatar: {fileID: 21300000, guid: 8495cf50c10a73e448f66686ef1c3f18, type: 2}
+  - avatarIndex: 22
+    spriteAvatar: {fileID: 21300000, guid: b017525997c52af47b675f9001553d6a, type: 2}
+  - avatarIndex: 23
+    spriteAvatar: {fileID: 21300000, guid: 545a62b03e68634428bb2356fb87d326, type: 2}
+  frameEditProfile:
+  - frameIndex: 0
+    spriteFrame: {fileID: 21300000, guid: b8273a5a945c47c46b29e3973281d094, type: 2}
+  - frameIndex: 1
+    spriteFrame: {fileID: 21300000, guid: 987beb8dac8121d4abc8729cf757cd60, type: 2}
+  - frameIndex: 2
+    spriteFrame: {fileID: 21300000, guid: cb3a7b38536a20f4f971cf417077f67c, type: 2}
+  - frameIndex: 3
+    spriteFrame: {fileID: 21300000, guid: 9f4584405dab19c4bb8936b901374b7d, type: 2}
+  - frameIndex: 4
+    spriteFrame: {fileID: 21300000, guid: bc4869e440bc5964d83d327592fc7c21, type: 2}
+  - frameIndex: 5
+    spriteFrame: {fileID: 21300000, guid: fbc2b0b31d5faff4e982b398c6b9565a, type: 2}
+  - frameIndex: 6
+    spriteFrame: {fileID: 21300000, guid: 4d097b5bec4eb1d4f8a0e7c23b9601bb, type: 2}
+  - frameIndex: 7
+    spriteFrame: {fileID: 21300000, guid: 5c9c76b68974a5949a06c7108e0a92ab, type: 2}
+  - frameIndex: 8
+    spriteFrame: {fileID: 21300000, guid: 963cd082a8635a3439b8400abc66f5c1, type: 2}
+  - frameIndex: 9
+    spriteFrame: {fileID: 21300000, guid: b16465e6f79f1c04eb3da3306c3cae59, type: 2}
+  - frameIndex: 10
+    spriteFrame: {fileID: 21300000, guid: 18b427475374cc1408f3a02d7c586a4d, type: 2}
+  - frameIndex: 11
+    spriteFrame: {fileID: 21300000, guid: 53a663cfd01107f4a98c6e6c04fcfc8e, type: 2}
+  - frameIndex: 12
+    spriteFrame: {fileID: 21300000, guid: 42cc1213347837241b831898d04749ff, type: 2}
+  - frameIndex: 13
+    spriteFrame: {fileID: 21300000, guid: 81cc886d87c76074d87e90760761299b, type: 2}
+  - frameIndex: 14
+    spriteFrame: {fileID: 21300000, guid: 193504d008e4f7048a9dd16455f51336, type: 2}
+  - frameIndex: 15
+    spriteFrame: {fileID: 21300000, guid: 5de760b2ac9c0e549948266411ed1b80, type: 2}
+  - frameIndex: 16
+    spriteFrame: {fileID: 21300000, guid: c2419a386606ea74bb4a223541dce372, type: 2}
+  - frameIndex: 17
+    spriteFrame: {fileID: 21300000, guid: dc4e275201fc8c541babfe49be2d8b94, type: 2}
+  - frameIndex: 18
+    spriteFrame: {fileID: 21300000, guid: a8c359754bf168048bdafd9d0ad8ea54, type: 2}
+  - frameIndex: 19
+    spriteFrame: {fileID: 21300000, guid: bf7a722e2d4448d4da6c6ddfdb792003, type: 2}
+  - frameIndex: 20
+    spriteFrame: {fileID: 21300000, guid: 03b3b1a783e458f449d8728f8a434391, type: 2}
+  - frameIndex: 21
+    spriteFrame: {fileID: 21300000, guid: 3a64e3e88c131f34c974c82165929847, type: 2}
+  - frameIndex: 22
+    spriteFrame: {fileID: 21300000, guid: cb6af78f10305cf4989875333214d819, type: 2}
+  - frameIndex: 23
+    spriteFrame: {fileID: 21300000, guid: baec1a56ec093264f8eaf1dc89556746, type: 2}
+  - frameIndex: 24
+    spriteFrame: {fileID: 21300000, guid: 0b69573c60c058e48bb46e7958ebbc72, type: 2}
+  - frameIndex: 25
+    spriteFrame: {fileID: 21300000, guid: 290d27d8925308448b01d8278475d635, type: 2}
+  - frameIndex: 26
+    spriteFrame: {fileID: 21300000, guid: 61de50192248f3943a3db1767ea52bb2, type: 2}
+  - frameIndex: 27
+    spriteFrame: {fileID: 21300000, guid: 32f93f92b91cbbb41939c407f4498a23, type: 2}
+  - frameIndex: 28
+    spriteFrame: {fileID: 21300000, guid: d15d40bd4b5afdf48a45673005fca43b, type: 2}
+  - frameIndex: 29
+    spriteFrame: {fileID: 21300000, guid: 3eb51330e83ad114ab56470c1782b3bd, type: 2}
+  - frameIndex: 30
+    spriteFrame: {fileID: 21300000, guid: 7bf53beca9923514bb508c1be803dabe, type: 2}
+  - frameIndex: 31
+    spriteFrame: {fileID: 21300000, guid: 54b72e9e0c00ad744a9741964e1f4b74, type: 2}
+  - frameIndex: 32
+    spriteFrame: {fileID: 21300000, guid: d36c8b903614d4d4fbf98f746d2c3fa0, type: 2}
+  - frameIndex: 33
+    spriteFrame: {fileID: 21300000, guid: aaa2bf03fb236fc44909d876a92ba3df, type: 2}
+  - frameIndex: 34
+    spriteFrame: {fileID: 21300000, guid: d0bbeb0dadb17db48adaf3b21dca21ac, type: 2}
+  - frameIndex: 35
+    spriteFrame: {fileID: 21300000, guid: ce7e4e4199e155c479fa2b74554c00cc, type: 2}
+  - frameIndex: 36
+    spriteFrame: {fileID: 21300000, guid: aa9f72a9e225e3141a2a284c13b175a7, type: 2}
+  - frameIndex: 37
+    spriteFrame: {fileID: 21300000, guid: e41c588728f345f4ebcffbc1b3a097a0, type: 2}
+  - frameIndex: 38
+    spriteFrame: {fileID: 21300000, guid: 67cdadca1d4490e418255590270b7c66, type: 2}
+  badgeEditProfile:
+  - badgeIndex: 0
+    spriteBadge: {fileID: 21300000, guid: 3b3aaa01730ac3d42a5b75a2ea8a81b1, type: 2}
+  - badgeIndex: 1
+    spriteBadge: {fileID: 21300000, guid: fa0d18b08353a444d9f9cf68debb9468, type: 2}
+  - badgeIndex: 2
+    spriteBadge: {fileID: 21300000, guid: 61cba278b7646c44f95305d15a51c4d6, type: 2}
+  - badgeIndex: 3
+    spriteBadge: {fileID: 21300000, guid: 2df7937eaa8f14841a3ea173aa4b2ca0, type: 2}
+  - badgeIndex: 4
+    spriteBadge: {fileID: 21300000, guid: 215e8314e6e6a2f41aeb4945deaa9f85, type: 2}
+  hidenAvatarIds:
+  - 12
+  - 13
+  - 14
+  - 15
+  - 16
+  - 17
+  - 18
+  - 19
+  - 20
+  - 21
+  - 22
+  hidenFrameIds:
+  - 12
+  - 13
+  - 14
+  - 15
+  - 16
+  - 17
+  - 18
+  - 19
+  - 20
+  - 21
+  - 22
+  - 23
+  - 24
+  - 25
+  - 26
+  - 27
+  - 28
+  - 29
+  - 30
+  - 31
+  - 32
+  - 33
+  - 34
+  - 35
+  - 36
+  - 37
+  - 38
+  hidenBadgeIds:
+  - 0
+  - 1
+  - 2
+  - 4

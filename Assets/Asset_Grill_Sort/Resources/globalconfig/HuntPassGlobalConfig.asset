@@ -1,0 +1,225 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79f492d3df2c3c7de6bb35fd01fc2eb, type: 3}
+  m_Name: HuntPassGlobalConfig
+  m_EditorClassIdentifier:
+  huntPassConfigs:
+  - level: 10
+    commonReward:
+    - <Type>k__BackingField: 1
+      <SpecificType>k__BackingField: 1
+      <Value>k__BackingField:
+        m_Value: 50
+    premiumReward:
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 4
+      <Value>k__BackingField:
+        m_Value: 1
+  - level: 15
+    commonReward:
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 4
+      <Value>k__BackingField:
+        m_Value: 1
+    premiumReward:
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 3
+      <Value>k__BackingField:
+        m_Value: 2
+  - level: 20
+    commonReward:
+    - <Type>k__BackingField: 1
+      <SpecificType>k__BackingField: 1
+      <Value>k__BackingField:
+        m_Value: 100
+    premiumReward:
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 2
+      <Value>k__BackingField:
+        m_Value: 2
+  - level: 25
+    commonReward:
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 3
+      <Value>k__BackingField:
+        m_Value: 2
+    premiumReward:
+    - <Type>k__BackingField: 1
+      <SpecificType>k__BackingField: 1
+      <Value>k__BackingField:
+        m_Value: 400
+  - level: 30
+    commonReward:
+    - <Type>k__BackingField: 1
+      <SpecificType>k__BackingField: 1
+      <Value>k__BackingField:
+        m_Value: 300
+    premiumReward:
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 2
+      <Value>k__BackingField:
+        m_Value: 2
+  - level: 35
+    commonReward:
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 2
+      <Value>k__BackingField:
+        m_Value: 1
+    premiumReward:
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 5
+      <Value>k__BackingField:
+        m_Value: 2
+  - level: 40
+    commonReward:
+    - <Type>k__BackingField: 1
+      <SpecificType>k__BackingField: 1
+      <Value>k__BackingField:
+        m_Value: 600
+    premiumReward:
+    - <Type>k__BackingField: 1
+      <SpecificType>k__BackingField: 1
+      <Value>k__BackingField:
+        m_Value: 800
+  - level: 45
+    commonReward:
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 5
+      <Value>k__BackingField:
+        m_Value: 1
+    premiumReward:
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 3
+      <Value>k__BackingField:
+        m_Value: 2
+  - level: 50
+    commonReward:
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 2
+      <Value>k__BackingField:
+        m_Value: 1
+    premiumReward:
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 5
+      <Value>k__BackingField:
+        m_Value: 2
+  - level: 55
+    commonReward:
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 4
+      <Value>k__BackingField:
+        m_Value: 1
+    premiumReward:
+    - <Type>k__BackingField: 1
+      <SpecificType>k__BackingField: 1
+      <Value>k__BackingField:
+        m_Value: 1200
+  - level: 60
+    commonReward:
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 3
+      <Value>k__BackingField:
+        m_Value: 1
+    premiumReward:
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 2
+      <Value>k__BackingField:
+        m_Value: 3
+  - level: 65
+    commonReward:
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 5
+      <Value>k__BackingField:
+        m_Value: 1
+    premiumReward:
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 5
+      <Value>k__BackingField:
+        m_Value: 3
+  - level: 70
+    commonReward:
+    - <Type>k__BackingField: 1
+      <SpecificType>k__BackingField: 1
+      <Value>k__BackingField:
+        m_Value: 900
+    premiumReward:
+    - <Type>k__BackingField: 3
+      <SpecificType>k__BackingField: 3
+      <Value>k__BackingField:
+        m_Value: 3600
+  - level: 75
+    commonReward:
+    - <Type>k__BackingField: 1
+      <SpecificType>k__BackingField: 1
+      <Value>k__BackingField:
+        m_Value: 1200
+    premiumReward:
+    - <Type>k__BackingField: 3
+      <SpecificType>k__BackingField: 3
+      <Value>k__BackingField:
+        m_Value: 3600
+  - level: 80
+    commonReward:
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 4
+      <Value>k__BackingField:
+        m_Value: 1
+    premiumReward:
+    - <Type>k__BackingField: 1
+      <SpecificType>k__BackingField: 1
+      <Value>k__BackingField:
+        m_Value: 1200
+  - level: 85
+    commonReward:
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 3
+      <Value>k__BackingField:
+        m_Value: 1
+    premiumReward:
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 2
+      <Value>k__BackingField:
+        m_Value: 3
+  - level: 90
+    commonReward:
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 5
+      <Value>k__BackingField:
+        m_Value: 1
+    premiumReward:
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 5
+      <Value>k__BackingField:
+        m_Value: 3
+  - level: 95
+    commonReward:
+    - <Type>k__BackingField: 1
+      <SpecificType>k__BackingField: 1
+      <Value>k__BackingField:
+        m_Value: 900
+    premiumReward:
+    - <Type>k__BackingField: 3
+      <SpecificType>k__BackingField: 3
+      <Value>k__BackingField:
+        m_Value: 3600
+  - level: 100
+    commonReward:
+    - <Type>k__BackingField: 1
+      <SpecificType>k__BackingField: 1
+      <Value>k__BackingField:
+        m_Value: 1200
+    premiumReward:
+    - <Type>k__BackingField: 3
+      <SpecificType>k__BackingField: 3
+      <Value>k__BackingField:
+        m_Value: 3600
+  levelUnlock: 25

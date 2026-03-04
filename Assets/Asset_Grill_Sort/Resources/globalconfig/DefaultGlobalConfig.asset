@@ -1,0 +1,239 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6258b666871174d3c7696d8823595537, type: 3}
+  m_Name: DefaultGlobalConfig
+  m_EditorClassIdentifier:
+  <CurrentOfferEvent>k__BackingField:
+  <PlayGameAtStart>k__BackingField: 1
+  <IsShowRatting>k__BackingField: 1
+  <EnableLocalNotification>k__BackingField: 0
+  <ModalStartConfig>k__BackingField:
+    showModalStartGame: 0
+    levelShowModalStart: 50
+  <ShowModalOfferBooster>k__BackingField: 1
+  <ActiveDailyReward>k__BackingField: 0
+  <WinGameReward>k__BackingField: 40
+  <FeatureUnlocks>k__BackingField:
+  - featureName: 2
+    levelUnlocked: 10
+    iconReward: {fileID: 0}
+  - featureName: 3
+    levelUnlocked: 20
+    iconReward: {fileID: 0}
+  - featureName: 4
+    levelUnlocked: 10
+    iconReward: {fileID: 0}
+  - featureName: 5
+    levelUnlocked: 10
+    iconReward: {fileID: 21300000, guid: 14c7a8fb169d8e348b0a4bd5a6b21308, type: 2}
+  - featureName: 6
+    levelUnlocked: 20
+    iconReward: {fileID: 21300000, guid: 87a8f372dbadc024a9f6721dd31f61c0, type: 2}
+  - featureName: 7
+    levelUnlocked: 25
+    iconReward: {fileID: 21300000, guid: 0930735faa88de741993d5c54eea62e5, type: 2}
+  - featureName: 8
+    levelUnlocked: 15
+    iconReward: {fileID: 21300000, guid: c39c77d223feb6d4cb10c6d5f8387625, type: 2}
+  - featureName: 9
+    levelUnlocked: 16
+    iconReward: {fileID: 0}
+  - featureName: 12
+    levelUnlocked: 50
+    iconReward: {fileID: 21300000, guid: 211e7175150278349b0a4d21b437f266, type: 2}
+  - featureName: 13
+    levelUnlocked: 40
+    iconReward: {fileID: 21300000, guid: c39c77d223feb6d4cb10c6d5f8387625, type: 2}
+  - featureName: 14
+    levelUnlocked: 30
+    iconReward: {fileID: 21300000, guid: dc9bae5d30bad34499625a38fe2abaac, type: 2}
+  <RaceUnlock>k__BackingField: 10
+  <DefaultLife>k__BackingField: 5
+  <DefaultBackToMenuLevel>k__BackingField: 6
+  <DefaultShowWinRewardAds>k__BackingField: 4
+  <DefaultQuestGiverReward>k__BackingField:
+  - 3
+  - 7
+  - 20
+  <DefaultFullHeartCoin>k__BackingField: 800
+  <ReviveCoin>k__BackingField: 600
+  <ReviveTime>k__BackingField: 45
+  <EnableInterstitialFallback>k__BackingField: 0
+  <EnableLimitRewardedAd>k__BackingField: 0
+  <LimitRewardedAdCount>k__BackingField: 3
+  <EnableDailyReward>k__BackingField: 0
+  <DeadCountRemain>k__BackingField:
+    m_Value: 1
+  <BoosterAmountOnPurchase>k__BackingField: 1
+  <DefaultTimeFillHeart>k__BackingField: 20
+  <AdminId>k__BackingField: []
+  <SocialNetworkLinks>k__BackingField:
+  - socialNetwork: 1
+    link: https://www.facebook.com/groups/foodiesizzle
+  <ExtraTimeOnWinStreak>k__BackingField:
+  - 10
+  - 20
+  - 30
+  <MultiRemoteConfig>k__BackingField:
+    interLevelShow: 6
+    bannerLevelIndex: 0
+    numPackRw: 25
+    numSwapRw: 25
+    numIndicateRw: 25
+    numWandRw: 25
+    numReviveRw: 1
+    interCapping: 135
+    interCappingAfterRw: 30
+  <AdditionalGrill>k__BackingField:
+    additionalGrillType: 0
+    defaultAdditionalGrillData:
+      adValue: 11
+      coinValue: 450
+    additionalSingleSlotGrillDatas:
+    - adValue: 1
+      coinValue: 450
+    - adValue: 0
+      coinValue: 300
+    - adValue: 0
+      coinValue: 300
+  <ShipperReviveConfig>k__BackingField:
+    shipperReviveCoin: 450
+    shipperReviveAds: 1
+  <CustomerReviveConfig>k__BackingField:
+    shipperReviveCoin: 450
+    shipperReviveAds: 1
+  <StartingBoosterConfig>k__BackingField:
+    <DefaultUnlockBoosterStartPack>k__BackingField: 16
+    <DefaultUnlockBoosterStartTime>k__BackingField: 21
+    <DefaultBoosterStartTimeIncrease>k__BackingField: 30
+    <DefaultBoosterStartPackCost>k__BackingField: 250
+    <DefaultBoosterStartTimeCost>k__BackingField: 350
+  <CampaignName>k__BackingField:
+  <CampaignID>k__BackingField:
+  one_rw_camp: Foodie_and_BLD28_1rw_0808,Foodie_ios_BLD28_1rw_0806,FoodieSizzle_iOS_BLDROASD28_ww_0626,FoodieSizzle_and_BLDROASD28_ww_0804
+  multiRemoteConfig1:
+    interLevelShow: 6
+    bannerLevelIndex: 0
+    numPackRw: 1
+    numSwapRw: 1
+    numIndicateRw: 1
+    numWandRw: 1
+    numReviveRw: 1
+    interCapping: 135
+    interCappingAfterRw: 30
+  additionalGrill1:
+    additionalGrillType: 1
+    defaultAdditionalGrillData:
+      adValue: 1
+      coinValue: 450
+    additionalSingleSlotGrillDatas:
+    - adValue: 1
+      coinValue: 450
+    - adValue: 0
+      coinValue: 300
+    - adValue: 0
+      coinValue: 300
+  ShipperReviveConfig1:
+    shipperReviveCoin: 450
+    shipperReviveAds: 10
+  CustomerReviveConfig1:
+    shipperReviveCoin: 450
+    shipperReviveAds: 10
+  one_rw_booster_camp:
+  multiRemoteConfig2:
+    interLevelShow: 6
+    bannerLevelIndex: 0
+    numPackRw: 1
+    numSwapRw: 1
+    numIndicateRw: 1
+    numWandRw: 1
+    numReviveRw: 0
+    interCapping: 120
+    interCappingAfterRw: 30
+  additionalGrill2:
+    additionalGrillType: 1
+    defaultAdditionalGrillData:
+      adValue: 0
+      coinValue: 450
+    additionalSingleSlotGrillDatas:
+    - adValue: 0
+      coinValue: 450
+    - adValue: 0
+      coinValue: 300
+    - adValue: 0
+      coinValue: 300
+  ShipperReviveConfig2:
+    shipperReviveCoin: 450
+    shipperReviveAds: 10
+  CustomerReviveConfig2:
+    shipperReviveCoin: 450
+    shipperReviveAds: 10
+  tier_0: Foodie_ios_IAPD7_ww_0911,Foodie_and_IAPD7_ww_0911,Foodie_AND_TT D7_ROAS_IAP_1009,
+  multiRemoteConfig3:
+    interLevelShow: 60000
+    bannerLevelIndex: 0
+    numPackRw: 0
+    numSwapRw: 0
+    numIndicateRw: 0
+    numWandRw: 0
+    numReviveRw: 0
+    interCapping: 300000
+    interCappingAfterRw: 300000
+  additionalGrill3:
+    additionalGrillType: 0
+    defaultAdditionalGrillData:
+      adValue: 0
+      coinValue: 450
+    additionalSingleSlotGrillDatas:
+    - adValue: 0
+      coinValue: 300
+    - adValue: 0
+      coinValue: 300
+    - adValue: 0
+      coinValue: 300
+  ShipperReviveConfig3:
+    shipperReviveCoin: 450
+    shipperReviveAds: 0
+  CustomerReviveConfig3:
+    shipperReviveCoin: 450
+    shipperReviveAds: 0
+  tier_noads: Foodie_iOS_BLDROASD28_NoAds_ww_1006
+  multiRemoteConfig4:
+    interLevelShow: 60000
+    bannerLevelIndex: 0
+    numPackRw: 1
+    numSwapRw: 1
+    numIndicateRw: 1
+    numWandRw: 1
+    numReviveRw: 1
+    interCapping: 300000
+    interCappingAfterRw: 300000
+  additionalGrill4:
+    additionalGrillType: 1
+    defaultAdditionalGrillData:
+      adValue: 10
+      coinValue: 450
+    additionalSingleSlotGrillDatas:
+    - adValue: 1
+      coinValue: 450
+    - adValue: 0
+      coinValue: 300
+    - adValue: 0
+      coinValue: 300
+  ShipperReviveConfig4:
+    shipperReviveCoin: 450
+    shipperReviveAds: 1
+  CustomerReviveConfig4:
+    shipperReviveCoin: 450
+    shipperReviveAds: 1
+  <ShowInterstitialBackHome>k__BackingField: 1
+  <DayNotIapSinceStart>k__BackingField: 4

@@ -1,0 +1,2924 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a591ffe30c8a87564a2d3f9fa45884a5, type: 3}
+  m_Name: FoodieStreakGlobalConfig
+  m_EditorClassIdentifier:
+  <FoodieStreakRewardConfigGroups>k__BackingField:
+  - <EventName>k__BackingField: FoodieStreak02092026
+    <FoodieStreakEventType>k__BackingField: 2
+    <FoodieStreakRewardConfig>k__BackingField:
+    - Milestone: 1
+      Point: 5
+      Reward:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 1800
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 1800
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 2
+      Point: 200
+      Reward:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 100
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 100
+        <Value>k__BackingField:
+          m_Value: 0
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 3
+      Point: 300
+      Reward:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 1800
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 1800
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 4
+      Point: 400
+      Reward:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 100
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 100
+        <Value>k__BackingField:
+          m_Value: 0
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 50
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 21300000, guid: 1c914e5c5c07c974cbe743b75f128b44, type: 2}
+    - Milestone: 5
+      Point: 300
+      Reward:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 3600
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 3600
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 6
+      Point: 500
+      Reward:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 4
+        <Value>k__BackingField:
+          m_Value: 1
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 100
+        <Value>k__BackingField:
+          m_Value: 1
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 7
+      Point: 300
+      Reward:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 7200
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 7200
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 8
+      Point: 500
+      Reward:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 250
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 100
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 100
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 21300000, guid: 1c914e5c5c07c974cbe743b75f128b44, type: 2}
+    - Milestone: 9
+      Point: 600
+      Reward:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 2
+        <Value>k__BackingField:
+          m_Value: 1
+      RewardCollection:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 2
+        <Value>k__BackingField:
+          m_Value: 1
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 10
+      Point: 400
+      Reward:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 300
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 100
+        <Value>k__BackingField:
+          m_Value: 2
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 11
+      Point: 800
+      Reward:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 4
+        <Value>k__BackingField:
+          m_Value: 1
+      RewardCollection:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 4
+        <Value>k__BackingField:
+          m_Value: 1
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 12
+      Point: 600
+      Reward:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 7200
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 3600
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 100
+        <Value>k__BackingField:
+          m_Value: 2
+      SpecialRewardIcon: {fileID: 21300000, guid: 1c914e5c5c07c974cbe743b75f128b44, type: 2}
+      SpecialRewardCollectionIcon: {fileID: 21300000, guid: cbf243d7e8c77ff43ba90d2b4f29ad29, type: 2}
+    - Milestone: 13
+      Point: 800
+      Reward:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 5
+        <Value>k__BackingField:
+          m_Value: 1
+      RewardCollection:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 5
+        <Value>k__BackingField:
+          m_Value: 1
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 14
+      Point: 1600
+      Reward:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 500
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 100
+        <Value>k__BackingField:
+          m_Value: 3
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 15
+      Point: 400
+      Reward:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 7200
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 7200
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 16
+      Point: 1000
+      Reward:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 500
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 3600
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 17
+        <Value>k__BackingField:
+          m_Value: -1
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 100
+        <Value>k__BackingField:
+          m_Value: 3
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 3600
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 17
+        <Value>k__BackingField:
+          m_Value: -1
+      SpecialRewardIcon: {fileID: 21300000, guid: cbf243d7e8c77ff43ba90d2b4f29ad29, type: 2}
+      SpecialRewardCollectionIcon: {fileID: 21300000, guid: cbf243d7e8c77ff43ba90d2b4f29ad29, type: 2}
+    - Milestone: 17
+      Point: 700
+      Reward:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 5
+        <Value>k__BackingField:
+          m_Value: 1
+      RewardCollection:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 5
+        <Value>k__BackingField:
+          m_Value: 1
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 18
+      Point: 1000
+      Reward:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 500
+      RewardCollection:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 500
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 19
+      Point: 400
+      Reward:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 32400
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 32400
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 20
+      Point: 10000
+      Reward:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 16
+        <Value>k__BackingField:
+          m_Value: -1
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 1000
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 2
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 4
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 5
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 7200
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 100
+        <Value>k__BackingField:
+          m_Value: 4
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 16
+        <Value>k__BackingField:
+          m_Value: -1
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 2
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 5
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 4
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 7200
+      SpecialRewardIcon: {fileID: 21300000, guid: 4331c7d85db51424eb8b1586a15632ea, type: 2}
+      SpecialRewardCollectionIcon: {fileID: 21300000, guid: 4331c7d85db51424eb8b1586a15632ea, type: 2}
+  - <EventName>k__BackingField: FoodieStreak02162026
+    <FoodieStreakEventType>k__BackingField: 2
+    <FoodieStreakRewardConfig>k__BackingField:
+    - Milestone: 1
+      Point: 5
+      Reward:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 1800
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 1800
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 2
+      Point: 200
+      Reward:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 100
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 100
+        <Value>k__BackingField:
+          m_Value: 0
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 3
+      Point: 300
+      Reward:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 1800
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 1800
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 4
+      Point: 400
+      Reward:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 100
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 100
+        <Value>k__BackingField:
+          m_Value: 0
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 50
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 21300000, guid: 1c914e5c5c07c974cbe743b75f128b44, type: 2}
+    - Milestone: 5
+      Point: 300
+      Reward:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 3600
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 3600
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 6
+      Point: 500
+      Reward:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 4
+        <Value>k__BackingField:
+          m_Value: 1
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 100
+        <Value>k__BackingField:
+          m_Value: 1
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 7
+      Point: 300
+      Reward:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 7200
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 7200
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 8
+      Point: 500
+      Reward:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 250
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 100
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 100
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 21300000, guid: 1c914e5c5c07c974cbe743b75f128b44, type: 2}
+    - Milestone: 9
+      Point: 600
+      Reward:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 2
+        <Value>k__BackingField:
+          m_Value: 1
+      RewardCollection:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 2
+        <Value>k__BackingField:
+          m_Value: 1
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 10
+      Point: 400
+      Reward:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 300
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 100
+        <Value>k__BackingField:
+          m_Value: 2
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 11
+      Point: 800
+      Reward:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 4
+        <Value>k__BackingField:
+          m_Value: 1
+      RewardCollection:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 4
+        <Value>k__BackingField:
+          m_Value: 1
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 12
+      Point: 600
+      Reward:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 7200
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 3600
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 100
+        <Value>k__BackingField:
+          m_Value: 2
+      SpecialRewardIcon: {fileID: 21300000, guid: 1c914e5c5c07c974cbe743b75f128b44, type: 2}
+      SpecialRewardCollectionIcon: {fileID: 21300000, guid: cbf243d7e8c77ff43ba90d2b4f29ad29, type: 2}
+    - Milestone: 13
+      Point: 800
+      Reward:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 5
+        <Value>k__BackingField:
+          m_Value: 1
+      RewardCollection:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 5
+        <Value>k__BackingField:
+          m_Value: 1
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 14
+      Point: 1600
+      Reward:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 500
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 100
+        <Value>k__BackingField:
+          m_Value: 3
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 15
+      Point: 400
+      Reward:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 7200
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 7200
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 16
+      Point: 1000
+      Reward:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 500
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 3600
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 17
+        <Value>k__BackingField:
+          m_Value: -1
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 100
+        <Value>k__BackingField:
+          m_Value: 3
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 3600
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 17
+        <Value>k__BackingField:
+          m_Value: -1
+      SpecialRewardIcon: {fileID: 21300000, guid: cbf243d7e8c77ff43ba90d2b4f29ad29, type: 2}
+      SpecialRewardCollectionIcon: {fileID: 21300000, guid: cbf243d7e8c77ff43ba90d2b4f29ad29, type: 2}
+    - Milestone: 17
+      Point: 700
+      Reward:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 5
+        <Value>k__BackingField:
+          m_Value: 1
+      RewardCollection:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 5
+        <Value>k__BackingField:
+          m_Value: 1
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 18
+      Point: 1000
+      Reward:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 500
+      RewardCollection:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 500
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 19
+      Point: 400
+      Reward:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 32400
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 32400
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 20
+      Point: 10000
+      Reward:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 16
+        <Value>k__BackingField:
+          m_Value: -1
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 1000
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 2
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 4
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 5
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 7200
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 100
+        <Value>k__BackingField:
+          m_Value: 4
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 16
+        <Value>k__BackingField:
+          m_Value: -1
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 2
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 5
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 4
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 7200
+      SpecialRewardIcon: {fileID: 21300000, guid: 4331c7d85db51424eb8b1586a15632ea, type: 2}
+      SpecialRewardCollectionIcon: {fileID: 21300000, guid: 4331c7d85db51424eb8b1586a15632ea, type: 2}
+  - <EventName>k__BackingField: FoodieStreak02232026
+    <FoodieStreakEventType>k__BackingField: 2
+    <FoodieStreakRewardConfig>k__BackingField:
+    - Milestone: 1
+      Point: 5
+      Reward:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 1800
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 1800
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 2
+      Point: 200
+      Reward:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 100
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 100
+        <Value>k__BackingField:
+          m_Value: 0
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 3
+      Point: 300
+      Reward:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 1800
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 1800
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 4
+      Point: 400
+      Reward:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 100
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 100
+        <Value>k__BackingField:
+          m_Value: 0
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 50
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 21300000, guid: 1c914e5c5c07c974cbe743b75f128b44, type: 2}
+    - Milestone: 5
+      Point: 300
+      Reward:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 3600
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 3600
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 6
+      Point: 500
+      Reward:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 4
+        <Value>k__BackingField:
+          m_Value: 1
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 100
+        <Value>k__BackingField:
+          m_Value: 1
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 7
+      Point: 300
+      Reward:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 7200
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 7200
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 8
+      Point: 500
+      Reward:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 250
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 100
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 100
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 21300000, guid: 1c914e5c5c07c974cbe743b75f128b44, type: 2}
+    - Milestone: 9
+      Point: 600
+      Reward:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 2
+        <Value>k__BackingField:
+          m_Value: 1
+      RewardCollection:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 2
+        <Value>k__BackingField:
+          m_Value: 1
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 10
+      Point: 400
+      Reward:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 300
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 100
+        <Value>k__BackingField:
+          m_Value: 2
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 11
+      Point: 800
+      Reward:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 4
+        <Value>k__BackingField:
+          m_Value: 1
+      RewardCollection:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 4
+        <Value>k__BackingField:
+          m_Value: 1
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 12
+      Point: 600
+      Reward:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 7200
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 3600
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 100
+        <Value>k__BackingField:
+          m_Value: 2
+      SpecialRewardIcon: {fileID: 21300000, guid: 1c914e5c5c07c974cbe743b75f128b44, type: 2}
+      SpecialRewardCollectionIcon: {fileID: 21300000, guid: cbf243d7e8c77ff43ba90d2b4f29ad29, type: 2}
+    - Milestone: 13
+      Point: 800
+      Reward:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 5
+        <Value>k__BackingField:
+          m_Value: 1
+      RewardCollection:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 5
+        <Value>k__BackingField:
+          m_Value: 1
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 14
+      Point: 1600
+      Reward:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 500
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 100
+        <Value>k__BackingField:
+          m_Value: 3
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 15
+      Point: 400
+      Reward:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 7200
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 7200
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 16
+      Point: 1000
+      Reward:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 500
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 3600
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 17
+        <Value>k__BackingField:
+          m_Value: -1
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 100
+        <Value>k__BackingField:
+          m_Value: 3
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 3600
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 17
+        <Value>k__BackingField:
+          m_Value: -1
+      SpecialRewardIcon: {fileID: 21300000, guid: cbf243d7e8c77ff43ba90d2b4f29ad29, type: 2}
+      SpecialRewardCollectionIcon: {fileID: 21300000, guid: cbf243d7e8c77ff43ba90d2b4f29ad29, type: 2}
+    - Milestone: 17
+      Point: 700
+      Reward:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 5
+        <Value>k__BackingField:
+          m_Value: 1
+      RewardCollection:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 5
+        <Value>k__BackingField:
+          m_Value: 1
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 18
+      Point: 1000
+      Reward:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 500
+      RewardCollection:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 500
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 19
+      Point: 400
+      Reward:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 32400
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 32400
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 20
+      Point: 10000
+      Reward:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 16
+        <Value>k__BackingField:
+          m_Value: -1
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 1000
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 2
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 4
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 5
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 7200
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 100
+        <Value>k__BackingField:
+          m_Value: 4
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 16
+        <Value>k__BackingField:
+          m_Value: -1
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 2
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 5
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 4
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 7200
+      SpecialRewardIcon: {fileID: 21300000, guid: 4331c7d85db51424eb8b1586a15632ea, type: 2}
+      SpecialRewardCollectionIcon: {fileID: 21300000, guid: 4331c7d85db51424eb8b1586a15632ea, type: 2}
+  - <EventName>k__BackingField: FoodieStreak03022026
+    <FoodieStreakEventType>k__BackingField: 2
+    <FoodieStreakRewardConfig>k__BackingField:
+    - Milestone: 1
+      Point: 5
+      Reward:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 1800
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 1800
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 2
+      Point: 200
+      Reward:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 100
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 100
+        <Value>k__BackingField:
+          m_Value: 0
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 3
+      Point: 300
+      Reward:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 1800
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 1800
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 4
+      Point: 400
+      Reward:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 100
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 100
+        <Value>k__BackingField:
+          m_Value: 0
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 50
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 21300000, guid: 1c914e5c5c07c974cbe743b75f128b44, type: 2}
+    - Milestone: 5
+      Point: 300
+      Reward:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 3600
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 3600
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 6
+      Point: 500
+      Reward:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 4
+        <Value>k__BackingField:
+          m_Value: 1
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 100
+        <Value>k__BackingField:
+          m_Value: 1
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 7
+      Point: 300
+      Reward:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 7200
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 7200
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 8
+      Point: 500
+      Reward:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 250
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 100
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 100
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 21300000, guid: 1c914e5c5c07c974cbe743b75f128b44, type: 2}
+    - Milestone: 9
+      Point: 600
+      Reward:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 2
+        <Value>k__BackingField:
+          m_Value: 1
+      RewardCollection:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 2
+        <Value>k__BackingField:
+          m_Value: 1
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 10
+      Point: 400
+      Reward:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 300
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 100
+        <Value>k__BackingField:
+          m_Value: 2
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 11
+      Point: 800
+      Reward:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 4
+        <Value>k__BackingField:
+          m_Value: 1
+      RewardCollection:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 4
+        <Value>k__BackingField:
+          m_Value: 1
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 12
+      Point: 600
+      Reward:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 7200
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 3600
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 100
+        <Value>k__BackingField:
+          m_Value: 2
+      SpecialRewardIcon: {fileID: 21300000, guid: 1c914e5c5c07c974cbe743b75f128b44, type: 2}
+      SpecialRewardCollectionIcon: {fileID: 21300000, guid: cbf243d7e8c77ff43ba90d2b4f29ad29, type: 2}
+    - Milestone: 13
+      Point: 800
+      Reward:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 5
+        <Value>k__BackingField:
+          m_Value: 1
+      RewardCollection:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 5
+        <Value>k__BackingField:
+          m_Value: 1
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 14
+      Point: 1600
+      Reward:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 500
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 100
+        <Value>k__BackingField:
+          m_Value: 3
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 15
+      Point: 400
+      Reward:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 7200
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 7200
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 16
+      Point: 1000
+      Reward:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 600
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 3600
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 17
+        <Value>k__BackingField:
+          m_Value: -1
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 100
+        <Value>k__BackingField:
+          m_Value: 3
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 3600
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 17
+        <Value>k__BackingField:
+          m_Value: -1
+      SpecialRewardIcon: {fileID: 21300000, guid: cbf243d7e8c77ff43ba90d2b4f29ad29, type: 2}
+      SpecialRewardCollectionIcon: {fileID: 21300000, guid: cbf243d7e8c77ff43ba90d2b4f29ad29, type: 2}
+    - Milestone: 17
+      Point: 700
+      Reward:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 5
+        <Value>k__BackingField:
+          m_Value: 1
+      RewardCollection:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 5
+        <Value>k__BackingField:
+          m_Value: 1
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 18
+      Point: 1000
+      Reward:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 500
+      RewardCollection:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 500
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 19
+      Point: 400
+      Reward:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 32400
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 32400
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 20
+      Point: 10000
+      Reward:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 16
+        <Value>k__BackingField:
+          m_Value: -1
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 1000
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 2
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 4
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 5
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 7200
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 100
+        <Value>k__BackingField:
+          m_Value: 4
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 16
+        <Value>k__BackingField:
+          m_Value: -1
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 2
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 5
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 4
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 7200
+      SpecialRewardIcon: {fileID: 21300000, guid: 4331c7d85db51424eb8b1586a15632ea, type: 2}
+      SpecialRewardCollectionIcon: {fileID: 21300000, guid: 4331c7d85db51424eb8b1586a15632ea, type: 2}
+  - <EventName>k__BackingField: FoodieStreak03092026
+    <FoodieStreakEventType>k__BackingField: 2
+    <FoodieStreakRewardConfig>k__BackingField:
+    - Milestone: 1
+      Point: 5
+      Reward:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 1800
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 1800
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 2
+      Point: 200
+      Reward:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 100
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 100
+        <Value>k__BackingField:
+          m_Value: 0
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 3
+      Point: 300
+      Reward:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 1800
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 1800
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 4
+      Point: 400
+      Reward:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 100
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 100
+        <Value>k__BackingField:
+          m_Value: 0
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 50
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 21300000, guid: 1c914e5c5c07c974cbe743b75f128b44, type: 2}
+    - Milestone: 5
+      Point: 300
+      Reward:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 3600
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 3600
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 6
+      Point: 500
+      Reward:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 4
+        <Value>k__BackingField:
+          m_Value: 1
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 100
+        <Value>k__BackingField:
+          m_Value: 1
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 7
+      Point: 300
+      Reward:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 7200
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 7200
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 8
+      Point: 500
+      Reward:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 250
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 100
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 100
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 21300000, guid: 1c914e5c5c07c974cbe743b75f128b44, type: 2}
+    - Milestone: 9
+      Point: 600
+      Reward:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 2
+        <Value>k__BackingField:
+          m_Value: 1
+      RewardCollection:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 2
+        <Value>k__BackingField:
+          m_Value: 1
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 10
+      Point: 400
+      Reward:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 300
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 100
+        <Value>k__BackingField:
+          m_Value: 2
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 11
+      Point: 800
+      Reward:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 4
+        <Value>k__BackingField:
+          m_Value: 1
+      RewardCollection:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 4
+        <Value>k__BackingField:
+          m_Value: 1
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 12
+      Point: 600
+      Reward:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 7200
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 3600
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 100
+        <Value>k__BackingField:
+          m_Value: 2
+      SpecialRewardIcon: {fileID: 21300000, guid: 1c914e5c5c07c974cbe743b75f128b44, type: 2}
+      SpecialRewardCollectionIcon: {fileID: 21300000, guid: cbf243d7e8c77ff43ba90d2b4f29ad29, type: 2}
+    - Milestone: 13
+      Point: 800
+      Reward:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 5
+        <Value>k__BackingField:
+          m_Value: 1
+      RewardCollection:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 5
+        <Value>k__BackingField:
+          m_Value: 1
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 14
+      Point: 1600
+      Reward:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 500
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 100
+        <Value>k__BackingField:
+          m_Value: 3
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 15
+      Point: 400
+      Reward:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 7200
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 7200
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 16
+      Point: 1000
+      Reward:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 600
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 3600
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 17
+        <Value>k__BackingField:
+          m_Value: -1
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 100
+        <Value>k__BackingField:
+          m_Value: 3
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 3600
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 17
+        <Value>k__BackingField:
+          m_Value: -1
+      SpecialRewardIcon: {fileID: 21300000, guid: cbf243d7e8c77ff43ba90d2b4f29ad29, type: 2}
+      SpecialRewardCollectionIcon: {fileID: 21300000, guid: cbf243d7e8c77ff43ba90d2b4f29ad29, type: 2}
+    - Milestone: 17
+      Point: 700
+      Reward:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 5
+        <Value>k__BackingField:
+          m_Value: 1
+      RewardCollection:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 5
+        <Value>k__BackingField:
+          m_Value: 1
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 18
+      Point: 1000
+      Reward:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 500
+      RewardCollection:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 500
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 19
+      Point: 400
+      Reward:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 32400
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 32400
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 20
+      Point: 10000
+      Reward:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 16
+        <Value>k__BackingField:
+          m_Value: -1
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 1000
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 2
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 4
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 5
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 7200
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 100
+        <Value>k__BackingField:
+          m_Value: 4
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 16
+        <Value>k__BackingField:
+          m_Value: -1
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 2
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 5
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 4
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 7200
+      SpecialRewardIcon: {fileID: 21300000, guid: 4331c7d85db51424eb8b1586a15632ea, type: 2}
+      SpecialRewardCollectionIcon: {fileID: 21300000, guid: 4331c7d85db51424eb8b1586a15632ea, type: 2}
+  - <EventName>k__BackingField: FoodieStreak03162026
+    <FoodieStreakEventType>k__BackingField: 2
+    <FoodieStreakRewardConfig>k__BackingField:
+    - Milestone: 1
+      Point: 5
+      Reward:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 1800
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 1800
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 2
+      Point: 200
+      Reward:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 100
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 100
+        <Value>k__BackingField:
+          m_Value: 0
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 3
+      Point: 300
+      Reward:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 1800
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 1800
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 4
+      Point: 400
+      Reward:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 100
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 100
+        <Value>k__BackingField:
+          m_Value: 0
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 50
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 21300000, guid: 1c914e5c5c07c974cbe743b75f128b44, type: 2}
+    - Milestone: 5
+      Point: 300
+      Reward:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 3600
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 3600
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 6
+      Point: 500
+      Reward:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 4
+        <Value>k__BackingField:
+          m_Value: 1
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 100
+        <Value>k__BackingField:
+          m_Value: 1
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 7
+      Point: 300
+      Reward:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 7200
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 7200
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 8
+      Point: 500
+      Reward:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 250
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 100
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 100
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 21300000, guid: 1c914e5c5c07c974cbe743b75f128b44, type: 2}
+    - Milestone: 9
+      Point: 600
+      Reward:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 2
+        <Value>k__BackingField:
+          m_Value: 1
+      RewardCollection:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 2
+        <Value>k__BackingField:
+          m_Value: 1
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 10
+      Point: 400
+      Reward:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 300
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 100
+        <Value>k__BackingField:
+          m_Value: 2
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 11
+      Point: 800
+      Reward:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 4
+        <Value>k__BackingField:
+          m_Value: 1
+      RewardCollection:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 4
+        <Value>k__BackingField:
+          m_Value: 1
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 12
+      Point: 600
+      Reward:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 7200
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 3600
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 100
+        <Value>k__BackingField:
+          m_Value: 2
+      SpecialRewardIcon: {fileID: 21300000, guid: 1c914e5c5c07c974cbe743b75f128b44, type: 2}
+      SpecialRewardCollectionIcon: {fileID: 21300000, guid: cbf243d7e8c77ff43ba90d2b4f29ad29, type: 2}
+    - Milestone: 13
+      Point: 800
+      Reward:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 5
+        <Value>k__BackingField:
+          m_Value: 1
+      RewardCollection:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 5
+        <Value>k__BackingField:
+          m_Value: 1
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 14
+      Point: 1600
+      Reward:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 500
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 100
+        <Value>k__BackingField:
+          m_Value: 3
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 15
+      Point: 400
+      Reward:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 7200
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 7200
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 16
+      Point: 1000
+      Reward:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 600
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 3600
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 17
+        <Value>k__BackingField:
+          m_Value: -1
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 100
+        <Value>k__BackingField:
+          m_Value: 3
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 3600
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 17
+        <Value>k__BackingField:
+          m_Value: -1
+      SpecialRewardIcon: {fileID: 21300000, guid: cbf243d7e8c77ff43ba90d2b4f29ad29, type: 2}
+      SpecialRewardCollectionIcon: {fileID: 21300000, guid: cbf243d7e8c77ff43ba90d2b4f29ad29, type: 2}
+    - Milestone: 17
+      Point: 700
+      Reward:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 5
+        <Value>k__BackingField:
+          m_Value: 1
+      RewardCollection:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 5
+        <Value>k__BackingField:
+          m_Value: 1
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 18
+      Point: 1000
+      Reward:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 500
+      RewardCollection:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 500
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 19
+      Point: 400
+      Reward:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 32400
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 32400
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 20
+      Point: 10000
+      Reward:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 16
+        <Value>k__BackingField:
+          m_Value: -1
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 1000
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 2
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 4
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 5
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 7200
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 100
+        <Value>k__BackingField:
+          m_Value: 4
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 16
+        <Value>k__BackingField:
+          m_Value: -1
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 2
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 5
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 4
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 7200
+      SpecialRewardIcon: {fileID: 21300000, guid: 4331c7d85db51424eb8b1586a15632ea, type: 2}
+      SpecialRewardCollectionIcon: {fileID: 21300000, guid: 4331c7d85db51424eb8b1586a15632ea, type: 2}
+  - <EventName>k__BackingField: FoodieStreak03232026
+    <FoodieStreakEventType>k__BackingField: 2
+    <FoodieStreakRewardConfig>k__BackingField:
+    - Milestone: 1
+      Point: 5
+      Reward:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 1800
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 1800
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 2
+      Point: 200
+      Reward:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 100
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 100
+        <Value>k__BackingField:
+          m_Value: 0
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 3
+      Point: 300
+      Reward:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 1800
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 1800
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 4
+      Point: 400
+      Reward:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 100
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 100
+        <Value>k__BackingField:
+          m_Value: 0
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 50
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 21300000, guid: 1c914e5c5c07c974cbe743b75f128b44, type: 2}
+    - Milestone: 5
+      Point: 300
+      Reward:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 3600
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 3600
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 6
+      Point: 500
+      Reward:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 4
+        <Value>k__BackingField:
+          m_Value: 1
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 100
+        <Value>k__BackingField:
+          m_Value: 1
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 7
+      Point: 300
+      Reward:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 7200
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 7200
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 8
+      Point: 500
+      Reward:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 250
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 100
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 100
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 21300000, guid: 1c914e5c5c07c974cbe743b75f128b44, type: 2}
+    - Milestone: 9
+      Point: 600
+      Reward:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 2
+        <Value>k__BackingField:
+          m_Value: 1
+      RewardCollection:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 2
+        <Value>k__BackingField:
+          m_Value: 1
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 10
+      Point: 400
+      Reward:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 300
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 100
+        <Value>k__BackingField:
+          m_Value: 2
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 11
+      Point: 800
+      Reward:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 4
+        <Value>k__BackingField:
+          m_Value: 1
+      RewardCollection:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 4
+        <Value>k__BackingField:
+          m_Value: 1
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 12
+      Point: 600
+      Reward:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 7200
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 3600
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 100
+        <Value>k__BackingField:
+          m_Value: 2
+      SpecialRewardIcon: {fileID: 21300000, guid: 1c914e5c5c07c974cbe743b75f128b44, type: 2}
+      SpecialRewardCollectionIcon: {fileID: 21300000, guid: cbf243d7e8c77ff43ba90d2b4f29ad29, type: 2}
+    - Milestone: 13
+      Point: 800
+      Reward:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 5
+        <Value>k__BackingField:
+          m_Value: 1
+      RewardCollection:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 5
+        <Value>k__BackingField:
+          m_Value: 1
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 14
+      Point: 1600
+      Reward:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 500
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 100
+        <Value>k__BackingField:
+          m_Value: 3
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 15
+      Point: 400
+      Reward:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 7200
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 7200
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 16
+      Point: 1000
+      Reward:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 600
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 3600
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 17
+        <Value>k__BackingField:
+          m_Value: -1
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 100
+        <Value>k__BackingField:
+          m_Value: 3
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 3600
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 17
+        <Value>k__BackingField:
+          m_Value: -1
+      SpecialRewardIcon: {fileID: 21300000, guid: cbf243d7e8c77ff43ba90d2b4f29ad29, type: 2}
+      SpecialRewardCollectionIcon: {fileID: 21300000, guid: cbf243d7e8c77ff43ba90d2b4f29ad29, type: 2}
+    - Milestone: 17
+      Point: 700
+      Reward:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 5
+        <Value>k__BackingField:
+          m_Value: 1
+      RewardCollection:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 5
+        <Value>k__BackingField:
+          m_Value: 1
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 18
+      Point: 1000
+      Reward:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 500
+      RewardCollection:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 500
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 19
+      Point: 400
+      Reward:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 32400
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 32400
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 20
+      Point: 10000
+      Reward:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 16
+        <Value>k__BackingField:
+          m_Value: -1
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 1000
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 2
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 4
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 5
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 7200
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 100
+        <Value>k__BackingField:
+          m_Value: 4
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 16
+        <Value>k__BackingField:
+          m_Value: -1
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 2
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 5
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 4
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 7200
+      SpecialRewardIcon: {fileID: 21300000, guid: 4331c7d85db51424eb8b1586a15632ea, type: 2}
+      SpecialRewardCollectionIcon: {fileID: 21300000, guid: 4331c7d85db51424eb8b1586a15632ea, type: 2}
+  - <EventName>k__BackingField: FoodieStreak03302026
+    <FoodieStreakEventType>k__BackingField: 2
+    <FoodieStreakRewardConfig>k__BackingField:
+    - Milestone: 1
+      Point: 5
+      Reward:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 1800
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 1800
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 2
+      Point: 200
+      Reward:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 100
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 100
+        <Value>k__BackingField:
+          m_Value: 0
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 3
+      Point: 300
+      Reward:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 1800
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 1800
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 4
+      Point: 400
+      Reward:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 100
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 100
+        <Value>k__BackingField:
+          m_Value: 0
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 50
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 21300000, guid: 1c914e5c5c07c974cbe743b75f128b44, type: 2}
+    - Milestone: 5
+      Point: 300
+      Reward:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 3600
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 3600
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 6
+      Point: 500
+      Reward:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 4
+        <Value>k__BackingField:
+          m_Value: 1
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 100
+        <Value>k__BackingField:
+          m_Value: 1
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 7
+      Point: 300
+      Reward:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 7200
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 7200
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 8
+      Point: 500
+      Reward:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 250
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 100
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 100
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 21300000, guid: 1c914e5c5c07c974cbe743b75f128b44, type: 2}
+    - Milestone: 9
+      Point: 600
+      Reward:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 2
+        <Value>k__BackingField:
+          m_Value: 1
+      RewardCollection:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 2
+        <Value>k__BackingField:
+          m_Value: 1
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 10
+      Point: 400
+      Reward:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 300
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 100
+        <Value>k__BackingField:
+          m_Value: 2
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 11
+      Point: 800
+      Reward:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 4
+        <Value>k__BackingField:
+          m_Value: 1
+      RewardCollection:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 4
+        <Value>k__BackingField:
+          m_Value: 1
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 12
+      Point: 600
+      Reward:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 7200
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 3600
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 100
+        <Value>k__BackingField:
+          m_Value: 2
+      SpecialRewardIcon: {fileID: 21300000, guid: 1c914e5c5c07c974cbe743b75f128b44, type: 2}
+      SpecialRewardCollectionIcon: {fileID: 21300000, guid: cbf243d7e8c77ff43ba90d2b4f29ad29, type: 2}
+    - Milestone: 13
+      Point: 800
+      Reward:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 5
+        <Value>k__BackingField:
+          m_Value: 1
+      RewardCollection:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 5
+        <Value>k__BackingField:
+          m_Value: 1
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 14
+      Point: 1600
+      Reward:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 1000
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 100
+        <Value>k__BackingField:
+          m_Value: 3
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 15
+      Point: 400
+      Reward:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 7200
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 7200
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 16
+      Point: 1000
+      Reward:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 600
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 3600
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 17
+        <Value>k__BackingField:
+          m_Value: -1
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 100
+        <Value>k__BackingField:
+          m_Value: 3
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 3600
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 17
+        <Value>k__BackingField:
+          m_Value: -1
+      SpecialRewardIcon: {fileID: 21300000, guid: cbf243d7e8c77ff43ba90d2b4f29ad29, type: 2}
+      SpecialRewardCollectionIcon: {fileID: 21300000, guid: cbf243d7e8c77ff43ba90d2b4f29ad29, type: 2}
+    - Milestone: 17
+      Point: 700
+      Reward:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 5
+        <Value>k__BackingField:
+          m_Value: 1
+      RewardCollection:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 5
+        <Value>k__BackingField:
+          m_Value: 1
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 18
+      Point: 1000
+      Reward:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 500
+      RewardCollection:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 500
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 19
+      Point: 400
+      Reward:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 32400
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 32400
+      SpecialRewardIcon: {fileID: 0}
+      SpecialRewardCollectionIcon: {fileID: 0}
+    - Milestone: 20
+      Point: 10000
+      Reward:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 16
+        <Value>k__BackingField:
+          m_Value: -1
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 1000
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 2
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 4
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 5
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 7200
+      RewardCollection:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 100
+        <Value>k__BackingField:
+          m_Value: 4
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 16
+        <Value>k__BackingField:
+          m_Value: -1
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 2
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 5
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 4
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 7200
+      SpecialRewardIcon: {fileID: 21300000, guid: 4331c7d85db51424eb8b1586a15632ea, type: 2}
+      SpecialRewardCollectionIcon: {fileID: 21300000, guid: 4331c7d85db51424eb8b1586a15632ea, type: 2}
+  <MainRewardIcons>k__BackingField:
+  - {fileID: 21300000, guid: 8ea98c317eb15474a861b003b6ff824d, type: 2}
+  - {fileID: 21300000, guid: 19168757c5d1dcd4ab3955987fd89661, type: 2}
+  - {fileID: 21300000, guid: 8d7a08f6c1d1f5f4a9cc53d20986b50f, type: 2}
+  - {fileID: 21300000, guid: 1b1eebe866e6ec947bf3e05409aad182, type: 2}
+  - {fileID: 21300000, guid: acf875a67ded61e49be90c387bb93589, type: 2}
+  - {fileID: 21300000, guid: 8ea98c317eb15474a861b003b6ff824d, type: 2}
+  <MainExtraRewardIcons>k__BackingField:
+  - {fileID: 21300000, guid: a1f0995ebcbbdd14ba97135d8f41c1b4, type: 2}
+  - {fileID: 21300000, guid: 19168757c5d1dcd4ab3955987fd89661, type: 2}
+  - {fileID: 21300000, guid: 9f3dca6d957f1c44aab94a8f1dbbfa49, type: 2}
+  - {fileID: 21300000, guid: 11c4da2421ae9ff41ab2a2c6425694fe, type: 2}
+  - {fileID: 21300000, guid: b9edc109923ab9845b79ea08ebd3fe7b, type: 2}
+  - {fileID: 21300000, guid: a1f0995ebcbbdd14ba97135d8f41c1b4, type: 2}
+  <IndexFrameReplace>k__BackingField:
+  - 13
+  - 14
+  - 15
+  - 17
+  - 20
+  - 21
+  - 23
+  - 24
+  - 28
+  - 29
+  <IndexAvatarReplace>k__BackingField:
+  - 13
+  - 14
+  - 15
+  - 16
+  - 18
+  - 20
+  <IndexNameReplace>k__BackingField:
+  - 1
+  - 2
+  - 3
+  - 4

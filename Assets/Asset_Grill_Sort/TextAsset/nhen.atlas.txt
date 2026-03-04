@@ -1,0 +1,10 @@
+nhen.png
+size:144,64
+filter:Linear,Linear
+pma:true
+nhen
+bounds:2,2,50,49
+offsets:0,0,51,50
+nhen_to
+bounds:2,53,7,137
+rotate:90

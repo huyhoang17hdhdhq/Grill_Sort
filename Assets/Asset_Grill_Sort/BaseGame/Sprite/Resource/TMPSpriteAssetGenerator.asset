@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 504911921, guid: 670976ae1e43c6bb3110a15ef32ef1d8, type: 3}
+  m_Name: TMPSpriteAssetGenerator
+  m_EditorClassIdentifier:
+  <TMPSpriteAsset>k__BackingField: {fileID: 11400000, guid: 1d367ad711416a64dbd4caabbd214ad5, type: 2}
+  <Offset>k__BackingField: {x: 0, y: 384, z: 512}
+  <Scale>k__BackingField: 1.5
+  <MergeTexture2D>k__BackingField: {fileID: 2800000, guid: 45f78fc7218ba0945b40fda0f0bb2606, type: 3}
+  <SpriteInCurrentPath>k__BackingField:
+  - {fileID: 21300000, guid: bc7ae7ed106c88040a0280dbc7cb4e19, type: 2}
+  - {fileID: 21300000, guid: b59609f262137924c965cd69de00c34e, type: 2}
+  - {fileID: 21300000, guid: 00aa2342dfc5f7a4b8c1d1b64f7658a2, type: 2}
+  - {fileID: 21300000, guid: fbfcec6700a797148bde21918bb548c7, type: 2}
+  - {fileID: 21300000, guid: ded4a5ef613c0ea45914203c5805f42f, type: 2}
+  - {fileID: 21300000, guid: d58e62a701b67ae489235accce203381, type: 2}
+  - {fileID: 21300000, guid: 7fe3fa486fc754c4c9bc5144cd113cf0, type: 2}
+  - {fileID: 21300000, guid: 3aedc12610b8fc843aded55913efd8ca, type: 2}
+  - {fileID: 21300000, guid: d7e8636e199275843aa799cfc49ae205, type: 2}
+  - {fileID: 21300000, guid: 70d1be3a6efd33c4b93518dc20cb576a, type: 2}
+  - {fileID: 21300000, guid: e2b3f8d688451b54aa98625304f205ae, type: 2}
+  - {fileID: 21300000, guid: 07e8a8cd5447514429db489c7ea0bb3b, type: 2}
+  - {fileID: 21300000, guid: 39b71e6c6c67c2f4a87fbcf12a8cf6eb, type: 2}
+  - {fileID: 21300000, guid: e85169cbead6be64b804f5d97a93ef29, type: 2}
+  - {fileID: 21300000, guid: 9fee053053ac78045b1554b14fb05fe1, type: 2}
+  - {fileID: 21300000, guid: b860782f192381641ae8f0982c570d71, type: 2}
+  <Texture2DList>k__BackingField:
+  - {fileID: 2800000, guid: 853bb8c62d2937247b2ac49813c58c76, type: 3}
+  - {fileID: 2800000, guid: 286623b5e2728dc409641a3ea76a2a6b, type: 3}
+  - {fileID: 2800000, guid: 591c7d6a147847543a6679e577a33c8d, type: 3}
+  - {fileID: 2800000, guid: 6e2a94b68e0660143a1b1fbae8a01855, type: 3}
+  - {fileID: 2800000, guid: fbde430f411000f4181eb047fbd7cea9, type: 3}
+  - {fileID: 2800000, guid: 6947f8ee501f8c448a665c2d4a592a0e, type: 3}
+  - {fileID: 2800000, guid: 8107e03084331f642a953fde89070028, type: 3}
+  - {fileID: 2800000, guid: c2ee23c974387fa43a0250d519023374, type: 3}
+  - {fileID: 2800000, guid: b3039d0e8107e65429a3b07ef8db0eff, type: 3}
+  - {fileID: 2800000, guid: ed81fe81df7c979499eb7c1340d302b9, type: 3}
+  - {fileID: 2800000, guid: 40f852350e1a9c046ba3ba783de67b0e, type: 3}
+  - {fileID: 2800000, guid: 789845234a03aab42901b19fab3ed0a2, type: 3}
+  - {fileID: 2800000, guid: 1bb1088c6b4f5714489434eddc3ef4c9, type: 3}
+  - {fileID: 2800000, guid: ce4c84d3c232efc42bcca45e8d35ca76, type: 3}
+  - {fileID: 2800000, guid: ee239810e5b3fba48ad0ca3ae16a287b, type: 3}
+  - {fileID: 2800000, guid: 2fabbe8b281abe3439533fb675582c7f, type: 3}
+  <ObjectName>k__BackingField: TMPSpriteAssetGenerator
+  <ObjectPath>k__BackingField: Assets/BaseGame/Sprite/Resource/TMPSpriteAssetGenerator.asset
+  <FolderPath>k__BackingField: Assets/BaseGame/Sprite/Resource
+  <TexturePath>k__BackingField: Assets/BaseGame/Sprite/Resource/TMPSpriteAssetGenerator.png
+  <TMPSpriteAssetPath>k__BackingField: Assets/BaseGame/Sprite/Resource/TMPSpriteAssetGenerator_TMPSpriteAsset.asset
+  <Size>k__BackingField: {x: 512, y: 512}
+  <Row>k__BackingField: 4
+  <Column>k__BackingField: 4

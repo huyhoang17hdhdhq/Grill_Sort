@@ -1,0 +1,12 @@
+NoelHomeAnim_house.png
+size:160,104
+filter:Linear,Linear
+house/Ellipse 2
+bounds:2,5,95,109
+rotate:90
+house/Group 135
+bounds:113,2,32,49
+offsets:1,1,34,51
+house/Group 135 copy
+bounds:113,53,42,47
+offsets:1,1,44,49

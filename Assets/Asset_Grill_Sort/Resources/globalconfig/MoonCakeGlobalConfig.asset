@@ -1,0 +1,380 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a3ac4e9a0726d84b3428b5d5ad975b9, type: 3}
+  m_Name: MoonCakeGlobalConfig
+  m_EditorClassIdentifier:
+  <MoonCakeDailyQuest>k__BackingField:
+    <QuestConfigArray>k__BackingField:
+    - QuestType: 0
+      DescriptionId: 406
+      TargetProgress: 10
+      Rewards:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 50
+        <Value>k__BackingField:
+          m_Value: 15
+    - QuestType: 2
+      DescriptionId: 407
+      TargetProgress: 3
+      Rewards:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 50
+        <Value>k__BackingField:
+          m_Value: 10
+    - QuestType: 3
+      DescriptionId: 74
+      TargetProgress: 50
+      Rewards:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 50
+        <Value>k__BackingField:
+          m_Value: 5
+    - QuestType: 1
+      DescriptionId: 71
+      TargetProgress: 7
+      Rewards:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 50
+        <Value>k__BackingField:
+          m_Value: 10
+    - QuestType: 4
+      DescriptionId: 73
+      TargetProgress: 3
+      Rewards:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 50
+        <Value>k__BackingField:
+          m_Value: 10
+    - QuestType: 5
+      DescriptionId: 408
+      TargetProgress: 5
+      Rewards:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 50
+        <Value>k__BackingField:
+          m_Value: 15
+    - QuestType: 6
+      DescriptionId: 409
+      TargetProgress: 3
+      Rewards:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 50
+        <Value>k__BackingField:
+          m_Value: 5
+    - QuestType: 7
+      DescriptionId: 410
+      TargetProgress: 1
+      Rewards:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 50
+        <Value>k__BackingField:
+          m_Value: 5
+    - QuestType: 8
+      DescriptionId: 71
+      TargetProgress: 15
+      Rewards:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 50
+        <Value>k__BackingField:
+          m_Value: 20
+    - QuestType: 9
+      DescriptionId: 71
+      TargetProgress: 20
+      Rewards:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 50
+        <Value>k__BackingField:
+          m_Value: 25
+  <MoonCakeDailyGift>k__BackingField:
+    <DailyGiftConfigArray>k__BackingField:
+    - Day: 1
+      Rewards:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 50
+        <Value>k__BackingField:
+          m_Value: 5
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 900
+    - Day: 2
+      Rewards:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 50
+        <Value>k__BackingField:
+          m_Value: 10
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 50
+    - Day: 3
+      Rewards:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 50
+        <Value>k__BackingField:
+          m_Value: 15
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 4
+        <Value>k__BackingField:
+          m_Value: 1
+    - Day: 4
+      Rewards:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 50
+        <Value>k__BackingField:
+          m_Value: 20
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 1800
+    - Day: 5
+      Rewards:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 50
+        <Value>k__BackingField:
+          m_Value: 25
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 100
+    - Day: 6
+      Rewards:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 50
+        <Value>k__BackingField:
+          m_Value: 30
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 1800
+    - Day: 7
+      Rewards:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 16
+        <Value>k__BackingField:
+          m_Value: 15
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 500
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 3600
+  <MoonCakeExchangeGift>k__BackingField:
+    <ExchangeGiftConfigArray>k__BackingField:
+    - ExchangeId: 0
+      ResetType: 1
+      MaxExchange: 1
+      Cost:
+        <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 50
+        <Value>k__BackingField:
+          m_Value: 2000
+      Reward:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 16
+        <Value>k__BackingField:
+          m_Value: 13
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 5000
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 2
+        <Value>k__BackingField:
+          m_Value: 2
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 2
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 4
+        <Value>k__BackingField:
+          m_Value: 2
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 5
+        <Value>k__BackingField:
+          m_Value: 2
+      SpecialRewardIcon: {fileID: 21300000, guid: 4331c7d85db51424eb8b1586a15632ea, type: 2}
+    - ExchangeId: 1
+      ResetType: 1
+      MaxExchange: 1
+      Cost:
+        <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 50
+        <Value>k__BackingField:
+          m_Value: 1500
+      Reward:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 16
+        <Value>k__BackingField:
+          m_Value: 14
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 2000
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 2
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 4
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 5
+        <Value>k__BackingField:
+          m_Value: 1
+      SpecialRewardIcon: {fileID: 21300000, guid: cbf243d7e8c77ff43ba90d2b4f29ad29, type: 2}
+    - ExchangeId: 2
+      ResetType: 1
+      MaxExchange: 5
+      Cost:
+        <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 50
+        <Value>k__BackingField:
+          m_Value: 200
+      Reward:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 2
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 4
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 5
+        <Value>k__BackingField:
+          m_Value: 1
+      SpecialRewardIcon: {fileID: 21300000, guid: 1c914e5c5c07c974cbe743b75f128b44, type: 2}
+    - ExchangeId: 3
+      ResetType: 1
+      MaxExchange: 5
+      Cost:
+        <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 50
+        <Value>k__BackingField:
+          m_Value: 60
+      Reward:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 2
+        <Value>k__BackingField:
+          m_Value: 1
+      SpecialRewardIcon: {fileID: 0}
+    - ExchangeId: 4
+      ResetType: 1
+      MaxExchange: 5
+      Cost:
+        <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 50
+        <Value>k__BackingField:
+          m_Value: 60
+      Reward:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 1
+      SpecialRewardIcon: {fileID: 0}
+    - ExchangeId: 5
+      ResetType: 1
+      MaxExchange: 5
+      Cost:
+        <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 50
+        <Value>k__BackingField:
+          m_Value: 60
+      Reward:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 4
+        <Value>k__BackingField:
+          m_Value: 1
+      SpecialRewardIcon: {fileID: 0}
+    - ExchangeId: 6
+      ResetType: 1
+      MaxExchange: 5
+      Cost:
+        <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 50
+        <Value>k__BackingField:
+          m_Value: 60
+      Reward:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 5
+        <Value>k__BackingField:
+          m_Value: 1
+      SpecialRewardIcon: {fileID: 0}
+    - ExchangeId: 7
+      ResetType: 1
+      MaxExchange: 5
+      Cost:
+        <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 50
+        <Value>k__BackingField:
+          m_Value: 60
+      Reward:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 6
+        <Value>k__BackingField:
+          m_Value: 1
+      SpecialRewardIcon: {fileID: 0}
+    - ExchangeId: 8
+      ResetType: 1
+      MaxExchange: 5
+      Cost:
+        <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 50
+        <Value>k__BackingField:
+          m_Value: 60
+      Reward:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 7
+        <Value>k__BackingField:
+          m_Value: 1
+      SpecialRewardIcon: {fileID: 0}
+    - ExchangeId: 9
+      ResetType: 0
+      MaxExchange: 3
+      Cost:
+        <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 18
+        <Value>k__BackingField:
+          m_Value: 1
+      Reward:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 50
+        <Value>k__BackingField:
+          m_Value: 15
+      SpecialRewardIcon: {fileID: 0}
+    - ExchangeId: 10
+      ResetType: 0
+      MaxExchange: 3
+      Cost:
+        <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 100
+      Reward:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 50
+        <Value>k__BackingField:
+          m_Value: 15
+      SpecialRewardIcon: {fileID: 0}

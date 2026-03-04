@@ -1,0 +1,14 @@
+treeR.png
+size:824,276
+filter:Linear,Linear
+tree/treeR_leaf
+bounds:2,2,271,627
+offsets:0,69,450,696
+rotate:90
+tree/treeR_sd
+bounds:631,71,202,72
+offsets:1,1,204,74
+rotate:90
+tree/treeR_than
+bounds:705,136,116,137
+offsets:1,1,118,139

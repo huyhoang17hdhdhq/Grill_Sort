@@ -1,0 +1,794 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3999bd7f9bbb863e95b76e6bf611001f, type: 3}
+  m_Name: BattlePassGlobalConfig
+  m_EditorClassIdentifier:
+  battlePassDetailConfigs:
+  - requireFoodieStar: 0
+    freeBattlePassDetail:
+      battlePassType: 1
+      rewardIndex: 0
+      rewards:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 40
+      isButton: 0
+      icon: {fileID: 0}
+    premiumBattlePassDetail:
+      battlePassType: 2
+      rewardIndex: 0
+      rewards:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 3600
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 2000
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 16
+        <Value>k__BackingField:
+          m_Value: 12
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 2
+        <Value>k__BackingField:
+          m_Value: 2
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 2
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 4
+        <Value>k__BackingField:
+          m_Value: 2
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 5
+        <Value>k__BackingField:
+          m_Value: 2
+      isButton: 1
+      icon: {fileID: 21300000, guid: 4331c7d85db51424eb8b1586a15632ea, type: 2}
+  - requireFoodieStar: 1
+    freeBattlePassDetail:
+      battlePassType: 1
+      rewardIndex: 1
+      rewards:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 900
+      isButton: 0
+      icon: {fileID: 0}
+    premiumBattlePassDetail:
+      battlePassType: 2
+      rewardIndex: 1
+      rewards:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 2
+        <Value>k__BackingField:
+          m_Value: 1
+      isButton: 0
+      icon: {fileID: 0}
+  - requireFoodieStar: 1
+    freeBattlePassDetail:
+      battlePassType: 1
+      rewardIndex: 2
+      rewards:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 40
+      isButton: 0
+      icon: {fileID: 0}
+    premiumBattlePassDetail:
+      battlePassType: 2
+      rewardIndex: 2
+      rewards:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 15
+        <Value>k__BackingField:
+          m_Value: 900
+      isButton: 0
+      icon: {fileID: 0}
+  - requireFoodieStar: 2
+    freeBattlePassDetail:
+      battlePassType: 1
+      rewardIndex: 3
+      rewards:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 80
+      isButton: 0
+      icon: {fileID: 0}
+    premiumBattlePassDetail:
+      battlePassType: 2
+      rewardIndex: 3
+      rewards:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 100
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 5
+        <Value>k__BackingField:
+          m_Value: 1
+      isButton: 1
+      icon: {fileID: 21300000, guid: 1c914e5c5c07c974cbe743b75f128b44, type: 2}
+  - requireFoodieStar: 2
+    freeBattlePassDetail:
+      battlePassType: 1
+      rewardIndex: 4
+      rewards:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 2
+        <Value>k__BackingField:
+          m_Value: 1
+      isButton: 0
+      icon: {fileID: 0}
+    premiumBattlePassDetail:
+      battlePassType: 2
+      rewardIndex: 4
+      rewards:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 100
+      isButton: 0
+      icon: {fileID: 0}
+  - requireFoodieStar: 3
+    freeBattlePassDetail:
+      battlePassType: 1
+      rewardIndex: 5
+      rewards:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 40
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 900
+      isButton: 1
+      icon: {fileID: 21300000, guid: 1c914e5c5c07c974cbe743b75f128b44, type: 2}
+    premiumBattlePassDetail:
+      battlePassType: 2
+      rewardIndex: 5
+      rewards:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 2
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 1
+      isButton: 1
+      icon: {fileID: 21300000, guid: cbf243d7e8c77ff43ba90d2b4f29ad29, type: 2}
+  - requireFoodieStar: 3
+    freeBattlePassDetail:
+      battlePassType: 1
+      rewardIndex: 6
+      rewards:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 900
+      isButton: 0
+      icon: {fileID: 0}
+    premiumBattlePassDetail:
+      battlePassType: 2
+      rewardIndex: 6
+      rewards:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 200
+      isButton: 0
+      icon: {fileID: 0}
+  - requireFoodieStar: 4
+    freeBattlePassDetail:
+      battlePassType: 1
+      rewardIndex: 7
+      rewards:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 80
+      isButton: 0
+      icon: {fileID: 0}
+    premiumBattlePassDetail:
+      battlePassType: 2
+      rewardIndex: 7
+      rewards:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 1800
+      isButton: 0
+      icon: {fileID: 0}
+  - requireFoodieStar: 4
+    freeBattlePassDetail:
+      battlePassType: 1
+      rewardIndex: 8
+      rewards:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 4
+        <Value>k__BackingField:
+          m_Value: 1
+      isButton: 0
+      icon: {fileID: 0}
+    premiumBattlePassDetail:
+      battlePassType: 2
+      rewardIndex: 8
+      rewards:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 4
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 5
+        <Value>k__BackingField:
+          m_Value: 1
+      isButton: 1
+      icon: {fileID: 21300000, guid: 1c914e5c5c07c974cbe743b75f128b44, type: 2}
+  - requireFoodieStar: 5
+    freeBattlePassDetail:
+      battlePassType: 1
+      rewardIndex: 9
+      rewards:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 7
+        <Value>k__BackingField:
+          m_Value: 1
+      isButton: 0
+      icon: {fileID: 0}
+    premiumBattlePassDetail:
+      battlePassType: 2
+      rewardIndex: 9
+      rewards:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 14
+        <Value>k__BackingField:
+          m_Value: 900
+      isButton: 0
+      icon: {fileID: 0}
+  - requireFoodieStar: 5
+    freeBattlePassDetail:
+      battlePassType: 1
+      rewardIndex: 10
+      rewards:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 80
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 900
+      isButton: 1
+      icon: {fileID: 21300000, guid: 1c914e5c5c07c974cbe743b75f128b44, type: 2}
+    premiumBattlePassDetail:
+      battlePassType: 2
+      rewardIndex: 10
+      rewards:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 200
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 2
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 4
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 1
+      isButton: 1
+      icon: {fileID: 21300000, guid: cbf243d7e8c77ff43ba90d2b4f29ad29, type: 2}
+  - requireFoodieStar: 6
+    freeBattlePassDetail:
+      battlePassType: 1
+      rewardIndex: 11
+      rewards:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 80
+      isButton: 0
+      icon: {fileID: 0}
+    premiumBattlePassDetail:
+      battlePassType: 2
+      rewardIndex: 11
+      rewards:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 1800
+      isButton: 0
+      icon: {fileID: 0}
+  - requireFoodieStar: 6
+    freeBattlePassDetail:
+      battlePassType: 1
+      rewardIndex: 12
+      rewards:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 1800
+      isButton: 0
+      icon: {fileID: 0}
+    premiumBattlePassDetail:
+      battlePassType: 2
+      rewardIndex: 12
+      rewards:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 2
+        <Value>k__BackingField:
+          m_Value: 1
+      isButton: 0
+      icon: {fileID: 0}
+  - requireFoodieStar: 7
+    freeBattlePassDetail:
+      battlePassType: 1
+      rewardIndex: 13
+      rewards:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 5
+        <Value>k__BackingField:
+          m_Value: 1
+      isButton: 0
+      icon: {fileID: 0}
+    premiumBattlePassDetail:
+      battlePassType: 2
+      rewardIndex: 13
+      rewards:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 200
+      isButton: 0
+      icon: {fileID: 0}
+  - requireFoodieStar: 7
+    freeBattlePassDetail:
+      battlePassType: 1
+      rewardIndex: 14
+      rewards:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 80
+      isButton: 0
+      icon: {fileID: 0}
+    premiumBattlePassDetail:
+      battlePassType: 2
+      rewardIndex: 14
+      rewards:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 15
+        <Value>k__BackingField:
+          m_Value: 900
+      isButton: 0
+      icon: {fileID: 0}
+  - requireFoodieStar: 7
+    freeBattlePassDetail:
+      battlePassType: 1
+      rewardIndex: 15
+      rewards:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 40
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 900
+      isButton: 1
+      icon: {fileID: 21300000, guid: 1c914e5c5c07c974cbe743b75f128b44, type: 2}
+    premiumBattlePassDetail:
+      battlePassType: 2
+      rewardIndex: 15
+      rewards:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 2
+        <Value>k__BackingField:
+          m_Value: 1
+      isButton: 1
+      icon: {fileID: 21300000, guid: cbf243d7e8c77ff43ba90d2b4f29ad29, type: 2}
+  - requireFoodieStar: 8
+    freeBattlePassDetail:
+      battlePassType: 1
+      rewardIndex: 16
+      rewards:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 1
+      isButton: 0
+      icon: {fileID: 0}
+    premiumBattlePassDetail:
+      battlePassType: 2
+      rewardIndex: 16
+      rewards:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 100
+      isButton: 0
+      icon: {fileID: 0}
+  - requireFoodieStar: 8
+    freeBattlePassDetail:
+      battlePassType: 1
+      rewardIndex: 17
+      rewards:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 50
+      isButton: 0
+      icon: {fileID: 0}
+    premiumBattlePassDetail:
+      battlePassType: 2
+      rewardIndex: 17
+      rewards:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 1800
+      isButton: 0
+      icon: {fileID: 0}
+  - requireFoodieStar: 8
+    freeBattlePassDetail:
+      battlePassType: 1
+      rewardIndex: 18
+      rewards:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 1800
+      isButton: 0
+      icon: {fileID: 0}
+    premiumBattlePassDetail:
+      battlePassType: 2
+      rewardIndex: 18
+      rewards:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 4
+        <Value>k__BackingField:
+          m_Value: 2
+      isButton: 0
+      icon: {fileID: 0}
+  - requireFoodieStar: 8
+    freeBattlePassDetail:
+      battlePassType: 1
+      rewardIndex: 19
+      rewards:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 100
+      isButton: 0
+      icon: {fileID: 0}
+    premiumBattlePassDetail:
+      battlePassType: 2
+      rewardIndex: 19
+      rewards:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 15
+        <Value>k__BackingField:
+          m_Value: 900
+      isButton: 0
+      icon: {fileID: 0}
+  - requireFoodieStar: 9
+    freeBattlePassDetail:
+      battlePassType: 1
+      rewardIndex: 20
+      rewards:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 50
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 1
+      isButton: 1
+      icon: {fileID: 21300000, guid: 1c914e5c5c07c974cbe743b75f128b44, type: 2}
+    premiumBattlePassDetail:
+      battlePassType: 2
+      rewardIndex: 20
+      rewards:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 150
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 1800
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 2
+        <Value>k__BackingField:
+          m_Value: 2
+      isButton: 1
+      icon: {fileID: 21300000, guid: cbf243d7e8c77ff43ba90d2b4f29ad29, type: 2}
+  - requireFoodieStar: 9
+    freeBattlePassDetail:
+      battlePassType: 1
+      rewardIndex: 21
+      rewards:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 200
+      isButton: 0
+      icon: {fileID: 0}
+    premiumBattlePassDetail:
+      battlePassType: 2
+      rewardIndex: 21
+      rewards:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 200
+      isButton: 0
+      icon: {fileID: 0}
+  - requireFoodieStar: 9
+    freeBattlePassDetail:
+      battlePassType: 1
+      rewardIndex: 22
+      rewards:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 2
+        <Value>k__BackingField:
+          m_Value: 1
+      isButton: 0
+      icon: {fileID: 0}
+    premiumBattlePassDetail:
+      battlePassType: 2
+      rewardIndex: 22
+      rewards:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 3600
+      isButton: 0
+      icon: {fileID: 0}
+  - requireFoodieStar: 10
+    freeBattlePassDetail:
+      battlePassType: 1
+      rewardIndex: 23
+      rewards:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 150
+      isButton: 0
+      icon: {fileID: 0}
+    premiumBattlePassDetail:
+      battlePassType: 2
+      rewardIndex: 23
+      rewards:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 200
+      isButton: 0
+      icon: {fileID: 0}
+  - requireFoodieStar: 10
+    freeBattlePassDetail:
+      battlePassType: 1
+      rewardIndex: 24
+      rewards:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 3600
+      isButton: 0
+      icon: {fileID: 0}
+    premiumBattlePassDetail:
+      battlePassType: 2
+      rewardIndex: 24
+      rewards:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 100
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 14
+        <Value>k__BackingField:
+          m_Value: 900
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 15
+        <Value>k__BackingField:
+          m_Value: 900
+      isButton: 1
+      icon: {fileID: 21300000, guid: 4331c7d85db51424eb8b1586a15632ea, type: 2}
+  - requireFoodieStar: 10
+    freeBattlePassDetail:
+      battlePassType: 1
+      rewardIndex: 25
+      rewards:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 200
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 1800
+      isButton: 1
+      icon: {fileID: 21300000, guid: cbf243d7e8c77ff43ba90d2b4f29ad29, type: 2}
+    premiumBattlePassDetail:
+      battlePassType: 2
+      rewardIndex: 25
+      rewards:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 200
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 4
+        <Value>k__BackingField:
+          m_Value: 2
+      isButton: 1
+      icon: {fileID: 21300000, guid: 4331c7d85db51424eb8b1586a15632ea, type: 2}
+  - requireFoodieStar: 11
+    freeBattlePassDetail:
+      battlePassType: 1
+      rewardIndex: 26
+      rewards:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 5
+        <Value>k__BackingField:
+          m_Value: 1
+      isButton: 0
+      icon: {fileID: 0}
+    premiumBattlePassDetail:
+      battlePassType: 2
+      rewardIndex: 26
+      rewards:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 2
+      isButton: 0
+      icon: {fileID: 0}
+  - requireFoodieStar: 11
+    freeBattlePassDetail:
+      battlePassType: 1
+      rewardIndex: 27
+      rewards:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 200
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 1
+      isButton: 1
+      icon: {fileID: 21300000, guid: cbf243d7e8c77ff43ba90d2b4f29ad29, type: 2}
+    premiumBattlePassDetail:
+      battlePassType: 2
+      rewardIndex: 27
+      rewards:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 200
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 1800
+      isButton: 1
+      icon: {fileID: 21300000, guid: 4331c7d85db51424eb8b1586a15632ea, type: 2}
+  - requireFoodieStar: 11
+    freeBattlePassDetail:
+      battlePassType: 1
+      rewardIndex: 28
+      rewards:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 4
+        <Value>k__BackingField:
+          m_Value: 1
+      isButton: 0
+      icon: {fileID: 0}
+    premiumBattlePassDetail:
+      battlePassType: 2
+      rewardIndex: 28
+      rewards:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 5
+        <Value>k__BackingField:
+          m_Value: 1
+      isButton: 0
+      icon: {fileID: 0}
+  - requireFoodieStar: 12
+    freeBattlePassDetail:
+      battlePassType: 1
+      rewardIndex: 29
+      rewards:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 14
+        <Value>k__BackingField:
+          m_Value: 900
+      isButton: 0
+      icon: {fileID: 0}
+    premiumBattlePassDetail:
+      battlePassType: 2
+      rewardIndex: 29
+      rewards:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 14
+        <Value>k__BackingField:
+          m_Value: 1800
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 15
+        <Value>k__BackingField:
+          m_Value: 1800
+      isButton: 1
+      icon: {fileID: 21300000, guid: cbf243d7e8c77ff43ba90d2b4f29ad29, type: 2}
+  - requireFoodieStar: 14
+    freeBattlePassDetail:
+      battlePassType: 1
+      rewardIndex: 30
+      rewards:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 2
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 500
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 1800
+      isButton: 1
+      icon: {fileID: 21300000, guid: cbf243d7e8c77ff43ba90d2b4f29ad29, type: 2}
+    premiumBattlePassDetail:
+      battlePassType: 2
+      rewardIndex: 30
+      rewards:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 2000
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 2
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 5
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 4
+        <Value>k__BackingField:
+          m_Value: 1
+      isButton: 1
+      icon: {fileID: 21300000, guid: 4331c7d85db51424eb8b1586a15632ea, type: 2}

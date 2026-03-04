@@ -1,0 +1,473 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b9a05390f661017e291eb7720851d86, type: 3}
+  m_Name: SkewerSetGlobalConfig
+  m_EditorClassIdentifier:
+  <LevelToUnlockBonusSkewer>k__BackingField: 200
+  <DefaultSkewerSprites>k__BackingField:
+  - {fileID: 21300000, guid: 7d79da7dfbd130a42a89fd222c30d0c8, type: 2}
+  - {fileID: 21300000, guid: 6850987179d02e141b38f33838678868, type: 2}
+  - {fileID: 21300000, guid: 0fbb1a7e8df30b74dae5f10e1ea0991d, type: 2}
+  - {fileID: 21300000, guid: a717a419889b46c4fbfdc0c526d646be, type: 2}
+  - {fileID: 21300000, guid: 3f454cd688754d7469c1cd73683bc8d7, type: 2}
+  - {fileID: 21300000, guid: c95148488a1f26240ab310c835f49e48, type: 2}
+  - {fileID: 21300000, guid: 94d5f866e9163bb44b801040440ffcc0, type: 2}
+  - {fileID: 21300000, guid: a5198cb810d418745b03a8084578f74a, type: 2}
+  - {fileID: 21300000, guid: 91ff7265f2e98d34ba70c9d25c3682fd, type: 2}
+  - {fileID: 21300000, guid: c43661df5ee4ce449b5edaea988cdbe9, type: 2}
+  - {fileID: 21300000, guid: 2811bdf014a8d904aac038a0b8ab0d1c, type: 2}
+  - {fileID: 21300000, guid: 98c600e1feb82cf43a95ed43de254738, type: 2}
+  - {fileID: 21300000, guid: 953726472a2ccad46b0194b8d2049490, type: 2}
+  - {fileID: 21300000, guid: 1ae1d229e0e8eea42a73b92145a369aa, type: 2}
+  - {fileID: 21300000, guid: b31def63121820f4b8c4f72bf1d86103, type: 2}
+  - {fileID: 21300000, guid: 66248a9f919a5264ba1ca764e2c8e4eb, type: 2}
+  - {fileID: 21300000, guid: 35e1d936d1a812a4daa75e9cdbe030df, type: 2}
+  - {fileID: 21300000, guid: 938c4e9f305ee354fa2bd6363e68d67c, type: 2}
+  - {fileID: 21300000, guid: ca8d9e1f36c19414d90bb9b52d279cf7, type: 2}
+  - {fileID: 21300000, guid: a388b5cf0fa72e54fbe0b9254d0b7f02, type: 2}
+  - {fileID: 21300000, guid: 60140d88471901241b00a8366abbe199, type: 2}
+  - {fileID: 21300000, guid: 944ab62b721b47046b55d3bc262e0ad3, type: 2}
+  - {fileID: 21300000, guid: 7ab836059d0ca5040be2c4fa2b252661, type: 2}
+  - {fileID: 21300000, guid: 1367ffa6bc2b3f64aaf7015b14320c2d, type: 2}
+  - {fileID: 21300000, guid: a32a99a3ba0bf514c88320d2754b5137, type: 2}
+  - {fileID: 21300000, guid: 29864e40a5f92bc469751fab262eea09, type: 2}
+  - {fileID: 21300000, guid: c0e86c4aa99e283419609e4bdb2a88e0, type: 2}
+  - {fileID: 21300000, guid: de4c71b6319244c4eb3e350b65f26122, type: 2}
+  - {fileID: 21300000, guid: 76c0a8160c81cec4f830a5417e66340c, type: 2}
+  - {fileID: 21300000, guid: c9d39760a5f54814a917987040d0f74e, type: 2}
+  - {fileID: 21300000, guid: a28bbcacdee883f49beceb73d29c033c, type: 2}
+  - {fileID: 21300000, guid: 1dd6afd0eadf8824382d2e55d0f04367, type: 2}
+  - {fileID: 21300000, guid: 0b4757528bf19584a9d2be0e818f065f, type: 2}
+  - {fileID: 21300000, guid: 949306a90a6fc6c41aed76d97573e1b4, type: 2}
+  - {fileID: 21300000, guid: 43d5b926309dccc4095aa19b835b5c08, type: 2}
+  - {fileID: 21300000, guid: b846184c1f071bf488a4300ac5c5aa54, type: 2}
+  - {fileID: 21300000, guid: 730b32b52c70f564b809f0ec961455fc, type: 2}
+  - {fileID: 21300000, guid: 04916c87e19c24d4dbfd49309e354fd4, type: 2}
+  - {fileID: 21300000, guid: ecc334dc19c54eb4cb7b5783ca4f2c71, type: 2}
+  - {fileID: 21300000, guid: c60b8d9e6bce7ad48a8c04a2b149e61f, type: 2}
+  - {fileID: 21300000, guid: 37b7611f2d33495428b88b2dc5e72a84, type: 2}
+  - {fileID: 21300000, guid: 86fab8645678b8b4ab122ba17a4fa272, type: 2}
+  - {fileID: 21300000, guid: 3920a323e7125554fabefd1e8653227a, type: 2}
+  - {fileID: 21300000, guid: 08732f22d8d3696469f4772ef73ad463, type: 2}
+  - {fileID: 21300000, guid: 89bbf9b208638d847969e533385b23cf, type: 2}
+  - {fileID: 21300000, guid: f5b2ce6c6a9e4864b9fb9365789d6b9f, type: 2}
+  - {fileID: 21300000, guid: 92dcb169218e9b641a8f632a2f5662a1, type: 2}
+  - {fileID: 21300000, guid: d27d39f86210529418efbdd0df322399, type: 2}
+  - {fileID: 21300000, guid: cd9cf86b6ebd3044594f56e1e63dc182, type: 2}
+  - {fileID: 21300000, guid: d9b18fbc2a0b2f34d92f643838d676d3, type: 2}
+  - {fileID: 21300000, guid: 35c858a1c9c3713418c2b8c6e99f67d5, type: 2}
+  - {fileID: 21300000, guid: 043adb5f5afa98946b1986b767edfc46, type: 2}
+  - {fileID: 21300000, guid: 6fc92b5683ade1645bcdb8cc5e2bcd3a, type: 2}
+  - {fileID: 21300000, guid: 3852db4d90215604e8a17398de5622e7, type: 2}
+  - {fileID: 21300000, guid: 59adb6ebceab45e4e9532cbda05328b9, type: 2}
+  - {fileID: 21300000, guid: 38ea455b8e17a454ca692e14e1c482c8, type: 2}
+  - {fileID: 21300000, guid: 0bb82cba91ee7d14bb9d9ed515abd0f8, type: 2}
+  - {fileID: 21300000, guid: 943fae07655d5434fbd28aea1697de0d, type: 2}
+  - {fileID: 21300000, guid: 9525b1a73a98d804697f80d256cad2a3, type: 2}
+  - {fileID: 21300000, guid: 27ae34b0260222a4c90f7f2461d03cfa, type: 2}
+  - {fileID: 21300000, guid: 3204f8ebd138dd346a88c9e4ba746fcc, type: 2}
+  - {fileID: 21300000, guid: 794287dd05022f3469fe099860918be7, type: 2}
+  - {fileID: 21300000, guid: 7a67a12ada0ea524f9b85d27fe4aa490, type: 2}
+  - {fileID: 21300000, guid: a9e226180d66bb54085b7cb573218b67, type: 2}
+  - {fileID: 21300000, guid: 435afa697ad413b4087916f49253223f, type: 2}
+  - {fileID: 21300000, guid: 6d310ef852caa55408fab35b4c795258, type: 2}
+  - {fileID: 21300000, guid: 4c5692db006f869459bdd228f30d9096, type: 2}
+  - {fileID: 21300000, guid: 427e6ee1cf0c5eb4c9750b70a7c9bc0b, type: 2}
+  - {fileID: 21300000, guid: badbe30d955894f438564c23805f5f41, type: 2}
+  - {fileID: 21300000, guid: e276de2193779f849bb31be0351eb5ce, type: 2}
+  - {fileID: 21300000, guid: c88961ac11c8ff044928cc7cc69dd13e, type: 2}
+  - {fileID: 21300000, guid: 3fbd669859b11554f8bb256c17378d14, type: 2}
+  - {fileID: 21300000, guid: 19c648c69969eba459093b20f35a6234, type: 2}
+  <BonusSkewerSprites>k__BackingField:
+  - {fileID: 21300000, guid: 286261527edc9b44faa3ea02ac2e2235, type: 2}
+  - {fileID: 21300000, guid: 006263c9f310fd34bbc6a2f465de7116, type: 2}
+  - {fileID: 21300000, guid: df3ced518f5283a44adc8dd7971fb16e, type: 2}
+  - {fileID: 21300000, guid: ef083364bd50dcb4c8885e930b99752c, type: 2}
+  - {fileID: 21300000, guid: a4e887bb995aa674697cf5a6db531956, type: 2}
+  - {fileID: 21300000, guid: 023585f202a89ed4a8c0c22deac84c6d, type: 2}
+  - {fileID: 21300000, guid: e41ffcfcae62e234cb0dd720c805f082, type: 2}
+  - {fileID: 21300000, guid: f6e4783f11252944bbaf25c917a48072, type: 2}
+  - {fileID: 21300000, guid: 8c0443d3df767d4448fb87409f267ec5, type: 2}
+  - {fileID: 21300000, guid: b329de8427a61a2499023fc1403773df, type: 2}
+  - {fileID: 21300000, guid: 75c1f4efd6616c443b843b6b53af0b0c, type: 2}
+  - {fileID: 21300000, guid: 98faf778879907c4e93840b8fe509bb1, type: 2}
+  - {fileID: 21300000, guid: 8cb1bdb791b596e48a32bf90f6ccffaf, type: 2}
+  - {fileID: 21300000, guid: 727074fbcb1c192458842693f2a7c5c5, type: 2}
+  - {fileID: 21300000, guid: b17917c65b990e54aa593c9d2782fd08, type: 2}
+  - {fileID: 21300000, guid: f8e840fe113369b42844060ca4c48949, type: 2}
+  - {fileID: 21300000, guid: 3bb4385939645ff43ac2148727086e70, type: 2}
+  - {fileID: 21300000, guid: 89aad9151ceeec8499ba3e8191072b31, type: 2}
+  - {fileID: 21300000, guid: c64a4dc4be821834eb3667797fe56e4b, type: 2}
+  - {fileID: 21300000, guid: 35a9cdc4782a82341b4a5f682f27d599, type: 2}
+  - {fileID: 21300000, guid: 9b4a736ef3d8cb04797c1384f3f338d6, type: 2}
+  - {fileID: 21300000, guid: 06a1c57afdc09fc418d92ec5fe349dd7, type: 2}
+  - {fileID: 21300000, guid: c1d2f34f3d5519d459214c32a3dde95e, type: 2}
+  - {fileID: 21300000, guid: 0c717c5cc58f27c40a0b13ec4b904652, type: 2}
+  - {fileID: 21300000, guid: d80fc65b535b7bc44ba28225586844cc, type: 2}
+  - {fileID: 21300000, guid: c24158efbda58b94f9398fdcdb3c1a6e, type: 2}
+  - {fileID: 21300000, guid: 78ff783a0a05a7f47812d6aaab48fefc, type: 2}
+  <EventSkewerSprites>k__BackingField: []
+  <SkewerSetConfigs>k__BackingField:
+  - <Index>k__BackingField: 0
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 7d79da7dfbd130a42a89fd222c30d0c8, type: 2}
+  - <Index>k__BackingField: 1
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 6850987179d02e141b38f33838678868, type: 2}
+  - <Index>k__BackingField: 2
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 0fbb1a7e8df30b74dae5f10e1ea0991d, type: 2}
+  - <Index>k__BackingField: 3
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: a717a419889b46c4fbfdc0c526d646be, type: 2}
+  - <Index>k__BackingField: 4
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 3f454cd688754d7469c1cd73683bc8d7, type: 2}
+  - <Index>k__BackingField: 5
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: c95148488a1f26240ab310c835f49e48, type: 2}
+  - <Index>k__BackingField: 6
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 94d5f866e9163bb44b801040440ffcc0, type: 2}
+  - <Index>k__BackingField: 7
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: a5198cb810d418745b03a8084578f74a, type: 2}
+  - <Index>k__BackingField: 8
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 91ff7265f2e98d34ba70c9d25c3682fd, type: 2}
+  - <Index>k__BackingField: 9
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: c43661df5ee4ce449b5edaea988cdbe9, type: 2}
+  - <Index>k__BackingField: 10
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 2811bdf014a8d904aac038a0b8ab0d1c, type: 2}
+  - <Index>k__BackingField: 11
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 98c600e1feb82cf43a95ed43de254738, type: 2}
+  - <Index>k__BackingField: 12
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 953726472a2ccad46b0194b8d2049490, type: 2}
+  - <Index>k__BackingField: 13
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 1ae1d229e0e8eea42a73b92145a369aa, type: 2}
+  - <Index>k__BackingField: 14
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: b31def63121820f4b8c4f72bf1d86103, type: 2}
+  - <Index>k__BackingField: 15
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 66248a9f919a5264ba1ca764e2c8e4eb, type: 2}
+  - <Index>k__BackingField: 16
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 35e1d936d1a812a4daa75e9cdbe030df, type: 2}
+  - <Index>k__BackingField: 17
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 938c4e9f305ee354fa2bd6363e68d67c, type: 2}
+  - <Index>k__BackingField: 18
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: ca8d9e1f36c19414d90bb9b52d279cf7, type: 2}
+  - <Index>k__BackingField: 19
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: a388b5cf0fa72e54fbe0b9254d0b7f02, type: 2}
+  - <Index>k__BackingField: 20
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 60140d88471901241b00a8366abbe199, type: 2}
+  - <Index>k__BackingField: 21
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 944ab62b721b47046b55d3bc262e0ad3, type: 2}
+  - <Index>k__BackingField: 22
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 7ab836059d0ca5040be2c4fa2b252661, type: 2}
+  - <Index>k__BackingField: 23
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 1367ffa6bc2b3f64aaf7015b14320c2d, type: 2}
+  - <Index>k__BackingField: 24
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: a32a99a3ba0bf514c88320d2754b5137, type: 2}
+  - <Index>k__BackingField: 25
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 29864e40a5f92bc469751fab262eea09, type: 2}
+  - <Index>k__BackingField: 26
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: c0e86c4aa99e283419609e4bdb2a88e0, type: 2}
+  - <Index>k__BackingField: 27
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: de4c71b6319244c4eb3e350b65f26122, type: 2}
+  - <Index>k__BackingField: 28
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 76c0a8160c81cec4f830a5417e66340c, type: 2}
+  - <Index>k__BackingField: 29
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: c9d39760a5f54814a917987040d0f74e, type: 2}
+  - <Index>k__BackingField: 30
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: a28bbcacdee883f49beceb73d29c033c, type: 2}
+  - <Index>k__BackingField: 31
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 1dd6afd0eadf8824382d2e55d0f04367, type: 2}
+  - <Index>k__BackingField: 32
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 0b4757528bf19584a9d2be0e818f065f, type: 2}
+  - <Index>k__BackingField: 33
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 949306a90a6fc6c41aed76d97573e1b4, type: 2}
+  - <Index>k__BackingField: 34
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 43d5b926309dccc4095aa19b835b5c08, type: 2}
+  - <Index>k__BackingField: 35
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: b846184c1f071bf488a4300ac5c5aa54, type: 2}
+  - <Index>k__BackingField: 36
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 730b32b52c70f564b809f0ec961455fc, type: 2}
+  - <Index>k__BackingField: 37
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 04916c87e19c24d4dbfd49309e354fd4, type: 2}
+  - <Index>k__BackingField: 38
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: ecc334dc19c54eb4cb7b5783ca4f2c71, type: 2}
+  - <Index>k__BackingField: 39
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: c60b8d9e6bce7ad48a8c04a2b149e61f, type: 2}
+  - <Index>k__BackingField: 40
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 37b7611f2d33495428b88b2dc5e72a84, type: 2}
+  - <Index>k__BackingField: 41
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 86fab8645678b8b4ab122ba17a4fa272, type: 2}
+  - <Index>k__BackingField: 42
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 3920a323e7125554fabefd1e8653227a, type: 2}
+  - <Index>k__BackingField: 43
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 08732f22d8d3696469f4772ef73ad463, type: 2}
+  - <Index>k__BackingField: 44
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 89bbf9b208638d847969e533385b23cf, type: 2}
+  - <Index>k__BackingField: 45
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: f5b2ce6c6a9e4864b9fb9365789d6b9f, type: 2}
+  - <Index>k__BackingField: 46
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 92dcb169218e9b641a8f632a2f5662a1, type: 2}
+  - <Index>k__BackingField: 47
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: d27d39f86210529418efbdd0df322399, type: 2}
+  - <Index>k__BackingField: 48
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: cd9cf86b6ebd3044594f56e1e63dc182, type: 2}
+  - <Index>k__BackingField: 49
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: d9b18fbc2a0b2f34d92f643838d676d3, type: 2}
+  - <Index>k__BackingField: 50
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 35c858a1c9c3713418c2b8c6e99f67d5, type: 2}
+  - <Index>k__BackingField: 51
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 043adb5f5afa98946b1986b767edfc46, type: 2}
+  - <Index>k__BackingField: 52
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 6fc92b5683ade1645bcdb8cc5e2bcd3a, type: 2}
+  - <Index>k__BackingField: 53
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 3852db4d90215604e8a17398de5622e7, type: 2}
+  - <Index>k__BackingField: 54
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 59adb6ebceab45e4e9532cbda05328b9, type: 2}
+  - <Index>k__BackingField: 55
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 38ea455b8e17a454ca692e14e1c482c8, type: 2}
+  - <Index>k__BackingField: 56
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 0bb82cba91ee7d14bb9d9ed515abd0f8, type: 2}
+  - <Index>k__BackingField: 57
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 943fae07655d5434fbd28aea1697de0d, type: 2}
+  - <Index>k__BackingField: 58
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 9525b1a73a98d804697f80d256cad2a3, type: 2}
+  - <Index>k__BackingField: 59
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 27ae34b0260222a4c90f7f2461d03cfa, type: 2}
+  - <Index>k__BackingField: 60
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 3204f8ebd138dd346a88c9e4ba746fcc, type: 2}
+  - <Index>k__BackingField: 61
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 794287dd05022f3469fe099860918be7, type: 2}
+  - <Index>k__BackingField: 62
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 7a67a12ada0ea524f9b85d27fe4aa490, type: 2}
+  - <Index>k__BackingField: 63
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: a9e226180d66bb54085b7cb573218b67, type: 2}
+  - <Index>k__BackingField: 64
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 435afa697ad413b4087916f49253223f, type: 2}
+  - <Index>k__BackingField: 65
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 6d310ef852caa55408fab35b4c795258, type: 2}
+  - <Index>k__BackingField: 66
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 4c5692db006f869459bdd228f30d9096, type: 2}
+  - <Index>k__BackingField: 67
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 427e6ee1cf0c5eb4c9750b70a7c9bc0b, type: 2}
+  - <Index>k__BackingField: 68
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: badbe30d955894f438564c23805f5f41, type: 2}
+  - <Index>k__BackingField: 69
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: e276de2193779f849bb31be0351eb5ce, type: 2}
+  - <Index>k__BackingField: 70
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: c88961ac11c8ff044928cc7cc69dd13e, type: 2}
+  - <Index>k__BackingField: 71
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 3fbd669859b11554f8bb256c17378d14, type: 2}
+  - <Index>k__BackingField: 72
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 19c648c69969eba459093b20f35a6234, type: 2}
+  <BonusSkewerSetConfigs>k__BackingField:
+  - <Index>k__BackingField: 0
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 286261527edc9b44faa3ea02ac2e2235, type: 2}
+  - <Index>k__BackingField: 1
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 006263c9f310fd34bbc6a2f465de7116, type: 2}
+  - <Index>k__BackingField: 2
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: df3ced518f5283a44adc8dd7971fb16e, type: 2}
+  - <Index>k__BackingField: 3
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: ef083364bd50dcb4c8885e930b99752c, type: 2}
+  - <Index>k__BackingField: 4
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: a4e887bb995aa674697cf5a6db531956, type: 2}
+  - <Index>k__BackingField: 5
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 023585f202a89ed4a8c0c22deac84c6d, type: 2}
+  - <Index>k__BackingField: 6
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: e41ffcfcae62e234cb0dd720c805f082, type: 2}
+  - <Index>k__BackingField: 7
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: f6e4783f11252944bbaf25c917a48072, type: 2}
+  - <Index>k__BackingField: 8
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 8c0443d3df767d4448fb87409f267ec5, type: 2}
+  - <Index>k__BackingField: 9
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: b329de8427a61a2499023fc1403773df, type: 2}
+  - <Index>k__BackingField: 10
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 75c1f4efd6616c443b843b6b53af0b0c, type: 2}
+  - <Index>k__BackingField: 11
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 98faf778879907c4e93840b8fe509bb1, type: 2}
+  - <Index>k__BackingField: 12
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 8cb1bdb791b596e48a32bf90f6ccffaf, type: 2}
+  - <Index>k__BackingField: 13
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 727074fbcb1c192458842693f2a7c5c5, type: 2}
+  - <Index>k__BackingField: 14
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: b17917c65b990e54aa593c9d2782fd08, type: 2}
+  - <Index>k__BackingField: 15
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: f8e840fe113369b42844060ca4c48949, type: 2}
+  - <Index>k__BackingField: 16
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 3bb4385939645ff43ac2148727086e70, type: 2}
+  - <Index>k__BackingField: 17
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 89aad9151ceeec8499ba3e8191072b31, type: 2}
+  - <Index>k__BackingField: 18
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: c64a4dc4be821834eb3667797fe56e4b, type: 2}
+  - <Index>k__BackingField: 19
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 35a9cdc4782a82341b4a5f682f27d599, type: 2}
+  - <Index>k__BackingField: 20
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 9b4a736ef3d8cb04797c1384f3f338d6, type: 2}
+  - <Index>k__BackingField: 21
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 06a1c57afdc09fc418d92ec5fe349dd7, type: 2}
+  - <Index>k__BackingField: 22
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: c1d2f34f3d5519d459214c32a3dde95e, type: 2}
+  - <Index>k__BackingField: 23
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 0c717c5cc58f27c40a0b13ec4b904652, type: 2}
+  - <Index>k__BackingField: 24
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: d80fc65b535b7bc44ba28225586844cc, type: 2}
+  - <Index>k__BackingField: 25
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: c24158efbda58b94f9398fdcdb3c1a6e, type: 2}
+  - <Index>k__BackingField: 26
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 78ff783a0a05a7f47812d6aaab48fefc, type: 2}
+  <EventSkewerSetConfigs>k__BackingField: []
+  <FinalSkewerSetConfigs>k__BackingField:
+  - <Index>k__BackingField: 0
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 7d79da7dfbd130a42a89fd222c30d0c8, type: 2}
+  - <Index>k__BackingField: 1
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 6850987179d02e141b38f33838678868, type: 2}
+  - <Index>k__BackingField: 2
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 0fbb1a7e8df30b74dae5f10e1ea0991d, type: 2}
+  - <Index>k__BackingField: 3
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: a717a419889b46c4fbfdc0c526d646be, type: 2}
+  - <Index>k__BackingField: 4
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 3f454cd688754d7469c1cd73683bc8d7, type: 2}
+  - <Index>k__BackingField: 5
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: c95148488a1f26240ab310c835f49e48, type: 2}
+  - <Index>k__BackingField: 6
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 94d5f866e9163bb44b801040440ffcc0, type: 2}
+  - <Index>k__BackingField: 7
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: a5198cb810d418745b03a8084578f74a, type: 2}
+  - <Index>k__BackingField: 8
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 91ff7265f2e98d34ba70c9d25c3682fd, type: 2}
+  - <Index>k__BackingField: 9
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: c43661df5ee4ce449b5edaea988cdbe9, type: 2}
+  - <Index>k__BackingField: 10
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 2811bdf014a8d904aac038a0b8ab0d1c, type: 2}
+  - <Index>k__BackingField: 11
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 98c600e1feb82cf43a95ed43de254738, type: 2}
+  - <Index>k__BackingField: 12
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 953726472a2ccad46b0194b8d2049490, type: 2}
+  - <Index>k__BackingField: 13
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 1ae1d229e0e8eea42a73b92145a369aa, type: 2}
+  - <Index>k__BackingField: 14
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: b31def63121820f4b8c4f72bf1d86103, type: 2}
+  - <Index>k__BackingField: 15
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 66248a9f919a5264ba1ca764e2c8e4eb, type: 2}
+  - <Index>k__BackingField: 16
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 35e1d936d1a812a4daa75e9cdbe030df, type: 2}
+  - <Index>k__BackingField: 17
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 938c4e9f305ee354fa2bd6363e68d67c, type: 2}
+  - <Index>k__BackingField: 18
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: ca8d9e1f36c19414d90bb9b52d279cf7, type: 2}
+  - <Index>k__BackingField: 19
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: a388b5cf0fa72e54fbe0b9254d0b7f02, type: 2}
+  - <Index>k__BackingField: 20
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 60140d88471901241b00a8366abbe199, type: 2}
+  - <Index>k__BackingField: 21
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 944ab62b721b47046b55d3bc262e0ad3, type: 2}
+  - <Index>k__BackingField: 22
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 7ab836059d0ca5040be2c4fa2b252661, type: 2}
+  - <Index>k__BackingField: 23
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 1367ffa6bc2b3f64aaf7015b14320c2d, type: 2}
+  - <Index>k__BackingField: 24
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: a32a99a3ba0bf514c88320d2754b5137, type: 2}
+  - <Index>k__BackingField: 25
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 29864e40a5f92bc469751fab262eea09, type: 2}
+  - <Index>k__BackingField: 26
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: c0e86c4aa99e283419609e4bdb2a88e0, type: 2}
+  - <Index>k__BackingField: 27
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: de4c71b6319244c4eb3e350b65f26122, type: 2}
+  - <Index>k__BackingField: 28
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 76c0a8160c81cec4f830a5417e66340c, type: 2}
+  - <Index>k__BackingField: 29
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: c9d39760a5f54814a917987040d0f74e, type: 2}
+  - <Index>k__BackingField: 30
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: a28bbcacdee883f49beceb73d29c033c, type: 2}
+  - <Index>k__BackingField: 31
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 1dd6afd0eadf8824382d2e55d0f04367, type: 2}
+  - <Index>k__BackingField: 32
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 0b4757528bf19584a9d2be0e818f065f, type: 2}
+  - <Index>k__BackingField: 33
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 949306a90a6fc6c41aed76d97573e1b4, type: 2}
+  - <Index>k__BackingField: 34
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 43d5b926309dccc4095aa19b835b5c08, type: 2}
+  - <Index>k__BackingField: 35
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: b846184c1f071bf488a4300ac5c5aa54, type: 2}
+  - <Index>k__BackingField: 36
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 730b32b52c70f564b809f0ec961455fc, type: 2}
+  - <Index>k__BackingField: 37
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 04916c87e19c24d4dbfd49309e354fd4, type: 2}
+  - <Index>k__BackingField: 38
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: ecc334dc19c54eb4cb7b5783ca4f2c71, type: 2}
+  - <Index>k__BackingField: 39
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: c60b8d9e6bce7ad48a8c04a2b149e61f, type: 2}
+  - <Index>k__BackingField: 40
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 37b7611f2d33495428b88b2dc5e72a84, type: 2}
+  - <Index>k__BackingField: 41
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 86fab8645678b8b4ab122ba17a4fa272, type: 2}
+  - <Index>k__BackingField: 42
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 3920a323e7125554fabefd1e8653227a, type: 2}
+  - <Index>k__BackingField: 43
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 08732f22d8d3696469f4772ef73ad463, type: 2}
+  - <Index>k__BackingField: 44
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 89bbf9b208638d847969e533385b23cf, type: 2}
+  - <Index>k__BackingField: 45
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: f5b2ce6c6a9e4864b9fb9365789d6b9f, type: 2}
+  - <Index>k__BackingField: 46
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 92dcb169218e9b641a8f632a2f5662a1, type: 2}
+  - <Index>k__BackingField: 47
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: d27d39f86210529418efbdd0df322399, type: 2}
+  - <Index>k__BackingField: 48
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: cd9cf86b6ebd3044594f56e1e63dc182, type: 2}
+  - <Index>k__BackingField: 49
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: d9b18fbc2a0b2f34d92f643838d676d3, type: 2}
+  - <Index>k__BackingField: 50
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 35c858a1c9c3713418c2b8c6e99f67d5, type: 2}
+  - <Index>k__BackingField: 51
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 043adb5f5afa98946b1986b767edfc46, type: 2}
+  - <Index>k__BackingField: 52
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 6fc92b5683ade1645bcdb8cc5e2bcd3a, type: 2}
+  - <Index>k__BackingField: 53
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 3852db4d90215604e8a17398de5622e7, type: 2}
+  - <Index>k__BackingField: 54
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 59adb6ebceab45e4e9532cbda05328b9, type: 2}
+  - <Index>k__BackingField: 55
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 38ea455b8e17a454ca692e14e1c482c8, type: 2}
+  - <Index>k__BackingField: 56
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 0bb82cba91ee7d14bb9d9ed515abd0f8, type: 2}
+  - <Index>k__BackingField: 57
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 943fae07655d5434fbd28aea1697de0d, type: 2}
+  - <Index>k__BackingField: 58
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 9525b1a73a98d804697f80d256cad2a3, type: 2}
+  - <Index>k__BackingField: 59
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 27ae34b0260222a4c90f7f2461d03cfa, type: 2}
+  - <Index>k__BackingField: 60
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 3204f8ebd138dd346a88c9e4ba746fcc, type: 2}
+  - <Index>k__BackingField: 61
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 794287dd05022f3469fe099860918be7, type: 2}
+  - <Index>k__BackingField: 62
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 7a67a12ada0ea524f9b85d27fe4aa490, type: 2}
+  - <Index>k__BackingField: 63
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: a9e226180d66bb54085b7cb573218b67, type: 2}
+  - <Index>k__BackingField: 64
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 435afa697ad413b4087916f49253223f, type: 2}
+  - <Index>k__BackingField: 65
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 6d310ef852caa55408fab35b4c795258, type: 2}
+  - <Index>k__BackingField: 66
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 4c5692db006f869459bdd228f30d9096, type: 2}
+  - <Index>k__BackingField: 67
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 427e6ee1cf0c5eb4c9750b70a7c9bc0b, type: 2}
+  - <Index>k__BackingField: 68
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: badbe30d955894f438564c23805f5f41, type: 2}
+  - <Index>k__BackingField: 69
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: e276de2193779f849bb31be0351eb5ce, type: 2}
+  - <Index>k__BackingField: 70
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: c88961ac11c8ff044928cc7cc69dd13e, type: 2}
+  - <Index>k__BackingField: 71
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 3fbd669859b11554f8bb256c17378d14, type: 2}
+  - <Index>k__BackingField: 72
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 19c648c69969eba459093b20f35a6234, type: 2}
+  <SpecialSkewerSetConfigs>k__BackingField:
+  - <Index>k__BackingField: 200
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: 3080b51d222bef04294559076cd886bb, type: 2}
+  - <Index>k__BackingField: 201
+    <DefaultSprite>k__BackingField: {fileID: 21300000, guid: cbb75fae2df12d94cabd81b2a38db880, type: 2}

@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: cf5f6ed3aa1406e419e73ee7f230ea19
+timeCreated: 1772635117
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  externalObjects: {}
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Mitr
+  fallbackFontReferences: []
+  customCharacters:
+  fontRenderingMode: 0
+  output:
+    hasEmptyFontData: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData:
+  assetBundleName: 2783eabe79ba384ff888b907161867e0.bundle
+  assetBundleVariant:

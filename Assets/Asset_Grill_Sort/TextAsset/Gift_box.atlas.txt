@@ -1,0 +1,10 @@
+Gift_box.png
+size:160,140
+filter:Linear,Linear
+pma:true
+blink
+bounds:2,116,19,19
+offsets:1,1,21,21
+giftbox
+bounds:23,2,133,134
+rotate:90

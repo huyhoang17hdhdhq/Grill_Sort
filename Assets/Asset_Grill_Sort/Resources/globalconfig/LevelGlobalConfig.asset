@@ -1,0 +1,5018 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4953ed4effd0828e543c5621940e63f0, type: 3}
+  m_Name: LevelGlobalConfig
+  m_EditorClassIdentifier:
+  <LevelMax>k__BackingField: 870
+  <LevelMaxInConfig>k__BackingField: 1000
+  <LevelConfigs>k__BackingField:
+  - level: 1
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 15c81796c8e65764791f71aef9464be0, type: 3}
+    specialUnitContainer: 0
+  - level: 2
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 43d0b9e6a737f0044a2249434b076485, type: 3}
+    specialUnitContainer: 0
+  - level: 3
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 2aa1eca902ca11240b65e490d378b8be, type: 3}
+    specialUnitContainer: 1
+  - level: 4
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: a9ec49b8122f7034696f69911a051797, type: 3}
+    specialUnitContainer: 1
+  - level: 5
+    levelType: 2
+    time: 330
+    levelDataTextAsset: {fileID: 4900000, guid: 8f52687204822e34c8603ab32a1263a9, type: 3}
+    specialUnitContainer: 1
+  - level: 6
+    levelType: 1
+    time: 350
+    levelDataTextAsset: {fileID: 4900000, guid: 75fe19f9a8a0615428794cae1ca0d86f, type: 3}
+    specialUnitContainer: 0
+  - level: 7
+    levelType: 1
+    time: 350
+    levelDataTextAsset: {fileID: 4900000, guid: f9899b6631ebc764cbb6c0eea765efc3, type: 3}
+    specialUnitContainer: 2048
+  - level: 8
+    levelType: 1
+    time: 360
+    levelDataTextAsset: {fileID: 4900000, guid: 7402256713c448548962b1db06ce8d31, type: 3}
+    specialUnitContainer: 2049
+  - level: 9
+    levelType: 1
+    time: 360
+    levelDataTextAsset: {fileID: 4900000, guid: 42ae1a67340ed8f4bb0aa43e25cd2263, type: 3}
+    specialUnitContainer: 2049
+  - level: 10
+    levelType: 3
+    time: 380
+    levelDataTextAsset: {fileID: 4900000, guid: a79e06b19a0d42f4a8303d06ebe0d0f0, type: 3}
+    specialUnitContainer: 2048
+  - level: 11
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: dacde43f527fea642b3547cb73afef6f, type: 3}
+    specialUnitContainer: 2049
+  - level: 12
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 312cf8734662656419e5b64e230aba9e, type: 3}
+    specialUnitContainer: 2049
+  - level: 13
+    levelType: 1
+    time: 180
+    levelDataTextAsset: {fileID: 4900000, guid: 0bd7c8f3b2f5b3e49a66dde64d79c135, type: 3}
+    specialUnitContainer: 256
+  - level: 14
+    levelType: 1
+    time: 330
+    levelDataTextAsset: {fileID: 4900000, guid: 51e0ceb5a0ceb0a48b18b6df07527f84, type: 3}
+    specialUnitContainer: 2304
+  - level: 15
+    levelType: 2
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 644606b8dd1fd4f4888d2c5253eaf2db, type: 3}
+    specialUnitContainer: 2305
+  - level: 16
+    levelType: 1
+    time: 360
+    levelDataTextAsset: {fileID: 4900000, guid: f4d5ac435f884124182dc6db0b9fe9f8, type: 3}
+    specialUnitContainer: 2305
+  - level: 17
+    levelType: 1
+    time: 350
+    levelDataTextAsset: {fileID: 4900000, guid: e36edf2f3c40dec4d8d1f3f0f392ca67, type: 3}
+    specialUnitContainer: 257
+  - level: 18
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 2ffae31a28dbedc40866584662d6bccf, type: 3}
+    specialUnitContainer: 2304
+  - level: 19
+    levelType: 1
+    time: 330
+    levelDataTextAsset: {fileID: 4900000, guid: ad6f18b1ebaaa1945a6121238360bd4b, type: 3}
+    specialUnitContainer: 128
+  - level: 20
+    levelType: 3
+    time: 350
+    levelDataTextAsset: {fileID: 4900000, guid: 58741b35f6240084a8135054ff9cf349, type: 3}
+    specialUnitContainer: 2176
+  - level: 21
+    levelType: 1
+    time: 370
+    levelDataTextAsset: {fileID: 4900000, guid: 0424de67b4a87a548ada4e673592891b, type: 3}
+    specialUnitContainer: 385
+  - level: 22
+    levelType: 1
+    time: 400
+    levelDataTextAsset: {fileID: 4900000, guid: 972c88889e8e07e4a8a944bead62016b, type: 3}
+    specialUnitContainer: 388
+  - level: 23
+    levelType: 1
+    time: 360
+    levelDataTextAsset: {fileID: 4900000, guid: 13c952b0f7f49c444a7ed225d10cf5af, type: 3}
+    specialUnitContainer: 2049
+  - level: 24
+    levelType: 1
+    time: 410
+    levelDataTextAsset: {fileID: 4900000, guid: 4a307b0f913977b4eb57fc084d70e0c7, type: 3}
+    specialUnitContainer: 129
+  - level: 25
+    levelType: 2
+    time: 370
+    levelDataTextAsset: {fileID: 4900000, guid: 40c2916c687550c48bd9c1a1ac450a6f, type: 3}
+    specialUnitContainer: 2433
+  - level: 26
+    levelType: 1
+    time: 370
+    levelDataTextAsset: {fileID: 4900000, guid: 274038cd28db98847879d26205983126, type: 3}
+    specialUnitContainer: 2437
+  - level: 27
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 7eddb0341f9813040a8fb55be99211b7, type: 3}
+    specialUnitContainer: 2056
+  - level: 28
+    levelType: 1
+    time: 370
+    levelDataTextAsset: {fileID: 4900000, guid: afa313a35d1ba604a8c469c63161ea32, type: 3}
+    specialUnitContainer: 2184
+  - level: 29
+    levelType: 1
+    time: 340
+    levelDataTextAsset: {fileID: 4900000, guid: 386dfdc6d3bd6a048bf40a4fccdb3c1d, type: 3}
+    specialUnitContainer: 2440
+  - level: 30
+    levelType: 3
+    time: 320
+    levelDataTextAsset: {fileID: 4900000, guid: c98c07278b86eea4596595d16d78773e, type: 3}
+    specialUnitContainer: 2312
+  - level: 31
+    levelType: 1
+    time: 370
+    levelDataTextAsset: {fileID: 4900000, guid: e42c8b1a2d6a3134988ec5dad363e5f0, type: 3}
+    specialUnitContainer: 2441
+  - level: 32
+    levelType: 1
+    time: 340
+    levelDataTextAsset: {fileID: 4900000, guid: 4371f78162a0ea94099abe3711d48f63, type: 3}
+    specialUnitContainer: 2048
+  - level: 33
+    levelType: 1
+    time: 410
+    levelDataTextAsset: {fileID: 4900000, guid: 9e10411333ed45b44af2c9c8477ea6d7, type: 3}
+    specialUnitContainer: 6
+  - level: 34
+    levelType: 1
+    time: 190
+    levelDataTextAsset: {fileID: 4900000, guid: e05a6b5765f1a0e47867fe83ef17c887, type: 3}
+    specialUnitContainer: 2306
+  - level: 35
+    levelType: 2
+    time: 390
+    levelDataTextAsset: {fileID: 4900000, guid: 25210debd5a845a418b7c29b821fca97, type: 3}
+    specialUnitContainer: 2051
+  - level: 36
+    levelType: 1
+    time: 360
+    levelDataTextAsset: {fileID: 4900000, guid: fb7dc1b3cc2781544be8e9e021171153, type: 3}
+    specialUnitContainer: 2442
+  - level: 37
+    levelType: 1
+    time: 360
+    levelDataTextAsset: {fileID: 4900000, guid: 2b583bebb16ddac408c0f1fc5a5579bb, type: 3}
+    specialUnitContainer: 2062
+  - level: 38
+    levelType: 1
+    time: 360
+    levelDataTextAsset: {fileID: 4900000, guid: 2a5502685c98c074db19f39144aef99a, type: 3}
+    specialUnitContainer: 2059
+  - level: 39
+    levelType: 1
+    time: 370
+    levelDataTextAsset: {fileID: 4900000, guid: 06419a4a74fc4cc408ebbb61ff538a68, type: 3}
+    specialUnitContainer: 2184
+  - level: 40
+    levelType: 3
+    time: 450
+    levelDataTextAsset: {fileID: 4900000, guid: e98364699bcce634fb6b3f026ac05c64, type: 3}
+    specialUnitContainer: 2443
+  - level: 41
+    levelType: 1
+    time: 380
+    levelDataTextAsset: {fileID: 4900000, guid: f21e4b38d6bbf31409067d1dd14b5d6e, type: 3}
+    specialUnitContainer: 2059
+  - level: 42
+    levelType: 1
+    time: 160
+    levelDataTextAsset: {fileID: 4900000, guid: f41c38086cb29c4448288698de5e80ad, type: 3}
+    specialUnitContainer: 64
+  - level: 43
+    levelType: 1
+    time: 160
+    levelDataTextAsset: {fileID: 4900000, guid: b4eb963aacfdd4d489a8ba415aad4c11, type: 3}
+    specialUnitContainer: 321
+  - level: 44
+    levelType: 1
+    time: 210
+    levelDataTextAsset: {fileID: 4900000, guid: bd073989a3f94814d970e20549a3f8bd, type: 3}
+    specialUnitContainer: 2307
+  - level: 45
+    levelType: 2
+    time: 360
+    levelDataTextAsset: {fileID: 4900000, guid: 410a53c19f4bab44a82984a2f9a55cb8, type: 3}
+    specialUnitContainer: 448
+  - level: 46
+    levelType: 1
+    time: 400
+    levelDataTextAsset: {fileID: 4900000, guid: 79b24c711016b5349a8e35be66f26132, type: 3}
+    specialUnitContainer: 2120
+  - level: 47
+    levelType: 1
+    time: 260
+    levelDataTextAsset: {fileID: 4900000, guid: 40fb5f9aa40477a4aa9e494020393f13, type: 3}
+    specialUnitContainer: 2176
+  - level: 48
+    levelType: 1
+    time: 310
+    levelDataTextAsset: {fileID: 4900000, guid: b639c43e3d342134aa66e18ba5756a05, type: 3}
+    specialUnitContainer: 384
+  - level: 49
+    levelType: 1
+    time: 210
+    levelDataTextAsset: {fileID: 4900000, guid: 7bf71821dc0f4884d986c2f559b54b47, type: 3}
+    specialUnitContainer: 449
+  - level: 50
+    levelType: 3
+    time: 390
+    levelDataTextAsset: {fileID: 4900000, guid: 8bd3b92d918b9b9409dd92b71d3da56d, type: 3}
+    specialUnitContainer: 2506
+  - level: 51
+    levelType: 1
+    time: 180
+    levelDataTextAsset: {fileID: 4900000, guid: eb63fcc276ed1b74f846bfd842660313, type: 3}
+    specialUnitContainer: 0
+  - level: 52
+    levelType: 1
+    time: 240
+    levelDataTextAsset: {fileID: 4900000, guid: 5a714fc56f5f6ad4c96cf8b7384085da, type: 3}
+    specialUnitContainer: 65
+  - level: 53
+    levelType: 1
+    time: 200
+    levelDataTextAsset: {fileID: 4900000, guid: c7885eff09adbe343ab7c0201f4e24df, type: 3}
+    specialUnitContainer: 6
+  - level: 54
+    levelType: 1
+    time: 290
+    levelDataTextAsset: {fileID: 4900000, guid: e15701f6bc17f8444a908eda12abbb4c, type: 3}
+    specialUnitContainer: 257
+  - level: 55
+    levelType: 2
+    time: 340
+    levelDataTextAsset: {fileID: 4900000, guid: 9b79936b0cdb5b049b4199e3e0b0aa9b, type: 3}
+    specialUnitContainer: 2057
+  - level: 56
+    levelType: 1
+    time: 180
+    levelDataTextAsset: {fileID: 4900000, guid: dab6920690bfd60459d86127a1c49033, type: 3}
+    specialUnitContainer: 2178
+  - level: 57
+    levelType: 1
+    time: 180
+    levelDataTextAsset: {fileID: 4900000, guid: 2330afea5e431d3408dd2a05409dbaf4, type: 3}
+    specialUnitContainer: 320
+  - level: 58
+    levelType: 1
+    time: 180
+    levelDataTextAsset: {fileID: 4900000, guid: 9073129f21ae4244f82c10d082a73655, type: 3}
+    specialUnitContainer: 2309
+  - level: 59
+    levelType: 1
+    time: 200
+    levelDataTextAsset: {fileID: 4900000, guid: d98f67eeff36fe04bb218a9a1e0518c5, type: 3}
+    specialUnitContainer: 259
+  - level: 60
+    levelType: 3
+    time: 340
+    levelDataTextAsset: {fileID: 4900000, guid: b6521e50e4f80b945a463db70cfdf78a, type: 3}
+    specialUnitContainer: 2184
+  - level: 61
+    levelType: 1
+    time: 180
+    levelDataTextAsset: {fileID: 4900000, guid: a554c0d9955b30049905b19036e4adaa, type: 3}
+    specialUnitContainer: 2050
+  - level: 62
+    levelType: 1
+    time: 270
+    levelDataTextAsset: {fileID: 4900000, guid: a840fb8ac070d314b983e9ff5522d40e, type: 3}
+    specialUnitContainer: 2059
+  - level: 63
+    levelType: 1
+    time: 230
+    levelDataTextAsset: {fileID: 4900000, guid: 02aacdac1f5d77349ab523046a0b4267, type: 3}
+    specialUnitContainer: 2308
+  - level: 64
+    levelType: 1
+    time: 180
+    levelDataTextAsset: {fileID: 4900000, guid: de4f533dca46a8646a0f22ded703aad1, type: 3}
+    specialUnitContainer: 5
+  - level: 65
+    levelType: 2
+    time: 150
+    levelDataTextAsset: {fileID: 4900000, guid: 5c6c37069487986438288e0b5e3bdfe2, type: 3}
+    specialUnitContainer: 2112
+  - level: 66
+    levelType: 1
+    time: 180
+    levelDataTextAsset: {fileID: 4900000, guid: 320b38351af2a0844a5a4f5a7763c3e7, type: 3}
+    specialUnitContainer: 2052
+  - level: 67
+    levelType: 1
+    time: 440
+    levelDataTextAsset: {fileID: 4900000, guid: dbabd99153eb79e42af52e321f4c08af, type: 3}
+    specialUnitContainer: 258
+  - level: 68
+    levelType: 1
+    time: 180
+    levelDataTextAsset: {fileID: 4900000, guid: 29a947712751911468b9c022b7c146eb, type: 3}
+    specialUnitContainer: 2049
+  - level: 69
+    levelType: 1
+    time: 270
+    levelDataTextAsset: {fileID: 4900000, guid: f3087db1867b0884fa1f203df0798f9c, type: 3}
+    specialUnitContainer: 130
+  - level: 70
+    levelType: 3
+    time: 270
+    levelDataTextAsset: {fileID: 4900000, guid: 1c58c3c974d10e3438faa26cd91625bf, type: 3}
+    specialUnitContainer: 2120
+  - level: 71
+    levelType: 1
+    time: 150
+    levelDataTextAsset: {fileID: 4900000, guid: c5fc77377a7c86a42bd769ef94d4a5a9, type: 3}
+    specialUnitContainer: 2304
+  - level: 72
+    levelType: 1
+    time: 130
+    levelDataTextAsset: {fileID: 4900000, guid: 15cae77ec6c726a4da1cb27a8f6796f3, type: 3}
+    specialUnitContainer: 1
+  - level: 73
+    levelType: 1
+    time: 210
+    levelDataTextAsset: {fileID: 4900000, guid: b2f416ae484028d469afc23792a6fd01, type: 3}
+    specialUnitContainer: 2114
+  - level: 74
+    levelType: 1
+    time: 230
+    levelDataTextAsset: {fileID: 4900000, guid: 16d64c9bd2860ba4fb9ae32c8f574c0c, type: 3}
+    specialUnitContainer: 2305
+  - level: 75
+    levelType: 2
+    time: 400
+    levelDataTextAsset: {fileID: 4900000, guid: 41e6548d937c3154cb112742f69f74d1, type: 3}
+    specialUnitContainer: 133
+  - level: 76
+    levelType: 1
+    time: 230
+    levelDataTextAsset: {fileID: 4900000, guid: b04465f9c3dd2914e8d47086137541e4, type: 3}
+    specialUnitContainer: 65
+  - level: 77
+    levelType: 1
+    time: 330
+    levelDataTextAsset: {fileID: 4900000, guid: ba89d638f0b5c184a93a3e0a7605be1e, type: 3}
+    specialUnitContainer: 2306
+  - level: 78
+    levelType: 1
+    time: 250
+    levelDataTextAsset: {fileID: 4900000, guid: 060fce611ce07b94d8b52f0ba89df9dc, type: 3}
+    specialUnitContainer: 2056
+  - level: 79
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: a81ec8858d17f0849829ae6ead940db9, type: 3}
+    specialUnitContainer: 3
+  - level: 80
+    levelType: 3
+    time: 340
+    levelDataTextAsset: {fileID: 4900000, guid: 4c5377618302b2841ae94ba987424f87, type: 3}
+    specialUnitContainer: 2244
+  - level: 81
+    levelType: 1
+    time: 150
+    levelDataTextAsset: {fileID: 4900000, guid: 3d9361613920b894c800d2145cea8aac, type: 3}
+    specialUnitContainer: 0
+  - level: 82
+    levelType: 1
+    time: 200
+    levelDataTextAsset: {fileID: 4900000, guid: 04efc22404b997b47bcb059859084320, type: 3}
+    specialUnitContainer: 64
+  - level: 83
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 0e71af6b6874c6845a01123770175fad, type: 3}
+    specialUnitContainer: 134
+  - level: 84
+    levelType: 1
+    time: 270
+    levelDataTextAsset: {fileID: 4900000, guid: 0e38d62d2e164f44d8bcce2c4d141bea, type: 3}
+    specialUnitContainer: 257
+  - level: 85
+    levelType: 2
+    time: 320
+    levelDataTextAsset: {fileID: 4900000, guid: f2c3e11f7103a7248876d9bbde9b41b7, type: 3}
+    specialUnitContainer: 2057
+  - level: 86
+    levelType: 1
+    time: 180
+    levelDataTextAsset: {fileID: 4900000, guid: d5e61f3f374308242a8a570faaed9d05, type: 3}
+    specialUnitContainer: 130
+  - level: 87
+    levelType: 1
+    time: 230
+    levelDataTextAsset: {fileID: 4900000, guid: 4d2c423a4efead945be0b9bb2a663fe2, type: 3}
+    specialUnitContainer: 320
+  - level: 88
+    levelType: 1
+    time: 200
+    levelDataTextAsset: {fileID: 4900000, guid: 22e2259e228afbb409ccd4aabea27240, type: 3}
+    specialUnitContainer: 2053
+  - level: 89
+    levelType: 1
+    time: 210
+    levelDataTextAsset: {fileID: 4900000, guid: cfa29d7177415fb4ea8bf5a0e8cfeb4d, type: 3}
+    specialUnitContainer: 259
+  - level: 90
+    levelType: 3
+    time: 320
+    levelDataTextAsset: {fileID: 4900000, guid: d219df90417e4b2439e95ffcab0abab0, type: 3}
+    specialUnitContainer: 2184
+  - level: 91
+    levelType: 1
+    time: 180
+    levelDataTextAsset: {fileID: 4900000, guid: a2212fea8fe9a7646ad0efd023bd4042, type: 3}
+    specialUnitContainer: 2050
+  - level: 92
+    levelType: 1
+    time: 380
+    levelDataTextAsset: {fileID: 4900000, guid: cab3475030364034eb56110323db092e, type: 3}
+    specialUnitContainer: 260
+  - level: 93
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 674a4ca70685dca478bca344376fcbab, type: 3}
+    specialUnitContainer: 2059
+  - level: 94
+    levelType: 1
+    time: 200
+    levelDataTextAsset: {fileID: 4900000, guid: 1d4331314e3f72b4a9daeed2532286b4, type: 3}
+    specialUnitContainer: 5
+  - level: 95
+    levelType: 2
+    time: 200
+    levelDataTextAsset: {fileID: 4900000, guid: 530ed23efecddb546a0badce48ad1754, type: 3}
+    specialUnitContainer: 2240
+  - level: 96
+    levelType: 1
+    time: 200
+    levelDataTextAsset: {fileID: 4900000, guid: 57f902c24e81108498c9cb02d5c38616, type: 3}
+    specialUnitContainer: 2052
+  - level: 97
+    levelType: 1
+    time: 250
+    levelDataTextAsset: {fileID: 4900000, guid: 595ffc674e3db61458d23dcf06d76f74, type: 3}
+    specialUnitContainer: 258
+  - level: 98
+    levelType: 1
+    time: 230
+    levelDataTextAsset: {fileID: 4900000, guid: 06f6162ed088cfb4883c2ba40327276f, type: 3}
+    specialUnitContainer: 2049
+  - level: 99
+    levelType: 1
+    time: 160
+    levelDataTextAsset: {fileID: 4900000, guid: b78938f137d9a7045966e3843ef35f8c, type: 3}
+    specialUnitContainer: 130
+  - level: 100
+    levelType: 3
+    time: 290
+    levelDataTextAsset: {fileID: 4900000, guid: fe3734b759beeb242ab06bd938f409d6, type: 3}
+    specialUnitContainer: 2120
+  - level: 101
+    levelType: 1
+    time: 180
+    levelDataTextAsset: {fileID: 4900000, guid: 903f2af1ac429ad44a42d065b1a91239, type: 3}
+    specialUnitContainer: 1024
+  - level: 102
+    levelType: 1
+    time: 200
+    levelDataTextAsset: {fileID: 4900000, guid: 6f70c518e5c44374f906bc259ac40e51, type: 3}
+    specialUnitContainer: 1408
+  - level: 103
+    levelType: 1
+    time: 250
+    levelDataTextAsset: {fileID: 4900000, guid: fc146ddf61d2b304aacd7fb433899dc4, type: 3}
+    specialUnitContainer: 2057
+  - level: 104
+    levelType: 1
+    time: 230
+    levelDataTextAsset: {fileID: 4900000, guid: ed5e40c065f08e540a78fa67b4f955ea, type: 3}
+    specialUnitContainer: 66
+  - level: 105
+    levelType: 2
+    time: 250
+    levelDataTextAsset: {fileID: 4900000, guid: 6ca633c684adc074ca7dabb5cee74995, type: 3}
+    specialUnitContainer: 2306
+  - level: 106
+    levelType: 1
+    time: 230
+    levelDataTextAsset: {fileID: 4900000, guid: be129e1f0321920418448578c597f4ca, type: 3}
+    specialUnitContainer: 1089
+  - level: 107
+    levelType: 1
+    time: 230
+    levelDataTextAsset: {fileID: 4900000, guid: 60efdeb7c76554448bdff282bb804560, type: 3}
+    specialUnitContainer: 133
+  - level: 108
+    levelType: 1
+    time: 230
+    levelDataTextAsset: {fileID: 4900000, guid: 9015263c6cb9bae418f6ca47560671d2, type: 3}
+    specialUnitContainer: 2056
+  - level: 109
+    levelType: 1
+    time: 250
+    levelDataTextAsset: {fileID: 4900000, guid: 018116aace16da647b07a3359563a806, type: 3}
+    specialUnitContainer: 3
+  - level: 110
+    levelType: 3
+    time: 210
+    levelDataTextAsset: {fileID: 4900000, guid: f55b3f2499e832943b9683dcb1998c65, type: 3}
+    specialUnitContainer: 2180
+  - level: 111
+    levelType: 1
+    time: 150
+    levelDataTextAsset: {fileID: 4900000, guid: 8c043f17c17e7ae498ceef7eb77d0a68, type: 3}
+    specialUnitContainer: 2052
+  - level: 112
+    levelType: 1
+    time: 230
+    levelDataTextAsset: {fileID: 4900000, guid: d6208630d012f4d44a79d6344bb5cbd1, type: 3}
+    specialUnitContainer: 1344
+  - level: 113
+    levelType: 1
+    time: 340
+    levelDataTextAsset: {fileID: 4900000, guid: ba43ac40c82582a4299771ea6b734712, type: 3}
+    specialUnitContainer: 134
+  - level: 114
+    levelType: 1
+    time: 180
+    levelDataTextAsset: {fileID: 4900000, guid: 12935dad695c52d40a0e6ebf37f1d60c, type: 3}
+    specialUnitContainer: 257
+  - level: 115
+    levelType: 2
+    time: 260
+    levelDataTextAsset: {fileID: 4900000, guid: 26abe31d82be19047967cd6cf21fec3e, type: 3}
+    specialUnitContainer: 2057
+  - level: 116
+    levelType: 1
+    time: 270
+    levelDataTextAsset: {fileID: 4900000, guid: aba6d4dffa1fb884d89c79828ece3f8d, type: 3}
+    specialUnitContainer: 130
+  - level: 117
+    levelType: 1
+    time: 180
+    levelDataTextAsset: {fileID: 4900000, guid: 5d93162fcc883764fad7177f97b0e1be, type: 3}
+    specialUnitContainer: 2368
+  - level: 118
+    levelType: 1
+    time: 150
+    levelDataTextAsset: {fileID: 4900000, guid: 3881d3870e4274e40ab1f352ccba98d9, type: 3}
+    specialUnitContainer: 1024
+  - level: 119
+    levelType: 1
+    time: 350
+    levelDataTextAsset: {fileID: 4900000, guid: c310a3a6289fb4c4597c0417fd99d7eb, type: 3}
+    specialUnitContainer: 259
+  - level: 120
+    levelType: 3
+    time: 390
+    levelDataTextAsset: {fileID: 4900000, guid: 8dfff6b86b6ec5b4496e4fe57ac7bfa5, type: 3}
+    specialUnitContainer: 2440
+  - level: 121
+    levelType: 1
+    time: 380
+    levelDataTextAsset: {fileID: 4900000, guid: 1f70da665330ea94c872f6dd983b678c, type: 3}
+    specialUnitContainer: 2
+  - level: 122
+    levelType: 1
+    time: 240
+    levelDataTextAsset: {fileID: 4900000, guid: 296dfd7349a293d49b9d3b9124332e2b, type: 3}
+    specialUnitContainer: 2308
+  - level: 123
+    levelType: 1
+    time: 400
+    levelDataTextAsset: {fileID: 4900000, guid: 56c25d17f3ad74140b35927684c572dc, type: 3}
+    specialUnitContainer: 2051
+  - level: 124
+    levelType: 1
+    time: 160
+    levelDataTextAsset: {fileID: 4900000, guid: 153e52d5c46cce447b6b8f686a916485, type: 3}
+    specialUnitContainer: 1285
+  - level: 125
+    levelType: 2
+    time: 220
+    levelDataTextAsset: {fileID: 4900000, guid: 36ceecb758042934ebeba592049f9b2a, type: 3}
+    specialUnitContainer: 2240
+  - level: 126
+    levelType: 1
+    time: 150
+    levelDataTextAsset: {fileID: 4900000, guid: fb13d96fadb34754caeb0852cbd13e74, type: 3}
+    specialUnitContainer: 2052
+  - level: 127
+    levelType: 1
+    time: 210
+    levelDataTextAsset: {fileID: 4900000, guid: 79cc3fe109491704c8ef7391c077c000, type: 3}
+    specialUnitContainer: 258
+  - level: 128
+    levelType: 1
+    time: 390
+    levelDataTextAsset: {fileID: 4900000, guid: eba6c673c6f562446b9dedd7a450d9ab, type: 3}
+    specialUnitContainer: 2049
+  - level: 129
+    levelType: 1
+    time: 240
+    levelDataTextAsset: {fileID: 4900000, guid: 6b646669d5e101d489649bd408f80a5f, type: 3}
+    specialUnitContainer: 130
+  - level: 130
+    levelType: 3
+    time: 190
+    levelDataTextAsset: {fileID: 4900000, guid: e2ece30d03270d14cbe0776bd0608336, type: 3}
+    specialUnitContainer: 2120
+  - level: 131
+    levelType: 1
+    time: 190
+    levelDataTextAsset: {fileID: 4900000, guid: 2794bca34628455429f10478c1a26f4f, type: 3}
+    specialUnitContainer: 0
+  - level: 132
+    levelType: 1
+    time: 230
+    levelDataTextAsset: {fileID: 4900000, guid: 3c007e63f410652478fe5c089c726b9e, type: 3}
+    specialUnitContainer: 132
+  - level: 133
+    levelType: 1
+    time: 290
+    levelDataTextAsset: {fileID: 4900000, guid: cfa84138e07d0254fbc95cfe9f8c973e, type: 3}
+    specialUnitContainer: 2057
+  - level: 134
+    levelType: 1
+    time: 280
+    levelDataTextAsset: {fileID: 4900000, guid: 6b64b83177217134cb1cac8ee39c3e7d, type: 3}
+    specialUnitContainer: 66
+  - level: 135
+    levelType: 2
+    time: 150
+    levelDataTextAsset: {fileID: 4900000, guid: 2ab8b06318e6c9c40ab0822f464cc49a, type: 3}
+    specialUnitContainer: 2181
+  - level: 136
+    levelType: 1
+    time: 150
+    levelDataTextAsset: {fileID: 4900000, guid: a59ef8a717fe7be4689ef8d3c3849ebf, type: 3}
+    specialUnitContainer: 65
+  - level: 137
+    levelType: 1
+    time: 170
+    levelDataTextAsset: {fileID: 4900000, guid: b144b5ac498f9bf469ac4ddd5538ba73, type: 3}
+    specialUnitContainer: 2306
+  - level: 138
+    levelType: 1
+    time: 180
+    levelDataTextAsset: {fileID: 4900000, guid: a42fc04b8751e264b8de500c3f28b829, type: 3}
+    specialUnitContainer: 2056
+  - level: 139
+    levelType: 1
+    time: 390
+    levelDataTextAsset: {fileID: 4900000, guid: 827ef9ac10ab2ce4d8812d93f055f72f, type: 3}
+    specialUnitContainer: 2051
+  - level: 140
+    levelType: 3
+    time: 260
+    levelDataTextAsset: {fileID: 4900000, guid: 6513fc8dcafc45344be8505565926bdc, type: 3}
+    specialUnitContainer: 2316
+  - level: 141
+    levelType: 1
+    time: 210
+    levelDataTextAsset: {fileID: 4900000, guid: c65dc670134dffb488469d2dfafa3e00, type: 3}
+    specialUnitContainer: 1024
+  - level: 142
+    levelType: 1
+    time: 150
+    levelDataTextAsset: {fileID: 4900000, guid: 647acae9e8077e34abaa29a15226765c, type: 3}
+    specialUnitContainer: 1024
+  - level: 143
+    levelType: 1
+    time: 220
+    levelDataTextAsset: {fileID: 4900000, guid: df5d843e41cce6a4fa28f36a37809dc9, type: 3}
+    specialUnitContainer: 256
+  - level: 144
+    levelType: 1
+    time: 200
+    levelDataTextAsset: {fileID: 4900000, guid: 01e3a733a83981247bee8b75d37d0e4d, type: 3}
+    specialUnitContainer: 0
+  - level: 145
+    levelType: 2
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 4af1818cb8a8c554c87d75e0e22abbcf, type: 3}
+    specialUnitContainer: 1
+  - level: 146
+    levelType: 1
+    time: 150
+    levelDataTextAsset: {fileID: 4900000, guid: a2d02a7dfaa3e6c43a1f5ba8c8839868, type: 3}
+    specialUnitContainer: 1026
+  - level: 147
+    levelType: 1
+    time: 260
+    levelDataTextAsset: {fileID: 4900000, guid: 64912c81e1b0e63468a4473123795543, type: 3}
+    specialUnitContainer: 4
+  - level: 148
+    levelType: 1
+    time: 150
+    levelDataTextAsset: {fileID: 4900000, guid: 86cf430e39b784f49ac8873c0b479fa8, type: 3}
+    specialUnitContainer: 2056
+  - level: 149
+    levelType: 1
+    time: 180
+    levelDataTextAsset: {fileID: 4900000, guid: 51d44c6ffc828cc49b153c239d243816, type: 3}
+    specialUnitContainer: 2052
+  - level: 150
+    levelType: 3
+    time: 240
+    levelDataTextAsset: {fileID: 4900000, guid: fe502337f25648146acccb5d036d5005, type: 3}
+    specialUnitContainer: 3
+  - level: 151
+    levelType: 1
+    time: 150
+    levelDataTextAsset: {fileID: 4900000, guid: cdf3a9bb7f1eebc4e85d5daf19f37d51, type: 3}
+    specialUnitContainer: 1044
+  - level: 152
+    levelType: 1
+    time: 180
+    levelDataTextAsset: {fileID: 4900000, guid: 2342e409fe642a64b97ff688b3fc8240, type: 3}
+    specialUnitContainer: 80
+  - level: 153
+    levelType: 1
+    time: 230
+    levelDataTextAsset: {fileID: 4900000, guid: 6196e860c0999894f93b4d4dd92b5b82, type: 3}
+    specialUnitContainer: 150
+  - level: 154
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: fa0e506cc74b9a44b810a93f1b7523c6, type: 3}
+    specialUnitContainer: 3480
+  - level: 155
+    levelType: 2
+    time: 250
+    levelDataTextAsset: {fileID: 4900000, guid: a3737c89b75deeb4785897c715576762, type: 3}
+    specialUnitContainer: 2073
+  - level: 156
+    levelType: 1
+    time: 150
+    levelDataTextAsset: {fileID: 4900000, guid: 669d64e22d08511419cd1d026ccc1e28, type: 3}
+    specialUnitContainer: 2052
+  - level: 157
+    levelType: 1
+    time: 200
+    levelDataTextAsset: {fileID: 4900000, guid: b56165cdfd616c045a054fe586666ff4, type: 3}
+    specialUnitContainer: 258
+  - level: 158
+    levelType: 1
+    time: 150
+    levelDataTextAsset: {fileID: 4900000, guid: 33fc3b29e7d0397418e3d96514d9a076, type: 3}
+    specialUnitContainer: 64
+  - level: 159
+    levelType: 1
+    time: 180
+    levelDataTextAsset: {fileID: 4900000, guid: 633ed09ec0c3a04499a5ee5dfc47cf8d, type: 3}
+    specialUnitContainer: 1027
+  - level: 160
+    levelType: 3
+    time: 240
+    levelDataTextAsset: {fileID: 4900000, guid: 39e0826e8aa852646a743a6cae7707c8, type: 3}
+    specialUnitContainer: 2456
+  - level: 161
+    levelType: 1
+    time: 150
+    levelDataTextAsset: {fileID: 4900000, guid: 91cc80888506468488438bcdb9bf24b6, type: 3}
+    specialUnitContainer: 1024
+  - level: 162
+    levelType: 1
+    time: 270
+    levelDataTextAsset: {fileID: 4900000, guid: 40fa2eb9ce5a1684a9b09d226bf03c45, type: 3}
+    specialUnitContainer: 16
+  - level: 163
+    levelType: 1
+    time: 220
+    levelDataTextAsset: {fileID: 4900000, guid: de0287a2daa6a9c4a97fccf373fded2a, type: 3}
+    specialUnitContainer: 2328
+  - level: 164
+    levelType: 1
+    time: 200
+    levelDataTextAsset: {fileID: 4900000, guid: c18d2d348d0b4734189b807236eadc35, type: 3}
+    specialUnitContainer: 130
+  - level: 165
+    levelType: 2
+    time: 240
+    levelDataTextAsset: {fileID: 4900000, guid: 28865705dba60af4c83a7193e4e61c4a, type: 3}
+    specialUnitContainer: 4
+  - level: 166
+    levelType: 1
+    time: 250
+    levelDataTextAsset: {fileID: 4900000, guid: 146a9e6eba7b9924e95c18aefe2cb33b, type: 3}
+    specialUnitContainer: 1
+  - level: 167
+    levelType: 1
+    time: 230
+    levelDataTextAsset: {fileID: 4900000, guid: acb49482472811e46912f80630751cdb, type: 3}
+    specialUnitContainer: 18
+  - level: 168
+    levelType: 1
+    time: 390
+    levelDataTextAsset: {fileID: 4900000, guid: 1b432c56490591e4c94a8ae5ccd6d9e1, type: 3}
+    specialUnitContainer: 2051
+  - level: 169
+    levelType: 1
+    time: 400
+    levelDataTextAsset: {fileID: 4900000, guid: 86392268576555f41a6bbd672ee95c6b, type: 3}
+    specialUnitContainer: 276
+  - level: 170
+    levelType: 3
+    time: 180
+    levelDataTextAsset: {fileID: 4900000, guid: 4fb1236b4ea0996429b529d7b936a905, type: 3}
+    specialUnitContainer: 2080
+  - level: 171
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: a6e54bb6cf48e18419e65d3f7060cf88, type: 3}
+    specialUnitContainer: 3480
+  - level: 172
+    levelType: 1
+    time: 260
+    levelDataTextAsset: {fileID: 4900000, guid: 83ec2397e536f5548a0eb4dabf511b36, type: 3}
+    specialUnitContainer: 67
+  - level: 173
+    levelType: 1
+    time: 330
+    levelDataTextAsset: {fileID: 4900000, guid: b4c85b64244cbaa498748fdac6cc00da, type: 3}
+    specialUnitContainer: 2308
+  - level: 174
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 25da85cd9f42b444b89890077158f90b, type: 3}
+    specialUnitContainer: 131
+  - level: 175
+    levelType: 2
+    time: 210
+    levelDataTextAsset: {fileID: 4900000, guid: 498d43b2faed3024283e5135347e814a, type: 3}
+    specialUnitContainer: 2073
+  - level: 176
+    levelType: 1
+    time: 220
+    levelDataTextAsset: {fileID: 4900000, guid: 2b7d9cf8a9a83f14d9f92642eb5ac130, type: 3}
+    specialUnitContainer: 1104
+  - level: 177
+    levelType: 1
+    time: 230
+    levelDataTextAsset: {fileID: 4900000, guid: 7a5f87029f8b45f428c322bcfce55e89, type: 3}
+    specialUnitContainer: 40
+  - level: 178
+    levelType: 1
+    time: 200
+    levelDataTextAsset: {fileID: 4900000, guid: af04b3bd75fb79b4f8990d0f98b9c2f0, type: 3}
+    specialUnitContainer: 1297
+  - level: 179
+    levelType: 1
+    time: 380
+    levelDataTextAsset: {fileID: 4900000, guid: a828f7071cda8404895b02812befc9a5, type: 3}
+    specialUnitContainer: 80
+  - level: 180
+    levelType: 3
+    time: 310
+    levelDataTextAsset: {fileID: 4900000, guid: 9fee837a947b2b04fb9cdfc5fd28ea05, type: 3}
+    specialUnitContainer: 130
+  - level: 181
+    levelType: 1
+    time: 180
+    levelDataTextAsset: {fileID: 4900000, guid: 071d0d5112ca27e43be47ce6938d1568, type: 3}
+    specialUnitContainer: 256
+  - level: 182
+    levelType: 1
+    time: 180
+    levelDataTextAsset: {fileID: 4900000, guid: 7d77f97d2bc6be84e91702526f36a2ba, type: 3}
+    specialUnitContainer: 288
+  - level: 183
+    levelType: 1
+    time: 230
+    levelDataTextAsset: {fileID: 4900000, guid: cb4fd3a62909ff74db71163899b4ce34, type: 3}
+    specialUnitContainer: 288
+  - level: 184
+    levelType: 1
+    time: 240
+    levelDataTextAsset: {fileID: 4900000, guid: 1bd1ce83682b8b44ca3377d688b2b1cb, type: 3}
+    specialUnitContainer: 1280
+  - level: 185
+    levelType: 2
+    time: 260
+    levelDataTextAsset: {fileID: 4900000, guid: a9ad07ebf5137cf4197955941e818551, type: 3}
+    specialUnitContainer: 289
+  - level: 186
+    levelType: 1
+    time: 230
+    levelDataTextAsset: {fileID: 4900000, guid: c919e66c5c3b2df4baed384c6d4700ad, type: 3}
+    specialUnitContainer: 3
+  - level: 187
+    levelType: 1
+    time: 230
+    levelDataTextAsset: {fileID: 4900000, guid: 4ca52bbecb81ea4429e2b77a2fe418e1, type: 3}
+    specialUnitContainer: 2306
+  - level: 188
+    levelType: 1
+    time: 260
+    levelDataTextAsset: {fileID: 4900000, guid: 26c0828c92cb0a240bf5c7c8ec06c9ca, type: 3}
+    specialUnitContainer: 40
+  - level: 189
+    levelType: 1
+    time: 160
+    levelDataTextAsset: {fileID: 4900000, guid: 7605211e6134dd64c8c05c8fad84fd71, type: 3}
+    specialUnitContainer: 1088
+  - level: 190
+    levelType: 3
+    time: 370
+    levelDataTextAsset: {fileID: 4900000, guid: f654341b3f7abf344978d63be46b6f75, type: 3}
+    specialUnitContainer: 1284
+  - level: 191
+    levelType: 1
+    time: 150
+    levelDataTextAsset: {fileID: 4900000, guid: 0283b55baed2cb74a92bd58043a82406, type: 3}
+    specialUnitContainer: 0
+  - level: 192
+    levelType: 1
+    time: 200
+    levelDataTextAsset: {fileID: 4900000, guid: e0cbb740266a88e479a84b60b8f4811f, type: 3}
+    specialUnitContainer: 2312
+  - level: 193
+    levelType: 1
+    time: 180
+    levelDataTextAsset: {fileID: 4900000, guid: 5f96fc1560296cf4ebfdfb5b66fbd3ee, type: 3}
+    specialUnitContainer: 2088
+  - level: 194
+    levelType: 1
+    time: 210
+    levelDataTextAsset: {fileID: 4900000, guid: 07537534b2d5e7946ac9f2b73c5965dc, type: 3}
+    specialUnitContainer: 260
+  - level: 195
+    levelType: 2
+    time: 370
+    levelDataTextAsset: {fileID: 4900000, guid: 8d8f5ff2851b6734a9e288b32d6b2391, type: 3}
+    specialUnitContainer: 352
+  - level: 196
+    levelType: 1
+    time: 180
+    levelDataTextAsset: {fileID: 4900000, guid: c8f519d5266175b4dbe6e732684bff6d, type: 3}
+    specialUnitContainer: 2056
+  - level: 197
+    levelType: 1
+    time: 270
+    levelDataTextAsset: {fileID: 4900000, guid: 0f471dbcd8ce939448b23e21c0363499, type: 3}
+    specialUnitContainer: 34
+  - level: 198
+    levelType: 1
+    time: 220
+    levelDataTextAsset: {fileID: 4900000, guid: f835918223007cd4ebf264a068d4ba55, type: 3}
+    specialUnitContainer: 2057
+  - level: 199
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 6fb813b4d54a4df4d9ca1b89b28a1a0e, type: 3}
+    specialUnitContainer: 131
+  - level: 200
+    levelType: 3
+    time: 290
+    levelDataTextAsset: {fileID: 4900000, guid: 6f4f298379d8908438d3664689ebac1f, type: 3}
+    specialUnitContainer: 150
+  - level: 201
+    levelType: 1
+    time: 160
+    levelDataTextAsset: {fileID: 4900000, guid: 7b471d8e20b2e1d408f1b2e5e9a8dd06, type: 3}
+    specialUnitContainer: 1024
+  - level: 202
+    levelType: 1
+    time: 240
+    levelDataTextAsset: {fileID: 4900000, guid: 618b5406262a59148801e7eef1ed78c1, type: 3}
+    specialUnitContainer: 67
+  - level: 203
+    levelType: 1
+    time: 160
+    levelDataTextAsset: {fileID: 4900000, guid: d503d58bb35a8e74a9a94cc133e7c16c, type: 3}
+    specialUnitContainer: 260
+  - level: 204
+    levelType: 1
+    time: 160
+    levelDataTextAsset: {fileID: 4900000, guid: 4ae92df6feeb0bb45a88fe6d5b1de2f0, type: 3}
+    specialUnitContainer: 145
+  - level: 205
+    levelType: 2
+    time: 320
+    levelDataTextAsset: {fileID: 4900000, guid: 91f4d9b2cc716d344a5ebb5e880ebef7, type: 3}
+    specialUnitContainer: 2312
+  - level: 206
+    levelType: 1
+    time: 310
+    levelDataTextAsset: {fileID: 4900000, guid: 912ba7a5302349b43918fdb6b8d7a1c4, type: 3}
+    specialUnitContainer: 1
+  - level: 207
+    levelType: 1
+    time: 200
+    levelDataTextAsset: {fileID: 4900000, guid: be79e7282168d6642b83fb6b4e772b01, type: 3}
+    specialUnitContainer: 1
+  - level: 208
+    levelType: 1
+    time: 210
+    levelDataTextAsset: {fileID: 4900000, guid: 6cec90094c6ec714280d03361ed95155, type: 3}
+    specialUnitContainer: 2240
+  - level: 209
+    levelType: 1
+    time: 280
+    levelDataTextAsset: {fileID: 4900000, guid: d153754154c16344caad822d19cfbf84, type: 3}
+    specialUnitContainer: 134
+  - level: 210
+    levelType: 3
+    time: 290
+    levelDataTextAsset: {fileID: 4900000, guid: 90433651073de644dba6f00db65a85ac, type: 3}
+    specialUnitContainer: 2348
+  - level: 211
+    levelType: 1
+    time: 210
+    levelDataTextAsset: {fileID: 4900000, guid: 80ae5cf9531990542b22091a560e13c1, type: 3}
+    specialUnitContainer: 1297
+  - level: 212
+    levelType: 1
+    time: 250
+    levelDataTextAsset: {fileID: 4900000, guid: c2e7e794db1d27240969268e1b8948fc, type: 3}
+    specialUnitContainer: 67
+  - level: 213
+    levelType: 1
+    time: 340
+    levelDataTextAsset: {fileID: 4900000, guid: 6efa73401397798489d3330e409518ea, type: 3}
+    specialUnitContainer: 2085
+  - level: 214
+    levelType: 1
+    time: 160
+    levelDataTextAsset: {fileID: 4900000, guid: 9a3f70db037176f42829401d03f3f8f1, type: 3}
+    specialUnitContainer: 8
+  - level: 215
+    levelType: 2
+    time: 230
+    levelDataTextAsset: {fileID: 4900000, guid: 65629e6fdc9681847b239c44801f53af, type: 3}
+    specialUnitContainer: 368
+  - level: 216
+    levelType: 1
+    time: 160
+    levelDataTextAsset: {fileID: 4900000, guid: 81c472b2c26bc294cb5d4a860b5d0d12, type: 3}
+    specialUnitContainer: 260
+  - level: 217
+    levelType: 1
+    time: 280
+    levelDataTextAsset: {fileID: 4900000, guid: 00a0bddcd0adb6041a3f68bec2f1053b, type: 3}
+    specialUnitContainer: 2120
+  - level: 218
+    levelType: 1
+    time: 160
+    levelDataTextAsset: {fileID: 4900000, guid: 8a91a1ce863e0b5499cdf085c9c47efd, type: 3}
+    specialUnitContainer: 37
+  - level: 219
+    levelType: 1
+    time: 340
+    levelDataTextAsset: {fileID: 4900000, guid: 17e69b6e4a9d75043b18522c044706c3, type: 3}
+    specialUnitContainer: 2051
+  - level: 220
+    levelType: 3
+    time: 240
+    levelDataTextAsset: {fileID: 4900000, guid: 6bec63f04c2038d4a9bab7027c4565f7, type: 3}
+    specialUnitContainer: 112
+  - level: 221
+    levelType: 1
+    time: 270
+    levelDataTextAsset: {fileID: 4900000, guid: bf8259d030bb88048b46d39d88729df0, type: 3}
+    specialUnitContainer: 40
+  - level: 222
+    levelType: 1
+    time: 390
+    levelDataTextAsset: {fileID: 4900000, guid: edb0685b7d11c8d4dab97d79fd68fcab, type: 3}
+    specialUnitContainer: 67
+  - level: 223
+    levelType: 1
+    time: 230
+    levelDataTextAsset: {fileID: 4900000, guid: 16bcf49e82fd7b84f83e8064af60152f, type: 3}
+    specialUnitContainer: 1104
+  - level: 224
+    levelType: 1
+    time: 170
+    levelDataTextAsset: {fileID: 4900000, guid: aab6fbba183443f4c9acec94928930de, type: 3}
+    specialUnitContainer: 136
+  - level: 225
+    levelType: 2
+    time: 340
+    levelDataTextAsset: {fileID: 4900000, guid: d77a0fbb8aaba2b4491819f7f5eda81a, type: 3}
+    specialUnitContainer: 112
+  - level: 226
+    levelType: 1
+    time: 160
+    levelDataTextAsset: {fileID: 4900000, guid: 3920b132b9371f8469a4c58dc9cc3714, type: 3}
+    specialUnitContainer: 1024
+  - level: 227
+    levelType: 1
+    time: 210
+    levelDataTextAsset: {fileID: 4900000, guid: d3ec0bab8646a2741ab5cdf02cf6dc29, type: 3}
+    specialUnitContainer: 2080
+  - level: 228
+    levelType: 1
+    time: 270
+    levelDataTextAsset: {fileID: 4900000, guid: 40ace42d4b840dc4ca8dcbb90f16037e, type: 3}
+    specialUnitContainer: 2056
+  - level: 229
+    levelType: 1
+    time: 160
+    levelDataTextAsset: {fileID: 4900000, guid: b952f65ec6fb2c547bae982c9f7466c8, type: 3}
+    specialUnitContainer: 1026
+  - level: 230
+    levelType: 3
+    time: 210
+    levelDataTextAsset: {fileID: 4900000, guid: 2e24665244a5fcd43b3527c98514ae9e, type: 3}
+    specialUnitContainer: 2336
+  - level: 231
+    levelType: 1
+    time: 190
+    levelDataTextAsset: {fileID: 4900000, guid: e96fc6bf455dfce4fad795c749b033de, type: 3}
+    specialUnitContainer: 2057
+  - level: 232
+    levelType: 1
+    time: 160
+    levelDataTextAsset: {fileID: 4900000, guid: d0fe08786001e7d4abb832ac35042d88, type: 3}
+    specialUnitContainer: 0
+  - level: 233
+    levelType: 1
+    time: 340
+    levelDataTextAsset: {fileID: 4900000, guid: 02862e312bc28e042af38e54125768d9, type: 3}
+    specialUnitContainer: 2
+  - level: 234
+    levelType: 1
+    time: 160
+    levelDataTextAsset: {fileID: 4900000, guid: 60ed543eb3a8a6b48906f01bb7cc7534, type: 3}
+    specialUnitContainer: 2052
+  - level: 235
+    levelType: 2
+    time: 190
+    levelDataTextAsset: {fileID: 4900000, guid: 030ece569482b77488afdea242688555, type: 3}
+    specialUnitContainer: 406
+  - level: 236
+    levelType: 1
+    time: 260
+    levelDataTextAsset: {fileID: 4900000, guid: b2d11fcceb269ac45887c9a7560e2d5f, type: 3}
+    specialUnitContainer: 134
+  - level: 237
+    levelType: 1
+    time: 390
+    levelDataTextAsset: {fileID: 4900000, guid: 399cd16efd56a8249a1ef1a7f9010a7b, type: 3}
+    specialUnitContainer: 4
+  - level: 238
+    levelType: 1
+    time: 390
+    levelDataTextAsset: {fileID: 4900000, guid: 8c5f90e14d4cf7f448f346597685a7c6, type: 3}
+    specialUnitContainer: 2076
+  - level: 239
+    levelType: 1
+    time: 290
+    levelDataTextAsset: {fileID: 4900000, guid: 0b144df60ea42a44d8629fc62791e671, type: 3}
+    specialUnitContainer: 33
+  - level: 240
+    levelType: 3
+    time: 390
+    levelDataTextAsset: {fileID: 4900000, guid: 6d7da677a1b80d544855b7411e0c859a, type: 3}
+    specialUnitContainer: 2332
+  - level: 241
+    levelType: 1
+    time: 240
+    levelDataTextAsset: {fileID: 4900000, guid: c3cdba647a2788847aa6f63608b87aaf, type: 3}
+    specialUnitContainer: 256
+  - level: 242
+    levelType: 1
+    time: 190
+    levelDataTextAsset: {fileID: 4900000, guid: 58b4f15e4bdff92478f740c742c767b3, type: 3}
+    specialUnitContainer: 1152
+  - level: 243
+    levelType: 1
+    time: 340
+    levelDataTextAsset: {fileID: 4900000, guid: 514140a8cc1c2ed479123757794f9244, type: 3}
+    specialUnitContainer: 4
+  - level: 244
+    levelType: 1
+    time: 210
+    levelDataTextAsset: {fileID: 4900000, guid: 2c469009328087745acc5303a42b10a6, type: 3}
+    specialUnitContainer: 130
+  - level: 245
+    levelType: 2
+    time: 410
+    levelDataTextAsset: {fileID: 4900000, guid: 04e94f9250905044cb3c443b9e70138c, type: 3}
+    specialUnitContainer: 1
+  - level: 246
+    levelType: 1
+    time: 200
+    levelDataTextAsset: {fileID: 4900000, guid: f09cc45b641ee2143823737ff183c03b, type: 3}
+    specialUnitContainer: 2308
+  - level: 247
+    levelType: 1
+    time: 210
+    levelDataTextAsset: {fileID: 4900000, guid: 96cefe683caaeb745bc3a4c27a5d46ce, type: 3}
+    specialUnitContainer: 2306
+  - level: 248
+    levelType: 1
+    time: 160
+    levelDataTextAsset: {fileID: 4900000, guid: e7c74cc98223ca440b5e70154bd643d1, type: 3}
+    specialUnitContainer: 0
+  - level: 249
+    levelType: 1
+    time: 340
+    levelDataTextAsset: {fileID: 4900000, guid: 92ee05a9b22621840950eb147721533d, type: 3}
+    specialUnitContainer: 276
+  - level: 250
+    levelType: 3
+    time: 170
+    levelDataTextAsset: {fileID: 4900000, guid: 26e0a65c3a0fc494c86d2d2be6dcd22d, type: 3}
+    specialUnitContainer: 2368
+  - level: 251
+    levelType: 1
+    time: 220
+    levelDataTextAsset: {fileID: 4900000, guid: e201de0f48451f4449d5100eb8bf981e, type: 3}
+    specialUnitContainer: 133
+  - level: 252
+    levelType: 1
+    time: 220
+    levelDataTextAsset: {fileID: 4900000, guid: 16b52a5e60543be4fa34eaeac88b0f7f, type: 3}
+    specialUnitContainer: 40
+  - level: 253
+    levelType: 1
+    time: 270
+    levelDataTextAsset: {fileID: 4900000, guid: 62bab3b6511b63d4092083e8c473fac3, type: 3}
+    specialUnitContainer: 2056
+  - level: 254
+    levelType: 1
+    time: 190
+    levelDataTextAsset: {fileID: 4900000, guid: 033a029a3b6128a4f83684b89e3cd766, type: 3}
+    specialUnitContainer: 0
+  - level: 255
+    levelType: 2
+    time: 350
+    levelDataTextAsset: {fileID: 4900000, guid: b9d9028d5d9ddb745af54c48e42bf7fa, type: 3}
+    specialUnitContainer: 259
+  - level: 256
+    levelType: 1
+    time: 290
+    levelDataTextAsset: {fileID: 4900000, guid: 3fc4b89e5349d584db55f83585132eef, type: 3}
+    specialUnitContainer: 292
+  - level: 257
+    levelType: 1
+    time: 230
+    levelDataTextAsset: {fileID: 4900000, guid: 383b12fa6191cdd458145fb59cb3f287, type: 3}
+    specialUnitContainer: 16
+  - level: 258
+    levelType: 1
+    time: 410
+    levelDataTextAsset: {fileID: 4900000, guid: 436c434f10e5aea4faa0244c17e17e99, type: 3}
+    specialUnitContainer: 1
+  - level: 259
+    levelType: 1
+    time: 170
+    levelDataTextAsset: {fileID: 4900000, guid: 0160f6015bffeaa4084433e951d27796, type: 3}
+    specialUnitContainer: 65
+  - level: 260
+    levelType: 3
+    time: 230
+    levelDataTextAsset: {fileID: 4900000, guid: 3bf736b8b520dbb42966a637a6feb4a6, type: 3}
+    specialUnitContainer: 134
+  - level: 261
+    levelType: 1
+    time: 240
+    levelDataTextAsset: {fileID: 4900000, guid: f6cc853f7a1e81f44bad9b9be682fff2, type: 3}
+    specialUnitContainer: 2
+  - level: 262
+    levelType: 1
+    time: 160
+    levelDataTextAsset: {fileID: 4900000, guid: 4dbecd03f2cbfab4084e8025c1d47f82, type: 3}
+    specialUnitContainer: 20
+  - level: 263
+    levelType: 1
+    time: 190
+    levelDataTextAsset: {fileID: 4900000, guid: 3c6e64a4c8b720e49a73827371d067f4, type: 3}
+    specialUnitContainer: 288
+  - level: 264
+    levelType: 1
+    time: 240
+    levelDataTextAsset: {fileID: 4900000, guid: 11f563a7807205142b16d5b75cc46847, type: 3}
+    specialUnitContainer: 16
+  - level: 265
+    levelType: 2
+    time: 220
+    levelDataTextAsset: {fileID: 4900000, guid: d19607581969f664f97fd5bbc72b2efe, type: 3}
+    specialUnitContainer: 260
+  - level: 266
+    levelType: 1
+    time: 260
+    levelDataTextAsset: {fileID: 4900000, guid: 7da8ea1edc2ab0149a117d7e58876eb1, type: 3}
+    specialUnitContainer: 320
+  - level: 267
+    levelType: 1
+    time: 170
+    levelDataTextAsset: {fileID: 4900000, guid: 8ef7a379914b67e4dbb3f1370289acf3, type: 3}
+    specialUnitContainer: 2056
+  - level: 268
+    levelType: 1
+    time: 160
+    levelDataTextAsset: {fileID: 4900000, guid: 92d57943a383bb248957e84bd3ecf412, type: 3}
+    specialUnitContainer: 32
+  - level: 269
+    levelType: 1
+    time: 310
+    levelDataTextAsset: {fileID: 4900000, guid: 03c5f19c16dacf747bb027d9ed7cc677, type: 3}
+    specialUnitContainer: 2051
+  - level: 270
+    levelType: 3
+    time: 190
+    levelDataTextAsset: {fileID: 4900000, guid: e7df07fce21dd304a838df84a0cabe23, type: 3}
+    specialUnitContainer: 320
+  - level: 271
+    levelType: 1
+    time: 190
+    levelDataTextAsset: {fileID: 4900000, guid: db189a2a6d0b2fd4998ea8b3715ee5a4, type: 3}
+    specialUnitContainer: 65
+  - level: 272
+    levelType: 1
+    time: 170
+    levelDataTextAsset: {fileID: 4900000, guid: 3c32eb758d2695447b5ab03060e11c00, type: 3}
+    specialUnitContainer: 1
+  - level: 273
+    levelType: 1
+    time: 220
+    levelDataTextAsset: {fileID: 4900000, guid: 1a75ee8dc0e25cd48bfeb99b1c9ca744, type: 3}
+    specialUnitContainer: 37
+  - level: 274
+    levelType: 1
+    time: 390
+    levelDataTextAsset: {fileID: 4900000, guid: 557947e2066e8aa408ec7c264716a31b, type: 3}
+    specialUnitContainer: 2076
+  - level: 275
+    levelType: 2
+    time: 390
+    levelDataTextAsset: {fileID: 4900000, guid: f7d84348e11adee448e6e793e7858789, type: 3}
+    specialUnitContainer: 130
+  - level: 276
+    levelType: 1
+    time: 190
+    levelDataTextAsset: {fileID: 4900000, guid: babfe6a2a1e3dc647801a26803c7bb70, type: 3}
+    specialUnitContainer: 1
+  - level: 277
+    levelType: 1
+    time: 190
+    levelDataTextAsset: {fileID: 4900000, guid: 789fc6b95485f6343b44a22520267491, type: 3}
+    specialUnitContainer: 1184
+  - level: 278
+    levelType: 1
+    time: 440
+    levelDataTextAsset: {fileID: 4900000, guid: 50b6f3aa6e67d32479b93e69882cabfa, type: 3}
+    specialUnitContainer: 2080
+  - level: 279
+    levelType: 1
+    time: 230
+    levelDataTextAsset: {fileID: 4900000, guid: ee1c494380d9cda4fbde3f228fd896c9, type: 3}
+    specialUnitContainer: 2120
+  - level: 280
+    levelType: 3
+    time: 190
+    levelDataTextAsset: {fileID: 4900000, guid: 12bdb12a2d1290f488b63a9eedb925ca, type: 3}
+    specialUnitContainer: 80
+  - level: 281
+    levelType: 1
+    time: 160
+    levelDataTextAsset: {fileID: 4900000, guid: df3ae3ed853e6d844bf8d6975b8f5888, type: 3}
+    specialUnitContainer: 2
+  - level: 282
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 509442207b8dc8a4687093ae39a79b9f, type: 3}
+    specialUnitContainer: 2312
+  - level: 283
+    levelType: 1
+    time: 240
+    levelDataTextAsset: {fileID: 4900000, guid: 10b26b1526cd1ef4589cd0627c139e85, type: 3}
+    specialUnitContainer: 134
+  - level: 284
+    levelType: 1
+    time: 210
+    levelDataTextAsset: {fileID: 4900000, guid: d326eb91e12324f479c520fc94fe17f4, type: 3}
+    specialUnitContainer: 0
+  - level: 285
+    levelType: 2
+    time: 210
+    levelDataTextAsset: {fileID: 4900000, guid: f7dab73e27476a8499e2f21c62a1fd46, type: 3}
+    specialUnitContainer: 208
+  - level: 286
+    levelType: 1
+    time: 170
+    levelDataTextAsset: {fileID: 4900000, guid: 15ca5078319a41b46b7905b39fb05ffd, type: 3}
+    specialUnitContainer: 1
+  - level: 287
+    levelType: 1
+    time: 320
+    levelDataTextAsset: {fileID: 4900000, guid: 9e9362b419b3158408c6420050902ec1, type: 3}
+    specialUnitContainer: 2051
+  - level: 288
+    levelType: 1
+    time: 160
+    levelDataTextAsset: {fileID: 4900000, guid: 8562dadccb162634895ef695d1cdb4a3, type: 3}
+    specialUnitContainer: 2088
+  - level: 289
+    levelType: 1
+    time: 360
+    levelDataTextAsset: {fileID: 4900000, guid: 1a1c0f2ec4dda7e40b858c12383d9f60, type: 3}
+    specialUnitContainer: 64
+  - level: 290
+    levelType: 3
+    time: 190
+    levelDataTextAsset: {fileID: 4900000, guid: 5e04719a095cdbc49b3dd56f7a2cae9f, type: 3}
+    specialUnitContainer: 388
+  - level: 291
+    levelType: 1
+    time: 190
+    levelDataTextAsset: {fileID: 4900000, guid: 360bbc27dbe061c49b9598b190ac42e4, type: 3}
+    specialUnitContainer: 66
+  - level: 292
+    levelType: 1
+    time: 210
+    levelDataTextAsset: {fileID: 4900000, guid: ea9ae213d3e7da246ad3119e3fb84f9e, type: 3}
+    specialUnitContainer: 2306
+  - level: 293
+    levelType: 1
+    time: 190
+    levelDataTextAsset: {fileID: 4900000, guid: b6a5f8f74738bf741acb87b61ccdcf69, type: 3}
+    specialUnitContainer: 2056
+  - level: 294
+    levelType: 1
+    time: 170
+    levelDataTextAsset: {fileID: 4900000, guid: 43c5fc55d1bb0e74fae6ad1860d1c591, type: 3}
+    specialUnitContainer: 1
+  - level: 295
+    levelType: 2
+    time: 360
+    levelDataTextAsset: {fileID: 4900000, guid: 1333212a929d3604b93d1a3b2bb35dfb, type: 3}
+    specialUnitContainer: 276
+  - level: 296
+    levelType: 1
+    time: 250
+    levelDataTextAsset: {fileID: 4900000, guid: 54bb9299ac66bf54988cc53dd94c1470, type: 3}
+    specialUnitContainer: 134
+  - level: 297
+    levelType: 1
+    time: 240
+    levelDataTextAsset: {fileID: 4900000, guid: 11555d4fb5f500c4680b81ddd11148a1, type: 3}
+    specialUnitContainer: 134
+  - level: 298
+    levelType: 1
+    time: 210
+    levelDataTextAsset: {fileID: 4900000, guid: 5ff0eb8972a695c4eae8384a10a91597, type: 3}
+    specialUnitContainer: 2306
+  - level: 299
+    levelType: 1
+    time: 290
+    levelDataTextAsset: {fileID: 4900000, guid: 7c79a09bd1cfa284fa9181f53bff5c2a, type: 3}
+    specialUnitContainer: 4
+  - level: 300
+    levelType: 3
+    time: 270
+    levelDataTextAsset: {fileID: 4900000, guid: 70cbc8cb4e5260441b7e24a7366ad7e5, type: 3}
+    specialUnitContainer: 2328
+  - level: 301
+    levelType: 1
+    time: 190
+    levelDataTextAsset: {fileID: 4900000, guid: 00162ca043806d8489c1dcfd6ee24be2, type: 3}
+    specialUnitContainer: 0
+  - level: 302
+    levelType: 1
+    time: 390
+    levelDataTextAsset: {fileID: 4900000, guid: bd2225cc61536bb47bc507ab8de0b456, type: 3}
+    specialUnitContainer: 260
+  - level: 303
+    levelType: 1
+    time: 190
+    levelDataTextAsset: {fileID: 4900000, guid: 7d9b206f97df559449ec73a05ce5581c, type: 3}
+    specialUnitContainer: 132
+  - level: 304
+    levelType: 1
+    time: 310
+    levelDataTextAsset: {fileID: 4900000, guid: 5fca21bd68a98834fab7ec369dcad2a6, type: 3}
+    specialUnitContainer: 131
+  - level: 305
+    levelType: 2
+    time: 250
+    levelDataTextAsset: {fileID: 4900000, guid: 2abba869c33955c49934dfd28009e8c0, type: 3}
+    specialUnitContainer: 389
+  - level: 306
+    levelType: 1
+    time: 280
+    levelDataTextAsset: {fileID: 4900000, guid: 4bf5720e4e64bec479b462904a91103c, type: 3}
+    specialUnitContainer: 1029
+  - level: 307
+    levelType: 1
+    time: 320
+    levelDataTextAsset: {fileID: 4900000, guid: 3355b458362b7734081b06855d822ca3, type: 3}
+    specialUnitContainer: 66
+  - level: 308
+    levelType: 1
+    time: 310
+    levelDataTextAsset: {fileID: 4900000, guid: 694fd3349d4fed240a7085aa9a9beed7, type: 3}
+    specialUnitContainer: 2244
+  - level: 309
+    levelType: 1
+    time: 310
+    levelDataTextAsset: {fileID: 4900000, guid: fdbae5e282bf35b45a6c3c5cb31c58ea, type: 3}
+    specialUnitContainer: 130
+  - level: 310
+    levelType: 3
+    time: 280
+    levelDataTextAsset: {fileID: 4900000, guid: 4c2addf79e188624f9c57233b5ff3953, type: 3}
+    specialUnitContainer: 2244
+  - level: 311
+    levelType: 1
+    time: 390
+    levelDataTextAsset: {fileID: 4900000, guid: 2699f46a1f7724f48af6b423cd2d2523, type: 3}
+    specialUnitContainer: 1283
+  - level: 312
+    levelType: 1
+    time: 160
+    levelDataTextAsset: {fileID: 4900000, guid: d105fe98192b81447bc2395bfa72dec5, type: 3}
+    specialUnitContainer: 0
+  - level: 313
+    levelType: 1
+    time: 410
+    levelDataTextAsset: {fileID: 4900000, guid: 91d9a2d423833954f80779cb109910f0, type: 3}
+    specialUnitContainer: 260
+  - level: 314
+    levelType: 1
+    time: 320
+    levelDataTextAsset: {fileID: 4900000, guid: e609617ccf0a8924591282b9cb2a341c, type: 3}
+    specialUnitContainer: 259
+  - level: 315
+    levelType: 2
+    time: 220
+    levelDataTextAsset: {fileID: 4900000, guid: 636aff636b18acf4abd899038a1106bc, type: 3}
+    specialUnitContainer: 2496
+  - level: 316
+    levelType: 1
+    time: 340
+    levelDataTextAsset: {fileID: 4900000, guid: d1eadaaad59376c4392198516d4f211b, type: 3}
+    specialUnitContainer: 2059
+  - level: 317
+    levelType: 1
+    time: 240
+    levelDataTextAsset: {fileID: 4900000, guid: 0ce2d36488147cf4cb172a3d6154368b, type: 3}
+    specialUnitContainer: 1089
+  - level: 318
+    levelType: 1
+    time: 240
+    levelDataTextAsset: {fileID: 4900000, guid: 1239673bbbf3b2042ae94ae345808e26, type: 3}
+    specialUnitContainer: 65
+  - level: 319
+    levelType: 1
+    time: 190
+    levelDataTextAsset: {fileID: 4900000, guid: 8c647d3f245b85d4b8e8ab6c27765905, type: 3}
+    specialUnitContainer: 0
+  - level: 320
+    levelType: 3
+    time: 210
+    levelDataTextAsset: {fileID: 4900000, guid: 8811e30c810da47428648d69429a5905, type: 3}
+    specialUnitContainer: 2376
+  - level: 321
+    levelType: 1
+    time: 320
+    levelDataTextAsset: {fileID: 4900000, guid: 98a60478a2e14fd43972439c689c5ec4, type: 3}
+    specialUnitContainer: 2053
+  - level: 322
+    levelType: 1
+    time: 390
+    levelDataTextAsset: {fileID: 4900000, guid: bc8a24c836a521a4493687f04d29f732, type: 3}
+    specialUnitContainer: 150
+  - level: 323
+    levelType: 1
+    time: 190
+    levelDataTextAsset: {fileID: 4900000, guid: c786d802e44cac1429340f746af92e29, type: 3}
+    specialUnitContainer: 5
+  - level: 324
+    levelType: 1
+    time: 310
+    levelDataTextAsset: {fileID: 4900000, guid: 213bc696d076bba45992da9117919351, type: 3}
+    specialUnitContainer: 1026
+  - level: 325
+    levelType: 2
+    time: 390
+    levelDataTextAsset: {fileID: 4900000, guid: a9fccf8bab11c9a43b846e25d4f069e4, type: 3}
+    specialUnitContainer: 389
+  - level: 326
+    levelType: 1
+    time: 310
+    levelDataTextAsset: {fileID: 4900000, guid: 6d2248f6ee4822a4a8596e443c8be351, type: 3}
+    specialUnitContainer: 1024
+  - level: 327
+    levelType: 1
+    time: 240
+    levelDataTextAsset: {fileID: 4900000, guid: dd0a844b295ff664393cd432e7895f65, type: 3}
+    specialUnitContainer: 2050
+  - level: 328
+    levelType: 1
+    time: 410
+    levelDataTextAsset: {fileID: 4900000, guid: c3ab6721904549a4491a306395127fdb, type: 3}
+    specialUnitContainer: 2434
+  - level: 329
+    levelType: 1
+    time: 310
+    levelDataTextAsset: {fileID: 4900000, guid: 0c1a8c938c4aea342b7e0705e3cd4a8b, type: 3}
+    specialUnitContainer: 2244
+  - level: 330
+    levelType: 3
+    time: 290
+    levelDataTextAsset: {fileID: 4900000, guid: ea781b63ef95d2644a4dc466611815f6, type: 3}
+    specialUnitContainer: 2440
+  - level: 331
+    levelType: 1
+    time: 280
+    levelDataTextAsset: {fileID: 4900000, guid: 3089281ca518f0b49a7dd20a913ab4fb, type: 3}
+    specialUnitContainer: 5140
+  - level: 332
+    levelType: 1
+    time: 220
+    levelDataTextAsset: {fileID: 4900000, guid: 19996ab777639dc4b80940f902e1ad94, type: 3}
+    specialUnitContainer: 320
+  - level: 333
+    levelType: 1
+    time: 350
+    levelDataTextAsset: {fileID: 4900000, guid: 098d026bacb84f746861bd81563340d7, type: 3}
+    specialUnitContainer: 2306
+  - level: 334
+    levelType: 1
+    time: 210
+    levelDataTextAsset: {fileID: 4900000, guid: 5a7507d074fe451478cd8f82cd4197ee, type: 3}
+    specialUnitContainer: 2056
+  - level: 335
+    levelType: 2
+    time: 240
+    levelDataTextAsset: {fileID: 4900000, guid: 7708b8151686e3c4f9ee18cf64d16bf4, type: 3}
+    specialUnitContainer: 2441
+  - level: 336
+    levelType: 1
+    time: 270
+    levelDataTextAsset: {fileID: 4900000, guid: 81f278fcda51d2243aaf50d083721ad9, type: 3}
+    specialUnitContainer: 128
+  - level: 337
+    levelType: 1
+    time: 190
+    levelDataTextAsset: {fileID: 4900000, guid: 180f896e1e82e724a8ee54cd9d46e25e, type: 3}
+    specialUnitContainer: 2328
+  - level: 338
+    levelType: 1
+    time: 270
+    levelDataTextAsset: {fileID: 4900000, guid: 51e4f522104926d4ca4cc782e79cdd22, type: 3}
+    specialUnitContainer: 2053
+  - level: 339
+    levelType: 1
+    time: 250
+    levelDataTextAsset: {fileID: 4900000, guid: faf1c40612731934ba78e8d46340304d, type: 3}
+    specialUnitContainer: 288
+  - level: 340
+    levelType: 3
+    time: 240
+    levelDataTextAsset: {fileID: 4900000, guid: b77d9c4c56aeb5f42aa7dccc5191bf75, type: 3}
+    specialUnitContainer: 2440
+  - level: 341
+    levelType: 1
+    time: 230
+    levelDataTextAsset: {fileID: 4900000, guid: 8fc7e4960d79af74180474a019829130, type: 3}
+    specialUnitContainer: 2058
+  - level: 342
+    levelType: 1
+    time: 270
+    levelDataTextAsset: {fileID: 4900000, guid: 05f3e7e278208c24ebb8f111159b8749, type: 3}
+    specialUnitContainer: 6
+  - level: 343
+    levelType: 1
+    time: 370
+    levelDataTextAsset: {fileID: 4900000, guid: 538f00441cf9bff4ca1422ebf852f6e2, type: 3}
+    specialUnitContainer: 1322
+  - level: 344
+    levelType: 1
+    time: 215
+    levelDataTextAsset: {fileID: 4900000, guid: 7edebfbe978135341ac47d1703f2988f, type: 3}
+    specialUnitContainer: 2062
+  - level: 345
+    levelType: 2
+    time: 260
+    levelDataTextAsset: {fileID: 4900000, guid: d798de9bb3966254bbcdc7ae3fc8894a, type: 3}
+    specialUnitContainer: 2186
+  - level: 346
+    levelType: 1
+    time: 290
+    levelDataTextAsset: {fileID: 4900000, guid: 8c4e750884b1ff647b880234ff5622fa, type: 3}
+    specialUnitContainer: 2062
+  - level: 347
+    levelType: 1
+    time: 240
+    levelDataTextAsset: {fileID: 4900000, guid: ef37a77c320f12541bfa0f9725326798, type: 3}
+    specialUnitContainer: 124
+  - level: 348
+    levelType: 1
+    time: 280
+    levelDataTextAsset: {fileID: 4900000, guid: bdeb0e365c04a924d8026533925cd7da, type: 3}
+    specialUnitContainer: 4
+  - level: 349
+    levelType: 1
+    time: 340
+    levelDataTextAsset: {fileID: 4900000, guid: 4d386240a27e96a419fc94de2d5ac076, type: 3}
+    specialUnitContainer: 2090
+  - level: 350
+    levelType: 3
+    time: 330
+    levelDataTextAsset: {fileID: 4900000, guid: cecee4efb4eb7994e919c4cc3cc8775c, type: 3}
+    specialUnitContainer: 2284
+  - level: 351
+    levelType: 1
+    time: 310
+    levelDataTextAsset: {fileID: 4900000, guid: 6e9aecd78b6962a41aabd122513ecbce, type: 3}
+    specialUnitContainer: 4
+  - level: 352
+    levelType: 1
+    time: 340
+    levelDataTextAsset: {fileID: 4900000, guid: 2d7d3c3680637da4e8e63d52a7a3c687, type: 3}
+    specialUnitContainer: 130
+  - level: 353
+    levelType: 1
+    time: 240
+    levelDataTextAsset: {fileID: 4900000, guid: b13bf140a9973804e8faa7a81bb03bb4, type: 3}
+    specialUnitContainer: 0
+  - level: 354
+    levelType: 1
+    time: 290
+    levelDataTextAsset: {fileID: 4900000, guid: 2c4434d950157134291587954d75c430, type: 3}
+    specialUnitContainer: 1
+  - level: 355
+    levelType: 2
+    time: 240
+    levelDataTextAsset: {fileID: 4900000, guid: 611aa6e8f15c3db469bbebe135967d57, type: 3}
+    specialUnitContainer: 2120
+  - level: 356
+    levelType: 1
+    time: 290
+    levelDataTextAsset: {fileID: 4900000, guid: 09e3bcc7fac8d4d43acd6989f330d543, type: 3}
+    specialUnitContainer: 258
+  - level: 357
+    levelType: 1
+    time: 310
+    levelDataTextAsset: {fileID: 4900000, guid: b64cec3cfa6bc8f42a427e68072fb989, type: 3}
+    specialUnitContainer: 2060
+  - level: 358
+    levelType: 1
+    time: 350
+    levelDataTextAsset: {fileID: 4900000, guid: 7b7ab1730462ee74b9f9cd3715508a6c, type: 3}
+    specialUnitContainer: 48
+  - level: 359
+    levelType: 1
+    time: 340
+    levelDataTextAsset: {fileID: 4900000, guid: b33b11fec8627634cb89a7a66e14f8a8, type: 3}
+    specialUnitContainer: 2059
+  - level: 360
+    levelType: 3
+    time: 310
+    levelDataTextAsset: {fileID: 4900000, guid: 29c3d95282b2fdb4b8f571a578fa80a7, type: 3}
+    specialUnitContainer: 2300
+  - level: 361
+    levelType: 1
+    time: 290
+    levelDataTextAsset: {fileID: 4900000, guid: 7e512031e49d1f34ab599033d1256fd4, type: 3}
+    specialUnitContainer: 4
+  - level: 362
+    levelType: 1
+    time: 390
+    levelDataTextAsset: {fileID: 4900000, guid: 94f29cb99779adc44a635be8abc20380, type: 3}
+    specialUnitContainer: 258
+  - level: 363
+    levelType: 1
+    time: 320
+    levelDataTextAsset: {fileID: 4900000, guid: fed9198f04cb00c46bd217bd8eef35cd, type: 3}
+    specialUnitContainer: 8
+  - level: 364
+    levelType: 1
+    time: 320
+    levelDataTextAsset: {fileID: 4900000, guid: e177a9bce5b2a594eb5ad349f4692527, type: 3}
+    specialUnitContainer: 1
+  - level: 365
+    levelType: 2
+    time: 260
+    levelDataTextAsset: {fileID: 4900000, guid: 7efa1aaadcbcfbc4480f5edf1df5809f, type: 3}
+    specialUnitContainer: 72
+  - level: 366
+    levelType: 1
+    time: 370
+    levelDataTextAsset: {fileID: 4900000, guid: 734b7656555245d49862cc3905c59afa, type: 3}
+    specialUnitContainer: 2
+  - level: 367
+    levelType: 1
+    time: 390
+    levelDataTextAsset: {fileID: 4900000, guid: b64109322c996514b98ce5e8d35e44e7, type: 3}
+    specialUnitContainer: 140
+  - level: 368
+    levelType: 1
+    time: 290
+    levelDataTextAsset: {fileID: 4900000, guid: f47f96ac0c22a0142aab12319d39278e, type: 3}
+    specialUnitContainer: 48
+  - level: 369
+    levelType: 1
+    time: 240
+    levelDataTextAsset: {fileID: 4900000, guid: 32911362138ddbc43a8a84946aee6f4c, type: 3}
+    specialUnitContainer: 2059
+  - level: 370
+    levelType: 3
+    time: 260
+    levelDataTextAsset: {fileID: 4900000, guid: 30635e95d33af2e4e87ee8a96a6af50d, type: 3}
+    specialUnitContainer: 504
+  - level: 371
+    levelType: 1
+    time: 260
+    levelDataTextAsset: {fileID: 4900000, guid: 05a5a4bd8ce8db8498f29314dea57d3f, type: 3}
+    specialUnitContainer: 4
+  - level: 372
+    levelType: 1
+    time: 370
+    levelDataTextAsset: {fileID: 4900000, guid: e9b87295c0d724a45bb4bdfdbc1d4f0b, type: 3}
+    specialUnitContainer: 258
+  - level: 373
+    levelType: 1
+    time: 390
+    levelDataTextAsset: {fileID: 4900000, guid: 193e78699739b0946ad30a6fda216e6e, type: 3}
+    specialUnitContainer: 8
+  - level: 374
+    levelType: 1
+    time: 260
+    levelDataTextAsset: {fileID: 4900000, guid: 87ce7363e7ae71e45a848a5093dfe58d, type: 3}
+    specialUnitContainer: 2049
+  - level: 375
+    levelType: 2
+    time: 250
+    levelDataTextAsset: {fileID: 4900000, guid: b122d1af8ec3b254b9b753c53b4e7375, type: 3}
+    specialUnitContainer: 4
+  - level: 376
+    levelType: 1
+    time: 310
+    levelDataTextAsset: {fileID: 4900000, guid: 5eea9b9cb943e6942903baa2a0db3cb1, type: 3}
+    specialUnitContainer: 2
+  - level: 377
+    levelType: 1
+    time: 260
+    levelDataTextAsset: {fileID: 4900000, guid: eebd70069d8e149468e0c140cb177962, type: 3}
+    specialUnitContainer: 2060
+  - level: 378
+    levelType: 1
+    time: 240
+    levelDataTextAsset: {fileID: 4900000, guid: 96e0649fbb5f9ea4d93e404810143c84, type: 3}
+    specialUnitContainer: 48
+  - level: 379
+    levelType: 1
+    time: 440
+    levelDataTextAsset: {fileID: 4900000, guid: a5ef769c1f6ddc04a95b370addd495bb, type: 3}
+    specialUnitContainer: 395
+  - level: 380
+    levelType: 3
+    time: 230
+    levelDataTextAsset: {fileID: 4900000, guid: 7ef3c0da55464fe47bf77d16eb9eff6d, type: 3}
+    specialUnitContainer: 2160
+  - level: 381
+    levelType: 1
+    time: 330
+    levelDataTextAsset: {fileID: 4900000, guid: 004d081daf60bde4bb6bbca9c8ca4cd4, type: 3}
+    specialUnitContainer: 12
+  - level: 382
+    levelType: 1
+    time: 370
+    levelDataTextAsset: {fileID: 4900000, guid: 95a795ecbabff484b8495860667bba35, type: 3}
+    specialUnitContainer: 258
+  - level: 383
+    levelType: 1
+    time: 230
+    levelDataTextAsset: {fileID: 4900000, guid: c46f53c0459f4c74abf8579451bc25ae, type: 3}
+    specialUnitContainer: 2328
+  - level: 384
+    levelType: 1
+    time: 320
+    levelDataTextAsset: {fileID: 4900000, guid: 4f5cd347a7d67ef408c690eac2eb261d, type: 3}
+    specialUnitContainer: 130
+  - level: 385
+    levelType: 2
+    time: 240
+    levelDataTextAsset: {fileID: 4900000, guid: 355d1ddab43bf7344a603498d5b7fa18, type: 3}
+    specialUnitContainer: 2058
+  - level: 386
+    levelType: 1
+    time: 240
+    levelDataTextAsset: {fileID: 4900000, guid: 9f026bc638058794ea51410f6339ea2a, type: 3}
+    specialUnitContainer: 1
+  - level: 387
+    levelType: 1
+    time: 180
+    levelDataTextAsset: {fileID: 4900000, guid: 6e48f3d4e2480504b86d9ba88e5c01e2, type: 3}
+    specialUnitContainer: 0
+  - level: 388
+    levelType: 1
+    time: 210
+    levelDataTextAsset: {fileID: 4900000, guid: 28dfe1009acf79347b3c5ef0da21570d, type: 3}
+    specialUnitContainer: 3
+  - level: 389
+    levelType: 1
+    time: 240
+    levelDataTextAsset: {fileID: 4900000, guid: 2cc488521c896ea4c8e2c0f008e4facb, type: 3}
+    specialUnitContainer: 40
+  - level: 390
+    levelType: 3
+    time: 310
+    levelDataTextAsset: {fileID: 4900000, guid: a07b59a51b88f124aa6fc1b23d0b7ee1, type: 3}
+    specialUnitContainer: 2080
+  - level: 391
+    levelType: 1
+    time: 220
+    levelDataTextAsset: {fileID: 4900000, guid: e6610977de333f34d86c5def4f0f944d, type: 3}
+    specialUnitContainer: 1028
+  - level: 392
+    levelType: 1
+    time: 170
+    levelDataTextAsset: {fileID: 4900000, guid: 1751af72a9187b748816590ab6257032, type: 3}
+    specialUnitContainer: 16
+  - level: 393
+    levelType: 1
+    time: 440
+    levelDataTextAsset: {fileID: 4900000, guid: 2ebfa2c390c0f9e478e576a48abf382d, type: 3}
+    specialUnitContainer: 2104
+  - level: 394
+    levelType: 1
+    time: 240
+    levelDataTextAsset: {fileID: 4900000, guid: 129946e1a6181e24c866738a2b2dfd9c, type: 3}
+    specialUnitContainer: 72
+  - level: 395
+    levelType: 2
+    time: 360
+    levelDataTextAsset: {fileID: 4900000, guid: 29757ff34485ad741b2bc50054a4b593, type: 3}
+    specialUnitContainer: 142
+  - level: 396
+    levelType: 1
+    time: 240
+    levelDataTextAsset: {fileID: 4900000, guid: b73726c705c5d7c4bae454d2599e9f29, type: 3}
+    specialUnitContainer: 2
+  - level: 397
+    levelType: 1
+    time: 290
+    levelDataTextAsset: {fileID: 4900000, guid: 35fef309f9e0307458039cdbce65626d, type: 3}
+    specialUnitContainer: 272
+  - level: 398
+    levelType: 1
+    time: 240
+    levelDataTextAsset: {fileID: 4900000, guid: 66dce3f342b871a4c98dc6e8740e8caf, type: 3}
+    specialUnitContainer: 1
+  - level: 399
+    levelType: 1
+    time: 390
+    levelDataTextAsset: {fileID: 4900000, guid: 442f3a7d125f2004eb544440aaed2773, type: 3}
+    specialUnitContainer: 2076
+  - level: 400
+    levelType: 3
+    time: 310
+    levelDataTextAsset: {fileID: 4900000, guid: 7fe2e267065635e4197cf67bbe8e02d3, type: 3}
+    specialUnitContainer: 2080
+  - level: 401
+    levelType: 1
+    time: 280
+    levelDataTextAsset: {fileID: 4900000, guid: fe3abe2df6063f24f86be2b480fbd840, type: 3}
+    specialUnitContainer: 276
+  - level: 402
+    levelType: 1
+    time: 190
+    levelDataTextAsset: {fileID: 4900000, guid: f7656c687f5310246b61cc445c37c7d4, type: 3}
+    specialUnitContainer: 67
+  - level: 403
+    levelType: 1
+    time: 230
+    levelDataTextAsset: {fileID: 4900000, guid: 645a4c6a1aa3de04b9c52f5e94c0fd2e, type: 3}
+    specialUnitContainer: 131
+  - level: 404
+    levelType: 1
+    time: 290
+    levelDataTextAsset: {fileID: 4900000, guid: 1c5cefa80976e384eb1db492f0848679, type: 3}
+    specialUnitContainer: 128
+  - level: 405
+    levelType: 2
+    time: 320
+    levelDataTextAsset: {fileID: 4900000, guid: 5284ff7229090714c94e01fa195c365a, type: 3}
+    specialUnitContainer: 53
+  - level: 406
+    levelType: 1
+    time: 160
+    levelDataTextAsset: {fileID: 4900000, guid: c08840d1ab1a4224485f4f5d0d47749c, type: 3}
+    specialUnitContainer: 37
+  - level: 407
+    levelType: 1
+    time: 270
+    levelDataTextAsset: {fileID: 4900000, guid: fcbd7783dcbd2704981b80064e234b77, type: 3}
+    specialUnitContainer: 1027
+  - level: 408
+    levelType: 1
+    time: 210
+    levelDataTextAsset: {fileID: 4900000, guid: 51b13ffcf3c3166458f202cd72dd467f, type: 3}
+    specialUnitContainer: 5
+  - level: 409
+    levelType: 1
+    time: 280
+    levelDataTextAsset: {fileID: 4900000, guid: bc3153ef0fc2e39429dcdfa0741540f3, type: 3}
+    specialUnitContainer: 2312
+  - level: 410
+    levelType: 3
+    time: 280
+    levelDataTextAsset: {fileID: 4900000, guid: fa177fb84226f5e449fb18fb0ba0fb97, type: 3}
+    specialUnitContainer: 2094
+  - level: 411
+    levelType: 1
+    time: 270
+    levelDataTextAsset: {fileID: 4900000, guid: c69380e827fea5e4eb5f95c066a8b15b, type: 3}
+    specialUnitContainer: 67
+  - level: 412
+    levelType: 1
+    time: 290
+    levelDataTextAsset: {fileID: 4900000, guid: e74e5d46278255549a621986641364a4, type: 3}
+    specialUnitContainer: 1
+  - level: 413
+    levelType: 1
+    time: 240
+    levelDataTextAsset: {fileID: 4900000, guid: 98c91b90b7f2f6b479505c0ffb6ffd43, type: 3}
+    specialUnitContainer: 320
+  - level: 414
+    levelType: 1
+    time: 230
+    levelDataTextAsset: {fileID: 4900000, guid: fc60890647454524c9ab0fc7a08ff9b7, type: 3}
+    specialUnitContainer: 2194
+  - level: 415
+    levelType: 2
+    time: 160
+    levelDataTextAsset: {fileID: 4900000, guid: 7b2c2649ca97b844e860d79d2dd1c9a1, type: 3}
+    specialUnitContainer: 32
+  - level: 416
+    levelType: 1
+    time: 310
+    levelDataTextAsset: {fileID: 4900000, guid: 665bc3b06a076cd4a8c1d43490be6c02, type: 3}
+    specialUnitContainer: 2073
+  - level: 417
+    levelType: 1
+    time: 240
+    levelDataTextAsset: {fileID: 4900000, guid: 1017fa8eea1270142b19d2b51d2cba3e, type: 3}
+    specialUnitContainer: 51
+  - level: 418
+    levelType: 1
+    time: 220
+    levelDataTextAsset: {fileID: 4900000, guid: 5545846e56d61394681abd377d17167d, type: 3}
+    specialUnitContainer: 289
+  - level: 419
+    levelType: 1
+    time: 260
+    levelDataTextAsset: {fileID: 4900000, guid: 4f15ee1407000194ba8beb40b249aafa, type: 3}
+    specialUnitContainer: 352
+  - level: 420
+    levelType: 3
+    time: 360
+    levelDataTextAsset: {fileID: 4900000, guid: 16342e7f3c46bda4f8cbd933941b518d, type: 3}
+    specialUnitContainer: 2104
+  - level: 421
+    levelType: 1
+    time: 260
+    levelDataTextAsset: {fileID: 4900000, guid: adbed98fe3f89144082fc65210e5b5ed, type: 3}
+    specialUnitContainer: 2053
+  - level: 422
+    levelType: 1
+    time: 260
+    levelDataTextAsset: {fileID: 4900000, guid: a6322bca0a2fd994586a15630077e966, type: 3}
+    specialUnitContainer: 131
+  - level: 423
+    levelType: 1
+    time: 160
+    levelDataTextAsset: {fileID: 4900000, guid: b425fd6fd4333204a802dd824a5b2054, type: 3}
+    specialUnitContainer: 37
+  - level: 424
+    levelType: 1
+    time: 270
+    levelDataTextAsset: {fileID: 4900000, guid: 0dafb26ebfc5e324aa9a9dfa530351bb, type: 3}
+    specialUnitContainer: 2051
+  - level: 425
+    levelType: 2
+    time: 270
+    levelDataTextAsset: {fileID: 4900000, guid: 67f28be731874f945b86ba40ef88ec03, type: 3}
+    specialUnitContainer: 2184
+  - level: 426
+    levelType: 1
+    time: 190
+    levelDataTextAsset: {fileID: 4900000, guid: 36b051ee2cf481642a268e8711ef081c, type: 3}
+    specialUnitContainer: 18
+  - level: 427
+    levelType: 1
+    time: 190
+    levelDataTextAsset: {fileID: 4900000, guid: 18dd8707e7eecf9499d23c11a83ef5ff, type: 3}
+    specialUnitContainer: 2306
+  - level: 428
+    levelType: 1
+    time: 210
+    levelDataTextAsset: {fileID: 4900000, guid: 2fa374015de03f64ab9d3d6f9477dbb7, type: 3}
+    specialUnitContainer: 3
+  - level: 429
+    levelType: 1
+    time: 260
+    levelDataTextAsset: {fileID: 4900000, guid: 685e528049c88944cb9da1363084f259, type: 3}
+    specialUnitContainer: 2076
+  - level: 430
+    levelType: 3
+    time: 310
+    levelDataTextAsset: {fileID: 4900000, guid: 11005f11cb5ccfe4eae1bb62a6ece9d6, type: 3}
+    specialUnitContainer: 406
+  - level: 431
+    levelType: 1
+    time: 160
+    levelDataTextAsset: {fileID: 4900000, guid: bce784caf51c34e4ebc81bbbe4179185, type: 3}
+    specialUnitContainer: 1
+  - level: 432
+    levelType: 1
+    time: 200
+    levelDataTextAsset: {fileID: 4900000, guid: e7da566e4fcc1bf45b80bee7afd6104c, type: 3}
+    specialUnitContainer: 134
+  - level: 433
+    levelType: 1
+    time: 290
+    levelDataTextAsset: {fileID: 4900000, guid: 7258e36b586e7064785e8e0da8f5c834, type: 3}
+    specialUnitContainer: 258
+  - level: 434
+    levelType: 1
+    time: 260
+    levelDataTextAsset: {fileID: 4900000, guid: 9b59f2c8c9dc4ac419bcd7eb10b786fa, type: 3}
+    specialUnitContainer: 315
+  - level: 435
+    levelType: 2
+    time: 210
+    levelDataTextAsset: {fileID: 4900000, guid: c4492391bc5b8bb4aaed641432b02d1c, type: 3}
+    specialUnitContainer: 320
+  - level: 436
+    levelType: 1
+    time: 170
+    levelDataTextAsset: {fileID: 4900000, guid: eac2931d255cd6048b1bbd092fc7a096, type: 3}
+    specialUnitContainer: 1
+  - level: 437
+    levelType: 1
+    time: 220
+    levelDataTextAsset: {fileID: 4900000, guid: d44da9fc2c13ae244af0d6d53fd3e6f2, type: 3}
+    specialUnitContainer: 2240
+  - level: 438
+    levelType: 1
+    time: 290
+    levelDataTextAsset: {fileID: 4900000, guid: f987c387050be0e4cbf3cfb3f9db555d, type: 3}
+    specialUnitContainer: 1083
+  - level: 439
+    levelType: 1
+    time: 210
+    levelDataTextAsset: {fileID: 4900000, guid: cf7bf14bdb421b54aa0df88379730957, type: 3}
+    specialUnitContainer: 67
+  - level: 440
+    levelType: 3
+    time: 290
+    levelDataTextAsset: {fileID: 4900000, guid: 506f346eb9d835a468c0e767786627f7, type: 3}
+    specialUnitContainer: 63
+  - level: 441
+    levelType: 1
+    time: 310
+    levelDataTextAsset: {fileID: 4900000, guid: bf7082aa8e6bf0942af2224bbeb38555, type: 3}
+    specialUnitContainer: 140
+  - level: 442
+    levelType: 1
+    time: 190
+    levelDataTextAsset: {fileID: 4900000, guid: dd6d7d46ab184d347ad65c838b07ff89, type: 3}
+    specialUnitContainer: 2120
+  - level: 443
+    levelType: 1
+    time: 190
+    levelDataTextAsset: {fileID: 4900000, guid: 1f7ec33d41cd3de428b174059a8b2f64, type: 3}
+    specialUnitContainer: 2092
+  - level: 444
+    levelType: 1
+    time: 270
+    levelDataTextAsset: {fileID: 4900000, guid: 5cd97c7e1a35a754e93734067cbb3888, type: 3}
+    specialUnitContainer: 2076
+  - level: 445
+    levelType: 2
+    time: 210
+    levelDataTextAsset: {fileID: 4900000, guid: 0bd4992e2efee464c8eb5ef5cdc9a2cd, type: 3}
+    specialUnitContainer: 440
+  - level: 446
+    levelType: 1
+    time: 190
+    levelDataTextAsset: {fileID: 4900000, guid: 42af120308f08c447a1f3a2621fb08ad, type: 3}
+    specialUnitContainer: 258
+  - level: 447
+    levelType: 1
+    time: 410
+    levelDataTextAsset: {fileID: 4900000, guid: 48d14be6d99f0a647a9d807f79cc29a2, type: 3}
+    specialUnitContainer: 2156
+  - level: 448
+    levelType: 1
+    time: 260
+    levelDataTextAsset: {fileID: 4900000, guid: b8503547b7f80c7469ce6ecf81ff43df, type: 3}
+    specialUnitContainer: 1026
+  - level: 449
+    levelType: 1
+    time: 310
+    levelDataTextAsset: {fileID: 4900000, guid: 9d45e2f0b89f78e42bd4ee6ca0e1835e, type: 3}
+    specialUnitContainer: 182
+  - level: 450
+    levelType: 3
+    time: 410
+    levelDataTextAsset: {fileID: 4900000, guid: 2f1dd4e6a033a5f4ca553a6af6ffe9bb, type: 3}
+    specialUnitContainer: 4210
+  - level: 451
+    levelType: 1
+    time: 230
+    levelDataTextAsset: {fileID: 4900000, guid: ede1bd04eff9ccd4386dcf1b9daf991c, type: 3}
+    specialUnitContainer: 2470
+  - level: 452
+    levelType: 1
+    time: 260
+    levelDataTextAsset: {fileID: 4900000, guid: 60357c1802bb83c48bb32e8d4fd556f4, type: 3}
+    specialUnitContainer: 2094
+  - level: 453
+    levelType: 1
+    time: 430
+    levelDataTextAsset: {fileID: 4900000, guid: a3d6b9df54b78fd4a9d5c90cfb1b97d3, type: 3}
+    specialUnitContainer: 2220
+  - level: 454
+    levelType: 1
+    time: 280
+    levelDataTextAsset: {fileID: 4900000, guid: a2345148871494a48b9f1fd67a3a856a, type: 3}
+    specialUnitContainer: 2120
+  - level: 455
+    levelType: 2
+    time: 410
+    levelDataTextAsset: {fileID: 4900000, guid: 619095e4dc53dd043acfbad2b4f26bf4, type: 3}
+    specialUnitContainer: 2232
+  - level: 456
+    levelType: 1
+    time: 310
+    levelDataTextAsset: {fileID: 4900000, guid: 74251cbb33e1a514a8abab861c0205b2, type: 3}
+    specialUnitContainer: 258
+  - level: 457
+    levelType: 1
+    time: 240
+    levelDataTextAsset: {fileID: 4900000, guid: ba03d188343b9134b84553d03d8860c2, type: 3}
+    specialUnitContainer: 2152
+  - level: 458
+    levelType: 1
+    time: 310
+    levelDataTextAsset: {fileID: 4900000, guid: d41e976cbfe2b7a45a5b433fc6c713c5, type: 3}
+    specialUnitContainer: 4098
+  - level: 459
+    levelType: 1
+    time: 250
+    levelDataTextAsset: {fileID: 4900000, guid: 14f5feb52a1a8ba49abe0d6b7eb6aa1f, type: 3}
+    specialUnitContainer: 4278
+  - level: 460
+    levelType: 3
+    time: 390
+    levelDataTextAsset: {fileID: 4900000, guid: 35c224d016b0d6a439e15a0389dcfbd7, type: 3}
+    specialUnitContainer: 2300
+  - level: 461
+    levelType: 1
+    time: 210
+    levelDataTextAsset: {fileID: 4900000, guid: 326c2e8d3241a404bbb09af0ce5b8a27, type: 3}
+    specialUnitContainer: 2306
+  - level: 462
+    levelType: 1
+    time: 210
+    levelDataTextAsset: {fileID: 4900000, guid: 299e2c38c459add4ca048c8516d3f219, type: 3}
+    specialUnitContainer: 130
+  - level: 463
+    levelType: 1
+    time: 210
+    levelDataTextAsset: {fileID: 4900000, guid: 64dd9372de2d12e409af5397ab05e03a, type: 3}
+    specialUnitContainer: 2089
+  - level: 464
+    levelType: 1
+    time: 210
+    levelDataTextAsset: {fileID: 4900000, guid: d6481226018887a4f93498e48bf5bd33, type: 3}
+    specialUnitContainer: 260
+  - level: 465
+    levelType: 2
+    time: 230
+    levelDataTextAsset: {fileID: 4900000, guid: 0e1214a39eb7d2b45a0912ec8530582e, type: 3}
+    specialUnitContainer: 72
+  - level: 466
+    levelType: 1
+    time: 170
+    levelDataTextAsset: {fileID: 4900000, guid: 235cd003e939e1f41988a8409a062f9b, type: 3}
+    specialUnitContainer: 0
+  - level: 467
+    levelType: 1
+    time: 310
+    levelDataTextAsset: {fileID: 4900000, guid: 66b8caee448ed454ab828aabb8e33063, type: 3}
+    specialUnitContainer: 2232
+  - level: 468
+    levelType: 1
+    time: 220
+    levelDataTextAsset: {fileID: 4900000, guid: febe84066d6be264db301c97ff92d7f5, type: 3}
+    specialUnitContainer: 2440
+  - level: 469
+    levelType: 1
+    time: 190
+    levelDataTextAsset: {fileID: 4900000, guid: ebac2b9d6764e7743bf0782f6d24afdc, type: 3}
+    specialUnitContainer: 11
+  - level: 470
+    levelType: 3
+    time: 260
+    levelDataTextAsset: {fileID: 4900000, guid: 7bba5cd5ee3a7b24cac91ec754b554c0, type: 3}
+    specialUnitContainer: 2312
+  - level: 471
+    levelType: 1
+    time: 340
+    levelDataTextAsset: {fileID: 4900000, guid: 4a4ed4a1cadd3b04691edac71b91f8dc, type: 3}
+    specialUnitContainer: 1322
+  - level: 472
+    levelType: 1
+    time: 210
+    levelDataTextAsset: {fileID: 4900000, guid: db498bc92cebeea48a93f7d298f23d35, type: 3}
+    specialUnitContainer: 320
+  - level: 473
+    levelType: 1
+    time: 460
+    levelDataTextAsset: {fileID: 4900000, guid: eb51a60bc28d6234f853a7e5b6c277d2, type: 3}
+    specialUnitContainer: 262
+  - level: 474
+    levelType: 1
+    time: 390
+    levelDataTextAsset: {fileID: 4900000, guid: aa7f075434f3b2042bb3626a00137f44, type: 3}
+    specialUnitContainer: 2063
+  - level: 475
+    levelType: 2
+    time: 250
+    levelDataTextAsset: {fileID: 4900000, guid: 966e463f29e161b40b8c9c967faabb3f, type: 3}
+    specialUnitContainer: 2154
+  - level: 476
+    levelType: 1
+    time: 290
+    levelDataTextAsset: {fileID: 4900000, guid: a59905c4546f6f049b6d8fcf573bb126, type: 3}
+    specialUnitContainer: 1
+  - level: 477
+    levelType: 1
+    time: 240
+    levelDataTextAsset: {fileID: 4900000, guid: 76e4d660f0647bf479e4089eb7c7fd8e, type: 3}
+    specialUnitContainer: 67
+  - level: 478
+    levelType: 1
+    time: 190
+    levelDataTextAsset: {fileID: 4900000, guid: b00819769a227cc479942c027fc7e47c, type: 3}
+    specialUnitContainer: 18
+  - level: 479
+    levelType: 1
+    time: 290
+    levelDataTextAsset: {fileID: 4900000, guid: 6a304cc2f9492ca4896f28f3e2836908, type: 3}
+    specialUnitContainer: 2312
+  - level: 480
+    levelType: 3
+    time: 390
+    levelDataTextAsset: {fileID: 4900000, guid: e8d370598f2ed4e44953219550821231, type: 3}
+    specialUnitContainer: 6250
+  - level: 481
+    levelType: 1
+    time: 340
+    levelDataTextAsset: {fileID: 4900000, guid: 136b633edd069534ba7bbbc683669835, type: 3}
+    specialUnitContainer: 2073
+  - level: 482
+    levelType: 1
+    time: 220
+    levelDataTextAsset: {fileID: 4900000, guid: 687a2d7df50628143a316012a394cf7d, type: 3}
+    specialUnitContainer: 289
+  - level: 483
+    levelType: 1
+    time: 210
+    levelDataTextAsset: {fileID: 4900000, guid: d225a82e19a166b4bac5c7c4fdf0b136, type: 3}
+    specialUnitContainer: 270
+  - level: 484
+    levelType: 1
+    time: 340
+    levelDataTextAsset: {fileID: 4900000, guid: 96ff78c6e6a324b4d8604860d1794fb5, type: 3}
+    specialUnitContainer: 2059
+  - level: 485
+    levelType: 2
+    time: 290
+    levelDataTextAsset: {fileID: 4900000, guid: a5ccafdebb3dd3848b9dd16a5c517c7b, type: 3}
+    specialUnitContainer: 80
+  - level: 486
+    levelType: 1
+    time: 220
+    levelDataTextAsset: {fileID: 4900000, guid: e445f9729aad64d4a8a242f323377c66, type: 3}
+    specialUnitContainer: 16
+  - level: 487
+    levelType: 1
+    time: 220
+    levelDataTextAsset: {fileID: 4900000, guid: c587b37412a2c3a43b838c5531a7ffaa, type: 3}
+    specialUnitContainer: 134
+  - level: 488
+    levelType: 1
+    time: 240
+    levelDataTextAsset: {fileID: 4900000, guid: 23df952cd9c05e6478f3c1dd2c8ab692, type: 3}
+    specialUnitContainer: 271
+  - level: 489
+    levelType: 1
+    time: 240
+    levelDataTextAsset: {fileID: 4900000, guid: 6c53cbe6a61700040971481c0318ac15, type: 3}
+    specialUnitContainer: 2063
+  - level: 490
+    levelType: 3
+    time: 230
+    levelDataTextAsset: {fileID: 4900000, guid: 17bc5059be5fe124797a31380f720783, type: 3}
+    specialUnitContainer: 2154
+  - level: 491
+    levelType: 1
+    time: 170
+    levelDataTextAsset: {fileID: 4900000, guid: f14092da2c2293c49a21fc89c0efe24d, type: 3}
+    specialUnitContainer: 0
+  - level: 492
+    levelType: 1
+    time: 240
+    levelDataTextAsset: {fileID: 4900000, guid: 7611f3778554a7d4d94807b92388cdd7, type: 3}
+    specialUnitContainer: 320
+  - level: 493
+    levelType: 1
+    time: 270
+    levelDataTextAsset: {fileID: 4900000, guid: 8ae193ceb3163824fbd68a6b24233ac3, type: 3}
+    specialUnitContainer: 209
+  - level: 494
+    levelType: 1
+    time: 340
+    levelDataTextAsset: {fileID: 4900000, guid: 1a8a40f5ccf9b384084f583e527c2eb5, type: 3}
+    specialUnitContainer: 274
+  - level: 495
+    levelType: 2
+    time: 310
+    levelDataTextAsset: {fileID: 4900000, guid: 48b812db6ffc96d40a6d3fab3916b251, type: 3}
+    specialUnitContainer: 112
+  - level: 496
+    levelType: 1
+    time: 280
+    levelDataTextAsset: {fileID: 4900000, guid: 6c9e0ea4f92f7354a94d9dd6740c2d66, type: 3}
+    specialUnitContainer: 2306
+  - level: 497
+    levelType: 1
+    time: 240
+    levelDataTextAsset: {fileID: 4900000, guid: d16fd78ab3456e64abb37e8f0b5d2604, type: 3}
+    specialUnitContainer: 2076
+  - level: 498
+    levelType: 1
+    time: 240
+    levelDataTextAsset: {fileID: 4900000, guid: 98a87ceb4e7d8ba4bb4074cffff69a02, type: 3}
+    specialUnitContainer: 4
+  - level: 499
+    levelType: 1
+    time: 240
+    levelDataTextAsset: {fileID: 4900000, guid: 6f29dc78542c08848b5a3ff6ed096d0f, type: 3}
+    specialUnitContainer: 4
+  - level: 500
+    levelType: 3
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: b7f7a97f95df4d043b85ee7bf6eb552b, type: 3}
+    specialUnitContainer: 142
+  - level: 501
+    levelType: 1
+    time: 190
+    levelDataTextAsset: {fileID: 4900000, guid: 1bd38c1181953c34aa0c87136691fb0b, type: 3}
+    specialUnitContainer: 272
+  - level: 502
+    levelType: 1
+    time: 320
+    levelDataTextAsset: {fileID: 4900000, guid: b76e2f2377559ad4a989697bb598abf2, type: 3}
+    specialUnitContainer: 1027
+  - level: 503
+    levelType: 1
+    time: 260
+    levelDataTextAsset: {fileID: 4900000, guid: 77d4508ad8f7e5043b17e73535eb7e5d, type: 3}
+    specialUnitContainer: 2248
+  - level: 504
+    levelType: 1
+    time: 370
+    levelDataTextAsset: {fileID: 4900000, guid: 3642d3ff1dcb6e44fb21b10c6bcd32a6, type: 3}
+    specialUnitContainer: 2329
+  - level: 505
+    levelType: 2
+    time: 360
+    levelDataTextAsset: {fileID: 4900000, guid: 512460a3273574f4fb0710f7ba7ae500, type: 3}
+    specialUnitContainer: 6
+  - level: 506
+    levelType: 1
+    time: 230
+    levelDataTextAsset: {fileID: 4900000, guid: da698c8e04d556c4ca9efde5f1c66fa9, type: 3}
+    specialUnitContainer: 2304
+  - level: 507
+    levelType: 1
+    time: 280
+    levelDataTextAsset: {fileID: 4900000, guid: 82c97c2989c231c468875a94748ba93c, type: 3}
+    specialUnitContainer: 288
+  - level: 508
+    levelType: 1
+    time: 260
+    levelDataTextAsset: {fileID: 4900000, guid: b5066892a779004438a0219d16869221, type: 3}
+    specialUnitContainer: 192
+  - level: 509
+    levelType: 1
+    time: 350
+    levelDataTextAsset: {fileID: 4900000, guid: 3efd81b344ee9fb4f8cab02a236ec05a, type: 3}
+    specialUnitContainer: 2063
+  - level: 510
+    levelType: 3
+    time: 290
+    levelDataTextAsset: {fileID: 4900000, guid: 77f7c8d1ed0cdb541a0a75aa8d1a07ee, type: 3}
+    specialUnitContainer: 2140
+  - level: 511
+    levelType: 1
+    time: 280
+    levelDataTextAsset: {fileID: 4900000, guid: ef3917fd478af4649bd62fa25a13e914, type: 3}
+    specialUnitContainer: 2328
+  - level: 512
+    levelType: 1
+    time: 350
+    levelDataTextAsset: {fileID: 4900000, guid: 61f5c3e070f6b874c8fc103398c0dd2f, type: 3}
+    specialUnitContainer: 242
+  - level: 513
+    levelType: 1
+    time: 210
+    levelDataTextAsset: {fileID: 4900000, guid: 048d409c5ed09dd4e8740b04d3a124df, type: 3}
+    specialUnitContainer: 4096
+  - level: 514
+    levelType: 1
+    time: 470
+    levelDataTextAsset: {fileID: 4900000, guid: f80864c551dced745ab50cf733425331, type: 3}
+    specialUnitContainer: 4432
+  - level: 515
+    levelType: 2
+    time: 280
+    levelDataTextAsset: {fileID: 4900000, guid: c931ad593b3308542a2b28cf42d1b95b, type: 3}
+    specialUnitContainer: 1040
+  - level: 516
+    levelType: 1
+    time: 240
+    levelDataTextAsset: {fileID: 4900000, guid: 5359f6b4b0da6ac4cb92d86269094bd5, type: 3}
+    specialUnitContainer: 4097
+  - level: 517
+    levelType: 1
+    time: 180
+    levelDataTextAsset: {fileID: 4900000, guid: 9e764157b9f9bd44480f76d52fbd5510, type: 3}
+    specialUnitContainer: 260
+  - level: 518
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 50b02bdeed8c14c42b9c98cf6162a5a8, type: 3}
+    specialUnitContainer: 2248
+  - level: 519
+    levelType: 1
+    time: 210
+    levelDataTextAsset: {fileID: 4900000, guid: c1a081b93a9e16b499e6dd25ccb6f14a, type: 3}
+    specialUnitContainer: 1026
+  - level: 520
+    levelType: 3
+    time: 350
+    levelDataTextAsset: {fileID: 4900000, guid: 362fb536c7d7134488d07b406f98280f, type: 3}
+    specialUnitContainer: 257
+  - level: 521
+    levelType: 1
+    time: 420
+    levelDataTextAsset: {fileID: 4900000, guid: 0abccd4c9b5d5424f83a8c1f6d96dfe7, type: 3}
+    specialUnitContainer: 450
+  - level: 522
+    levelType: 1
+    time: 240
+    levelDataTextAsset: {fileID: 4900000, guid: 85012a89058ccac4696b8965d1489cdd, type: 3}
+    specialUnitContainer: 2056
+  - level: 523
+    levelType: 1
+    time: 240
+    levelDataTextAsset: {fileID: 4900000, guid: a4e62d18e52da1a439a0b3b287a700cc, type: 3}
+    specialUnitContainer: 4288
+  - level: 524
+    levelType: 1
+    time: 260
+    levelDataTextAsset: {fileID: 4900000, guid: 7194d0fd02d7bac4d99343edefbb76b1, type: 3}
+    specialUnitContainer: 276
+  - level: 525
+    levelType: 2
+    time: 470
+    levelDataTextAsset: {fileID: 4900000, guid: b4cfaf212fdd90543a6788018fe2199d, type: 3}
+    specialUnitContainer: 2232
+  - level: 526
+    levelType: 1
+    time: 350
+    levelDataTextAsset: {fileID: 4900000, guid: f4474352cd0293c44af9465e42abc322, type: 3}
+    specialUnitContainer: 4114
+  - level: 527
+    levelType: 1
+    time: 260
+    levelDataTextAsset: {fileID: 4900000, guid: b3edc734d87b853439aebaae20202210, type: 3}
+    specialUnitContainer: 2345
+  - level: 528
+    levelType: 1
+    time: 380
+    levelDataTextAsset: {fileID: 4900000, guid: b7cca8b94ac01b741a72f72e1905f04c, type: 3}
+    specialUnitContainer: 4144
+  - level: 529
+    levelType: 1
+    time: 260
+    levelDataTextAsset: {fileID: 4900000, guid: b11c267fe37add6479ef30536d9139ca, type: 3}
+    specialUnitContainer: 0
+  - level: 530
+    levelType: 3
+    time: 240
+    levelDataTextAsset: {fileID: 4900000, guid: b7d6888b4a45fe4448884b8b0200b8b1, type: 3}
+    specialUnitContainer: 464
+  - level: 531
+    levelType: 1
+    time: 230
+    levelDataTextAsset: {fileID: 4900000, guid: 78060d19474d9264ab69801a38f08641, type: 3}
+    specialUnitContainer: 256
+  - level: 532
+    levelType: 1
+    time: 370
+    levelDataTextAsset: {fileID: 4900000, guid: 70a8eef9780a6b8469eaaf8121cbbe0a, type: 3}
+    specialUnitContainer: 50
+  - level: 533
+    levelType: 1
+    time: 310
+    levelDataTextAsset: {fileID: 4900000, guid: f4884c4fd30190941b80e6aa59226990, type: 3}
+    specialUnitContainer: 1024
+  - level: 534
+    levelType: 1
+    time: 260
+    levelDataTextAsset: {fileID: 4900000, guid: 45842d6cae8b4534b914115f832e8f04, type: 3}
+    specialUnitContainer: 2312
+  - level: 535
+    levelType: 2
+    time: 380
+    levelDataTextAsset: {fileID: 4900000, guid: cb0173b11b8eeb44e87fdf64a96f1519, type: 3}
+    specialUnitContainer: 1073
+  - level: 536
+    levelType: 1
+    time: 370
+    levelDataTextAsset: {fileID: 4900000, guid: b4024e95a536434499745ca1540c70aa, type: 3}
+    specialUnitContainer: 208
+  - level: 537
+    levelType: 1
+    time: 320
+    levelDataTextAsset: {fileID: 4900000, guid: 11f70162df7b97546b88e0f84f16289c, type: 3}
+    specialUnitContainer: 2508
+  - level: 538
+    levelType: 1
+    time: 230
+    levelDataTextAsset: {fileID: 4900000, guid: 7b716d3b20c82524cb0134b590d5a652, type: 3}
+    specialUnitContainer: 4104
+  - level: 539
+    levelType: 1
+    time: 280
+    levelDataTextAsset: {fileID: 4900000, guid: 1062c9e8c92360649bc3fae4ebfdecfe, type: 3}
+    specialUnitContainer: 17
+  - level: 540
+    levelType: 3
+    time: 320
+    levelDataTextAsset: {fileID: 4900000, guid: c67cf899f7723c140a363f0c00c78dea, type: 3}
+    specialUnitContainer: 194
+  - level: 541
+    levelType: 1
+    time: 310
+    levelDataTextAsset: {fileID: 4900000, guid: 5960ee8761fd33f41a57918bd1b4d13e, type: 3}
+    specialUnitContainer: 452
+  - level: 542
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 13f4651f3e00cf945a2f34d4507a9767, type: 3}
+    specialUnitContainer: 2057
+  - level: 543
+    levelType: 1
+    time: 310
+    levelDataTextAsset: {fileID: 4900000, guid: 6510b629335d3f342bc8beb0dc601be9, type: 3}
+    specialUnitContainer: 4144
+  - level: 544
+    levelType: 1
+    time: 320
+    levelDataTextAsset: {fileID: 4900000, guid: 14f7419205898e54da9a5adf92cfb7b3, type: 3}
+    specialUnitContainer: 450
+  - level: 545
+    levelType: 2
+    time: 330
+    levelDataTextAsset: {fileID: 4900000, guid: 07b3b878326e3e3448da5f4920ed2683, type: 3}
+    specialUnitContainer: 2457
+  - level: 546
+    levelType: 1
+    time: 210
+    levelDataTextAsset: {fileID: 4900000, guid: bf7abd83b1e95c842ad93be03ed92818, type: 3}
+    specialUnitContainer: 8
+  - level: 547
+    levelType: 1
+    time: 320
+    levelDataTextAsset: {fileID: 4900000, guid: d4c87ef262406f94d90722f9201481b3, type: 3}
+    specialUnitContainer: 4352
+  - level: 548
+    levelType: 1
+    time: 320
+    levelDataTextAsset: {fileID: 4900000, guid: a72017d16ff943a4da936dca8567c62e, type: 3}
+    specialUnitContainer: 1041
+  - level: 549
+    levelType: 1
+    time: 350
+    levelDataTextAsset: {fileID: 4900000, guid: 0e15ac7735ba90144972a80079dc52b8, type: 3}
+    specialUnitContainer: 208
+  - level: 550
+    levelType: 3
+    time: 270
+    levelDataTextAsset: {fileID: 4900000, guid: b7133e0bf1708f746b6f4306b6082b57, type: 3}
+    specialUnitContainer: 280
+  - level: 551
+    levelType: 1
+    time: 280
+    levelDataTextAsset: {fileID: 4900000, guid: 557dc2f297a6ab144a1fabac0404068b, type: 3}
+    specialUnitContainer: 258
+  - level: 552
+    levelType: 1
+    time: 260
+    levelDataTextAsset: {fileID: 4900000, guid: cb31749f4a360e44ba0d0dbd04670b43, type: 3}
+    specialUnitContainer: 4
+  - level: 553
+    levelType: 1
+    time: 320
+    levelDataTextAsset: {fileID: 4900000, guid: bb6800d35ac35574c9f63351a8c143f8, type: 3}
+    specialUnitContainer: 2200
+  - level: 554
+    levelType: 1
+    time: 350
+    levelDataTextAsset: {fileID: 4900000, guid: 918331aad585a9148be0063e0edf985a, type: 3}
+    specialUnitContainer: 307
+  - level: 555
+    levelType: 2
+    time: 270
+    levelDataTextAsset: {fileID: 4900000, guid: 21b9e0e68bc571b48930c57c9550e102, type: 3}
+    specialUnitContainer: 2460
+  - level: 556
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 634ee25a16392c140abe853b857b9900, type: 3}
+    specialUnitContainer: 4112
+  - level: 557
+    levelType: 1
+    time: 260
+    levelDataTextAsset: {fileID: 4900000, guid: e6ad074509df224449130037199670a8, type: 3}
+    specialUnitContainer: 288
+  - level: 558
+    levelType: 1
+    time: 380
+    levelDataTextAsset: {fileID: 4900000, guid: 09df3f119192d6c498112e1ea6577b6f, type: 3}
+    specialUnitContainer: 4144
+  - level: 559
+    levelType: 1
+    time: 280
+    levelDataTextAsset: {fileID: 4900000, guid: 0d60e02627bd8c144a59b868af2bc2ea, type: 3}
+    specialUnitContainer: 153
+  - level: 560
+    levelType: 3
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 5b57b02cb3dbdbe45aeb19ceffb4a03a, type: 3}
+    specialUnitContainer: 2312
+  - level: 561
+    levelType: 1
+    time: 210
+    levelDataTextAsset: {fileID: 4900000, guid: 81748444e8baf8c479f7e0eda857fcc5, type: 3}
+    specialUnitContainer: 132
+  - level: 562
+    levelType: 1
+    time: 320
+    levelDataTextAsset: {fileID: 4900000, guid: 7f06ada29720c5f4e88b40b6bb72659b, type: 3}
+    specialUnitContainer: 1
+  - level: 563
+    levelType: 1
+    time: 230
+    levelDataTextAsset: {fileID: 4900000, guid: c60ff3e21e666bc4e85bfe6ad8572d3d, type: 3}
+    specialUnitContainer: 2072
+  - level: 564
+    levelType: 1
+    time: 450
+    levelDataTextAsset: {fileID: 4900000, guid: b066ca5850147314592957eba8c23b50, type: 3}
+    specialUnitContainer: 4402
+  - level: 565
+    levelType: 2
+    time: 230
+    levelDataTextAsset: {fileID: 4900000, guid: 14c2afae9fbbb7746b018ef6fcabab1d, type: 3}
+    specialUnitContainer: 2056
+  - level: 566
+    levelType: 1
+    time: 280
+    levelDataTextAsset: {fileID: 4900000, guid: 8ea30a62253c4ba4c9d380fc7caf2028, type: 3}
+    specialUnitContainer: 1024
+  - level: 567
+    levelType: 1
+    time: 380
+    levelDataTextAsset: {fileID: 4900000, guid: dfbaf1607ed4fbc4fa62c8418e4a039b, type: 3}
+    specialUnitContainer: 464
+  - level: 568
+    levelType: 1
+    time: 430
+    levelDataTextAsset: {fileID: 4900000, guid: 0b2560d2b87c9bf458aa6b5ae341c582, type: 3}
+    specialUnitContainer: 210
+  - level: 569
+    levelType: 1
+    time: 260
+    levelDataTextAsset: {fileID: 4900000, guid: 69f2e39d2adbc9e448a18d87ebcf6a2d, type: 3}
+    specialUnitContainer: 1025
+  - level: 570
+    levelType: 3
+    time: 260
+    levelDataTextAsset: {fileID: 4900000, guid: 41375f8cee1e8004aa67703a2f6ef16b, type: 3}
+    specialUnitContainer: 1280
+  - level: 571
+    levelType: 1
+    time: 320
+    levelDataTextAsset: {fileID: 4900000, guid: 2b0f0694c2fa39748a784f55764a9c18, type: 3}
+    specialUnitContainer: 480
+  - level: 572
+    levelType: 1
+    time: 280
+    levelDataTextAsset: {fileID: 4900000, guid: 4c1df59398b8a434d9be66a4ff4a2ea6, type: 3}
+    specialUnitContainer: 1041
+  - level: 573
+    levelType: 1
+    time: 200
+    levelDataTextAsset: {fileID: 4900000, guid: fe81908652ef69d4d87b440e3d6d769e, type: 3}
+    specialUnitContainer: 5
+  - level: 574
+    levelType: 1
+    time: 260
+    levelDataTextAsset: {fileID: 4900000, guid: bc7fa1a2fc800144ca3a0becf6a2a24e, type: 3}
+    specialUnitContainer: 272
+  - level: 575
+    levelType: 2
+    time: 280
+    levelDataTextAsset: {fileID: 4900000, guid: 7a6e8492de23149439b7eca96ac41d13, type: 3}
+    specialUnitContainer: 2056
+  - level: 576
+    levelType: 1
+    time: 260
+    levelDataTextAsset: {fileID: 4900000, guid: f86011924050a4941b88b28898faa2be, type: 3}
+    specialUnitContainer: 4096
+  - level: 577
+    levelType: 1
+    time: 320
+    levelDataTextAsset: {fileID: 4900000, guid: 8e51c5c4e96b35a40ac91bdab2a490ec, type: 3}
+    specialUnitContainer: 464
+  - level: 578
+    levelType: 1
+    time: 320
+    levelDataTextAsset: {fileID: 4900000, guid: 677ab8f7f4401ff4faa54d10d12ef315, type: 3}
+    specialUnitContainer: 2056
+  - level: 579
+    levelType: 1
+    time: 280
+    levelDataTextAsset: {fileID: 4900000, guid: e8d1e048f355eba4a84340b495d62f09, type: 3}
+    specialUnitContainer: 1026
+  - level: 580
+    levelType: 3
+    time: 270
+    levelDataTextAsset: {fileID: 4900000, guid: d9934cedfd4ed244f8342b58a36e00a6, type: 3}
+    specialUnitContainer: 482
+  - level: 581
+    levelType: 1
+    time: 210
+    levelDataTextAsset: {fileID: 4900000, guid: 27b32f76de458884e82ae90a931e5625, type: 3}
+    specialUnitContainer: 256
+  - level: 582
+    levelType: 1
+    time: 320
+    levelDataTextAsset: {fileID: 4900000, guid: f1c9e2fa0c9c5094fa54396d23d13f7f, type: 3}
+    specialUnitContainer: 4161
+  - level: 583
+    levelType: 1
+    time: 230
+    levelDataTextAsset: {fileID: 4900000, guid: 264a7126be3eb92469947aff19899169, type: 3}
+    specialUnitContainer: 2072
+  - level: 584
+    levelType: 1
+    time: 260
+    levelDataTextAsset: {fileID: 4900000, guid: fc9365fe52e20b748b2dde3030e99c29, type: 3}
+    specialUnitContainer: 259
+  - level: 585
+    levelType: 2
+    time: 260
+    levelDataTextAsset: {fileID: 4900000, guid: 03133706526c6334296e6c6d63358f4d, type: 3}
+    specialUnitContainer: 208
+  - level: 586
+    levelType: 1
+    time: 280
+    levelDataTextAsset: {fileID: 4900000, guid: c081d65624413aa4baf5722c4936f552, type: 3}
+    specialUnitContainer: 4096
+  - level: 587
+    levelType: 1
+    time: 210
+    levelDataTextAsset: {fileID: 4900000, guid: aa9173f9acd6e7346b10459595822994, type: 3}
+    specialUnitContainer: 256
+  - level: 588
+    levelType: 1
+    time: 230
+    levelDataTextAsset: {fileID: 4900000, guid: da41a11aacdc25d488f9b7708aa6ec55, type: 3}
+    specialUnitContainer: 1040
+  - level: 589
+    levelType: 1
+    time: 350
+    levelDataTextAsset: {fileID: 4900000, guid: 83c1e5b5703206a4cb1ae6f7cd683382, type: 3}
+    specialUnitContainer: 54
+  - level: 590
+    levelType: 3
+    time: 230
+    levelDataTextAsset: {fileID: 4900000, guid: 379cf31ab34b5834a8e172c390c1fb26, type: 3}
+    specialUnitContainer: 2408
+  - level: 591
+    levelType: 1
+    time: 330
+    levelDataTextAsset: {fileID: 4900000, guid: a3e3aeb861bcd6a418fd7acd681f844d, type: 3}
+    specialUnitContainer: 278
+  - level: 592
+    levelType: 1
+    time: 230
+    levelDataTextAsset: {fileID: 4900000, guid: 8d7a322aef1edb448a441552f613e185, type: 3}
+    specialUnitContainer: 2072
+  - level: 593
+    levelType: 1
+    time: 230
+    levelDataTextAsset: {fileID: 4900000, guid: ed21740ab07bfbe4a9f106fad57c1dc6, type: 3}
+    specialUnitContainer: 4129
+  - level: 594
+    levelType: 1
+    time: 420
+    levelDataTextAsset: {fileID: 4900000, guid: a5dbbb61f08d9264bb882519128ad9b9, type: 3}
+    specialUnitContainer: 448
+  - level: 595
+    levelType: 2
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 8f8d8da8c143f1d4ca8ef9ae425e74fb, type: 3}
+    specialUnitContainer: 194
+  - level: 596
+    levelType: 1
+    time: 350
+    levelDataTextAsset: {fileID: 4900000, guid: 4b2f74ebb805c6240a7debc63d5d0fd5, type: 3}
+    specialUnitContainer: 1024
+  - level: 597
+    levelType: 1
+    time: 230
+    levelDataTextAsset: {fileID: 4900000, guid: f5aa4444490c8f647a7fca533e86b135, type: 3}
+    specialUnitContainer: 2312
+  - level: 598
+    levelType: 1
+    time: 290
+    levelDataTextAsset: {fileID: 4900000, guid: 7589b5f7384570b4fa1f22204db6c8a0, type: 3}
+    specialUnitContainer: 1
+  - level: 599
+    levelType: 1
+    time: 260
+    levelDataTextAsset: {fileID: 4900000, guid: 22994582255e4144bb8b86862d0745d4, type: 3}
+    specialUnitContainer: 48
+  - level: 600
+    levelType: 3
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 6b6eec350b25d8047a02f31abcbb8314, type: 3}
+    specialUnitContainer: 464
+  - level: 601
+    levelType: 1
+    time: 250
+    levelDataTextAsset: {fileID: 4900000, guid: 4330b26902f4e844caa69207abe1e742, type: 3}
+    specialUnitContainer: 4354
+  - level: 602
+    levelType: 1
+    time: 320
+    levelDataTextAsset: {fileID: 4900000, guid: 39f4585ee952cc641ba8e2499f2ccd28, type: 3}
+    specialUnitContainer: 1025
+  - level: 603
+    levelType: 1
+    time: 365
+    levelDataTextAsset: {fileID: 4900000, guid: bde44f5f411979d46b47d777e5dff9d0, type: 3}
+    specialUnitContainer: 259
+  - level: 604
+    levelType: 1
+    time: 420
+    levelDataTextAsset: {fileID: 4900000, guid: ad129875025f8f947a24124d21cec7e5, type: 3}
+    specialUnitContainer: 2392
+  - level: 605
+    levelType: 2
+    time: 270
+    levelDataTextAsset: {fileID: 4900000, guid: 3127c5e5420b84a41b93080d398caf12, type: 3}
+    specialUnitContainer: 1056
+  - level: 606
+    levelType: 1
+    time: 320
+    levelDataTextAsset: {fileID: 4900000, guid: b7a1febbae51b8249b12643ad914f002, type: 3}
+    specialUnitContainer: 2092
+  - level: 607
+    levelType: 1
+    time: 200
+    levelDataTextAsset: {fileID: 4900000, guid: 359a006ff0191f34d9856cd98e905676, type: 3}
+    specialUnitContainer: 256
+  - level: 608
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 6c1e67392562f774c87b2e127ee32a1c, type: 3}
+    specialUnitContainer: 208
+  - level: 609
+    levelType: 1
+    time: 270
+    levelDataTextAsset: {fileID: 4900000, guid: 046837f914929604a9ece87408a4ecb2, type: 3}
+    specialUnitContainer: 192
+  - level: 610
+    levelType: 3
+    time: 200
+    levelDataTextAsset: {fileID: 4900000, guid: b9ed12ddf54edb64e90fa42dc860c059, type: 3}
+    specialUnitContainer: 256
+  - level: 611
+    levelType: 1
+    time: 250
+    levelDataTextAsset: {fileID: 4900000, guid: 5ffad082230ecaf48bf13d1a743d0978, type: 3}
+    specialUnitContainer: 272
+  - level: 612
+    levelType: 1
+    time: 400
+    levelDataTextAsset: {fileID: 4900000, guid: 7a3e449bf99bd8d40b2f286173c9c645, type: 3}
+    specialUnitContainer: 160
+  - level: 613
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 6b1fe9e61b40fff4cb347c18c8bca1c0, type: 3}
+    specialUnitContainer: 1032
+  - level: 614
+    levelType: 1
+    time: 400
+    levelDataTextAsset: {fileID: 4900000, guid: c7b324610ddf09c47b3af9a4071852b5, type: 3}
+    specialUnitContainer: 2345
+  - level: 615
+    levelType: 2
+    time: 200
+    levelDataTextAsset: {fileID: 4900000, guid: e1c5c530edf151b499ab621cb23e4834, type: 3}
+    specialUnitContainer: 1056
+  - level: 616
+    levelType: 1
+    time: 240
+    levelDataTextAsset: {fileID: 4900000, guid: 9fe14fce8a2e7ac4a86e018a77f70df4, type: 3}
+    specialUnitContainer: 2090
+  - level: 617
+    levelType: 1
+    time: 220
+    levelDataTextAsset: {fileID: 4900000, guid: 4876148894903e345bfb4d6b75c9e1bf, type: 3}
+    specialUnitContainer: 407
+  - level: 618
+    levelType: 1
+    time: 240
+    levelDataTextAsset: {fileID: 4900000, guid: 671c1483bc552dd40930e8aad87a3ea4, type: 3}
+    specialUnitContainer: 144
+  - level: 619
+    levelType: 1
+    time: 250
+    levelDataTextAsset: {fileID: 4900000, guid: d8300053c4bd4ce40b6ab7a51ef41357, type: 3}
+    specialUnitContainer: 16
+  - level: 620
+    levelType: 3
+    time: 170
+    levelDataTextAsset: {fileID: 4900000, guid: 83cabedd690cd124fba197bac31b87a3, type: 3}
+    specialUnitContainer: 277
+  - level: 621
+    levelType: 1
+    time: 200
+    levelDataTextAsset: {fileID: 4900000, guid: 09c6bca9db2a2c84cbc42ed6e9822087, type: 3}
+    specialUnitContainer: 292
+  - level: 622
+    levelType: 1
+    time: 320
+    levelDataTextAsset: {fileID: 4900000, guid: eb3b4687f8565d5408381f29bd6f6745, type: 3}
+    specialUnitContainer: 2216
+  - level: 623
+    levelType: 1
+    time: 270
+    levelDataTextAsset: {fileID: 4900000, guid: 6e048aa28d453ee45855603af5f9dee6, type: 3}
+    specialUnitContainer: 56
+  - level: 624
+    levelType: 1
+    time: 200
+    levelDataTextAsset: {fileID: 4900000, guid: 313ec4a783e7a9141bafa1a9b5f731a0, type: 3}
+    specialUnitContainer: 272
+  - level: 625
+    levelType: 2
+    time: 290
+    levelDataTextAsset: {fileID: 4900000, guid: 1cfe2f850f9dc404f98aaf5b374e0a84, type: 3}
+    specialUnitContainer: 4098
+  - level: 626
+    levelType: 1
+    time: 220
+    levelDataTextAsset: {fileID: 4900000, guid: df44fc72648427a41904dbabe3304216, type: 3}
+    specialUnitContainer: 1025
+  - level: 627
+    levelType: 1
+    time: 260
+    levelDataTextAsset: {fileID: 4900000, guid: d29d67b0820887748a5c25cd5bca2762, type: 3}
+    specialUnitContainer: 259
+  - level: 628
+    levelType: 1
+    time: 220
+    levelDataTextAsset: {fileID: 4900000, guid: 2d0bbb385aafa0044b78cf048d9d9f1f, type: 3}
+    specialUnitContainer: 144
+  - level: 629
+    levelType: 1
+    time: 250
+    levelDataTextAsset: {fileID: 4900000, guid: 4ad2c3c1445594745bfaeaa0a118ba26, type: 3}
+    specialUnitContainer: 1042
+  - level: 630
+    levelType: 3
+    time: 320
+    levelDataTextAsset: {fileID: 4900000, guid: 32ed7430bac96e54293413a59814a9a6, type: 3}
+    specialUnitContainer: 448
+  - level: 631
+    levelType: 1
+    time: 220
+    levelDataTextAsset: {fileID: 4900000, guid: 87165d85c10b51347a655fc88f786524, type: 3}
+    specialUnitContainer: 2313
+  - level: 632
+    levelType: 1
+    time: 220
+    levelDataTextAsset: {fileID: 4900000, guid: 27362a28948ce244a9a699970c4e0461, type: 3}
+    specialUnitContainer: 4096
+  - level: 633
+    levelType: 1
+    time: 270
+    levelDataTextAsset: {fileID: 4900000, guid: 0b2f911609257244fa501c5df7575f6a, type: 3}
+    specialUnitContainer: 4116
+  - level: 634
+    levelType: 1
+    time: 200
+    levelDataTextAsset: {fileID: 4900000, guid: 4633e0a8d9700fd4a9202221366fc7d0, type: 3}
+    specialUnitContainer: 258
+  - level: 635
+    levelType: 2
+    time: 290
+    levelDataTextAsset: {fileID: 4900000, guid: 384921fcf8d4c414281213782b398604, type: 3}
+    specialUnitContainer: 128
+  - level: 636
+    levelType: 1
+    time: 340
+    levelDataTextAsset: {fileID: 4900000, guid: 515d0bdb171b3334d8e4fdc2b0ee8574, type: 3}
+    specialUnitContainer: 2232
+  - level: 637
+    levelType: 1
+    time: 380
+    levelDataTextAsset: {fileID: 4900000, guid: 0cf37e4501fc7714c991228210e1b33c, type: 3}
+    specialUnitContainer: 386
+  - level: 638
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 77099b8df1041304a9281a26fcaab9ea, type: 3}
+    specialUnitContainer: 1040
+  - level: 639
+    levelType: 1
+    time: 220
+    levelDataTextAsset: {fileID: 4900000, guid: b98a532bef2546948a4a87f6f3d62a27, type: 3}
+    specialUnitContainer: 4145
+  - level: 640
+    levelType: 3
+    time: 320
+    levelDataTextAsset: {fileID: 4900000, guid: c6fd1597beec4614388b37f2e60c339c, type: 3}
+    specialUnitContainer: 448
+  - level: 641
+    levelType: 1
+    time: 230
+    levelDataTextAsset: {fileID: 4900000, guid: 506dede815953464faa3a9c4feee57af, type: 3}
+    specialUnitContainer: 2328
+  - level: 642
+    levelType: 1
+    time: 200
+    levelDataTextAsset: {fileID: 4900000, guid: f9dd34f5e896d654780fa676b9a73ac3, type: 3}
+    specialUnitContainer: 1025
+  - level: 643
+    levelType: 1
+    time: 180
+    levelDataTextAsset: {fileID: 4900000, guid: b90dbf391ede45e4d8f9059c5b62cc68, type: 3}
+    specialUnitContainer: 2
+  - level: 644
+    levelType: 1
+    time: 320
+    levelDataTextAsset: {fileID: 4900000, guid: f1bdba1de4932974f86babc97ba21f5b, type: 3}
+    specialUnitContainer: 100
+  - level: 645
+    levelType: 2
+    time: 200
+    levelDataTextAsset: {fileID: 4900000, guid: fae6caf4e8df7384d85b315690966a54, type: 3}
+    specialUnitContainer: 0
+  - level: 646
+    levelType: 1
+    time: 250
+    levelDataTextAsset: {fileID: 4900000, guid: 8cb7e40f6130f17469cb61bb805f38f2, type: 3}
+    specialUnitContainer: 4224
+  - level: 647
+    levelType: 1
+    time: 270
+    levelDataTextAsset: {fileID: 4900000, guid: 18a8640f20c9785498007001bd7aef5e, type: 3}
+    specialUnitContainer: 305
+  - level: 648
+    levelType: 1
+    time: 270
+    levelDataTextAsset: {fileID: 4900000, guid: b05c030e47ec9b24ba128c9464743434, type: 3}
+    specialUnitContainer: 2072
+  - level: 649
+    levelType: 1
+    time: 320
+    levelDataTextAsset: {fileID: 4900000, guid: fc2201ba971922f4d907016c371f5f16, type: 3}
+    specialUnitContainer: 4248
+  - level: 650
+    levelType: 3
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 8c4b4f71b616ef848b6560bd4e2375da, type: 3}
+    specialUnitContainer: 258
+  - level: 651
+    levelType: 1
+    time: 320
+    levelDataTextAsset: {fileID: 4900000, guid: 8ce70e34c4f088243afb39f9cc951e3c, type: 3}
+    specialUnitContainer: 273
+  - level: 652
+    levelType: 1
+    time: 250
+    levelDataTextAsset: {fileID: 4900000, guid: a1df0cc95f23947469e1cad27b93337e, type: 3}
+    specialUnitContainer: 4
+  - level: 653
+    levelType: 1
+    time: 370
+    levelDataTextAsset: {fileID: 4900000, guid: d3d4eb7375644e4499599b68cfe85d33, type: 3}
+    specialUnitContainer: 4254
+  - level: 654
+    levelType: 1
+    time: 220
+    levelDataTextAsset: {fileID: 4900000, guid: 28f4b009f3a54f24ba3fa9693f653cf5, type: 3}
+    specialUnitContainer: 392
+  - level: 655
+    levelType: 2
+    time: 250
+    levelDataTextAsset: {fileID: 4900000, guid: 9979973a6393cf8459bb3c93aca2092f, type: 3}
+    specialUnitContainer: 1056
+  - level: 656
+    levelType: 1
+    time: 270
+    levelDataTextAsset: {fileID: 4900000, guid: 23c5c4be2f4ac9b45a77fe05bc766304, type: 3}
+    specialUnitContainer: 2056
+  - level: 657
+    levelType: 1
+    time: 320
+    levelDataTextAsset: {fileID: 4900000, guid: 010a0929ff239ca4ebbfcbfed4703f34, type: 3}
+    specialUnitContainer: 4384
+  - level: 658
+    levelType: 1
+    time: 250
+    levelDataTextAsset: {fileID: 4900000, guid: 2e1e2995436ff964589dfd69b79719d7, type: 3}
+    specialUnitContainer: 1042
+  - level: 659
+    levelType: 1
+    time: 250
+    levelDataTextAsset: {fileID: 4900000, guid: 19ee4aea53af794438bd1c6b49be395f, type: 3}
+    specialUnitContainer: 2184
+  - level: 660
+    levelType: 3
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: f69589cf70f4943429a855cc5e4444ba, type: 3}
+    specialUnitContainer: 257
+  - level: 661
+    levelType: 1
+    time: 220
+    levelDataTextAsset: {fileID: 4900000, guid: 1029f0bfdf10679409d50537e2090607, type: 3}
+    specialUnitContainer: 288
+  - level: 662
+    levelType: 1
+    time: 270
+    levelDataTextAsset: {fileID: 4900000, guid: d1fb63a39bd53d94b9ee1da7ed7e98de, type: 3}
+    specialUnitContainer: 184
+  - level: 663
+    levelType: 1
+    time: 370
+    levelDataTextAsset: {fileID: 4900000, guid: 545d934be51b6e44a80aea5ebc092864, type: 3}
+    specialUnitContainer: 2266
+  - level: 664
+    levelType: 1
+    time: 290
+    levelDataTextAsset: {fileID: 4900000, guid: 339a02aa19c58a94a87c76ce85226c64, type: 3}
+    specialUnitContainer: 2314
+  - level: 665
+    levelType: 2
+    time: 280
+    levelDataTextAsset: {fileID: 4900000, guid: b2570519d3d62d94db7672e18f090722, type: 3}
+    specialUnitContainer: 1041
+  - level: 666
+    levelType: 1
+    time: 220
+    levelDataTextAsset: {fileID: 4900000, guid: 7e8d2e956eac11447872f0a06eef3cee, type: 3}
+    specialUnitContainer: 0
+  - level: 667
+    levelType: 1
+    time: 220
+    levelDataTextAsset: {fileID: 4900000, guid: f387b4eff90a87f4f8da4241250bddcc, type: 3}
+    specialUnitContainer: 4352
+  - level: 668
+    levelType: 1
+    time: 250
+    levelDataTextAsset: {fileID: 4900000, guid: d6798ab5c6f28a7409612f6d2acc5c2d, type: 3}
+    specialUnitContainer: 2053
+  - level: 669
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 668cd56dbcba9844a9727d6e775b72d3, type: 3}
+    specialUnitContainer: 272
+  - level: 670
+    levelType: 3
+    time: 220
+    levelDataTextAsset: {fileID: 4900000, guid: 0f6997767d0103a479dea7d6018142c4, type: 3}
+    specialUnitContainer: 272
+  - level: 671
+    levelType: 1
+    time: 250
+    levelDataTextAsset: {fileID: 4900000, guid: 19d6d1699b115ae46b456dfa102ee47a, type: 3}
+    specialUnitContainer: 2312
+  - level: 672
+    levelType: 1
+    time: 250
+    levelDataTextAsset: {fileID: 4900000, guid: a48275880b3432344bb4afe02c358667, type: 3}
+    specialUnitContainer: 4100
+  - level: 673
+    levelType: 1
+    time: 270
+    levelDataTextAsset: {fileID: 4900000, guid: 6fe7a4a4ec8cd8847a0b11584a6d26ad, type: 3}
+    specialUnitContainer: 4289
+  - level: 674
+    levelType: 1
+    time: 220
+    levelDataTextAsset: {fileID: 4900000, guid: 4efccd981d450564986907986cdee5b9, type: 3}
+    specialUnitContainer: 2056
+  - level: 675
+    levelType: 2
+    time: 260
+    levelDataTextAsset: {fileID: 4900000, guid: 53b6c4e2462d69c45876cfcf13b8c6cb, type: 3}
+    specialUnitContainer: 2096
+  - level: 676
+    levelType: 1
+    time: 250
+    levelDataTextAsset: {fileID: 4900000, guid: 4e3cef7affb0680478e9a3dae72facbd, type: 3}
+    specialUnitContainer: 192
+  - level: 677
+    levelType: 1
+    time: 400
+    levelDataTextAsset: {fileID: 4900000, guid: 5acd44209f41a5c4eb60759270ecbb46, type: 3}
+    specialUnitContainer: 35
+  - level: 678
+    levelType: 1
+    time: 270
+    levelDataTextAsset: {fileID: 4900000, guid: df5de361f0899f14cb12b7f24b0b614e, type: 3}
+    specialUnitContainer: 1042
+  - level: 679
+    levelType: 1
+    time: 200
+    levelDataTextAsset: {fileID: 4900000, guid: d5ffbc541e5c2ff40838bb390226ab76, type: 3}
+    specialUnitContainer: 16
+  - level: 680
+    levelType: 3
+    time: 270
+    levelDataTextAsset: {fileID: 4900000, guid: 84ab8d0ade56ea54b8d217b1debe7e70, type: 3}
+    specialUnitContainer: 464
+  - level: 681
+    levelType: 1
+    time: 320
+    levelDataTextAsset: {fileID: 4900000, guid: 54a25ef4daa35234397909ce1effb4a5, type: 3}
+    specialUnitContainer: 2328
+  - level: 682
+    levelType: 1
+    time: 370
+    levelDataTextAsset: {fileID: 4900000, guid: 0a02a5dcb015ae248b9b665b0daf0ca1, type: 3}
+    specialUnitContainer: 212
+  - level: 683
+    levelType: 1
+    time: 220
+    levelDataTextAsset: {fileID: 4900000, guid: 3d55dbfd732c269489c92e3f0b0baea5, type: 3}
+    specialUnitContainer: 2056
+  - level: 684
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 14bc8c89a67dfaa45a075f80de6615ac, type: 3}
+    specialUnitContainer: 291
+  - level: 685
+    levelType: 2
+    time: 220
+    levelDataTextAsset: {fileID: 4900000, guid: f188914126489ec40815200d5364e9b8, type: 3}
+    specialUnitContainer: 16
+  - level: 686
+    levelType: 1
+    time: 220
+    levelDataTextAsset: {fileID: 4900000, guid: 576e5215a0f089e458eb62ecca7dc30a, type: 3}
+    specialUnitContainer: 224
+  - level: 687
+    levelType: 1
+    time: 240
+    levelDataTextAsset: {fileID: 4900000, guid: 2079f368f48e4d346a2f40de502db799, type: 3}
+    specialUnitContainer: 424
+  - level: 688
+    levelType: 1
+    time: 250
+    levelDataTextAsset: {fileID: 4900000, guid: 979a06ff11edac84cb92b07146e9d94b, type: 3}
+    specialUnitContainer: 1040
+  - level: 689
+    levelType: 1
+    time: 200
+    levelDataTextAsset: {fileID: 4900000, guid: 6506053080fce8d41af630f899dd9cde, type: 3}
+    specialUnitContainer: 3
+  - level: 690
+    levelType: 3
+    time: 200
+    levelDataTextAsset: {fileID: 4900000, guid: 5b0688741c0377f499f78bb574e4a312, type: 3}
+    specialUnitContainer: 264
+  - level: 691
+    levelType: 1
+    time: 320
+    levelDataTextAsset: {fileID: 4900000, guid: 07bd7e6cd3672c94698ccabff415a5a2, type: 3}
+    specialUnitContainer: 16656
+  - level: 692
+    levelType: 1
+    time: 250
+    levelDataTextAsset: {fileID: 4900000, guid: b236e5cfb41c23740a90808e1e21160b, type: 3}
+    specialUnitContainer: 16385
+  - level: 693
+    levelType: 1
+    time: 290
+    levelDataTextAsset: {fileID: 4900000, guid: f5b58c030b3ed9c42aa5776308a05959, type: 3}
+    specialUnitContainer: 48
+  - level: 694
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 9421feda4a19e344ca0d0771d4dbefb8, type: 3}
+    specialUnitContainer: 20739
+  - level: 695
+    levelType: 2
+    time: 380
+    levelDataTextAsset: {fileID: 4900000, guid: f60a86f29bab7a84dab93bee6b237f02, type: 3}
+    specialUnitContainer: 18648
+  - level: 696
+    levelType: 1
+    time: 290
+    levelDataTextAsset: {fileID: 4900000, guid: c7ae3e1eec7cbd24fa5676629a7f9c5b, type: 3}
+    specialUnitContainer: 16
+  - level: 697
+    levelType: 1
+    time: 310
+    levelDataTextAsset: {fileID: 4900000, guid: f4fa4ac6afe06fd42ad33f70c20579b6, type: 3}
+    specialUnitContainer: 256
+  - level: 698
+    levelType: 1
+    time: 350
+    levelDataTextAsset: {fileID: 4900000, guid: 939f661f564bb754e8b5121b824345dd, type: 3}
+    specialUnitContainer: 20484
+  - level: 699
+    levelType: 1
+    time: 350
+    levelDataTextAsset: {fileID: 4900000, guid: 393fbdd4202ffd94b81478a96e6cdca9, type: 3}
+    specialUnitContainer: 160
+  - level: 700
+    levelType: 3
+    time: 290
+    levelDataTextAsset: {fileID: 4900000, guid: 6e530c7984998bf4bb9c1fc919a8cfbc, type: 3}
+    specialUnitContainer: 458
+  - level: 701
+    levelType: 1
+    time: 270
+    levelDataTextAsset: {fileID: 4900000, guid: 25eb618312c62cd40bdfcd0056b3ac4c, type: 3}
+    specialUnitContainer: 18568
+  - level: 702
+    levelType: 1
+    time: 270
+    levelDataTextAsset: {fileID: 4900000, guid: 726de71d64b79e34d9daddc52a57f2c7, type: 3}
+    specialUnitContainer: 1
+  - level: 703
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: b16b86f7bcac5fd44b5a7e8873ef01e3, type: 3}
+    specialUnitContainer: 194
+  - level: 704
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: a2661820ee8a84444a9cad9ff5885685, type: 3}
+    specialUnitContainer: 16640
+  - level: 705
+    levelType: 2
+    time: 350
+    levelDataTextAsset: {fileID: 4900000, guid: 9a539c271d69b40458f1c109b6ac4449, type: 3}
+    specialUnitContainer: 224
+  - level: 706
+    levelType: 1
+    time: 270
+    levelDataTextAsset: {fileID: 4900000, guid: 0dc9ec59056de3b4193c266e4e782082, type: 3}
+    specialUnitContainer: 17408
+  - level: 707
+    levelType: 1
+    time: 270
+    levelDataTextAsset: {fileID: 4900000, guid: 406403af8e099e34485b9ba8b68f2c5f, type: 3}
+    specialUnitContainer: 16688
+  - level: 708
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: e9158e6be2fa8e34994a1e731b2102ab, type: 3}
+    specialUnitContainer: 192
+  - level: 709
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 2c69208750bff2e479c7f0fc94490e43, type: 3}
+    specialUnitContainer: 20497
+  - level: 710
+    levelType: 3
+    time: 420
+    levelDataTextAsset: {fileID: 4900000, guid: 2492e3345b1405644bdfd07ed0259ca9, type: 3}
+    specialUnitContainer: 2202
+  - level: 711
+    levelType: 1
+    time: 270
+    levelDataTextAsset: {fileID: 4900000, guid: 8e3ec659d61bf864ab8cba1c1015d41f, type: 3}
+    specialUnitContainer: 24834
+  - level: 712
+    levelType: 1
+    time: 320
+    levelDataTextAsset: {fileID: 4900000, guid: bc9afd5c5e3c40a40bb8746ab9b42c42, type: 3}
+    specialUnitContainer: 8209
+  - level: 713
+    levelType: 1
+    time: 320
+    levelDataTextAsset: {fileID: 4900000, guid: 35ac31dc14e46e947a68053bd410da80, type: 3}
+    specialUnitContainer: 4128
+  - level: 714
+    levelType: 1
+    time: 290
+    levelDataTextAsset: {fileID: 4900000, guid: 9a0b5a3483a27b94295437df370beb88, type: 3}
+    specialUnitContainer: 2139
+  - level: 715
+    levelType: 2
+    time: 250
+    levelDataTextAsset: {fileID: 4900000, guid: ca4736551e65a714192c8df6073873b7, type: 3}
+    specialUnitContainer: 25636
+  - level: 716
+    levelType: 1
+    time: 270
+    levelDataTextAsset: {fileID: 4900000, guid: 0902b78e4be0183449900ce6c70c7aae, type: 3}
+    specialUnitContainer: 24576
+  - level: 717
+    levelType: 1
+    time: 290
+    levelDataTextAsset: {fileID: 4900000, guid: 38557c2e68f902142a07991230e469b4, type: 3}
+    specialUnitContainer: 25040
+  - level: 718
+    levelType: 1
+    time: 320
+    levelDataTextAsset: {fileID: 4900000, guid: 65ce3e4642ef4244bb352146c73083d7, type: 3}
+    specialUnitContainer: 17408
+  - level: 719
+    levelType: 1
+    time: 370
+    levelDataTextAsset: {fileID: 4900000, guid: e604e1465441fb74ab14061b601e3579, type: 3}
+    specialUnitContainer: 2200
+  - level: 720
+    levelType: 3
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: cfecde6b89a95094c81d77fb4582693d, type: 3}
+    specialUnitContainer: 16640
+  - level: 721
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: b5f9776a6ca35524b8f88f6bad6dbf2e, type: 3}
+    specialUnitContainer: 3
+  - level: 722
+    levelType: 1
+    time: 370
+    levelDataTextAsset: {fileID: 4900000, guid: 89592a64606a4164585de76c6c770644, type: 3}
+    specialUnitContainer: 1026
+  - level: 723
+    levelType: 1
+    time: 270
+    levelDataTextAsset: {fileID: 4900000, guid: 1c59da232df354546b7e1afb1159b24e, type: 3}
+    specialUnitContainer: 2097
+  - level: 724
+    levelType: 1
+    time: 340
+    levelDataTextAsset: {fileID: 4900000, guid: 947482cc557d45543af8f130c2849379, type: 3}
+    specialUnitContainer: 1026
+  - level: 725
+    levelType: 2
+    time: 270
+    levelDataTextAsset: {fileID: 4900000, guid: 4821cf09d63fa4740911f85903333b86, type: 3}
+    specialUnitContainer: 18473
+  - level: 726
+    levelType: 1
+    time: 270
+    levelDataTextAsset: {fileID: 4900000, guid: 3fced6f9c205a4347b78cbde60ccc6f3, type: 3}
+    specialUnitContainer: 1024
+  - level: 727
+    levelType: 1
+    time: 350
+    levelDataTextAsset: {fileID: 4900000, guid: 49b8feef8b824f141864f10c67ca17e7, type: 3}
+    specialUnitContainer: 452
+  - level: 728
+    levelType: 1
+    time: 270
+    levelDataTextAsset: {fileID: 4900000, guid: 2f33f49b7c2043248a76d1ebc90c10c7, type: 3}
+    specialUnitContainer: 24784
+  - level: 729
+    levelType: 1
+    time: 320
+    levelDataTextAsset: {fileID: 4900000, guid: 24064d85f8bac8242985c52a178c058c, type: 3}
+    specialUnitContainer: 2072
+  - level: 730
+    levelType: 3
+    time: 200
+    levelDataTextAsset: {fileID: 4900000, guid: a2c4f1bb668fa3948a0ccb40497633c2, type: 3}
+    specialUnitContainer: 24960
+  - level: 731
+    levelType: 1
+    time: 320
+    levelDataTextAsset: {fileID: 4900000, guid: 210334ccc5a12d64bbf08a595ed4b294, type: 3}
+    specialUnitContainer: 269
+  - level: 732
+    levelType: 1
+    time: 380
+    levelDataTextAsset: {fileID: 4900000, guid: e204109007393f5448399234ad5f2b73, type: 3}
+    specialUnitContainer: 18458
+  - level: 733
+    levelType: 1
+    time: 370
+    levelDataTextAsset: {fileID: 4900000, guid: 0a325818ee97ee046a0c7d9c99719fb2, type: 3}
+    specialUnitContainer: 9
+  - level: 734
+    levelType: 1
+    time: 370
+    levelDataTextAsset: {fileID: 4900000, guid: a6b8ad14a515d824185a564f28df3499, type: 3}
+    specialUnitContainer: 8265
+  - level: 735
+    levelType: 2
+    time: 270
+    levelDataTextAsset: {fileID: 4900000, guid: 77cc478f133faf5448e21084e36d6f1a, type: 3}
+    specialUnitContainer: 17464
+  - level: 736
+    levelType: 1
+    time: 350
+    levelDataTextAsset: {fileID: 4900000, guid: 94577f128f50f5d49a71650251a38a78, type: 3}
+    specialUnitContainer: 155
+  - level: 737
+    levelType: 1
+    time: 350
+    levelDataTextAsset: {fileID: 4900000, guid: 63ad64e2e4c3155479970c2ab066326d, type: 3}
+    specialUnitContainer: 18442
+  - level: 738
+    levelType: 1
+    time: 400
+    levelDataTextAsset: {fileID: 4900000, guid: a0d5d18ca659dc947b8e1db66289855d, type: 3}
+    specialUnitContainer: 4185
+  - level: 739
+    levelType: 1
+    time: 270
+    levelDataTextAsset: {fileID: 4900000, guid: 9e407341c2b6ae64c9fb71af2c52a09c, type: 3}
+    specialUnitContainer: 265
+  - level: 740
+    levelType: 3
+    time: 320
+    levelDataTextAsset: {fileID: 4900000, guid: b2bd774fdca66824c9e4f0f25a23e37a, type: 3}
+    specialUnitContainer: 17466
+  - level: 741
+    levelType: 1
+    time: 260
+    levelDataTextAsset: {fileID: 4900000, guid: fa46f2a0facd71241bf36b13bf316bd2, type: 3}
+    specialUnitContainer: 256
+  - level: 742
+    levelType: 1
+    time: 350
+    levelDataTextAsset: {fileID: 4900000, guid: f933aaf6134586245915e9d6d4d778d2, type: 3}
+    specialUnitContainer: 1072
+  - level: 743
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 8282b8a88f125e248bc9fccbde1e1695, type: 3}
+    specialUnitContainer: 1040
+  - level: 744
+    levelType: 1
+    time: 270
+    levelDataTextAsset: {fileID: 4900000, guid: e2e2d8055badc844db32379809631e84, type: 3}
+    specialUnitContainer: 2504
+  - level: 745
+    levelType: 2
+    time: 270
+    levelDataTextAsset: {fileID: 4900000, guid: 6791c864b9d11dc48a7ecc914e043115, type: 3}
+    specialUnitContainer: 2090
+  - level: 746
+    levelType: 1
+    time: 270
+    levelDataTextAsset: {fileID: 4900000, guid: 23e32c9a6a0b5f34b96251452ad96a14, type: 3}
+    specialUnitContainer: 267
+  - level: 747
+    levelType: 1
+    time: 370
+    levelDataTextAsset: {fileID: 4900000, guid: 73809f243abb08142bfcc35b745ae0d5, type: 3}
+    specialUnitContainer: 152
+  - level: 748
+    levelType: 1
+    time: 370
+    levelDataTextAsset: {fileID: 4900000, guid: ac3143426bc8e9643937a150fe35f51b, type: 3}
+    specialUnitContainer: 20553
+  - level: 749
+    levelType: 1
+    time: 320
+    levelDataTextAsset: {fileID: 4900000, guid: 195a47ca38ba9ee47b85f7e4e1a741f9, type: 3}
+    specialUnitContainer: 24619
+  - level: 750
+    levelType: 3
+    time: 250
+    levelDataTextAsset: {fileID: 4900000, guid: 7c1999d46af4e4944a4938c819dc7bb7, type: 3}
+    specialUnitContainer: 17512
+  - level: 751
+    levelType: 1
+    time: 280
+    levelDataTextAsset: {fileID: 4900000, guid: 730b5963b3aa14e4b8dd917c13147f23, type: 3}
+    specialUnitContainer: 2344
+  - level: 752
+    levelType: 1
+    time: 270
+    levelDataTextAsset: {fileID: 4900000, guid: 3367bef3afa4526419a103b4c1698728, type: 3}
+    specialUnitContainer: 1040
+  - level: 753
+    levelType: 1
+    time: 420
+    levelDataTextAsset: {fileID: 4900000, guid: e919a2d90f0141649b10596a947c477d, type: 3}
+    specialUnitContainer: 4289
+  - level: 754
+    levelType: 1
+    time: 320
+    levelDataTextAsset: {fileID: 4900000, guid: 427101d551c3d724994a31ad4aff8d2b, type: 3}
+    specialUnitContainer: 448
+  - level: 755
+    levelType: 2
+    time: 270
+    levelDataTextAsset: {fileID: 4900000, guid: de72d1156fe41fd45bdc8a197889b0df, type: 3}
+    specialUnitContainer: 2056
+  - level: 756
+    levelType: 1
+    time: 440
+    levelDataTextAsset: {fileID: 4900000, guid: c379d3a30f70fc043b88ffa19fc2dc63, type: 3}
+    specialUnitContainer: 283
+  - level: 757
+    levelType: 1
+    time: 290
+    levelDataTextAsset: {fileID: 4900000, guid: ea5b4608b159e1842a674493d1e47de8, type: 3}
+    specialUnitContainer: 136
+  - level: 758
+    levelType: 1
+    time: 290
+    levelDataTextAsset: {fileID: 4900000, guid: 26bbfa82078b0ac4db5318e73abb6174, type: 3}
+    specialUnitContainer: 24673
+  - level: 759
+    levelType: 1
+    time: 270
+    levelDataTextAsset: {fileID: 4900000, guid: c70e76c24c6a45a42a1b366a18c329a3, type: 3}
+    specialUnitContainer: 18443
+  - level: 760
+    levelType: 3
+    time: 250
+    levelDataTextAsset: {fileID: 4900000, guid: 510cc33e7d021a344a09748ee6a5d831, type: 3}
+    specialUnitContainer: 17640
+  - level: 761
+    levelType: 1
+    time: 270
+    levelDataTextAsset: {fileID: 4900000, guid: 0559f770601dac741bdfdfc30d79f680, type: 3}
+    specialUnitContainer: 16
+  - level: 762
+    levelType: 1
+    time: 370
+    levelDataTextAsset: {fileID: 4900000, guid: 47460ea568b70514fbee09bef437e3d1, type: 3}
+    specialUnitContainer: 8387
+  - level: 763
+    levelType: 1
+    time: 380
+    levelDataTextAsset: {fileID: 4900000, guid: 2cdb7149205b7c84faf43f4ef1e96819, type: 3}
+    specialUnitContainer: 5141
+  - level: 764
+    levelType: 1
+    time: 250
+    levelDataTextAsset: {fileID: 4900000, guid: a7efc02ef8bd34c4d899c051681db518, type: 3}
+    specialUnitContainer: 16644
+  - level: 765
+    levelType: 2
+    time: 360
+    levelDataTextAsset: {fileID: 4900000, guid: 42dc66b7b4bfb4f4da2518b3630cd1a5, type: 3}
+    specialUnitContainer: 2281
+  - level: 766
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 5f2147cd0d5bc6e48b94d762dcce0b07, type: 3}
+    specialUnitContainer: 256
+  - level: 767
+    levelType: 1
+    time: 220
+    levelDataTextAsset: {fileID: 4900000, guid: 4b182a9943a6eb143b2621b85d3d9778, type: 3}
+    specialUnitContainer: 17408
+  - level: 768
+    levelType: 1
+    time: 250
+    levelDataTextAsset: {fileID: 4900000, guid: ca1514a723f7f5c488e8598fe8f6638c, type: 3}
+    specialUnitContainer: 8448
+  - level: 769
+    levelType: 1
+    time: 350
+    levelDataTextAsset: {fileID: 4900000, guid: 46cdc0c1dad8c944d9b21750fbefa4c3, type: 3}
+    specialUnitContainer: 21520
+  - level: 770
+    levelType: 3
+    time: 250
+    levelDataTextAsset: {fileID: 4900000, guid: 1b3cbc7454d22d8449bbe87d316b3b11, type: 3}
+    specialUnitContainer: 2209
+  - level: 771
+    levelType: 1
+    time: 320
+    levelDataTextAsset: {fileID: 4900000, guid: 5a0a72a206c317a41be54185d7152c4b, type: 3}
+    specialUnitContainer: 16654
+  - level: 772
+    levelType: 1
+    time: 420
+    levelDataTextAsset: {fileID: 4900000, guid: 2249aee21d476f042ba0361b8e65f039, type: 3}
+    specialUnitContainer: 8354
+  - level: 773
+    levelType: 1
+    time: 270
+    levelDataTextAsset: {fileID: 4900000, guid: bca744927761cf44d818dadf68dbd713, type: 3}
+    specialUnitContainer: 260
+  - level: 774
+    levelType: 1
+    time: 350
+    levelDataTextAsset: {fileID: 4900000, guid: c358cc28a87a8124899f860cf35fdd5b, type: 3}
+    specialUnitContainer: 21529
+  - level: 775
+    levelType: 2
+    time: 320
+    levelDataTextAsset: {fileID: 4900000, guid: 7971feeb6426d774d95848c221a0992b, type: 3}
+    specialUnitContainer: 18600
+  - level: 776
+    levelType: 1
+    time: 220
+    levelDataTextAsset: {fileID: 4900000, guid: c7c90caa8669c6a4e8ec336ec64c05fc, type: 3}
+    specialUnitContainer: 64
+  - level: 777
+    levelType: 1
+    time: 270
+    levelDataTextAsset: {fileID: 4900000, guid: 6ed016c719b7f7146bdaf11c080054a0, type: 3}
+    specialUnitContainer: 2328
+  - level: 778
+    levelType: 1
+    time: 270
+    levelDataTextAsset: {fileID: 4900000, guid: c8082fcb8d80d924ab342d50c48c85d8, type: 3}
+    specialUnitContainer: 48
+  - level: 779
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 96ed758e34130814586da91ee7576553, type: 3}
+    specialUnitContainer: 1026
+  - level: 780
+    levelType: 3
+    time: 250
+    levelDataTextAsset: {fileID: 4900000, guid: 1e4a6b890c567e44ea00d4290c804b6d, type: 3}
+    specialUnitContainer: 257
+  - level: 781
+    levelType: 1
+    time: 420
+    levelDataTextAsset: {fileID: 4900000, guid: ed7199c3a409c1244bb011256aecfd93, type: 3}
+    specialUnitContainer: 452
+  - level: 782
+    levelType: 1
+    time: 270
+    levelDataTextAsset: {fileID: 4900000, guid: fb9ac7dd86616e446a8bdbb444ef15c9, type: 3}
+    specialUnitContainer: 2
+  - level: 783
+    levelType: 1
+    time: 250
+    levelDataTextAsset: {fileID: 4900000, guid: 353cd9dbc54698941a1903c1c42fcb1d, type: 3}
+    specialUnitContainer: 16650
+  - level: 784
+    levelType: 1
+    time: 250
+    levelDataTextAsset: {fileID: 4900000, guid: a92a9a06633c5134889d7595278bc8be, type: 3}
+    specialUnitContainer: 24800
+  - level: 785
+    levelType: 2
+    time: 220
+    levelDataTextAsset: {fileID: 4900000, guid: b85eda9bf31786d4aad22c54c1a4aae3, type: 3}
+    specialUnitContainer: 260
+  - level: 786
+    levelType: 1
+    time: 350
+    levelDataTextAsset: {fileID: 4900000, guid: b83be105af0239146b2b7dd94c95382b, type: 3}
+    specialUnitContainer: 21633
+  - level: 787
+    levelType: 1
+    time: 270
+    levelDataTextAsset: {fileID: 4900000, guid: 1abfa64909d776540a0abaa7baa0594a, type: 3}
+    specialUnitContainer: 258
+  - level: 788
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 9fd75fec792b6a1448aff50d0937ce21, type: 3}
+    specialUnitContainer: 18848
+  - level: 789
+    levelType: 1
+    time: 290
+    levelDataTextAsset: {fileID: 4900000, guid: 20c085258eb705c46b63941e8a3588ec, type: 3}
+    specialUnitContainer: 264
+  - level: 790
+    levelType: 3
+    time: 290
+    levelDataTextAsset: {fileID: 4900000, guid: 04b7abcb2fa6a1c479de447dece6b0eb, type: 3}
+    specialUnitContainer: 25601
+  - level: 791
+    levelType: 1
+    time: 380
+    levelDataTextAsset: {fileID: 4900000, guid: 85869e457f176b640a3a83e6800b95fb, type: 3}
+    specialUnitContainer: 16390
+  - level: 792
+    levelType: 1
+    time: 380
+    levelDataTextAsset: {fileID: 4900000, guid: 5ea77fce90b6c0844953696f05c4feae, type: 3}
+    specialUnitContainer: 2248
+  - level: 793
+    levelType: 1
+    time: 400
+    levelDataTextAsset: {fileID: 4900000, guid: faebfa4a45a741f4a90f4c745a85dab4, type: 3}
+    specialUnitContainer: 8461
+  - level: 794
+    levelType: 1
+    time: 320
+    levelDataTextAsset: {fileID: 4900000, guid: 35230ce082403ac41990ffa480f65987, type: 3}
+    specialUnitContainer: 4106
+  - level: 795
+    levelType: 2
+    time: 320
+    levelDataTextAsset: {fileID: 4900000, guid: 7b24d36497eba1d4cbf0975ab91ca711, type: 3}
+    specialUnitContainer: 260
+  - level: 796
+    levelType: 1
+    time: 320
+    levelDataTextAsset: {fileID: 4900000, guid: eb83ee04aba14d842869be3dd0a22a54, type: 3}
+    specialUnitContainer: 17601
+  - level: 797
+    levelType: 1
+    time: 320
+    levelDataTextAsset: {fileID: 4900000, guid: d92be80e25bfaf04e96e4522f9d94e0f, type: 3}
+    specialUnitContainer: 2312
+  - level: 798
+    levelType: 1
+    time: 380
+    levelDataTextAsset: {fileID: 4900000, guid: 0c3f5524bbee16b47a04c3164006b4e7, type: 3}
+    specialUnitContainer: 134
+  - level: 799
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: d916c851848a4594fa2183475ccc9d05, type: 3}
+    specialUnitContainer: 4361
+  - level: 800
+    levelType: 3
+    time: 320
+    levelDataTextAsset: {fileID: 4900000, guid: 99ec2038f7838be49bfcd534ebe070f2, type: 3}
+    specialUnitContainer: 25641
+  - level: 801
+    levelType: 1
+    time: 320
+    levelDataTextAsset: {fileID: 4900000, guid: f6b41c9cafb9e27418918d780284c134, type: 3}
+    specialUnitContainer: 2310
+  - level: 802
+    levelType: 1
+    time: 320
+    levelDataTextAsset: {fileID: 4900000, guid: 0bfbf3ce42cdce542801c9c01254b14c, type: 3}
+    specialUnitContainer: 17419
+  - level: 803
+    levelType: 1
+    time: 320
+    levelDataTextAsset: {fileID: 4900000, guid: 9ce3bc8efe166984ba56cd749560f178, type: 3}
+    specialUnitContainer: 4264
+  - level: 804
+    levelType: 1
+    time: 320
+    levelDataTextAsset: {fileID: 4900000, guid: 0dd9cd4cbfe96fd41977ed6f7b71cda8, type: 3}
+    specialUnitContainer: 278
+  - level: 805
+    levelType: 2
+    time: 320
+    levelDataTextAsset: {fileID: 4900000, guid: 0643ebe77c99f194b9d18dd8d62fece8, type: 3}
+    specialUnitContainer: 24843
+  - level: 806
+    levelType: 1
+    time: 320
+    levelDataTextAsset: {fileID: 4900000, guid: 9d6dd66bad1c90f4c9121d14e917e485, type: 3}
+    specialUnitContainer: 3086
+  - level: 807
+    levelType: 1
+    time: 320
+    levelDataTextAsset: {fileID: 4900000, guid: db4474ba00960f545bdbccca71a78620, type: 3}
+    specialUnitContainer: 19680
+  - level: 808
+    levelType: 1
+    time: 320
+    levelDataTextAsset: {fileID: 4900000, guid: 0a21d9ebc037d664994ee2254f6ceab7, type: 3}
+    specialUnitContainer: 24841
+  - level: 809
+    levelType: 1
+    time: 320
+    levelDataTextAsset: {fileID: 4900000, guid: e6f60e1a1d7fe974eb6886703fb8fdb5, type: 3}
+    specialUnitContainer: 16646
+  - level: 810
+    levelType: 3
+    time: 320
+    levelDataTextAsset: {fileID: 4900000, guid: e4a3046e28f5da74989a1cd11b33a77d, type: 3}
+    specialUnitContainer: 25641
+  - level: 811
+    levelType: 1
+    time: 170
+    levelDataTextAsset: {fileID: 4900000, guid: c8235daafdb57474bb0e4d4f4e2b4fd4, type: 3}
+    specialUnitContainer: 276
+  - level: 812
+    levelType: 1
+    time: 220
+    levelDataTextAsset: {fileID: 4900000, guid: fc818f22b6040d744af7614f634a43f7, type: 3}
+    specialUnitContainer: 226
+  - level: 813
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 5f4114bcb5d866341a8b833ef230afe4, type: 3}
+    specialUnitContainer: 4306
+  - level: 814
+    levelType: 1
+    time: 310
+    levelDataTextAsset: {fileID: 4900000, guid: 48a35216ebbddf74aa5b977f7fab71c5, type: 3}
+    specialUnitContainer: 2319
+  - level: 815
+    levelType: 2
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 81b5d7b8a2d9d3b43a7d8f0317220150, type: 3}
+    specialUnitContainer: 4239
+  - level: 816
+    levelType: 1
+    time: 200
+    levelDataTextAsset: {fileID: 4900000, guid: 2f27ac55e01d72b4b9259a3042175065, type: 3}
+    specialUnitContainer: 16644
+  - level: 817
+    levelType: 1
+    time: 320
+    levelDataTextAsset: {fileID: 4900000, guid: 3f353f2f0e2b48040a27eef6d34f17fb, type: 3}
+    specialUnitContainer: 141
+  - level: 818
+    levelType: 1
+    time: 290
+    levelDataTextAsset: {fileID: 4900000, guid: 281d3fe532960d743848e2fd0632411b, type: 3}
+    specialUnitContainer: 8463
+  - level: 819
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 32e1c3e44fb5c9242ab8c829a1ea078b, type: 3}
+    specialUnitContainer: 2063
+  - level: 820
+    levelType: 3
+    time: 320
+    levelDataTextAsset: {fileID: 4900000, guid: 521c82a88fb616c479e586d0b60acfd9, type: 3}
+    specialUnitContainer: 18703
+  - level: 821
+    levelType: 1
+    time: 270
+    levelDataTextAsset: {fileID: 4900000, guid: ecb746d6d0a605e46a03252326af8b4c, type: 3}
+    specialUnitContainer: 448
+  - level: 822
+    levelType: 1
+    time: 320
+    levelDataTextAsset: {fileID: 4900000, guid: 455e4f090fa309b4f8faa8b982d7d713, type: 3}
+    specialUnitContainer: 2061
+  - level: 823
+    levelType: 1
+    time: 320
+    levelDataTextAsset: {fileID: 4900000, guid: feb08a2af816bb74990c5cb62779f216, type: 3}
+    specialUnitContainer: 16651
+  - level: 824
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: aa695154146aaf44582fdeeb75534839, type: 3}
+    specialUnitContainer: 9231
+  - level: 825
+    levelType: 2
+    time: 240
+    levelDataTextAsset: {fileID: 4900000, guid: 0807eb4790f22f846abf0c463012bb52, type: 3}
+    specialUnitContainer: 261
+  - level: 826
+    levelType: 1
+    time: 270
+    levelDataTextAsset: {fileID: 4900000, guid: 67091dc4b21d0b242888742e6b2c9c97, type: 3}
+    specialUnitContainer: 79
+  - level: 827
+    levelType: 1
+    time: 290
+    levelDataTextAsset: {fileID: 4900000, guid: bf91a8ce49abb71409e9585dc960eb06, type: 3}
+    specialUnitContainer: 20623
+  - level: 828
+    levelType: 1
+    time: 280
+    levelDataTextAsset: {fileID: 4900000, guid: 62030ada2f3783541935ce457f0ccd0b, type: 3}
+    specialUnitContainer: 16644
+  - level: 829
+    levelType: 1
+    time: 320
+    levelDataTextAsset: {fileID: 4900000, guid: 3a04b20f2dee2ba49a55978a21dd067e, type: 3}
+    specialUnitContainer: 141
+  - level: 830
+    levelType: 3
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 04d0ac5215ebc1e4cbaf5ae78e014064, type: 3}
+    specialUnitContainer: 3151
+  - level: 831
+    levelType: 1
+    time: 320
+    levelDataTextAsset: {fileID: 4900000, guid: d9e2c5ec42d5b5147b9ecd59f0b28f5a, type: 3}
+    specialUnitContainer: 464
+  - level: 832
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 9af8768579153c148833efa54c4c2e3f, type: 3}
+    specialUnitContainer: 1029
+  - level: 833
+    levelType: 1
+    time: 320
+    levelDataTextAsset: {fileID: 4900000, guid: 8e68c5ffead8b3a449db676f0620b9b9, type: 3}
+    specialUnitContainer: 34
+  - level: 834
+    levelType: 1
+    time: 320
+    levelDataTextAsset: {fileID: 4900000, guid: 1eb124100bbe2bb4a8728e50a25e8f77, type: 3}
+    specialUnitContainer: 2319
+  - level: 835
+    levelType: 2
+    time: 220
+    levelDataTextAsset: {fileID: 4900000, guid: 393ec4073a7d34a449257525329c5010, type: 3}
+    specialUnitContainer: 21519
+  - level: 836
+    levelType: 1
+    time: 250
+    levelDataTextAsset: {fileID: 4900000, guid: b93396f0962adea4fba96ec5b78b54fc, type: 3}
+    specialUnitContainer: 16650
+  - level: 837
+    levelType: 1
+    time: 320
+    levelDataTextAsset: {fileID: 4900000, guid: ebc24da4ea4a27c42bfe49c45f9886e7, type: 3}
+    specialUnitContainer: 18703
+  - level: 838
+    levelType: 1
+    time: 270
+    levelDataTextAsset: {fileID: 4900000, guid: b30c42ee524c371409ee187122e4eed2, type: 3}
+    specialUnitContainer: 17423
+  - level: 839
+    levelType: 1
+    time: 290
+    levelDataTextAsset: {fileID: 4900000, guid: 94114a42bbdfda84b95ffe65d9182557, type: 3}
+    specialUnitContainer: 8331
+  - level: 840
+    levelType: 3
+    time: 280
+    levelDataTextAsset: {fileID: 4900000, guid: 9478d6d3ae456c148881c06294df3ef7, type: 3}
+    specialUnitContainer: 18703
+  - level: 841
+    levelType: 1
+    time: 310
+    levelDataTextAsset: {fileID: 4900000, guid: 75a37c81d18db6f49a5a4d03bfe5e8d4, type: 3}
+    specialUnitContainer: 18699
+  - level: 842
+    levelType: 1
+    time: 320
+    levelDataTextAsset: {fileID: 4900000, guid: 83a093325f00e4247acd62fd2c8f3880, type: 3}
+    specialUnitContainer: 9231
+  - level: 843
+    levelType: 1
+    time: 340
+    levelDataTextAsset: {fileID: 4900000, guid: eb45b771c4036d440a7d7f61d3412c01, type: 3}
+    specialUnitContainer: 257
+  - level: 844
+    levelType: 1
+    time: 310
+    levelDataTextAsset: {fileID: 4900000, guid: 6d181bd4daa555c4880299760649da9b, type: 3}
+    specialUnitContainer: 2251
+  - level: 845
+    levelType: 2
+    time: 270
+    levelDataTextAsset: {fileID: 4900000, guid: 06859559838a54c488b4d9995cbfc316, type: 3}
+    specialUnitContainer: 2122
+  - level: 846
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 6db19f85db62edf458fe58424f77d8fe, type: 3}
+    specialUnitContainer: 16651
+  - level: 847
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: c385dba753952a746bffd7548387f101, type: 3}
+    specialUnitContainer: 137
+  - level: 848
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 082268f830d55ae44af9a10cc9c5b44f, type: 3}
+    specialUnitContainer: 17423
+  - level: 849
+    levelType: 1
+    time: 220
+    levelDataTextAsset: {fileID: 4900000, guid: ca7f165f3f1146649817b0fb72fe33b2, type: 3}
+    specialUnitContainer: 8523
+  - level: 850
+    levelType: 3
+    time: 240
+    levelDataTextAsset: {fileID: 4900000, guid: 003317789cef4da4e8c27a6d8b91c6cc, type: 3}
+    specialUnitContainer: 18575
+  - level: 851
+    levelType: 1
+    time: 290
+    levelDataTextAsset: {fileID: 4900000, guid: 990dfad7a503eaf4097f71a5902cd0ab, type: 3}
+    specialUnitContainer: 16653
+  - level: 852
+    levelType: 1
+    time: 320
+    levelDataTextAsset: {fileID: 4900000, guid: 3fef79fe6505892468e55430d3ca09f4, type: 3}
+    specialUnitContainer: 9231
+  - level: 853
+    levelType: 1
+    time: 250
+    levelDataTextAsset: {fileID: 4900000, guid: 6cce819c8cb1d6b42bd765f3c506e6cd, type: 3}
+    specialUnitContainer: 261
+  - level: 854
+    levelType: 1
+    time: 280
+    levelDataTextAsset: {fileID: 4900000, guid: 7bbe2d9c5e6268d4a97cee39563ffcfd, type: 3}
+    specialUnitContainer: 2254
+  - level: 855
+    levelType: 2
+    time: 240
+    levelDataTextAsset: {fileID: 4900000, guid: 2f86555dfb295b9469a2ee66e725e561, type: 3}
+    specialUnitContainer: 20495
+  - level: 856
+    levelType: 1
+    time: 240
+    levelDataTextAsset: {fileID: 4900000, guid: a6f1344a93de98e4baa4e290c33a42d6, type: 3}
+    specialUnitContainer: 16653
+  - level: 857
+    levelType: 1
+    time: 220
+    levelDataTextAsset: {fileID: 4900000, guid: e8aa9135001678b409b1dc53fa7c7406, type: 3}
+    specialUnitContainer: 139
+  - level: 858
+    levelType: 1
+    time: 250
+    levelDataTextAsset: {fileID: 4900000, guid: 4aeabddde6ae58b42b11be65cd4da5af, type: 3}
+    specialUnitContainer: 8527
+  - level: 859
+    levelType: 1
+    time: 320
+    levelDataTextAsset: {fileID: 4900000, guid: 9f9b357a2ca658445b7b407e9b907f6c, type: 3}
+    specialUnitContainer: 261
+  - level: 860
+    levelType: 3
+    time: 260
+    levelDataTextAsset: {fileID: 4900000, guid: 77f4266dffd011b4498c8718df3f669f, type: 3}
+    specialUnitContainer: 19659
+  - level: 861
+    levelType: 1
+    time: 290
+    levelDataTextAsset: {fileID: 4900000, guid: 44eddb9a9213ed8479e8dc73a655ab57, type: 3}
+    specialUnitContainer: 270
+  - level: 862
+    levelType: 1
+    time: 280
+    levelDataTextAsset: {fileID: 4900000, guid: 71e791abc88d0d04c88de67371b1be2e, type: 3}
+    specialUnitContainer: 17411
+  - level: 863
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 1845678fc53d87d4aa362cef63d10ae6, type: 3}
+    specialUnitContainer: 2189
+  - level: 864
+    levelType: 1
+    time: 320
+    levelDataTextAsset: {fileID: 4900000, guid: 3d92136a47b09994aa6d53c5dbfbdce8, type: 3}
+    specialUnitContainer: 8554
+  - level: 865
+    levelType: 2
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 88ca20e3e07838c44a711cb4bcfcf7ca, type: 3}
+    specialUnitContainer: 21519
+  - level: 866
+    levelType: 1
+    time: 320
+    levelDataTextAsset: {fileID: 4900000, guid: 7937d704eec47f248901e3e6aa417f51, type: 3}
+    specialUnitContainer: 16646
+  - level: 867
+    levelType: 1
+    time: 320
+    levelDataTextAsset: {fileID: 4900000, guid: 94e754c99f015a54d96c28748c4c4523, type: 3}
+    specialUnitContainer: 192
+  - level: 868
+    levelType: 1
+    time: 220
+    levelDataTextAsset: {fileID: 4900000, guid: 1fc35a0ec0ea095488d904401973ad4e, type: 3}
+    specialUnitContainer: 18446
+  - level: 869
+    levelType: 1
+    time: 320
+    levelDataTextAsset: {fileID: 4900000, guid: db1a3dd349194ed4c8a92bbe977c50c9, type: 3}
+    specialUnitContainer: 8489
+  - level: 870
+    levelType: 3
+    time: 200
+    levelDataTextAsset: {fileID: 4900000, guid: 587f3ba72085cb84d9167135e0074401, type: 3}
+    specialUnitContainer: 20521
+  - level: 871
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 9a345d2c100eab747b6201269986c42f, type: 3}
+    specialUnitContainer: 2312
+  - level: 872
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: b7bd66d68148a6d45b9b51e376294822, type: 3}
+    specialUnitContainer: 193
+  - level: 873
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 060fb2a7fc13525408004d0fbf756142, type: 3}
+    specialUnitContainer: 224
+  - level: 874
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 4d720b0f99941084889c1d9c7bdcad94, type: 3}
+    specialUnitContainer: 4400
+  - level: 875
+    levelType: 2
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 24363d3c87cb3c940a0711cff95a1652, type: 3}
+    specialUnitContainer: 4098
+  - level: 876
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: b9894e88d70a768448264d4a5ec18e81, type: 3}
+    specialUnitContainer: 16646
+  - level: 877
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 43eb5b60a9f57524fbb74ce591658e90, type: 3}
+    specialUnitContainer: 1033
+  - level: 878
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 23bb3d44736ef0247ac2f0f99dd90525, type: 3}
+    specialUnitContainer: 2254
+  - level: 879
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 8a4cf5b713db3404ea9cb0990918a685, type: 3}
+    specialUnitContainer: 16648
+  - level: 880
+    levelType: 3
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: dab246f96ebdf7144829efda38d3a52c, type: 3}
+    specialUnitContainer: 42
+  - level: 881
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 2282c1b564009b0489827ae3e2f66fe1, type: 3}
+    specialUnitContainer: 17549
+  - level: 882
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 74f54e7b270595046a7d171d6ed80805, type: 3}
+    specialUnitContainer: 4170
+  - level: 883
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: ccb5a9af47c22784e889f6ef923a7696, type: 3}
+    specialUnitContainer: 16646
+  - level: 884
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 93c7de66fa89d9141be0d8c1f4e591bf, type: 3}
+    specialUnitContainer: 1065
+  - level: 885
+    levelType: 2
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 80dc0b404e1cd9341a2b7689737de4d7, type: 3}
+    specialUnitContainer: 16515
+  - level: 886
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 6737f37ee594baa47857db35c99fbe32, type: 3}
+    specialUnitContainer: 2060
+  - level: 887
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 0ccc747bbd722bf4d9218305c151dc77, type: 3}
+    specialUnitContainer: 16642
+  - level: 888
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 38600a1a342604249819e80ddf61d747, type: 3}
+    specialUnitContainer: 5162
+  - level: 889
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 0abff2d82040e994b9a98e5213aa7152, type: 3}
+    specialUnitContainer: 16524
+  - level: 890
+    levelType: 3
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 3a5a480abe8965f468c81b4554624f7c, type: 3}
+    specialUnitContainer: 16655
+  - level: 891
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: e2f8755422bbde941bf76670cddce318, type: 3}
+    specialUnitContainer: 272
+  - level: 892
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 2e3174688a7f36c488f4f2cf03c7d67e, type: 3}
+    specialUnitContainer: 4144
+  - level: 893
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 1b0a92791d0d3744f95570573cb05d22, type: 3}
+    specialUnitContainer: 1024
+  - level: 894
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 3681bd9e490d41a4abdea766633af3c0, type: 3}
+    specialUnitContainer: 448
+  - level: 895
+    levelType: 2
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 66fbdff80ca1dc144a78a945a84116d6, type: 3}
+    specialUnitContainer: 193
+  - level: 896
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: e436bb03934784047a00081690cc2692, type: 3}
+    specialUnitContainer: 1072
+  - level: 897
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: c7a42808b0dbd1d479561ee5ecfc1be9, type: 3}
+    specialUnitContainer: 2313
+  - level: 898
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: a37c5e96d3a0d7144a1d19c53d0ff786, type: 3}
+    specialUnitContainer: 2056
+  - level: 899
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: d1015b3c5ac9d734bbc8be09e00b95f1, type: 3}
+    specialUnitContainer: 4290
+  - level: 900
+    levelType: 3
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: f7dba97b001dc6846b085b6198c82b88, type: 3}
+    specialUnitContainer: 16776
+  - level: 901
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 71e08bcd94bfbca4291e2ebce9255375, type: 3}
+    specialUnitContainer: 17408
+  - level: 902
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: f63b567b905c579448765288403b674b, type: 3}
+    specialUnitContainer: 18433
+  - level: 903
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 2e8f391d94301cd43b85b551ad9dea6d, type: 3}
+    specialUnitContainer: 16640
+  - level: 904
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 9a6ab1d535154d24ea49eb765d55eceb, type: 3}
+    specialUnitContainer: 16388
+  - level: 905
+    levelType: 2
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 4ed1c865c4d101043822c2d7600aeb69, type: 3}
+    specialUnitContainer: 16384
+  - level: 906
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 63dd03c3f82a9db4ea82e6bfaf5d9fe6, type: 3}
+    specialUnitContainer: 17408
+  - level: 907
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: fcaa5c3578eddf741be1bb6d235dd35a, type: 3}
+    specialUnitContainer: 20480
+  - level: 908
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 7492eeb7f5685af44a5b98b57db2f288, type: 3}
+    specialUnitContainer: 16768
+  - level: 909
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 902c1c452990a194ebc40374cfd6972c, type: 3}
+    specialUnitContainer: 16388
+  - level: 910
+    levelType: 3
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: fc0ab99a53eb41a48a99e22acc4c26a1, type: 3}
+    specialUnitContainer: 16832
+  - level: 911
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 7bf273ebff87ab64d8a1c5c19687dad3, type: 3}
+    specialUnitContainer: 17408
+  - level: 912
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 6d5d1c90c2653fa479550fe05f6901dd, type: 3}
+    specialUnitContainer: 16640
+  - level: 913
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: fa6e6957fde682a48b772430f0b657a4, type: 3}
+    specialUnitContainer: 16388
+  - level: 914
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 6ad7dadb08c9ecb4ba5c80f5d5d030cf, type: 3}
+    specialUnitContainer: 20480
+  - level: 915
+    levelType: 2
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 92b7e2019feeb154781a9960857d30c0, type: 3}
+    specialUnitContainer: 16512
+  - level: 916
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: b86cce0d81061a1499272f73cb9853ab, type: 3}
+    specialUnitContainer: 16384
+  - level: 917
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: e82468244f323024fbbce8ad18d9246f, type: 3}
+    specialUnitContainer: 16384
+  - level: 918
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 99f267331bc7db24897133911062582a, type: 3}
+    specialUnitContainer: 17408
+  - level: 919
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 7399c5b4bc4e7a94aaf9bc40cf19da43, type: 3}
+    specialUnitContainer: 18688
+  - level: 920
+    levelType: 3
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: c7eb58c09e9e08a41a2eeaa06160b71b, type: 3}
+    specialUnitContainer: 16832
+  - level: 921
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 7f813ad255511a54aa07ff55d55b6130, type: 3}
+    specialUnitContainer: 16646
+  - level: 922
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 2d32cd5271a8d6c43ad550b1899d1f85, type: 3}
+    specialUnitContainer: 2186
+  - level: 923
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 3c06ba199b498ba41b4aaaf8223f2139, type: 3}
+    specialUnitContainer: 4364
+  - level: 924
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 34b2b7a6204d0b14d94918b7e097cb35, type: 3}
+    specialUnitContainer: 17411
+  - level: 925
+    levelType: 2
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: aea891c1874dfcb44856774a6df7fc01, type: 3}
+    specialUnitContainer: 296
+  - level: 926
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 47fb0142e8adf964298ac6eb2323703e, type: 3}
+    specialUnitContainer: 201
+  - level: 927
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 548dc128aae4fb4428652fbe90009794, type: 3}
+    specialUnitContainer: 20492
+  - level: 928
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: a9721e56dbd66c24192765fdf571cc85, type: 3}
+    specialUnitContainer: 2306
+  - level: 929
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: f608afd3bd985bf408c9a61bd1b2ab6f, type: 3}
+    specialUnitContainer: 17422
+  - level: 930
+    levelType: 3
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 9188d26d086e81243972043ac453c3ef, type: 3}
+    specialUnitContainer: 170
+  - level: 931
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: b1cdc2bbf40a9d54d87789124dc671be, type: 3}
+    specialUnitContainer: 464
+  - level: 932
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: b299dfdf66b4cad4fa4aedadfe2a0e3b, type: 3}
+    specialUnitContainer: 4
+  - level: 933
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: fe0cf4d31fe00914c98dfe3490c15b26, type: 3}
+    specialUnitContainer: 2056
+  - level: 934
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 2a399e5ebce7ee54da65a1043cd88f50, type: 3}
+    specialUnitContainer: 289
+  - level: 935
+    levelType: 2
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: a000e578ff9b99e40adffc7abba95d52, type: 3}
+    specialUnitContainer: 4096
+  - level: 936
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 54bb95b1aacfc994e98134d9e32ade3e, type: 3}
+    specialUnitContainer: 208
+  - level: 937
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: f0df1a06937582347ae6534bc1f972f7, type: 3}
+    specialUnitContainer: 304
+  - level: 938
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 3a8ee5af7bf48754e8368116111b30b2, type: 3}
+    specialUnitContainer: 2058
+  - level: 939
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 3f566c59bb15826449f5ba0a2c10635a, type: 3}
+    specialUnitContainer: 1
+  - level: 940
+    levelType: 3
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: cd4688037d8f41642bd582abf03285a6, type: 3}
+    specialUnitContainer: 466
+  - level: 941
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 2efe034a4f5d83b438e9dece8fe56e74, type: 3}
+    specialUnitContainer: 2362
+  - level: 942
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: ee191e6f7a859bb47ab94fa8b10a3cd6, type: 3}
+    specialUnitContainer: 4112
+  - level: 943
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 045ddda21df81c9438a50d42aacc7aac, type: 3}
+    specialUnitContainer: 4098
+  - level: 944
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 443e018170ac0ac4893fe063eee8e8a4, type: 3}
+    specialUnitContainer: 2536
+  - level: 945
+    levelType: 2
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: f2c2de7a9ec93ac41a8e375e8b3eb158, type: 3}
+    specialUnitContainer: 208
+  - level: 946
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 617875d595dfad6499a6fe1e60bb9995, type: 3}
+    specialUnitContainer: 4
+  - level: 947
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 9b4f3cb01c97e6d409b590d3d38ed264, type: 3}
+    specialUnitContainer: 256
+  - level: 948
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 0e78c4761d5486c458df48d79b12ad7f, type: 3}
+    specialUnitContainer: 17
+  - level: 949
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: aef53d5237d9e494c877fbebb88140e7, type: 3}
+    specialUnitContainer: 192
+  - level: 950
+    levelType: 3
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 6c2fd4e319d487e44b8ff31da69dfa99, type: 3}
+    specialUnitContainer: 257
+  - level: 951
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 96b09487c5e40f0448d1c1385f4dfd3b, type: 3}
+    specialUnitContainer: 256
+  - level: 952
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 589527b91117a10468495656360e2c84, type: 3}
+    specialUnitContainer: 4112
+  - level: 953
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 4aea27846417a5042ba5cd18d85115f7, type: 3}
+    specialUnitContainer: 193
+  - level: 954
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 7b731481a4817c64585bae54d2ad6176, type: 3}
+    specialUnitContainer: 256
+  - level: 955
+    levelType: 2
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: ac6f8c9deaf6be841b90639be9119f8e, type: 3}
+    specialUnitContainer: 36
+  - level: 956
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 8828b67626afdc64db6d9e1acf4281d3, type: 3}
+    specialUnitContainer: 2074
+  - level: 957
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: fa54d740aa03f75498fa0c72dca75fd3, type: 3}
+    specialUnitContainer: 257
+  - level: 958
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: dc43166dcd3f29847843e1c5e2bb5ecb, type: 3}
+    specialUnitContainer: 192
+  - level: 959
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 4f8ad42dc5d04624eba8caad24d4f22a, type: 3}
+    specialUnitContainer: 2250
+  - level: 960
+    levelType: 3
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 86a7703ed7be1df46941ee8b6ff15035, type: 3}
+    specialUnitContainer: 288
+  - level: 961
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 06b8167fce494fb49a42d766fb26c1ae, type: 3}
+    specialUnitContainer: 4355
+  - level: 962
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 182b65dde1bc8b84d804463bd47a2f83, type: 3}
+    specialUnitContainer: 36
+  - level: 963
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: a65e2e75813e03d4989e87e42f8fd027, type: 3}
+    specialUnitContainer: 4322
+  - level: 964
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 0ec3127c8004c644fa0cbbc8134d3b4d, type: 3}
+    specialUnitContainer: 448
+  - level: 965
+    levelType: 2
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 7f9682153bbbb5b45b2d822d664dd5bc, type: 3}
+    specialUnitContainer: 0
+  - level: 966
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 5d9cb6d8ead6bc240863fc8e39ec8501, type: 3}
+    specialUnitContainer: 16
+  - level: 967
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 00c9e9ed5e3ae164b9a39a21746c2f1e, type: 3}
+    specialUnitContainer: 257
+  - level: 968
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: a38c95f3fab06d244b210e22434e19a7, type: 3}
+    specialUnitContainer: 208
+  - level: 969
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: f58cc10028367d74eb44ac1163a5eb17, type: 3}
+    specialUnitContainer: 2056
+  - level: 970
+    levelType: 3
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 1c5adda2f612ad7459e63150b973a238, type: 3}
+    specialUnitContainer: 2312
+  - level: 971
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: f9e240e22fc548b478972bcf9d151b6a, type: 3}
+    specialUnitContainer: 2312
+  - level: 972
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: a5d1abf172c2e294aaf9d9e7320e9d68, type: 3}
+    specialUnitContainer: 2251
+  - level: 973
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 3430aea395e35cc42920f48af9b3aa20, type: 3}
+    specialUnitContainer: 1058
+  - level: 974
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: f2d5f6ff5ddc90548b3103d309929c9b, type: 3}
+    specialUnitContainer: 256
+  - level: 975
+    levelType: 2
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 5eefdc0cd030e19409f3620e58d4c7d7, type: 3}
+    specialUnitContainer: 16
+  - level: 976
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 3565dce56f6569e43a9bb230bdd4d59c, type: 3}
+    specialUnitContainer: 193
+  - level: 977
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 341b5ea32a9ecb84db43f477f36926d2, type: 3}
+    specialUnitContainer: 4352
+  - level: 978
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 1437af593ab73904dbdab49c33c67163, type: 3}
+    specialUnitContainer: 196
+  - level: 979
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 97aa80ef9f1b10d4893105de1a3dbaa9, type: 3}
+    specialUnitContainer: 1040
+  - level: 980
+    levelType: 3
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 1f96e5d4150ee2e409351e44bb199152, type: 3}
+    specialUnitContainer: 304
+  - level: 981
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 344161d8330d3f54b875c4c30421ba2d, type: 3}
+    specialUnitContainer: 480
+  - level: 982
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 80f1da0c2af10d6498a0883589ea827f, type: 3}
+    specialUnitContainer: 4098
+  - level: 983
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: fd17351481afeb843917605ee1fcbe7b, type: 3}
+    specialUnitContainer: 20
+  - level: 984
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 4a9c986e81401504eab97f1504ef8e82, type: 3}
+    specialUnitContainer: 256
+  - level: 985
+    levelType: 2
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: ea9e74b76c4ee0b4aa97ed52be01cf7d, type: 3}
+    specialUnitContainer: 192
+  - level: 986
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 659ad449a848502448f2f00ce922d1bc, type: 3}
+    specialUnitContainer: 4288
+  - level: 987
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 0872d5fb592d6cb458859433bbf89e46, type: 3}
+    specialUnitContainer: 274
+  - level: 988
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: d84c36f34600bc14db19a3c4611c5297, type: 3}
+    specialUnitContainer: 1025
+  - level: 989
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 6446c0be54ec1b5488a0b5eebe342596, type: 3}
+    specialUnitContainer: 2105
+  - level: 990
+    levelType: 3
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 2424a09b6dcef3648bf41d0d54c2acee, type: 3}
+    specialUnitContainer: 2312
+  - level: 991
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: e4440efac6cd66e46a788fe9983e5d06, type: 3}
+    specialUnitContainer: 465
+  - level: 992
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 85a282e60cd80954785c2e3c412098d2, type: 3}
+    specialUnitContainer: 4096
+  - level: 993
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: f75d16b8be5a40449a024bac57cde969, type: 3}
+    specialUnitContainer: 2058
+  - level: 994
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 54c739fc7bb7dc54f98c337960c15a32, type: 3}
+    specialUnitContainer: 256
+  - level: 995
+    levelType: 2
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: d8aebf7eb78c9fd4eb45e84383206dd2, type: 3}
+    specialUnitContainer: 33
+  - level: 996
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 2ac8aefebe94de840aa1bf1ab27ff5ee, type: 3}
+    specialUnitContainer: 1026
+  - level: 997
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 532c389e966951243a131c331dcf738f, type: 3}
+    specialUnitContainer: 256
+  - level: 998
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: ec36292f1a7afc84fb2c9688755ab49f, type: 3}
+    specialUnitContainer: 2072
+  - level: 999
+    levelType: 1
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: 417ee622867e88d48812ce30b7b8a979, type: 3}
+    specialUnitContainer: 208
+  - level: 1000
+    levelType: 3
+    time: 300
+    levelDataTextAsset: {fileID: 4900000, guid: fbc2868745467fa4796018c1721760bd, type: 3}
+    specialUnitContainer: 500
+  <ExtraRewardEndGame>k__BackingField: 2

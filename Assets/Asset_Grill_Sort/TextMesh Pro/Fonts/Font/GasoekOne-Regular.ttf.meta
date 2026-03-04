@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: 52e2682432395ce4a829ca809d76d63c
+timeCreated: 1772635111
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  externalObjects: {}
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Gasoek One
+  fallbackFontReferences: []
+  customCharacters:
+  fontRenderingMode: 0
+  output:
+    hasEmptyFontData: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData:
+  assetBundleName: 2783eabe79ba384ff888b907161867e0.bundle
+  assetBundleVariant:

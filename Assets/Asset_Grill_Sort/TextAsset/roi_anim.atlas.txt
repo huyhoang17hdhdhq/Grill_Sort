@@ -1,0 +1,15 @@
+roi_anim.png
+size:148,72
+filter:Linear,Linear
+pma:true
+c1
+bounds:2,2,67,65
+offsets:1,0,69,65
+rotate:90
+c2
+bounds:69,12,57,45
+offsets:1,1,59,47
+rotate:90
+t1
+bounds:116,36,30,33
+offsets:1,1,32,35

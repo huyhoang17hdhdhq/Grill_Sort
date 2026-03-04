@@ -1,0 +1,291 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7896f51a253d620555641b97cdc1dde0, type: 3}
+  m_Name: JungleTreasureGlobalConfig
+  m_EditorClassIdentifier:
+  jungleTreasureRewards:
+  - rewardIndex: 1
+    isIAP: 0
+    isRewardAds: 0
+    packageName: 0
+    rewards:
+    - <Type>k__BackingField: 1
+      <SpecificType>k__BackingField: 1
+      <Value>k__BackingField:
+        m_Value: 50
+    isButton: 0
+    icon: {fileID: 0}
+  - rewardIndex: 2
+    isIAP: 0
+    isRewardAds: 1
+    packageName: 0
+    rewards:
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 6
+      <Value>k__BackingField:
+        m_Value: 1
+    isButton: 0
+    icon: {fileID: 0}
+  - rewardIndex: 3
+    isIAP: 0
+    isRewardAds: 0
+    packageName: 0
+    rewards:
+    - <Type>k__BackingField: 1
+      <SpecificType>k__BackingField: 1
+      <Value>k__BackingField:
+        m_Value: 100
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 4
+      <Value>k__BackingField:
+        m_Value: 1
+    isButton: 1
+    icon: {fileID: 21300000, guid: b633716adfcb99541b50ce821e52c18d, type: 2}
+  - rewardIndex: 4
+    isIAP: 1
+    isRewardAds: 0
+    packageName: 300
+    rewards:
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 2
+      <Value>k__BackingField:
+        m_Value: 1
+    - <Type>k__BackingField: 1
+      <SpecificType>k__BackingField: 1
+      <Value>k__BackingField:
+        m_Value: 1500
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 5
+      <Value>k__BackingField:
+        m_Value: 1
+    isButton: 0
+    icon: {fileID: 0}
+  - rewardIndex: 5
+    isIAP: 0
+    isRewardAds: 0
+    packageName: 0
+    rewards:
+    - <Type>k__BackingField: 1
+      <SpecificType>k__BackingField: 1
+      <Value>k__BackingField:
+        m_Value: 200
+    isButton: 0
+    icon: {fileID: 0}
+  - rewardIndex: 6
+    isIAP: 0
+    isRewardAds: 1
+    packageName: 0
+    rewards:
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 3
+      <Value>k__BackingField:
+        m_Value: 1
+    isButton: 0
+    icon: {fileID: 0}
+  - rewardIndex: 7
+    isIAP: 0
+    isRewardAds: 0
+    packageName: 0
+    rewards:
+    - <Type>k__BackingField: 1
+      <SpecificType>k__BackingField: 1
+      <Value>k__BackingField:
+        m_Value: 100
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 4
+      <Value>k__BackingField:
+        m_Value: 1
+    isButton: 0
+    icon: {fileID: 0}
+  - rewardIndex: 8
+    isIAP: 0
+    isRewardAds: 1
+    packageName: 0
+    rewards:
+    - <Type>k__BackingField: 1
+      <SpecificType>k__BackingField: 1
+      <Value>k__BackingField:
+        m_Value: 100
+    isButton: 0
+    icon: {fileID: 0}
+  - rewardIndex: 9
+    isIAP: 0
+    isRewardAds: 0
+    packageName: 0
+    rewards:
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 7
+      <Value>k__BackingField:
+        m_Value: 1
+    isButton: 0
+    icon: {fileID: 0}
+  - rewardIndex: 10
+    isIAP: 1
+    isRewardAds: 0
+    packageName: 301
+    rewards:
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 7
+      <Value>k__BackingField:
+        m_Value: 1
+    - <Type>k__BackingField: 1
+      <SpecificType>k__BackingField: 1
+      <Value>k__BackingField:
+        m_Value: 2000
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 2
+      <Value>k__BackingField:
+        m_Value: 1
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 4
+      <Value>k__BackingField:
+        m_Value: 1
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 3
+      <Value>k__BackingField:
+        m_Value: 1
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 5
+      <Value>k__BackingField:
+        m_Value: 0
+    isButton: 1
+    icon: {fileID: 21300000, guid: c5df6feea5df0c143a37e1d787f32937, type: 2}
+  - rewardIndex: 11
+    isIAP: 0
+    isRewardAds: 0
+    packageName: 0
+    rewards:
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 2
+      <Value>k__BackingField:
+        m_Value: 1
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 6
+      <Value>k__BackingField:
+        m_Value: 1
+    isButton: 0
+    icon: {fileID: 0}
+  - rewardIndex: 12
+    isIAP: 0
+    isRewardAds: 1
+    packageName: 0
+    rewards:
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 4
+      <Value>k__BackingField:
+        m_Value: 2
+    isButton: 0
+    icon: {fileID: 0}
+  - rewardIndex: 13
+    isIAP: 0
+    isRewardAds: 0
+    packageName: 0
+    rewards:
+    - <Type>k__BackingField: 1
+      <SpecificType>k__BackingField: 1
+      <Value>k__BackingField:
+        m_Value: 200
+    isButton: 0
+    icon: {fileID: 0}
+  - rewardIndex: 14
+    isIAP: 0
+    isRewardAds: 1
+    packageName: 0
+    rewards:
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 3
+      <Value>k__BackingField:
+        m_Value: 1
+    isButton: 0
+    icon: {fileID: 0}
+  - rewardIndex: 15
+    isIAP: 0
+    isRewardAds: 0
+    packageName: 0
+    rewards:
+    - <Type>k__BackingField: 3
+      <SpecificType>k__BackingField: 15
+      <Value>k__BackingField:
+        m_Value: 900
+    isButton: 0
+    icon: {fileID: 0}
+  - rewardIndex: 16
+    isIAP: 1
+    isRewardAds: 0
+    packageName: 302
+    rewards:
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 3
+      <Value>k__BackingField:
+        m_Value: 2
+    - <Type>k__BackingField: 1
+      <SpecificType>k__BackingField: 1
+      <Value>k__BackingField:
+        m_Value: 3000
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 2
+      <Value>k__BackingField:
+        m_Value: 2
+    isButton: 0
+    icon: {fileID: 0}
+  - rewardIndex: 17
+    isIAP: 0
+    isRewardAds: 0
+    packageName: 0
+    rewards:
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 4
+      <Value>k__BackingField:
+        m_Value: 2
+    - <Type>k__BackingField: 3
+      <SpecificType>k__BackingField: 3
+      <Value>k__BackingField:
+        m_Value: 3600
+    isButton: 0
+    icon: {fileID: 0}
+  - rewardIndex: 18
+    isIAP: 0
+    isRewardAds: 1
+    packageName: 0
+    rewards:
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 5
+      <Value>k__BackingField:
+        m_Value: 1
+    isButton: 0
+    icon: {fileID: 0}
+  - rewardIndex: 19
+    isIAP: 0
+    isRewardAds: 0
+    packageName: 0
+    rewards:
+    - <Type>k__BackingField: 3
+      <SpecificType>k__BackingField: 14
+      <Value>k__BackingField:
+        m_Value: 1800
+    isButton: 0
+    icon: {fileID: 0}
+  - rewardIndex: 20
+    isIAP: 0
+    isRewardAds: 0
+    packageName: 0
+    rewards:
+    - <Type>k__BackingField: 3
+      <SpecificType>k__BackingField: 3
+      <Value>k__BackingField:
+        m_Value: 900
+    - <Type>k__BackingField: 3
+      <SpecificType>k__BackingField: 15
+      <Value>k__BackingField:
+        m_Value: 900
+    isButton: 0
+    icon: {fileID: 0}

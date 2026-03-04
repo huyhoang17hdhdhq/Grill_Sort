@@ -1,0 +1,22 @@
+PSDAnimIC.png
+size:84,220
+filter:Linear,Linear
+pma:true
+Can
+bounds:2,13,39,44
+offsets:0,1,39,45
+rotate:90
+Layer 1
+bounds:2,54,65,65
+Noi
+bounds:2,121,96,80
+offsets:1,1,98,82
+rotate:90
+Tay2
+bounds:48,28,24,32
+offsets:1,1,26,34
+rotate:90
+TayCam
+bounds:48,2,24,32
+offsets:1,1,26,34
+rotate:90

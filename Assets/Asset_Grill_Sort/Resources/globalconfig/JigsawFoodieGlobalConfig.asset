@@ -1,0 +1,1167 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20d814503cf0b6dd3855fa13d26ca8b5, type: 3}
+  m_Name: JigsawFoodieGlobalConfig
+  m_EditorClassIdentifier:
+  <JigsawFoodieConfigGroups>k__BackingField:
+  - <EventName>k__BackingField: JigsawFoodie12082025
+    <JigsawFoodieEventType>k__BackingField: 1
+    <JigsawFoodieConfigs>k__BackingField:
+    - <ID>k__BackingField: 0
+      <ScaleSize>k__BackingField: 1.6
+      <MainSprite>k__BackingField: {fileID: 21300000, guid: 65cc9bbf29b282b40b90b2c29de1c882, type: 2}
+      <JigsawType>k__BackingField: 1
+      <Rewards>k__BackingField:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 1800
+      <JigsawPieceConfigs>k__BackingField:
+      - position: {x: 0, y: 0}
+        pieceSprite: {fileID: 21300000, guid: 35ad6b462b5f89b4e8e4c61a5a29fcbb, type: 2}
+        templateSprite: {fileID: 21300000, guid: e9c0d95ea4b004143b04c93bb011c82a, type: 2}
+        AutoFill: 0
+      - position: {x: 0, y: 1}
+        pieceSprite: {fileID: 21300000, guid: 8fb7b58ceacc1554ab34fd5559776b33, type: 2}
+        templateSprite: {fileID: 21300000, guid: 186a57201546b884689db094fae3b0ff, type: 2}
+        AutoFill: 0
+      - position: {x: 0, y: 2}
+        pieceSprite: {fileID: 21300000, guid: b20524355b244844088747ec924161ea, type: 2}
+        templateSprite: {fileID: 21300000, guid: 969ad0c838488644b9f72374ee8a0c6d, type: 2}
+        AutoFill: 0
+      - position: {x: 1, y: 0}
+        pieceSprite: {fileID: 21300000, guid: 2498e7948c476e34eb1bfdeb623ceb64, type: 2}
+        templateSprite: {fileID: 21300000, guid: 9c22b3e0abb35dd4db9910b409b7bd2f, type: 2}
+        AutoFill: 0
+      - position: {x: 1, y: 1}
+        pieceSprite: {fileID: 21300000, guid: 74dfe9a6e40a5854da0ad438bb55f7c9, type: 2}
+        templateSprite: {fileID: 21300000, guid: 38b223638e1994d49b66022f44619745, type: 2}
+        AutoFill: 0
+      - position: {x: 1, y: 2}
+        pieceSprite: {fileID: 21300000, guid: 51c6b79cdd237714eb92a9d24eb9c298, type: 2}
+        templateSprite: {fileID: 21300000, guid: 4b2dcbc3e5a79dd479cf3b38d6480077, type: 2}
+        AutoFill: 0
+      - position: {x: 2, y: 0}
+        pieceSprite: {fileID: 21300000, guid: 949eb09227f21b345928fa7e657c0a29, type: 2}
+        templateSprite: {fileID: 21300000, guid: 17bd5f4c75c98bd44b2120d4273ed1f2, type: 2}
+        AutoFill: 0
+      - position: {x: 2, y: 1}
+        pieceSprite: {fileID: 21300000, guid: dbb8a230abf0f0a488338475f50fd2d1, type: 2}
+        templateSprite: {fileID: 21300000, guid: ae6d480e0874f38438ce896757c65ebe, type: 2}
+        AutoFill: 0
+      - position: {x: 2, y: 2}
+        pieceSprite: {fileID: 21300000, guid: c93f6423f0d8cbc498ce623f759c320b, type: 2}
+        templateSprite: {fileID: 21300000, guid: e27407be5571cea45ab15a1451441a01, type: 2}
+        AutoFill: 0
+    - <ID>k__BackingField: 1
+      <ScaleSize>k__BackingField: 1.4
+      <MainSprite>k__BackingField: {fileID: 21300000, guid: f3fa8ff90fdeb7842ac05a5e5a87456d, type: 2}
+      <JigsawType>k__BackingField: 2
+      <Rewards>k__BackingField:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 16
+        <Value>k__BackingField:
+          m_Value: 28
+      <JigsawPieceConfigs>k__BackingField:
+      - position: {x: 0, y: 0}
+        pieceSprite: {fileID: 21300000, guid: 324d44713403d554e98a365eae2f2e3e, type: 2}
+        templateSprite: {fileID: 21300000, guid: 01380bd24b6be964dabd176a9cc0c40d, type: 2}
+        AutoFill: 0
+      - position: {x: 0, y: 1}
+        pieceSprite: {fileID: 21300000, guid: e88df6e2f9499124389d4ac35132e9e3, type: 2}
+        templateSprite: {fileID: 21300000, guid: 780223043c408204db685a1efea5fa91, type: 2}
+        AutoFill: 0
+      - position: {x: 0, y: 2}
+        pieceSprite: {fileID: 21300000, guid: cca9ad17d08abfd4eb7b1d418cf3a039, type: 2}
+        templateSprite: {fileID: 21300000, guid: 77526c6602e56e6498ebb9ef8a85dd61, type: 2}
+        AutoFill: 0
+      - position: {x: 0, y: 3}
+        pieceSprite: {fileID: 21300000, guid: 14ef2ce8bbb31df46b3ea508442fc192, type: 2}
+        templateSprite: {fileID: 21300000, guid: cf8ff4e410010924ba7dbb5f365bec33, type: 2}
+        AutoFill: 0
+      - position: {x: 1, y: 0}
+        pieceSprite: {fileID: 21300000, guid: 41d37d179c8e6d34784ce4ab6b952415, type: 2}
+        templateSprite: {fileID: 21300000, guid: cb3e43630b6664249ad6c99365604df7, type: 2}
+        AutoFill: 0
+      - position: {x: 1, y: 1}
+        pieceSprite: {fileID: 21300000, guid: dd34ef95e50ebcc4a9f8a9e386c63065, type: 2}
+        templateSprite: {fileID: 21300000, guid: ba3b30ca831277444927c12c79733b81, type: 2}
+        AutoFill: 0
+      - position: {x: 1, y: 2}
+        pieceSprite: {fileID: 21300000, guid: f7c4a6bb6bb758340abda2a10ab35865, type: 2}
+        templateSprite: {fileID: 21300000, guid: 779e31d3fc4f810449f3186468fb9111, type: 2}
+        AutoFill: 0
+      - position: {x: 1, y: 3}
+        pieceSprite: {fileID: 21300000, guid: 8f1fd58673b2a4c419286fedf583c2c5, type: 2}
+        templateSprite: {fileID: 21300000, guid: 68a8c7ae6e546634183b19f83f1e6851, type: 2}
+        AutoFill: 0
+      - position: {x: 2, y: 0}
+        pieceSprite: {fileID: 21300000, guid: da3ec832253966e49b25d68c1ce5fa20, type: 2}
+        templateSprite: {fileID: 21300000, guid: 573289558929fbb4bb344c7f7545f08c, type: 2}
+        AutoFill: 0
+      - position: {x: 2, y: 1}
+        pieceSprite: {fileID: 21300000, guid: 4742b27193458854ba3cdea3e753dd53, type: 2}
+        templateSprite: {fileID: 21300000, guid: 7772cca241d225c4bb92994d14ea4f37, type: 2}
+        AutoFill: 0
+      - position: {x: 2, y: 2}
+        pieceSprite: {fileID: 21300000, guid: 78ca7df3550f72a40be25727cd52529d, type: 2}
+        templateSprite: {fileID: 21300000, guid: 86b48dbc4db900c4199aaf58f5d494a1, type: 2}
+        AutoFill: 1
+      - position: {x: 2, y: 3}
+        pieceSprite: {fileID: 21300000, guid: 133e0c274a794c84d840af6bf439b571, type: 2}
+        templateSprite: {fileID: 21300000, guid: fe462f3cc7fbe1d43a16e40bfba60cdf, type: 2}
+        AutoFill: 0
+      - position: {x: 3, y: 0}
+        pieceSprite: {fileID: 21300000, guid: f3462a1292a26c545aef413ca76f9d1c, type: 2}
+        templateSprite: {fileID: 21300000, guid: 16766f6ed5cc8bc40b38c97fca768dbd, type: 2}
+        AutoFill: 0
+      - position: {x: 3, y: 1}
+        pieceSprite: {fileID: 21300000, guid: 9e706400536aa8f4e97f9f0c6d5b7e76, type: 2}
+        templateSprite: {fileID: 21300000, guid: 1c7c8db954ecdd444ab73484e5ad5cd3, type: 2}
+        AutoFill: 0
+      - position: {x: 3, y: 2}
+        pieceSprite: {fileID: 21300000, guid: 54cb3e034f464e04096fe2894251f5ab, type: 2}
+        templateSprite: {fileID: 21300000, guid: c72e512886aefef4d8fcaa809496ea9d, type: 2}
+        AutoFill: 0
+      - position: {x: 3, y: 3}
+        pieceSprite: {fileID: 21300000, guid: 3f8167dde23158442a692c4c1918b12a, type: 2}
+        templateSprite: {fileID: 21300000, guid: ca32307dd203f4e489502c68101e13c7, type: 2}
+        AutoFill: 0
+    - <ID>k__BackingField: 2
+      <ScaleSize>k__BackingField: 1.3
+      <MainSprite>k__BackingField: {fileID: 21300000, guid: 60b174c6c521d3b40b61d47bbae998ba, type: 2}
+      <JigsawType>k__BackingField: 3
+      <Rewards>k__BackingField:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 4
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 1
+      <JigsawPieceConfigs>k__BackingField:
+      - position: {x: 0, y: 4}
+        pieceSprite: {fileID: 21300000, guid: 5d6c9f28cdcdec14296a146313034aa9, type: 2}
+        templateSprite: {fileID: 21300000, guid: 03ce81fdbbc58594c83d1d040a220c49, type: 2}
+        AutoFill: 0
+      - position: {x: 1, y: 4}
+        pieceSprite: {fileID: 21300000, guid: 4d5b6d1bd03b19f458ef94681328ae00, type: 2}
+        templateSprite: {fileID: 21300000, guid: 92736ea0884ce54418b004a5e8663141, type: 2}
+        AutoFill: 0
+      - position: {x: 2, y: 4}
+        pieceSprite: {fileID: 21300000, guid: b8a60a3e80e512449b00a0565ba0cca2, type: 2}
+        templateSprite: {fileID: 21300000, guid: 8f953ba7e9200a9439c37bccb85020c6, type: 2}
+        AutoFill: 0
+      - position: {x: 3, y: 4}
+        pieceSprite: {fileID: 21300000, guid: 3af1b4f62a4da5b4abb9e9e60dbb48bd, type: 2}
+        templateSprite: {fileID: 21300000, guid: 62337820b428cd84baa407ea35e5b1cf, type: 2}
+        AutoFill: 0
+      - position: {x: 4, y: 4}
+        pieceSprite: {fileID: 21300000, guid: b98cca3f80a2ce342a0f9fe7a2f9f412, type: 2}
+        templateSprite: {fileID: 21300000, guid: 641e5fff316043f469e7ea3480dc7178, type: 2}
+        AutoFill: 0
+      - position: {x: 0, y: 3}
+        pieceSprite: {fileID: 21300000, guid: 870dd341ebebe6940b5ab102dd766c2d, type: 2}
+        templateSprite: {fileID: 21300000, guid: a3553a8a6b605774dbd5601d380a90ec, type: 2}
+        AutoFill: 0
+      - position: {x: 1, y: 3}
+        pieceSprite: {fileID: 21300000, guid: 0303299501febbc479d4d1578e6074d4, type: 2}
+        templateSprite: {fileID: 21300000, guid: da438fe7b69f3f942ac79457e62f82e2, type: 2}
+        AutoFill: 0
+      - position: {x: 2, y: 3}
+        pieceSprite: {fileID: 21300000, guid: 49ae4086817c76444a8c3d419de725b4, type: 2}
+        templateSprite: {fileID: 21300000, guid: 771dcaa7da7d5544bb37a94accdc74e1, type: 2}
+        AutoFill: 0
+      - position: {x: 3, y: 3}
+        pieceSprite: {fileID: 21300000, guid: 53ec3e5bc6287c64ea9748ffc21cae61, type: 2}
+        templateSprite: {fileID: 21300000, guid: 97b6ab1bd0e51fb4bbf242e9a2f64127, type: 2}
+        AutoFill: 1
+      - position: {x: 4, y: 3}
+        pieceSprite: {fileID: 21300000, guid: 7ef1a6f849cac684d8f2debb5bcd5d09, type: 2}
+        templateSprite: {fileID: 21300000, guid: caa4fc3a8e1f12241830fde96ce5fb9a, type: 2}
+        AutoFill: 0
+      - position: {x: 0, y: 2}
+        pieceSprite: {fileID: 21300000, guid: 584b7873ce0bde649bf82024bbc512e6, type: 2}
+        templateSprite: {fileID: 21300000, guid: 2a9c1ae57542e5248800c60de0fe3b7e, type: 2}
+        AutoFill: 0
+      - position: {x: 1, y: 2}
+        pieceSprite: {fileID: 21300000, guid: 138c8c47077935344bff480e94c3f84c, type: 2}
+        templateSprite: {fileID: 21300000, guid: d0dd79c82e7840048acc70d74e890201, type: 2}
+        AutoFill: 0
+      - position: {x: 2, y: 2}
+        pieceSprite: {fileID: 21300000, guid: 3957a8c87bfd05242bde71e1d0e9df11, type: 2}
+        templateSprite: {fileID: 21300000, guid: 1665e2f645b00c747be1eefa75b8b8ed, type: 2}
+        AutoFill: 0
+      - position: {x: 3, y: 2}
+        pieceSprite: {fileID: 21300000, guid: 5a4ba69800d61344480d0f18a6011ecf, type: 2}
+        templateSprite: {fileID: 21300000, guid: 96cfe9d2fe2a5d84d874c90dc30d631c, type: 2}
+        AutoFill: 1
+      - position: {x: 4, y: 2}
+        pieceSprite: {fileID: 21300000, guid: 13955985b73a1614ca28e869516c24a1, type: 2}
+        templateSprite: {fileID: 21300000, guid: 753d57f1fc8338648bae573006543cdf, type: 2}
+        AutoFill: 0
+      - position: {x: 0, y: 1}
+        pieceSprite: {fileID: 21300000, guid: 3d6776a32d4f5ed46a9e74eb0b4a8a75, type: 2}
+        templateSprite: {fileID: 21300000, guid: 6fe345e77c06cda49bbe7fa54d1f9494, type: 2}
+        AutoFill: 0
+      - position: {x: 1, y: 1}
+        pieceSprite: {fileID: 21300000, guid: d1a1086f9e0719e429c693167329e95c, type: 2}
+        templateSprite: {fileID: 21300000, guid: 494d08bafa38e2841ab0ad6090effe0e, type: 2}
+        AutoFill: 0
+      - position: {x: 2, y: 1}
+        pieceSprite: {fileID: 21300000, guid: af1b3a0dbc9ecbe499047997babef187, type: 2}
+        templateSprite: {fileID: 21300000, guid: 3befa6e95bd1a1b41ba516c26b91879b, type: 2}
+        AutoFill: 0
+      - position: {x: 3, y: 1}
+        pieceSprite: {fileID: 21300000, guid: 3b518a2e72ada2447bf5b5b1d5e4fbfe, type: 2}
+        templateSprite: {fileID: 21300000, guid: 791d522d6e8c8af4191db528328ede43, type: 2}
+        AutoFill: 0
+      - position: {x: 4, y: 1}
+        pieceSprite: {fileID: 21300000, guid: d1ae2426cd8173a4d8402b154e3f04f0, type: 2}
+        templateSprite: {fileID: 21300000, guid: 5900677067f05e142ab7d8da138b7cdc, type: 2}
+        AutoFill: 0
+      - position: {x: 0, y: 0}
+        pieceSprite: {fileID: 21300000, guid: 3c43327eb30e9a14485d8c2c4fbe392c, type: 2}
+        templateSprite: {fileID: 21300000, guid: 6e77992e4c6ca3d42940f625389de852, type: 2}
+        AutoFill: 0
+      - position: {x: 1, y: 0}
+        pieceSprite: {fileID: 21300000, guid: e4bd06a264d665e4694f5b9893a9a27b, type: 2}
+        templateSprite: {fileID: 21300000, guid: b1e47b30d4a29104aba7c8750c1c9569, type: 2}
+        AutoFill: 0
+      - position: {x: 2, y: 0}
+        pieceSprite: {fileID: 21300000, guid: bb6be1adb7f2763439e227123331c3b9, type: 2}
+        templateSprite: {fileID: 21300000, guid: 099461450ef79e34390efd8a85dbf78a, type: 2}
+        AutoFill: 0
+      - position: {x: 3, y: 0}
+        pieceSprite: {fileID: 21300000, guid: b52c27ed5ed5a4843a9bac15b4eecbd9, type: 2}
+        templateSprite: {fileID: 21300000, guid: 93e17961897fcfc449f773cf42e598b1, type: 2}
+        AutoFill: 0
+      - position: {x: 4, y: 0}
+        pieceSprite: {fileID: 21300000, guid: 959a8da0f6001754a901195757705db7, type: 2}
+        templateSprite: {fileID: 21300000, guid: 22daa1c2ae5d58f4d900aa7b7f70d3e4, type: 2}
+        AutoFill: 0
+    - <ID>k__BackingField: 3
+      <ScaleSize>k__BackingField: 1.3
+      <MainSprite>k__BackingField: {fileID: 21300000, guid: 172c3085b29da2d4e84bf48be2aa52cc, type: 2}
+      <JigsawType>k__BackingField: 3
+      <Rewards>k__BackingField:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 100
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 13
+        <Value>k__BackingField:
+          m_Value: 1800
+      <JigsawPieceConfigs>k__BackingField:
+      - position: {x: 0, y: 4}
+        pieceSprite: {fileID: 21300000, guid: 9c7d14f7dd9e7b04b8534515d1f498fc, type: 2}
+        templateSprite: {fileID: 21300000, guid: 5241755fce5dc124f914d0e949f67b45, type: 2}
+        AutoFill: 0
+      - position: {x: 1, y: 4}
+        pieceSprite: {fileID: 21300000, guid: 6a9e2e403061e4743932c6a0956932e5, type: 2}
+        templateSprite: {fileID: 21300000, guid: 500611b32978c664f9259c5934b67e01, type: 2}
+        AutoFill: 0
+      - position: {x: 2, y: 4}
+        pieceSprite: {fileID: 21300000, guid: cf34071afbd72954fb88f3f4b402d665, type: 2}
+        templateSprite: {fileID: 21300000, guid: fcdbbf468ff60be4087fe21fa3c8e5be, type: 2}
+        AutoFill: 0
+      - position: {x: 3, y: 4}
+        pieceSprite: {fileID: 21300000, guid: d51d2e56985f3004998131cafc697c8e, type: 2}
+        templateSprite: {fileID: 21300000, guid: aa14825e0420602449451ee3bd080429, type: 2}
+        AutoFill: 0
+      - position: {x: 4, y: 4}
+        pieceSprite: {fileID: 21300000, guid: 5a353a66abda022409a067c3193ddd91, type: 2}
+        templateSprite: {fileID: 21300000, guid: 9d6453dc4a6e80f46a82d904fb0b1c5b, type: 2}
+        AutoFill: 0
+      - position: {x: 0, y: 3}
+        pieceSprite: {fileID: 21300000, guid: 13c2992acd5f5bf41a6efb4028e9fca0, type: 2}
+        templateSprite: {fileID: 21300000, guid: 93e770f0f24c7ff4c857ddf48794b826, type: 2}
+        AutoFill: 0
+      - position: {x: 1, y: 3}
+        pieceSprite: {fileID: 21300000, guid: e39000963d2242042a09a939eb728732, type: 2}
+        templateSprite: {fileID: 21300000, guid: 617061d55f0f70d4096b8aeb601a2d2f, type: 2}
+        AutoFill: 0
+      - position: {x: 2, y: 3}
+        pieceSprite: {fileID: 21300000, guid: 26ecbbbf1e391b94f9cb68ac15f6c93e, type: 2}
+        templateSprite: {fileID: 21300000, guid: ec63201356051d54fbb4dbd4eac10897, type: 2}
+        AutoFill: 0
+      - position: {x: 3, y: 3}
+        pieceSprite: {fileID: 21300000, guid: 4170a96877ee566409a24c5398b15d82, type: 2}
+        templateSprite: {fileID: 21300000, guid: 4707e2ce861784e48a472f2975172cc9, type: 2}
+        AutoFill: 1
+      - position: {x: 4, y: 3}
+        pieceSprite: {fileID: 21300000, guid: 1359f08c297c3f04e8660957fce4ec18, type: 2}
+        templateSprite: {fileID: 21300000, guid: 34425d0bbe537e6479508cf43d811225, type: 2}
+        AutoFill: 0
+      - position: {x: 0, y: 2}
+        pieceSprite: {fileID: 21300000, guid: f4b842dd1e1b82348bafceb5f4c075d7, type: 2}
+        templateSprite: {fileID: 21300000, guid: 04d21157a0dc42f4cbb7f710c9062f93, type: 2}
+        AutoFill: 0
+      - position: {x: 1, y: 2}
+        pieceSprite: {fileID: 21300000, guid: 2b9455ac458f9f64c9d859e21f64f6f8, type: 2}
+        templateSprite: {fileID: 21300000, guid: 48308f07f2320d84d8b20add8b5b9124, type: 2}
+        AutoFill: 0
+      - position: {x: 2, y: 2}
+        pieceSprite: {fileID: 21300000, guid: 687046837c6be5a418d221b919032bcd, type: 2}
+        templateSprite: {fileID: 21300000, guid: cf69a91548daa7a4f8f7e139fe9e8b4f, type: 2}
+        AutoFill: 1
+      - position: {x: 3, y: 2}
+        pieceSprite: {fileID: 21300000, guid: 53ad5ca228c82a34caebaf8cd85f4958, type: 2}
+        templateSprite: {fileID: 21300000, guid: b31f1e7dd6ae12b4ca55f56043d2fb09, type: 2}
+        AutoFill: 0
+      - position: {x: 4, y: 2}
+        pieceSprite: {fileID: 21300000, guid: 10604017c94a13647bcb3cc05b199d01, type: 2}
+        templateSprite: {fileID: 21300000, guid: 09f58304607ed5f41b3c31f467b17873, type: 2}
+        AutoFill: 0
+      - position: {x: 0, y: 1}
+        pieceSprite: {fileID: 21300000, guid: ddde491e70a440f4784072db4e306b9c, type: 2}
+        templateSprite: {fileID: 21300000, guid: 1b82de7e86a061148b6bd222a5e3efb2, type: 2}
+        AutoFill: 0
+      - position: {x: 1, y: 1}
+        pieceSprite: {fileID: 21300000, guid: 6a0effa9058abdb4aac0dd7995fc6d6b, type: 2}
+        templateSprite: {fileID: 21300000, guid: 2d95cdc4794aae94b8616b377d7a19fe, type: 2}
+        AutoFill: 0
+      - position: {x: 2, y: 1}
+        pieceSprite: {fileID: 21300000, guid: 72a1ae09878e7a742b180cb16a3effd7, type: 2}
+        templateSprite: {fileID: 21300000, guid: e6507c9da6069c440ad47ed8d4d16f3b, type: 2}
+        AutoFill: 0
+      - position: {x: 3, y: 1}
+        pieceSprite: {fileID: 21300000, guid: 56ae95eab8c63a2448b913a5016fe5d3, type: 2}
+        templateSprite: {fileID: 21300000, guid: 0ed107c98bd789d4e8abcc4ee74aa19a, type: 2}
+        AutoFill: 0
+      - position: {x: 4, y: 1}
+        pieceSprite: {fileID: 21300000, guid: 6b20f3a963aa5ac4caf1e1b9c508b553, type: 2}
+        templateSprite: {fileID: 21300000, guid: 4f8c7c2b6501f534e9712a37476c6fb9, type: 2}
+        AutoFill: 0
+      - position: {x: 0, y: 0}
+        pieceSprite: {fileID: 21300000, guid: b0dc05bcbe0ad904b80ba26f5e94ed10, type: 2}
+        templateSprite: {fileID: 21300000, guid: 52df2e83ae32e0b4ba01fbc2efe8b472, type: 2}
+        AutoFill: 0
+      - position: {x: 1, y: 0}
+        pieceSprite: {fileID: 21300000, guid: b010d22092bb3394892e7930c1d0d602, type: 2}
+        templateSprite: {fileID: 21300000, guid: c4669ae0e4e99c14f911116119edfeaa, type: 2}
+        AutoFill: 0
+      - position: {x: 2, y: 0}
+        pieceSprite: {fileID: 21300000, guid: 3af1a2db7137f6c4ab75d5526dd65795, type: 2}
+        templateSprite: {fileID: 21300000, guid: 6047a33f31f81134d97e5fe73de31264, type: 2}
+        AutoFill: 0
+      - position: {x: 3, y: 0}
+        pieceSprite: {fileID: 21300000, guid: 07867008ab7d76548b0d59edcb016df3, type: 2}
+        templateSprite: {fileID: 21300000, guid: 8e212292df630864081789bcbfeb0645, type: 2}
+        AutoFill: 0
+      - position: {x: 4, y: 0}
+        pieceSprite: {fileID: 21300000, guid: ef84bbca3d885d8458f53a723175bb0f, type: 2}
+        templateSprite: {fileID: 21300000, guid: 3ca28ff87f1be49419a92a6e14d2b9cb, type: 2}
+        AutoFill: 0
+    - <ID>k__BackingField: 4
+      <ScaleSize>k__BackingField: 1.15
+      <MainSprite>k__BackingField: {fileID: 21300000, guid: e417c638b4eaf37469d492a32452d28b, type: 2}
+      <JigsawType>k__BackingField: 4
+      <Rewards>k__BackingField:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 19
+        <Value>k__BackingField:
+          m_Value: 5
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 2
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 4
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 100
+      <JigsawPieceConfigs>k__BackingField:
+      - position: {x: 0, y: 5}
+        pieceSprite: {fileID: 21300000, guid: 53b09da5a0412b0478242ccc8a80bdd1, type: 2}
+        templateSprite: {fileID: 21300000, guid: 1da7dc4c7405ec844a7ae59d8dc30b07, type: 2}
+        AutoFill: 0
+      - position: {x: 1, y: 5}
+        pieceSprite: {fileID: 21300000, guid: a943fc77d8ca8a942b5b339daf3da6e0, type: 2}
+        templateSprite: {fileID: 21300000, guid: edd03556a4a85594685e755b8cc089dc, type: 2}
+        AutoFill: 0
+      - position: {x: 2, y: 5}
+        pieceSprite: {fileID: 21300000, guid: a0207316ac59658478622719a20d5ae0, type: 2}
+        templateSprite: {fileID: 21300000, guid: 7e1aa75bc82a5ee4f888b3a589d20b33, type: 2}
+        AutoFill: 0
+      - position: {x: 3, y: 5}
+        pieceSprite: {fileID: 21300000, guid: 24c6230a247af9048825510d20b00789, type: 2}
+        templateSprite: {fileID: 21300000, guid: 80137bbc8bb90b04fb9fdd6dbab0d89e, type: 2}
+        AutoFill: 0
+      - position: {x: 4, y: 5}
+        pieceSprite: {fileID: 21300000, guid: 6f40da3195a34f343b77fe3fef88e190, type: 2}
+        templateSprite: {fileID: 21300000, guid: ec0e49a54de41424f977f37bcea2f757, type: 2}
+        AutoFill: 0
+      - position: {x: 5, y: 5}
+        pieceSprite: {fileID: 21300000, guid: 9a45bcfd6f6c6014a9a4249f3cc3c7a3, type: 2}
+        templateSprite: {fileID: 21300000, guid: 8df47c74b4c9547409b06967a20f0e98, type: 2}
+        AutoFill: 0
+      - position: {x: 0, y: 4}
+        pieceSprite: {fileID: 21300000, guid: 46c4584e7e7d54140b4e7edf5ffb5e85, type: 2}
+        templateSprite: {fileID: 21300000, guid: 292b73461025ca34a9b4f37d4fd2d1fb, type: 2}
+        AutoFill: 0
+      - position: {x: 1, y: 4}
+        pieceSprite: {fileID: 21300000, guid: 4aea8be966e767d4aafa4c1e28629c0d, type: 2}
+        templateSprite: {fileID: 21300000, guid: af5f591a1d54dc54281c002c7415f2a1, type: 2}
+        AutoFill: 0
+      - position: {x: 2, y: 4}
+        pieceSprite: {fileID: 21300000, guid: a6d5c143cabf4934eb4f33f031d9488d, type: 2}
+        templateSprite: {fileID: 21300000, guid: a3c9626c2198bb8479a0e3872c7e1ccd, type: 2}
+        AutoFill: 1
+      - position: {x: 3, y: 4}
+        pieceSprite: {fileID: 21300000, guid: 263dbb24586252c409b2df29297983d9, type: 2}
+        templateSprite: {fileID: 21300000, guid: 1bca0d5fb4f4e9c44a7a5f805787698d, type: 2}
+        AutoFill: 0
+      - position: {x: 4, y: 4}
+        pieceSprite: {fileID: 21300000, guid: cb835d087239e4340891e2229b7ace9f, type: 2}
+        templateSprite: {fileID: 21300000, guid: 6dbc1d5027d6f1846a29adf81d1392d3, type: 2}
+        AutoFill: 0
+      - position: {x: 5, y: 4}
+        pieceSprite: {fileID: 21300000, guid: 14c753c6fa30ca049bc640b408631550, type: 2}
+        templateSprite: {fileID: 21300000, guid: afcd4241a6fcdc2479af639050b96947, type: 2}
+        AutoFill: 0
+      - position: {x: 0, y: 3}
+        pieceSprite: {fileID: 21300000, guid: bd3448fc9153eb44f93838f19c43fb1a, type: 2}
+        templateSprite: {fileID: 21300000, guid: 3f8a4f68eaa493b4d92a3c15e42ad802, type: 2}
+        AutoFill: 1
+      - position: {x: 1, y: 3}
+        pieceSprite: {fileID: 21300000, guid: 1085a0439af20f94db7aa0379f81f959, type: 2}
+        templateSprite: {fileID: 21300000, guid: 299ac8ccdb8b2a349ac473296b92dc76, type: 2}
+        AutoFill: 0
+      - position: {x: 2, y: 3}
+        pieceSprite: {fileID: 21300000, guid: 369fbe775efcbb84b9f2bca274b2c36a, type: 2}
+        templateSprite: {fileID: 21300000, guid: c03e6c25197ed47478039c4ce5d03ce3, type: 2}
+        AutoFill: 0
+      - position: {x: 3, y: 3}
+        pieceSprite: {fileID: 21300000, guid: 3403bd9a7be1aca47be58275d8411c5b, type: 2}
+        templateSprite: {fileID: 21300000, guid: 4cf79712fa751ef48b41b5ecdb11a715, type: 2}
+        AutoFill: 0
+      - position: {x: 4, y: 3}
+        pieceSprite: {fileID: 21300000, guid: 507639bb7a7ab754bbf57d3b0dfbbd13, type: 2}
+        templateSprite: {fileID: 21300000, guid: f6c722513633c2a4e86f3b8287f3080e, type: 2}
+        AutoFill: 0
+      - position: {x: 5, y: 3}
+        pieceSprite: {fileID: 21300000, guid: d1a54bd389a6d3b408dee7d7571ebafc, type: 2}
+        templateSprite: {fileID: 21300000, guid: e29c1fb4085fad0489d2e30d092929cf, type: 2}
+        AutoFill: 0
+      - position: {x: 0, y: 2}
+        pieceSprite: {fileID: 21300000, guid: 425874e8de0212949b8356b5f24f33c0, type: 2}
+        templateSprite: {fileID: 21300000, guid: d9423c4bd4abf4240935f24f921d5d39, type: 2}
+        AutoFill: 0
+      - position: {x: 1, y: 2}
+        pieceSprite: {fileID: 21300000, guid: 6719d3b7da1ced74abb0cf2c007a0656, type: 2}
+        templateSprite: {fileID: 21300000, guid: 532736bd7214fb84a941eab48b28d333, type: 2}
+        AutoFill: 0
+      - position: {x: 2, y: 2}
+        pieceSprite: {fileID: 21300000, guid: c877008a387ebe34f8d489fbc05eed92, type: 2}
+        templateSprite: {fileID: 21300000, guid: fbaa795c4b9fd414a8f782291e4d93bf, type: 2}
+        AutoFill: 0
+      - position: {x: 3, y: 2}
+        pieceSprite: {fileID: 21300000, guid: 1a2df959555a9d945bd368232fa56695, type: 2}
+        templateSprite: {fileID: 21300000, guid: 5ae2862654ddc1340b2e4217bd674319, type: 2}
+        AutoFill: 0
+      - position: {x: 4, y: 2}
+        pieceSprite: {fileID: 21300000, guid: b3b20fea3743d1c44bc68be60eec1afe, type: 2}
+        templateSprite: {fileID: 21300000, guid: a8d53f1bbeb421b47a6c3bace25523b4, type: 2}
+        AutoFill: 0
+      - position: {x: 5, y: 2}
+        pieceSprite: {fileID: 21300000, guid: e4c83dcf647ecda46a415f8ba5796c67, type: 2}
+        templateSprite: {fileID: 21300000, guid: dbd0063f48d9f1545954fb9942deb900, type: 2}
+        AutoFill: 0
+      - position: {x: 0, y: 1}
+        pieceSprite: {fileID: 21300000, guid: 458ca2a3264616942b8d40ffec4ab526, type: 2}
+        templateSprite: {fileID: 21300000, guid: 8093081c9edabb3448bc56e6a17ab14a, type: 2}
+        AutoFill: 0
+      - position: {x: 1, y: 1}
+        pieceSprite: {fileID: 21300000, guid: eaa2275a4b248cb4cb07fd00e56ea19d, type: 2}
+        templateSprite: {fileID: 21300000, guid: ef931005e3ed9904b8a94f1092c7046d, type: 2}
+        AutoFill: 0
+      - position: {x: 2, y: 1}
+        pieceSprite: {fileID: 21300000, guid: 9302f7b1659e93148a8093a039042e20, type: 2}
+        templateSprite: {fileID: 21300000, guid: 0bd902651a15832479641984c91bb25d, type: 2}
+        AutoFill: 0
+      - position: {x: 3, y: 1}
+        pieceSprite: {fileID: 21300000, guid: fe50806d03c7f1d4bbcd53a1d5277bf0, type: 2}
+        templateSprite: {fileID: 21300000, guid: 34a299e38c0ffb84c890b49f2d10f2f1, type: 2}
+        AutoFill: 0
+      - position: {x: 4, y: 1}
+        pieceSprite: {fileID: 21300000, guid: b6dab6a2bb9876849a8a9ab3c79ac5b0, type: 2}
+        templateSprite: {fileID: 21300000, guid: 8cee213a14aabef4482d05b53b53c2fa, type: 2}
+        AutoFill: 0
+      - position: {x: 5, y: 1}
+        pieceSprite: {fileID: 21300000, guid: 44b729ebeb3b3764d977693daf50d34d, type: 2}
+        templateSprite: {fileID: 21300000, guid: 4723433591c24d24792ec7033e52716d, type: 2}
+        AutoFill: 0
+      - position: {x: 0, y: 0}
+        pieceSprite: {fileID: 21300000, guid: 30b2ffb091c28f345aef428a9a3b7872, type: 2}
+        templateSprite: {fileID: 21300000, guid: 5c71008bf37704a4baa0f12b9aea42e4, type: 2}
+        AutoFill: 0
+      - position: {x: 1, y: 0}
+        pieceSprite: {fileID: 21300000, guid: 26fbfc08efc37d44f9dee651dc6fdcd7, type: 2}
+        templateSprite: {fileID: 21300000, guid: 6d438a9d0bc75d74e8a44a1619bd064a, type: 2}
+        AutoFill: 0
+      - position: {x: 2, y: 0}
+        pieceSprite: {fileID: 21300000, guid: 12fe48dd8f599624c9a0c9098d8d1644, type: 2}
+        templateSprite: {fileID: 21300000, guid: 7c8045b15afa8704abba841aa5ffff32, type: 2}
+        AutoFill: 0
+      - position: {x: 3, y: 0}
+        pieceSprite: {fileID: 21300000, guid: 23469a42dcf646b4f8fb25bbb5955e31, type: 2}
+        templateSprite: {fileID: 21300000, guid: 369450f30979995478e6d311ac5ee06b, type: 2}
+        AutoFill: 0
+      - position: {x: 4, y: 0}
+        pieceSprite: {fileID: 21300000, guid: d3d259de960781b4083a4a9650a813c7, type: 2}
+        templateSprite: {fileID: 21300000, guid: b10e684bce5d3974cab47e4d0575c30b, type: 2}
+        AutoFill: 0
+      - position: {x: 5, y: 0}
+        pieceSprite: {fileID: 21300000, guid: 38400b2f42b0f6a499cc145665dc98da, type: 2}
+        templateSprite: {fileID: 21300000, guid: 07a1917b3a637824fadba69939346164, type: 2}
+        AutoFill: 0
+  - <EventName>k__BackingField: JigsawFoodie12202025
+    <JigsawFoodieEventType>k__BackingField: 2
+    <JigsawFoodieConfigs>k__BackingField:
+    - <ID>k__BackingField: 0
+      <ScaleSize>k__BackingField: 1.4
+      <MainSprite>k__BackingField: {fileID: 21300000, guid: 4d9e810708416384b97a85afc627f88d, type: 2}
+      <JigsawType>k__BackingField: 2
+      <Rewards>k__BackingField:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 1800
+      <JigsawPieceConfigs>k__BackingField:
+      - position: {x: 0, y: 3}
+        pieceSprite: {fileID: 21300000, guid: c80dc415e209a3540920b26b17bd0c69, type: 2}
+        templateSprite: {fileID: 21300000, guid: 2b899804a9f2332469ebe2653acd861d, type: 2}
+        AutoFill: 0
+      - position: {x: 1, y: 3}
+        pieceSprite: {fileID: 21300000, guid: 396d5636bf6612a45ac478f16fb3759e, type: 2}
+        templateSprite: {fileID: 21300000, guid: aa2ddbb233ae13a4badbd9dd791e51c7, type: 2}
+        AutoFill: 0
+      - position: {x: 2, y: 3}
+        pieceSprite: {fileID: 21300000, guid: e072e2ff243d77a43a43a4e1261ff099, type: 2}
+        templateSprite: {fileID: 21300000, guid: 9ab478dcf1e1f8b46bed1fe1c72b4e29, type: 2}
+        AutoFill: 0
+      - position: {x: 3, y: 3}
+        pieceSprite: {fileID: 21300000, guid: 2fa7f6a1256265c44a9b903bd4ef3ca3, type: 2}
+        templateSprite: {fileID: 21300000, guid: 5f301772873f7334d887ff4700a7856c, type: 2}
+        AutoFill: 0
+      - position: {x: 0, y: 2}
+        pieceSprite: {fileID: 21300000, guid: 738632275000c0747ba303be79b26c6c, type: 2}
+        templateSprite: {fileID: 21300000, guid: baf8314915ce85c47bd0e1a8d8d6be6c, type: 2}
+        AutoFill: 0
+      - position: {x: 1, y: 2}
+        pieceSprite: {fileID: 21300000, guid: 1495d204b6e829c4b80294bfde30f742, type: 2}
+        templateSprite: {fileID: 21300000, guid: 5ceaaa481641fe049bc6fdb08ea9bdc1, type: 2}
+        AutoFill: 0
+      - position: {x: 2, y: 2}
+        pieceSprite: {fileID: 21300000, guid: 600a99650d99c95459e38e5b6762902c, type: 2}
+        templateSprite: {fileID: 21300000, guid: dea94ccace129934abaf12b3cba5b281, type: 2}
+        AutoFill: 1
+      - position: {x: 3, y: 2}
+        pieceSprite: {fileID: 21300000, guid: 06e4d7f6a9c4c92469367c69cac9a1e2, type: 2}
+        templateSprite: {fileID: 21300000, guid: 9d9d76f796c455f40b4330c2aed84e82, type: 2}
+        AutoFill: 0
+      - position: {x: 0, y: 1}
+        pieceSprite: {fileID: 21300000, guid: 603d481853f03ad4d9ef7480fa22797a, type: 2}
+        templateSprite: {fileID: 21300000, guid: 42b7e4e09c71cc642949588b3337f5b5, type: 2}
+        AutoFill: 0
+      - position: {x: 1, y: 1}
+        pieceSprite: {fileID: 21300000, guid: dca72e1d5a9b4b543aecab6dca06018f, type: 2}
+        templateSprite: {fileID: 21300000, guid: c86a992bf5c5aff4bb253d64ef6f1696, type: 2}
+        AutoFill: 0
+      - position: {x: 2, y: 1}
+        pieceSprite: {fileID: 21300000, guid: f2b90ed52be589545a6b81fc752d55b6, type: 2}
+        templateSprite: {fileID: 21300000, guid: e895469d14cfd6d498ff2a28b935691d, type: 2}
+        AutoFill: 0
+      - position: {x: 3, y: 1}
+        pieceSprite: {fileID: 21300000, guid: 569d38ae9c0bd99489637dd87795be4c, type: 2}
+        templateSprite: {fileID: 21300000, guid: b8e9cfda8b2ded4468d62dc13288b5cc, type: 2}
+        AutoFill: 0
+      - position: {x: 0, y: 0}
+        pieceSprite: {fileID: 21300000, guid: 8c5e2c5e1481b814b9dc3275a60f7e1f, type: 2}
+        templateSprite: {fileID: 21300000, guid: 7c5d13f293b72974bbce5d70e6e99817, type: 2}
+        AutoFill: 0
+      - position: {x: 1, y: 0}
+        pieceSprite: {fileID: 21300000, guid: ad34c0f8c06ce4741b214b1bda98efe2, type: 2}
+        templateSprite: {fileID: 21300000, guid: b56e95f4ba1fbb3488dffbb3e5e987d1, type: 2}
+        AutoFill: 0
+      - position: {x: 2, y: 0}
+        pieceSprite: {fileID: 21300000, guid: b6df2077ac7b07e4aa59fb1cd558ce05, type: 2}
+        templateSprite: {fileID: 21300000, guid: 2a46180b51249b64cb00c39ed932aa4e, type: 2}
+        AutoFill: 0
+      - position: {x: 3, y: 0}
+        pieceSprite: {fileID: 21300000, guid: a6c57d3e2e2f9164e993963246480374, type: 2}
+        templateSprite: {fileID: 21300000, guid: 555ba9ed2d682014e9092a4ece269a70, type: 2}
+        AutoFill: 0
+    - <ID>k__BackingField: 1
+      <ScaleSize>k__BackingField: 1.3
+      <MainSprite>k__BackingField: {fileID: 21300000, guid: 991ba96df3538a640a98b129590f6b2d, type: 2}
+      <JigsawType>k__BackingField: 3
+      <Rewards>k__BackingField:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 17
+        <Value>k__BackingField:
+          m_Value: 18
+      <JigsawPieceConfigs>k__BackingField:
+      - position: {x: 0, y: 4}
+        pieceSprite: {fileID: 21300000, guid: 919baeb177bfd874b933afce1845d03e, type: 2}
+        templateSprite: {fileID: 21300000, guid: e26354e7fc124e84f902fb585867b457, type: 2}
+        AutoFill: 0
+      - position: {x: 1, y: 4}
+        pieceSprite: {fileID: 21300000, guid: d5dfa592389d03d4c96947e1d484b2fd, type: 2}
+        templateSprite: {fileID: 21300000, guid: ed017b1ba13d7444ea542285efca341a, type: 2}
+        AutoFill: 0
+      - position: {x: 2, y: 4}
+        pieceSprite: {fileID: 21300000, guid: 7a483c51422d19f4f80a5cdf164c655f, type: 2}
+        templateSprite: {fileID: 21300000, guid: f16e9044745f17c4f84d1f7345c50d9f, type: 2}
+        AutoFill: 0
+      - position: {x: 3, y: 4}
+        pieceSprite: {fileID: 21300000, guid: 98cdb4694eb3d3349a245c9db4e3e2b5, type: 2}
+        templateSprite: {fileID: 21300000, guid: ca771925bb623e643bd033dd9712dc77, type: 2}
+        AutoFill: 0
+      - position: {x: 4, y: 4}
+        pieceSprite: {fileID: 21300000, guid: 80fb0283ee3f0984a82508896b1c726d, type: 2}
+        templateSprite: {fileID: 21300000, guid: 87fd4dcf23c9f65478c06ef39756b3ac, type: 2}
+        AutoFill: 0
+      - position: {x: 0, y: 3}
+        pieceSprite: {fileID: 21300000, guid: 5dc5439211f793f4eb7eb9ccb0e3c575, type: 2}
+        templateSprite: {fileID: 21300000, guid: c6fc75fc3c4959f4a82deb1bfeb74079, type: 2}
+        AutoFill: 0
+      - position: {x: 1, y: 3}
+        pieceSprite: {fileID: 21300000, guid: d533f73eb8b7c5e42bf2c95e0256bc55, type: 2}
+        templateSprite: {fileID: 21300000, guid: 4e62ce98cc7b6d5429ac92e39873e5b1, type: 2}
+        AutoFill: 0
+      - position: {x: 2, y: 3}
+        pieceSprite: {fileID: 21300000, guid: 8e756e3fd6d75b444a9c339655466c39, type: 2}
+        templateSprite: {fileID: 21300000, guid: 41e802fa0bdabf641afe1b5c0a525b0d, type: 2}
+        AutoFill: 0
+      - position: {x: 3, y: 3}
+        pieceSprite: {fileID: 21300000, guid: d19b58c61d6d3b94c819f6f51eb43f0b, type: 2}
+        templateSprite: {fileID: 21300000, guid: 0b132dd32cd235647a72295a612a8669, type: 2}
+        AutoFill: 0
+      - position: {x: 4, y: 3}
+        pieceSprite: {fileID: 21300000, guid: da623f03912536045b57a02c788e09ca, type: 2}
+        templateSprite: {fileID: 21300000, guid: 9bddbd8ff032aea40a3bcaef69ee3adb, type: 2}
+        AutoFill: 0
+      - position: {x: 0, y: 2}
+        pieceSprite: {fileID: 21300000, guid: 0763a9d91de70f74982c91972cde2891, type: 2}
+        templateSprite: {fileID: 21300000, guid: de01244f7c6af2c4198b1a618635c8b0, type: 2}
+        AutoFill: 0
+      - position: {x: 1, y: 2}
+        pieceSprite: {fileID: 21300000, guid: 9a5b138ac1c3f6b489ba16df017e0bb3, type: 2}
+        templateSprite: {fileID: 21300000, guid: 3535fc682fc98c74ea58d504a0140b0f, type: 2}
+        AutoFill: 0
+      - position: {x: 2, y: 2}
+        pieceSprite: {fileID: 21300000, guid: ad224b4c8d6db8c40900aca89a4a223d, type: 2}
+        templateSprite: {fileID: 21300000, guid: c17ff3026266439449f3a3df26bcad29, type: 2}
+        AutoFill: 1
+      - position: {x: 3, y: 2}
+        pieceSprite: {fileID: 21300000, guid: 4280aeb46f0389249a72cd4de6d5f7e0, type: 2}
+        templateSprite: {fileID: 21300000, guid: c8850b4cd6c08de4d967897279098b5b, type: 2}
+        AutoFill: 0
+      - position: {x: 4, y: 2}
+        pieceSprite: {fileID: 21300000, guid: daa00692f2495a94d9c344f23b5dcd42, type: 2}
+        templateSprite: {fileID: 21300000, guid: 24fa482fb54583f49a40ce0ef1485ae0, type: 2}
+        AutoFill: 0
+      - position: {x: 0, y: 1}
+        pieceSprite: {fileID: 21300000, guid: b4544faa6236bb1408dede935b869ff3, type: 2}
+        templateSprite: {fileID: 21300000, guid: 48e7aa01bff28174a90899d348f4d225, type: 2}
+        AutoFill: 0
+      - position: {x: 1, y: 1}
+        pieceSprite: {fileID: 21300000, guid: 0bfa2fe604c203e4e89adf2b692953cf, type: 2}
+        templateSprite: {fileID: 21300000, guid: d0bfecc36614ec9419a50d7e179c93a2, type: 2}
+        AutoFill: 1
+      - position: {x: 2, y: 1}
+        pieceSprite: {fileID: 21300000, guid: 3464258c37d411944bf914d5b38cf83a, type: 2}
+        templateSprite: {fileID: 21300000, guid: a313f5c9f082e7243a7aa43bcef0aa14, type: 2}
+        AutoFill: 0
+      - position: {x: 3, y: 1}
+        pieceSprite: {fileID: 21300000, guid: 2bb5aea0af025c945b85c9b7ac3e86e5, type: 2}
+        templateSprite: {fileID: 21300000, guid: b76957dc46ee312448fee9a17b5f7f1c, type: 2}
+        AutoFill: 0
+      - position: {x: 4, y: 1}
+        pieceSprite: {fileID: 21300000, guid: 83e129bde575d5d4db3095fb4f1fe7f8, type: 2}
+        templateSprite: {fileID: 21300000, guid: ee2f3608ac80fea499f64b6d8a680c96, type: 2}
+        AutoFill: 0
+      - position: {x: 0, y: 0}
+        pieceSprite: {fileID: 21300000, guid: a04d46c9af51781438df628863628aa6, type: 2}
+        templateSprite: {fileID: 21300000, guid: 8de0e3d33d96df842853c276582d49df, type: 2}
+        AutoFill: 0
+      - position: {x: 1, y: 0}
+        pieceSprite: {fileID: 21300000, guid: b859224eb646cd345bd03471b3d3d232, type: 2}
+        templateSprite: {fileID: 21300000, guid: 741cd5c3c8e8f3f43ac7eea3af7dab43, type: 2}
+        AutoFill: 0
+      - position: {x: 2, y: 0}
+        pieceSprite: {fileID: 21300000, guid: d2ae3fe4fe505f04e8c807e8af606fa4, type: 2}
+        templateSprite: {fileID: 21300000, guid: bc725d0d296269d4fb9293db6eb4b889, type: 2}
+        AutoFill: 0
+      - position: {x: 3, y: 0}
+        pieceSprite: {fileID: 21300000, guid: 0d49b7add1920f346a473c7772029989, type: 2}
+        templateSprite: {fileID: 21300000, guid: 216e7bdca322ced4c97da5e696a0b75d, type: 2}
+        AutoFill: 0
+      - position: {x: 4, y: 0}
+        pieceSprite: {fileID: 21300000, guid: 6209f99f9406c924fb0da2eebe401595, type: 2}
+        templateSprite: {fileID: 21300000, guid: e443448a480758249b3e069290e14382, type: 2}
+        AutoFill: 0
+    - <ID>k__BackingField: 2
+      <ScaleSize>k__BackingField: 1.3
+      <MainSprite>k__BackingField: {fileID: 21300000, guid: 3081454a219406b4a80416e29aeee7d3, type: 2}
+      <JigsawType>k__BackingField: 3
+      <Rewards>k__BackingField:
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 4
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 1
+      <JigsawPieceConfigs>k__BackingField:
+      - position: {x: 0, y: 4}
+        pieceSprite: {fileID: 21300000, guid: f8ae2ec5d653d4848a5323c34ab0bba4, type: 2}
+        templateSprite: {fileID: 21300000, guid: 62120faf610bf0e499811961d2e21c2d, type: 2}
+        AutoFill: 0
+      - position: {x: 1, y: 4}
+        pieceSprite: {fileID: 21300000, guid: 375fa1eeac6895b4baa3738942e435bb, type: 2}
+        templateSprite: {fileID: 21300000, guid: 9266e8196e4c055459330d3165a30868, type: 2}
+        AutoFill: 0
+      - position: {x: 2, y: 4}
+        pieceSprite: {fileID: 21300000, guid: 049946d899fe7474c99abd423808b44c, type: 2}
+        templateSprite: {fileID: 21300000, guid: b35ce62ea11c73840b061d22f4dd9706, type: 2}
+        AutoFill: 0
+      - position: {x: 3, y: 4}
+        pieceSprite: {fileID: 21300000, guid: ebd1375d7600af84088e309446a1675b, type: 2}
+        templateSprite: {fileID: 21300000, guid: 1fefd6307c0105a469c88a9dee143fbb, type: 2}
+        AutoFill: 0
+      - position: {x: 4, y: 4}
+        pieceSprite: {fileID: 21300000, guid: 4c62f289ca80236488babe2cfacf3b54, type: 2}
+        templateSprite: {fileID: 21300000, guid: eae91c1c85be39843a60ae7a60e960ce, type: 2}
+        AutoFill: 0
+      - position: {x: 0, y: 3}
+        pieceSprite: {fileID: 21300000, guid: 99e5c1d23bfeaa840a43418c42d8f1e2, type: 2}
+        templateSprite: {fileID: 21300000, guid: 57366c16cc3486e4f9cc456423e87bb3, type: 2}
+        AutoFill: 0
+      - position: {x: 1, y: 3}
+        pieceSprite: {fileID: 21300000, guid: 7ce4ef45a2d3da54eadcb713aeee539d, type: 2}
+        templateSprite: {fileID: 21300000, guid: 57be9e37c96bd5e43930ef9cd3854801, type: 2}
+        AutoFill: 0
+      - position: {x: 2, y: 3}
+        pieceSprite: {fileID: 21300000, guid: 39eb0110a4a43b34e8fb0859b00eb1ca, type: 2}
+        templateSprite: {fileID: 21300000, guid: 6b4f9baf2badec348a8336cc0da5064d, type: 2}
+        AutoFill: 1
+      - position: {x: 3, y: 3}
+        pieceSprite: {fileID: 21300000, guid: 0dfe62c179a4edc4c95f8fa041f7462b, type: 2}
+        templateSprite: {fileID: 21300000, guid: d2ec7c6f05f582d4980e905dd9c1e1b7, type: 2}
+        AutoFill: 0
+      - position: {x: 4, y: 3}
+        pieceSprite: {fileID: 21300000, guid: 01719a1c7e7d5ca48a4c38cedf784bc8, type: 2}
+        templateSprite: {fileID: 21300000, guid: 0c16299d1cbda5b4182a84c4bf103f90, type: 2}
+        AutoFill: 0
+      - position: {x: 0, y: 2}
+        pieceSprite: {fileID: 21300000, guid: 15c4ca630fb7f46468ad4c75c1776a99, type: 2}
+        templateSprite: {fileID: 21300000, guid: 3b3d9b67c2e0c82408109abb02ece657, type: 2}
+        AutoFill: 0
+      - position: {x: 1, y: 2}
+        pieceSprite: {fileID: 21300000, guid: e8bbac395535f744f847db6b7b23e6f9, type: 2}
+        templateSprite: {fileID: 21300000, guid: e0e0967bfeebf3149a1bf33cd41425e4, type: 2}
+        AutoFill: 1
+      - position: {x: 2, y: 2}
+        pieceSprite: {fileID: 21300000, guid: e4e26a5f5d5f4a049847afd17af06ea5, type: 2}
+        templateSprite: {fileID: 21300000, guid: 030cb2cf6fd4dcb47bcefdc98e6ebed8, type: 2}
+        AutoFill: 0
+      - position: {x: 3, y: 2}
+        pieceSprite: {fileID: 21300000, guid: 6e7ea918efd1a63499334dde15da6337, type: 2}
+        templateSprite: {fileID: 21300000, guid: 34b29c2b9f4d99c48bd1612119079ac9, type: 2}
+        AutoFill: 1
+      - position: {x: 4, y: 2}
+        pieceSprite: {fileID: 21300000, guid: e153c0fc48266a3478e943ace060db30, type: 2}
+        templateSprite: {fileID: 21300000, guid: f3522889098ad60458a7f8a15baf3046, type: 2}
+        AutoFill: 0
+      - position: {x: 0, y: 1}
+        pieceSprite: {fileID: 21300000, guid: fec9ff823eb46db42add9307d07359a0, type: 2}
+        templateSprite: {fileID: 21300000, guid: 05e0c72eea7c77d43ab0bb0636bb14d4, type: 2}
+        AutoFill: 0
+      - position: {x: 1, y: 1}
+        pieceSprite: {fileID: 21300000, guid: df4319ea81929694da5ed0804a0524af, type: 2}
+        templateSprite: {fileID: 21300000, guid: 02017d8e32ccdd04d837d4a89689d3f8, type: 2}
+        AutoFill: 0
+      - position: {x: 2, y: 1}
+        pieceSprite: {fileID: 21300000, guid: 02512f323a67c2441b9bc302fc37e4ec, type: 2}
+        templateSprite: {fileID: 21300000, guid: 35bf053d72ef7304fbb91ea8506f148c, type: 2}
+        AutoFill: 0
+      - position: {x: 3, y: 1}
+        pieceSprite: {fileID: 21300000, guid: 891be193109db7c40aa1eccf8a544550, type: 2}
+        templateSprite: {fileID: 21300000, guid: f3fe31426969a0b4d9aa834cc786db1e, type: 2}
+        AutoFill: 0
+      - position: {x: 4, y: 1}
+        pieceSprite: {fileID: 21300000, guid: 1cce812d32781d84ca024ec78f607258, type: 2}
+        templateSprite: {fileID: 21300000, guid: 0214fe2075d3f1443bbc2ee7724bcf62, type: 2}
+        AutoFill: 0
+      - position: {x: 0, y: 0}
+        pieceSprite: {fileID: 21300000, guid: a003e6b9d917fc84ea70b7e039d944e3, type: 2}
+        templateSprite: {fileID: 21300000, guid: 10cce1d238faf13479bf150ef2dc162e, type: 2}
+        AutoFill: 0
+      - position: {x: 1, y: 0}
+        pieceSprite: {fileID: 21300000, guid: c1f36a83478e4ce4da5eb33b58dc441d, type: 2}
+        templateSprite: {fileID: 21300000, guid: f21933f7330fcc442ba00e6f8e83e609, type: 2}
+        AutoFill: 0
+      - position: {x: 2, y: 0}
+        pieceSprite: {fileID: 21300000, guid: 1891d504578ac1f4eab81fabac71a0aa, type: 2}
+        templateSprite: {fileID: 21300000, guid: 20cf59e4b33df654686aa6fa5c5501ad, type: 2}
+        AutoFill: 0
+      - position: {x: 3, y: 0}
+        pieceSprite: {fileID: 21300000, guid: e6366902fc5c8644889aed9241736ac6, type: 2}
+        templateSprite: {fileID: 21300000, guid: 9ad3dea80513f384a9cb088b47686d4a, type: 2}
+        AutoFill: 0
+      - position: {x: 4, y: 0}
+        pieceSprite: {fileID: 21300000, guid: 08980a4cebd54c148a90924dea491eb8, type: 2}
+        templateSprite: {fileID: 21300000, guid: 2ba5617186a10ba4ca06a59492c94cfa, type: 2}
+        AutoFill: 0
+    - <ID>k__BackingField: 3
+      <ScaleSize>k__BackingField: 1.15
+      <MainSprite>k__BackingField: {fileID: 21300000, guid: 0cdd2aedb76dd1f48a9ef927a41ff847, type: 2}
+      <JigsawType>k__BackingField: 4
+      <Rewards>k__BackingField:
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 100
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 13
+        <Value>k__BackingField:
+          m_Value: 1800
+      <JigsawPieceConfigs>k__BackingField:
+      - position: {x: 5, y: 5}
+        pieceSprite: {fileID: 21300000, guid: e3d33bd3d303d644bbe95f3958ce7a23, type: 2}
+        templateSprite: {fileID: 21300000, guid: 7e5d34e83d2f7394a94b69c05a1bd877, type: 2}
+        AutoFill: 0
+      - position: {x: 4, y: 5}
+        pieceSprite: {fileID: 21300000, guid: 9a92bb3bcadd496449378b0b14b6ab06, type: 2}
+        templateSprite: {fileID: 21300000, guid: 5357d7cedd2c17a44adb6779553a26cc, type: 2}
+        AutoFill: 0
+      - position: {x: 3, y: 5}
+        pieceSprite: {fileID: 21300000, guid: b2830fdd9800aa141b4b82ed64435839, type: 2}
+        templateSprite: {fileID: 21300000, guid: 399b85b3e43213e4085b2b0cb90810b8, type: 2}
+        AutoFill: 0
+      - position: {x: 2, y: 5}
+        pieceSprite: {fileID: 21300000, guid: 8b2c61476c098e24296ca8fc26423331, type: 2}
+        templateSprite: {fileID: 21300000, guid: 1bbfa9bc0babe2e429546d428dc7ea03, type: 2}
+        AutoFill: 0
+      - position: {x: 1, y: 5}
+        pieceSprite: {fileID: 21300000, guid: e5c7c40a9481d3a419910d2582b123d8, type: 2}
+        templateSprite: {fileID: 21300000, guid: 383b2977dbdfd88428223e711a3119c4, type: 2}
+        AutoFill: 0
+      - position: {x: 0, y: 5}
+        pieceSprite: {fileID: 21300000, guid: 23419836277af2040aa2a2ceded0e228, type: 2}
+        templateSprite: {fileID: 21300000, guid: f4fd68da1b3d5654c81f14e253595b42, type: 2}
+        AutoFill: 0
+      - position: {x: 5, y: 4}
+        pieceSprite: {fileID: 21300000, guid: a3c8e33c5e54880478604b5cbd95cbc4, type: 2}
+        templateSprite: {fileID: 21300000, guid: 3f552953200b1c64f9da58c85c8bb588, type: 2}
+        AutoFill: 0
+      - position: {x: 4, y: 4}
+        pieceSprite: {fileID: 21300000, guid: 4090ef859ef8cc440ab6b2a2b31bb02a, type: 2}
+        templateSprite: {fileID: 21300000, guid: b5d53893d1076014c869ed54fc22e296, type: 2}
+        AutoFill: 0
+      - position: {x: 3, y: 4}
+        pieceSprite: {fileID: 21300000, guid: 819beb14c70fc53459610bdc34b8e326, type: 2}
+        templateSprite: {fileID: 21300000, guid: a43977a7c471d48479c6cdd0eade3448, type: 2}
+        AutoFill: 0
+      - position: {x: 2, y: 4}
+        pieceSprite: {fileID: 21300000, guid: 26cfdc062b1ee1342a7126893ea246e1, type: 2}
+        templateSprite: {fileID: 21300000, guid: a91d58beb2afa444a8c4bb83fa85e30d, type: 2}
+        AutoFill: 1
+      - position: {x: 1, y: 4}
+        pieceSprite: {fileID: 21300000, guid: 46a024e12e4caa643b6d3ca8b1f02066, type: 2}
+        templateSprite: {fileID: 21300000, guid: 9fa1ede214c81294fb8ce42e7d687a65, type: 2}
+        AutoFill: 0
+      - position: {x: 0, y: 4}
+        pieceSprite: {fileID: 21300000, guid: d6dbfc2d3796289419567378cd34863d, type: 2}
+        templateSprite: {fileID: 21300000, guid: 0e864e93ae6698842853e7a534d4eecb, type: 2}
+        AutoFill: 0
+      - position: {x: 5, y: 3}
+        pieceSprite: {fileID: 21300000, guid: 448d5af35f3c59d42bccc0bd2ea4cbfe, type: 2}
+        templateSprite: {fileID: 21300000, guid: 8014413d129e53345b36000efa391808, type: 2}
+        AutoFill: 0
+      - position: {x: 4, y: 3}
+        pieceSprite: {fileID: 21300000, guid: b80da687d8016814a81272f14c20da05, type: 2}
+        templateSprite: {fileID: 21300000, guid: 744528414f2cf624f8bdb1edb7e35fac, type: 2}
+        AutoFill: 1
+      - position: {x: 3, y: 3}
+        pieceSprite: {fileID: 21300000, guid: d5b8260fa9efbc847850e6dd0c2b6393, type: 2}
+        templateSprite: {fileID: 21300000, guid: 3120c247098de1441984effdaec75d0a, type: 2}
+        AutoFill: 0
+      - position: {x: 2, y: 3}
+        pieceSprite: {fileID: 21300000, guid: b81127f121bf580479e79cdf2f9c8590, type: 2}
+        templateSprite: {fileID: 21300000, guid: 909ce2ea0db9bd74aadc3f927c9d8176, type: 2}
+        AutoFill: 1
+      - position: {x: 1, y: 3}
+        pieceSprite: {fileID: 21300000, guid: cbbc71fb116a9b1488dc683ae18eb798, type: 2}
+        templateSprite: {fileID: 21300000, guid: e0b59d9d55192e3479f58c2aadc36f67, type: 2}
+        AutoFill: 0
+      - position: {x: 0, y: 3}
+        pieceSprite: {fileID: 21300000, guid: cfc2bac55cc104c40bca73125cebe60e, type: 2}
+        templateSprite: {fileID: 21300000, guid: 6c0a14ece882b05468a43a43e654482c, type: 2}
+        AutoFill: 0
+      - position: {x: 5, y: 2}
+        pieceSprite: {fileID: 21300000, guid: 7ff26a85b0c09b24781cb7054d23ff07, type: 2}
+        templateSprite: {fileID: 21300000, guid: 251859b7d42c557469ac89217186960a, type: 2}
+        AutoFill: 0
+      - position: {x: 4, y: 2}
+        pieceSprite: {fileID: 21300000, guid: 91375eb2061de414292101c7fc412a11, type: 2}
+        templateSprite: {fileID: 21300000, guid: 2072d6803c939f04fb98be274307ed0f, type: 2}
+        AutoFill: 0
+      - position: {x: 3, y: 2}
+        pieceSprite: {fileID: 21300000, guid: a8c57894fcd59e04eacdcb10b5de0c61, type: 2}
+        templateSprite: {fileID: 21300000, guid: 0e13afc4b8eb7b54fb50b535068093e8, type: 2}
+        AutoFill: 0
+      - position: {x: 2, y: 2}
+        pieceSprite: {fileID: 21300000, guid: f0dbe16d87ab86246ac0da73cc9e5f32, type: 2}
+        templateSprite: {fileID: 21300000, guid: e56eb87f4e24d724692b2d0b4ac87a29, type: 2}
+        AutoFill: 0
+      - position: {x: 1, y: 2}
+        pieceSprite: {fileID: 21300000, guid: 78c381f324841464aaf440f65eb04756, type: 2}
+        templateSprite: {fileID: 21300000, guid: e5f8602881265764e8e88486f11cb848, type: 2}
+        AutoFill: 0
+      - position: {x: 0, y: 2}
+        pieceSprite: {fileID: 21300000, guid: a3bcc5b0ea6c60d4e8db2a8473979532, type: 2}
+        templateSprite: {fileID: 21300000, guid: bfac3944dcfa34541b5eeb98a8b772f1, type: 2}
+        AutoFill: 0
+      - position: {x: 5, y: 1}
+        pieceSprite: {fileID: 21300000, guid: eaab68cb670938e4d90ac4973695a025, type: 2}
+        templateSprite: {fileID: 21300000, guid: 7b61572750f15c74a82a8ed18dcd80e4, type: 2}
+        AutoFill: 0
+      - position: {x: 4, y: 1}
+        pieceSprite: {fileID: 21300000, guid: ef74b539214e8d14cb734ec92e537fe2, type: 2}
+        templateSprite: {fileID: 21300000, guid: 8d3f5fdce6bb864409f7df9137c93a86, type: 2}
+        AutoFill: 0
+      - position: {x: 3, y: 1}
+        pieceSprite: {fileID: 21300000, guid: 2d42486aba7860746bfdecef1af571d3, type: 2}
+        templateSprite: {fileID: 21300000, guid: 514ff7af7616d1b43a04fa670886026d, type: 2}
+        AutoFill: 0
+      - position: {x: 2, y: 1}
+        pieceSprite: {fileID: 21300000, guid: ffaaca1e201ac444380849f226748b2b, type: 2}
+        templateSprite: {fileID: 21300000, guid: 2223036f69bc7db4b8553eae3b67ae6c, type: 2}
+        AutoFill: 0
+      - position: {x: 1, y: 1}
+        pieceSprite: {fileID: 21300000, guid: 615e2fbf58dc9544b96dbbed3ece3fba, type: 2}
+        templateSprite: {fileID: 21300000, guid: 3fae2b90377364549a210d29514289a0, type: 2}
+        AutoFill: 0
+      - position: {x: 0, y: 1}
+        pieceSprite: {fileID: 21300000, guid: da7ebfb92677d6c4d83175ea82ef7ada, type: 2}
+        templateSprite: {fileID: 21300000, guid: fafc3fbc2dde4634b8aba327bfefc8e4, type: 2}
+        AutoFill: 0
+      - position: {x: 5, y: 0}
+        pieceSprite: {fileID: 21300000, guid: 7c4c3dd203a8bd743bbc9b634e95c5e6, type: 2}
+        templateSprite: {fileID: 21300000, guid: 4f9d1f2cd76412342ae6824bd1af4721, type: 2}
+        AutoFill: 0
+      - position: {x: 4, y: 0}
+        pieceSprite: {fileID: 21300000, guid: 7e3489fdb89b42b4aaf2488dd061c5e2, type: 2}
+        templateSprite: {fileID: 21300000, guid: 95583c56849b1e54a9efa9253f69ef9a, type: 2}
+        AutoFill: 0
+      - position: {x: 3, y: 0}
+        pieceSprite: {fileID: 21300000, guid: b3234592537aaa74da0734095924679b, type: 2}
+        templateSprite: {fileID: 21300000, guid: d8cd1f2126ad8f14d8ed0c17dca95dbc, type: 2}
+        AutoFill: 0
+      - position: {x: 2, y: 0}
+        pieceSprite: {fileID: 21300000, guid: de463afd342544840a652cbd3e6e0948, type: 2}
+        templateSprite: {fileID: 21300000, guid: 8668891feaa54e1458ca2b3de4382237, type: 2}
+        AutoFill: 0
+      - position: {x: 1, y: 0}
+        pieceSprite: {fileID: 21300000, guid: c3bba1ae90c35b4429e1490e229869b4, type: 2}
+        templateSprite: {fileID: 21300000, guid: d5dd4b4304da0984b876d2564f4f04dc, type: 2}
+        AutoFill: 0
+      - position: {x: 0, y: 0}
+        pieceSprite: {fileID: 21300000, guid: 151d37cd0dfcf4e478a4069a04b4e98e, type: 2}
+        templateSprite: {fileID: 21300000, guid: 979735f0e67348740a58c2d037967772, type: 2}
+        AutoFill: 0
+    - <ID>k__BackingField: 4
+      <ScaleSize>k__BackingField: 1.15
+      <MainSprite>k__BackingField: {fileID: 21300000, guid: e07b50bfec03aef44bdd56e7797d4a89, type: 2}
+      <JigsawType>k__BackingField: 4
+      <Rewards>k__BackingField:
+      - <Type>k__BackingField: 3
+        <SpecificType>k__BackingField: 16
+        <Value>k__BackingField:
+          m_Value: 29
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 2
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 3
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 2
+        <SpecificType>k__BackingField: 4
+        <Value>k__BackingField:
+          m_Value: 1
+      - <Type>k__BackingField: 1
+        <SpecificType>k__BackingField: 1
+        <Value>k__BackingField:
+          m_Value: 100
+      <JigsawPieceConfigs>k__BackingField:
+      - position: {x: 5, y: 0}
+        pieceSprite: {fileID: 21300000, guid: 57966c653fb786b4e91d2b7a0af861c4, type: 2}
+        templateSprite: {fileID: 21300000, guid: db27a136105857c4ebd9a1beb6613593, type: 2}
+        AutoFill: 0
+      - position: {x: 4, y: 0}
+        pieceSprite: {fileID: 21300000, guid: 6ebdd8d70b09d3d41b2aa4879bfa884f, type: 2}
+        templateSprite: {fileID: 21300000, guid: b2d1430cb6896264fb33c9aede06e220, type: 2}
+        AutoFill: 0
+      - position: {x: 3, y: 0}
+        pieceSprite: {fileID: 21300000, guid: 5d8f9b7a8c4dee347953c50b1d6a5781, type: 2}
+        templateSprite: {fileID: 21300000, guid: 875118578e271a2499443cd070a61f27, type: 2}
+        AutoFill: 0
+      - position: {x: 2, y: 0}
+        pieceSprite: {fileID: 21300000, guid: b411c1fbb65e1a24f9c511c7bdf5d069, type: 2}
+        templateSprite: {fileID: 21300000, guid: 0d5f49538e4668843a639b3411bffb6a, type: 2}
+        AutoFill: 0
+      - position: {x: 1, y: 0}
+        pieceSprite: {fileID: 21300000, guid: e948b2160dccfd944a760653afc9173d, type: 2}
+        templateSprite: {fileID: 21300000, guid: 484fd25232b6ed94782eed075cf3d3d0, type: 2}
+        AutoFill: 0
+      - position: {x: 0, y: 0}
+        pieceSprite: {fileID: 21300000, guid: 2ba0832c4df0d504995dfda13e1d7b31, type: 2}
+        templateSprite: {fileID: 21300000, guid: f9bd90ea1a342664e891e4a52fbd9fa7, type: 2}
+        AutoFill: 0
+      - position: {x: 5, y: 1}
+        pieceSprite: {fileID: 21300000, guid: ae245c08c786e72468ae80cdc775237c, type: 2}
+        templateSprite: {fileID: 21300000, guid: 46183833f75eb314eae15c97827536ad, type: 2}
+        AutoFill: 0
+      - position: {x: 4, y: 1}
+        pieceSprite: {fileID: 21300000, guid: 434f994cae16cf24e9356a4c782350a4, type: 2}
+        templateSprite: {fileID: 21300000, guid: 8f54ba57bfbe55d4b825e7c07bc24508, type: 2}
+        AutoFill: 0
+      - position: {x: 3, y: 1}
+        pieceSprite: {fileID: 21300000, guid: a1da6a3e1ec27c84fa4fdb6fa30881f4, type: 2}
+        templateSprite: {fileID: 21300000, guid: a597affdcdb76f646937c07e67d31503, type: 2}
+        AutoFill: 1
+      - position: {x: 2, y: 1}
+        pieceSprite: {fileID: 21300000, guid: 15da07d23c7b69d408b2b625eb9877f4, type: 2}
+        templateSprite: {fileID: 21300000, guid: 1b5f8f4f4bae21d44aebfdabc453ce1e, type: 2}
+        AutoFill: 0
+      - position: {x: 1, y: 1}
+        pieceSprite: {fileID: 21300000, guid: f1a3dd79452bb9742b0bcc49b9528a7d, type: 2}
+        templateSprite: {fileID: 21300000, guid: 489080688e6678b44906fa426145e590, type: 2}
+        AutoFill: 1
+      - position: {x: 0, y: 1}
+        pieceSprite: {fileID: 21300000, guid: a90eac00a22eba748abb8f033f79dde5, type: 2}
+        templateSprite: {fileID: 21300000, guid: ed4f66fd2de13094b9843767488fcb86, type: 2}
+        AutoFill: 0
+      - position: {x: 5, y: 2}
+        pieceSprite: {fileID: 21300000, guid: 3723f2f4d581c8946bd4ccbea074ace5, type: 2}
+        templateSprite: {fileID: 21300000, guid: df4b92731af2c614999ba277695aa147, type: 2}
+        AutoFill: 0
+      - position: {x: 4, y: 2}
+        pieceSprite: {fileID: 21300000, guid: ec0823f2eb32590429873a380480b953, type: 2}
+        templateSprite: {fileID: 21300000, guid: 8fed37b2f53724148bdf2b45d8001418, type: 2}
+        AutoFill: 0
+      - position: {x: 3, y: 2}
+        pieceSprite: {fileID: 21300000, guid: d83246080b0d37740b4a3c0e2976377b, type: 2}
+        templateSprite: {fileID: 21300000, guid: a8cdae94648f6c444b253a4545a12b10, type: 2}
+        AutoFill: 1
+      - position: {x: 2, y: 2}
+        pieceSprite: {fileID: 21300000, guid: 9bce112fac693cd44ab7069b5103a850, type: 2}
+        templateSprite: {fileID: 21300000, guid: b53dc0eec0d802648bdcac4f2025bf3b, type: 2}
+        AutoFill: 0
+      - position: {x: 1, y: 2}
+        pieceSprite: {fileID: 21300000, guid: 8e4e27a715412bf4181667ccae85f4d0, type: 2}
+        templateSprite: {fileID: 21300000, guid: 71c9333d3bbf2274db2bb2ab21763825, type: 2}
+        AutoFill: 0
+      - position: {x: 0, y: 2}
+        pieceSprite: {fileID: 21300000, guid: ed4fa13033e9fe143bb67ab0f9b49aa1, type: 2}
+        templateSprite: {fileID: 21300000, guid: ba9c03421b44ca74e8b389c124eda6f1, type: 2}
+        AutoFill: 0
+      - position: {x: 5, y: 3}
+        pieceSprite: {fileID: 21300000, guid: ab6c1762de6b6c145b577fc9ae621132, type: 2}
+        templateSprite: {fileID: 21300000, guid: a74e075de83adef40ad0a656ed314506, type: 2}
+        AutoFill: 0
+      - position: {x: 4, y: 3}
+        pieceSprite: {fileID: 21300000, guid: 2a84a46d29dfead4caee5acd5ec7347c, type: 2}
+        templateSprite: {fileID: 21300000, guid: 0a5e046c39e42a941a13bccbd6d27f69, type: 2}
+        AutoFill: 0
+      - position: {x: 3, y: 3}
+        pieceSprite: {fileID: 21300000, guid: 1db36df967f065f4d98a8ecc7a5b933b, type: 2}
+        templateSprite: {fileID: 21300000, guid: 27b46cd26496f5b49a46a298174a4845, type: 2}
+        AutoFill: 0
+      - position: {x: 2, y: 3}
+        pieceSprite: {fileID: 21300000, guid: 72e75a874dace7245b2c543a73690cc4, type: 2}
+        templateSprite: {fileID: 21300000, guid: 10fea61225894c448948d3ce58acc543, type: 2}
+        AutoFill: 0
+      - position: {x: 1, y: 3}
+        pieceSprite: {fileID: 21300000, guid: d077dcc42ab2a5242868bd0996f6bc34, type: 2}
+        templateSprite: {fileID: 21300000, guid: bbff38f0ccf130e49a0006e44b6fd9c9, type: 2}
+        AutoFill: 0
+      - position: {x: 0, y: 3}
+        pieceSprite: {fileID: 21300000, guid: af92b8e9129e8c64b9bc8f0ff5c49c05, type: 2}
+        templateSprite: {fileID: 21300000, guid: 2609abe1497ab5142885bdc4987b9fa2, type: 2}
+        AutoFill: 0
+      - position: {x: 5, y: 4}
+        pieceSprite: {fileID: 21300000, guid: b36a6de86caeec14f987aaefb47940ba, type: 2}
+        templateSprite: {fileID: 21300000, guid: 718967415494a0942ab1d23f81445bee, type: 2}
+        AutoFill: 0
+      - position: {x: 4, y: 4}
+        pieceSprite: {fileID: 21300000, guid: 9462574afcac9af46829e2aad3dc3569, type: 2}
+        templateSprite: {fileID: 21300000, guid: ee66c36c2f9b6e14bb482e2ab81485ca, type: 2}
+        AutoFill: 0
+      - position: {x: 3, y: 4}
+        pieceSprite: {fileID: 21300000, guid: 3b998c04934022e478b551544bf1ab58, type: 2}
+        templateSprite: {fileID: 21300000, guid: 9e42f887b8c8535498e38bbb4017ac91, type: 2}
+        AutoFill: 0
+      - position: {x: 2, y: 4}
+        pieceSprite: {fileID: 21300000, guid: 13acc03838c535a4686f2eebc224f6e3, type: 2}
+        templateSprite: {fileID: 21300000, guid: fd6823da348e7e442a8ee3bae358e20e, type: 2}
+        AutoFill: 0
+      - position: {x: 1, y: 4}
+        pieceSprite: {fileID: 21300000, guid: bef4b063e24c83445aadf3ec29866c0a, type: 2}
+        templateSprite: {fileID: 21300000, guid: db9e4463a9e266f4a92546105a6cf3a9, type: 2}
+        AutoFill: 0
+      - position: {x: 0, y: 4}
+        pieceSprite: {fileID: 21300000, guid: 9ea6e1e4087a0b344996ac36155f1a8b, type: 2}
+        templateSprite: {fileID: 21300000, guid: 90b378a6af87d8149852babce968b990, type: 2}
+        AutoFill: 0
+      - position: {x: 5, y: 5}
+        pieceSprite: {fileID: 21300000, guid: b04f0eeb979378e41af60a47d94ae245, type: 2}
+        templateSprite: {fileID: 21300000, guid: 4e643d1290b8a18499384dc62d8bc4df, type: 2}
+        AutoFill: 0
+      - position: {x: 4, y: 5}
+        pieceSprite: {fileID: 21300000, guid: c169af695fb6604419660b671fa1cb0c, type: 2}
+        templateSprite: {fileID: 21300000, guid: d70e301a08f2ec54aa48eae7f10eee45, type: 2}
+        AutoFill: 0
+      - position: {x: 3, y: 5}
+        pieceSprite: {fileID: 21300000, guid: cb502dfb089c91842ab5887772b9bd68, type: 2}
+        templateSprite: {fileID: 21300000, guid: 162babff666f87f488b8ae88d9168538, type: 2}
+        AutoFill: 0
+      - position: {x: 2, y: 5}
+        pieceSprite: {fileID: 21300000, guid: 69c2deae8da8ba84aba5ceee70e2f712, type: 2}
+        templateSprite: {fileID: 21300000, guid: 9eb2c1029842e4f4ca837a20162d9d4d, type: 2}
+        AutoFill: 0
+      - position: {x: 1, y: 5}
+        pieceSprite: {fileID: 21300000, guid: 2714a9eb514e37945a0be12379749360, type: 2}
+        templateSprite: {fileID: 21300000, guid: 3514804ec8d0fba4b81909cc99b50cd9, type: 2}
+        AutoFill: 0
+      - position: {x: 0, y: 5}
+        pieceSprite: {fileID: 21300000, guid: bf6387c183d9e814ea39c6db0a29500b, type: 2}
+        templateSprite: {fileID: 21300000, guid: 9831d5294e6aad243a03e89e91186f03, type: 2}
+        AutoFill: 0
+  <MainRewardIcons>k__BackingField: []
+  <jigsawPiecePrefab>k__BackingField: {fileID: 114408523491294448, guid: c128e9ca5b232f44ea658ca8c9f8eab2, type: 2}

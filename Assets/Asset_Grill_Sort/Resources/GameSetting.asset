@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1599674384, guid: 4d0b7bc060764f31711a68fc47c4ab38, type: 3}
+  m_Name: GameSetting
+  m_EditorClassIdentifier:
+  platformSetting:
+    package: com.guru.xyz
+    company: guru
+    productName: GuruGame
+    keyStoreFilePath: ../keystore/guru.jks
+    keyStorePass: guru0622
+    keyaliasName: guru
+    keyaliasPass: guru0622
+    appleDeveloperTeamID: 39253T242A
+  appInfo:
+    appVersion:
+    appBuildCode:
+  buildPipeline: 1
+  builtinPackageList:
+  - packageName: GamePackage
+    playMode: 1
+    generation:
+    yooVersion: 1717497497
+  defaultPackageName: GamePackage
+  builtinInfo: []
+  hostUrl:
+  cdnUrl:
+  cdnUrlFallback:
+  AssociateDomains: []

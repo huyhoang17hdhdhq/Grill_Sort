@@ -1,0 +1,1320 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5e098c2086ec14ac1cb133683dd1230, type: 3}
+  m_Name: ShopGlobalConfig
+  m_EditorClassIdentifier:
+  shopPackages:
+  - packageName: 101
+    nonConsume: 0
+    packageNameToUI: Mini Coins
+    packageTag:
+    packageId: com.abi.skewer.coin1
+    priceType: 1
+    price: 1
+    GameResources:
+    - <Type>k__BackingField: 1
+      <SpecificType>k__BackingField: 1
+      <Value>k__BackingField:
+        m_Value: 80
+  - packageName: 102
+    nonConsume: 0
+    packageNameToUI: Small Coins
+    packageTag:
+    packageId: com.abi.skewer.coin2
+    priceType: 0
+    price: 1.99
+    GameResources:
+    - <Type>k__BackingField: 1
+      <SpecificType>k__BackingField: 1
+      <Value>k__BackingField:
+        m_Value: 1000
+  - packageName: 103
+    nonConsume: 0
+    packageNameToUI: Medium Coins
+    packageTag:
+    packageId: com.abi.skewer.coin3
+    priceType: 0
+    price: 7.99
+    GameResources:
+    - <Type>k__BackingField: 1
+      <SpecificType>k__BackingField: 1
+      <Value>k__BackingField:
+        m_Value: 5000
+  - packageName: 104
+    nonConsume: 0
+    packageNameToUI: Big Coins
+    packageTag:
+    packageId: com.abi.skewer.coin4
+    priceType: 0
+    price: 15.99
+    GameResources:
+    - <Type>k__BackingField: 1
+      <SpecificType>k__BackingField: 1
+      <Value>k__BackingField:
+        m_Value: 10000
+  - packageName: 105
+    nonConsume: 0
+    packageNameToUI: Super Coins
+    packageTag:
+    packageId: com.abi.skewer.coin5
+    priceType: 0
+    price: 30.99
+    GameResources:
+    - <Type>k__BackingField: 1
+      <SpecificType>k__BackingField: 1
+      <Value>k__BackingField:
+        m_Value: 25000
+  - packageName: 106
+    nonConsume: 0
+    packageNameToUI: Mega Coin
+    packageTag:
+    packageId: com.abi.skewer.coin6
+    priceType: 0
+    price: 59.99
+    GameResources:
+    - <Type>k__BackingField: 1
+      <SpecificType>k__BackingField: 1
+      <Value>k__BackingField:
+        m_Value: 50000
+  - packageName: 107
+    nonConsume: 0
+    packageNameToUI: Ultra Coin
+    packageTag:
+    packageId: com.abi.skewer.coin7
+    priceType: 0
+    price: 95.99
+    GameResources:
+    - <Type>k__BackingField: 1
+      <SpecificType>k__BackingField: 1
+      <Value>k__BackingField:
+        m_Value: 100000
+  - packageName: 1
+    nonConsume: 1
+    packageNameToUI: Remove Ads
+    packageTag:
+    packageId: com.abi.skewer.removeads
+    priceType: 0
+    price: 5.99
+    GameResources:
+    - <Type>k__BackingField: 3
+      <SpecificType>k__BackingField: 1
+      <Value>k__BackingField:
+        m_Value: 1
+    - <Type>k__BackingField: 1
+      <SpecificType>k__BackingField: 1
+      <Value>k__BackingField:
+        m_Value: 500
+  - packageName: 10
+    nonConsume: 1
+    packageNameToUI: Remove Ads Sale
+    packageTag:
+    packageId: com.abi.skewer.removeadssale
+    priceType: 0
+    price: 3.99
+    GameResources:
+    - <Type>k__BackingField: 3
+      <SpecificType>k__BackingField: 1
+      <Value>k__BackingField:
+        m_Value: 1
+    - <Type>k__BackingField: 1
+      <SpecificType>k__BackingField: 1
+      <Value>k__BackingField:
+        m_Value: 500
+  - packageName: 2
+    nonConsume: 0
+    packageNameToUI: Revive Pack
+    packageTag:
+    packageId: com.abi.skewer.revivepack
+    priceType: 0
+    price: 4.99
+    GameResources:
+    - <Type>k__BackingField: 1
+      <SpecificType>k__BackingField: 1
+      <Value>k__BackingField:
+        m_Value: 3000
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 2
+      <Value>k__BackingField:
+        m_Value: 2
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 5
+      <Value>k__BackingField:
+        m_Value: 2
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 4
+      <Value>k__BackingField:
+        m_Value: 2
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 3
+      <Value>k__BackingField:
+        m_Value: 2
+  - packageName: 3
+    nonConsume: 0
+    packageNameToUI: Starter Pack
+    packageTag:
+    packageId: com.abi.skewer.starterpack
+    priceType: 0
+    price: 1.99
+    GameResources:
+    - <Type>k__BackingField: 1
+      <SpecificType>k__BackingField: 1
+      <Value>k__BackingField:
+        m_Value: 2000
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 2
+      <Value>k__BackingField:
+        m_Value: 1
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 5
+      <Value>k__BackingField:
+        m_Value: 1
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 4
+      <Value>k__BackingField:
+        m_Value: 1
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 3
+      <Value>k__BackingField:
+        m_Value: 1
+    - <Type>k__BackingField: 3
+      <SpecificType>k__BackingField: 3
+      <Value>k__BackingField:
+        m_Value: 3600
+  - packageName: 4
+    nonConsume: 0
+    packageNameToUI: Limited Pack
+    packageTag:
+    packageId: com.abi.skewer.limitedpack
+    priceType: 0
+    price: 5.99
+    GameResources:
+    - <Type>k__BackingField: 1
+      <SpecificType>k__BackingField: 1
+      <Value>k__BackingField:
+        m_Value: 4000
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 2
+      <Value>k__BackingField:
+        m_Value: 2
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 5
+      <Value>k__BackingField:
+        m_Value: 2
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 4
+      <Value>k__BackingField:
+        m_Value: 2
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 3
+      <Value>k__BackingField:
+        m_Value: 2
+    - <Type>k__BackingField: 3
+      <SpecificType>k__BackingField: 3
+      <Value>k__BackingField:
+        m_Value: 7200
+  - packageName: 5
+    nonConsume: 0
+    packageNameToUI: Big Bundle
+    packageTag:
+    packageId: com.abi.skewer.bigbundle
+    priceType: 0
+    price: 4.99
+    GameResources:
+    - <Type>k__BackingField: 1
+      <SpecificType>k__BackingField: 1
+      <Value>k__BackingField:
+        m_Value: 2500
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 2
+      <Value>k__BackingField:
+        m_Value: 2
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 5
+      <Value>k__BackingField:
+        m_Value: 2
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 4
+      <Value>k__BackingField:
+        m_Value: 2
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 3
+      <Value>k__BackingField:
+        m_Value: 2
+  - packageName: 6
+    nonConsume: 0
+    packageNameToUI: Great Bundle
+    packageTag:
+    packageId: com.abi.skewer.greatbundle
+    priceType: 0
+    price: 9.99
+    GameResources:
+    - <Type>k__BackingField: 1
+      <SpecificType>k__BackingField: 1
+      <Value>k__BackingField:
+        m_Value: 5500
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 2
+      <Value>k__BackingField:
+        m_Value: 3
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 5
+      <Value>k__BackingField:
+        m_Value: 3
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 4
+      <Value>k__BackingField:
+        m_Value: 3
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 3
+      <Value>k__BackingField:
+        m_Value: 3
+    - <Type>k__BackingField: 3
+      <SpecificType>k__BackingField: 3
+      <Value>k__BackingField:
+        m_Value: 10800
+  - packageName: 7
+    nonConsume: 0
+    packageNameToUI: Ultra Bundle
+    packageTag:
+    packageId: com.abi.skewer.ultrabundle
+    priceType: 0
+    price: 24.99
+    GameResources:
+    - <Type>k__BackingField: 1
+      <SpecificType>k__BackingField: 1
+      <Value>k__BackingField:
+        m_Value: 12000
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 2
+      <Value>k__BackingField:
+        m_Value: 6
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 5
+      <Value>k__BackingField:
+        m_Value: 6
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 4
+      <Value>k__BackingField:
+        m_Value: 6
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 3
+      <Value>k__BackingField:
+        m_Value: 6
+    - <Type>k__BackingField: 3
+      <SpecificType>k__BackingField: 3
+      <Value>k__BackingField:
+        m_Value: 21600
+  - packageName: 8
+    nonConsume: 0
+    packageNameToUI: Superior Bundle
+    packageTag:
+    packageId: com.abi.skewer.superiorbundle
+    priceType: 0
+    price: 49.99
+    GameResources:
+    - <Type>k__BackingField: 1
+      <SpecificType>k__BackingField: 1
+      <Value>k__BackingField:
+        m_Value: 25000
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 2
+      <Value>k__BackingField:
+        m_Value: 12
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 5
+      <Value>k__BackingField:
+        m_Value: 12
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 4
+      <Value>k__BackingField:
+        m_Value: 12
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 3
+      <Value>k__BackingField:
+        m_Value: 12
+    - <Type>k__BackingField: 3
+      <SpecificType>k__BackingField: 3
+      <Value>k__BackingField:
+        m_Value: 43200
+  - packageName: 9
+    nonConsume: 0
+    packageNameToUI: Legendary Bundle
+    packageTag:
+    packageId: com.abi.skewer.legendarybundle
+    priceType: 0
+    price: 99.99
+    GameResources:
+    - <Type>k__BackingField: 1
+      <SpecificType>k__BackingField: 1
+      <Value>k__BackingField:
+        m_Value: 50000
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 2
+      <Value>k__BackingField:
+        m_Value: 24
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 5
+      <Value>k__BackingField:
+        m_Value: 24
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 4
+      <Value>k__BackingField:
+        m_Value: 24
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 3
+      <Value>k__BackingField:
+        m_Value: 24
+    - <Type>k__BackingField: 3
+      <SpecificType>k__BackingField: 3
+      <Value>k__BackingField:
+        m_Value: 86400
+  - packageName: 51
+    nonConsume: 0
+    packageNameToUI: School Pack 1
+    packageTag:
+    packageId: com.abi.skewer.schoolpack1
+    priceType: 0
+    price: 2.99
+    GameResources:
+    - <Type>k__BackingField: 1
+      <SpecificType>k__BackingField: 1
+      <Value>k__BackingField:
+        m_Value: 1500
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 2
+      <Value>k__BackingField:
+        m_Value: 1
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 4
+      <Value>k__BackingField:
+        m_Value: 1
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 3
+      <Value>k__BackingField:
+        m_Value: 1
+  - packageName: 52
+    nonConsume: 0
+    packageNameToUI: School Pack 2
+    packageTag:
+    packageId: com.abi.skewer.schoolpack2
+    priceType: 0
+    price: 4.99
+    GameResources:
+    - <Type>k__BackingField: 1
+      <SpecificType>k__BackingField: 1
+      <Value>k__BackingField:
+        m_Value: 2500
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 2
+      <Value>k__BackingField:
+        m_Value: 2
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 5
+      <Value>k__BackingField:
+        m_Value: 2
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 4
+      <Value>k__BackingField:
+        m_Value: 2
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 3
+      <Value>k__BackingField:
+        m_Value: 2
+  - packageName: 53
+    nonConsume: 0
+    packageNameToUI: School Pack 3
+    packageTag:
+    packageId: com.abi.skewer.schoolpack3
+    priceType: 0
+    price: 14.99
+    GameResources:
+    - <Type>k__BackingField: 1
+      <SpecificType>k__BackingField: 1
+      <Value>k__BackingField:
+        m_Value: 8000
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 2
+      <Value>k__BackingField:
+        m_Value: 6
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 5
+      <Value>k__BackingField:
+        m_Value: 6
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 4
+      <Value>k__BackingField:
+        m_Value: 6
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 3
+      <Value>k__BackingField:
+        m_Value: 6
+  - packageName: 50
+    nonConsume: 0
+    packageNameToUI: School Total Sale
+    packageTag:
+    packageId: com.abi.skewer.schooltotalsale
+    priceType: 0
+    price: 16.99
+    GameResources:
+    - <Type>k__BackingField: 1
+      <SpecificType>k__BackingField: 1
+      <Value>k__BackingField:
+        m_Value: 12000
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 2
+      <Value>k__BackingField:
+        m_Value: 9
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 5
+      <Value>k__BackingField:
+        m_Value: 8
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 4
+      <Value>k__BackingField:
+        m_Value: 9
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 3
+      <Value>k__BackingField:
+        m_Value: 9
+  - packageName: 300
+    nonConsume: 0
+    packageNameToUI: Endless 1
+    packageTag:
+    packageId: com.abi.skewer.endless1
+    priceType: 0
+    price: 3.99
+    GameResources:
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 2
+      <Value>k__BackingField:
+        m_Value: 1
+    - <Type>k__BackingField: 1
+      <SpecificType>k__BackingField: 1
+      <Value>k__BackingField:
+        m_Value: 1500
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 5
+      <Value>k__BackingField:
+        m_Value: 1
+  - packageName: 301
+    nonConsume: 0
+    packageNameToUI: Endless 2
+    packageTag:
+    packageId: com.abi.skewer.endless2
+    priceType: 0
+    price: 5.99
+    GameResources:
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 7
+      <Value>k__BackingField:
+        m_Value: 1
+    - <Type>k__BackingField: 1
+      <SpecificType>k__BackingField: 1
+      <Value>k__BackingField:
+        m_Value: 2000
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 6
+      <Value>k__BackingField:
+        m_Value: 4
+  - packageName: 302
+    nonConsume: 0
+    packageNameToUI: Endless 3
+    packageTag:
+    packageId: com.abi.skewer.endless3
+    priceType: 0
+    price: 8.99
+    GameResources:
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 3
+      <Value>k__BackingField:
+        m_Value: 2
+    - <Type>k__BackingField: 1
+      <SpecificType>k__BackingField: 1
+      <Value>k__BackingField:
+        m_Value: 3000
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 2
+      <Value>k__BackingField:
+        m_Value: 2
+  - packageName: 400
+    nonConsume: 0
+    packageNameToUI: Foodie Pass
+    packageTag:
+    packageId: com.abi.skewer.foodiepass
+    priceType: 0
+    price: 10.99
+    GameResources:
+    - <Type>k__BackingField: 1
+      <SpecificType>k__BackingField: 1
+      <Value>k__BackingField:
+        m_Value: 500
+  - packageName: 500
+    nonConsume: 0
+    packageNameToUI: Limited Pack 1
+    packageTag:
+    packageId: com.abi.skewer.newlimitedpack1
+    priceType: 0
+    price: 7.99
+    GameResources:
+    - <Type>k__BackingField: 1
+      <SpecificType>k__BackingField: 1
+      <Value>k__BackingField:
+        m_Value: 4000
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 2
+      <Value>k__BackingField:
+        m_Value: 2
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 5
+      <Value>k__BackingField:
+        m_Value: 2
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 4
+      <Value>k__BackingField:
+        m_Value: 2
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 3
+      <Value>k__BackingField:
+        m_Value: 2
+    - <Type>k__BackingField: 3
+      <SpecificType>k__BackingField: 3
+      <Value>k__BackingField:
+        m_Value: 7200
+  - packageName: 501
+    nonConsume: 0
+    packageNameToUI: Limited Pack 2
+    packageTag:
+    packageId: com.abi.skewer.newlimitedpack2
+    priceType: 0
+    price: 5.99
+    GameResources:
+    - <Type>k__BackingField: 1
+      <SpecificType>k__BackingField: 1
+      <Value>k__BackingField:
+        m_Value: 4000
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 2
+      <Value>k__BackingField:
+        m_Value: 2
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 5
+      <Value>k__BackingField:
+        m_Value: 2
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 4
+      <Value>k__BackingField:
+        m_Value: 2
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 3
+      <Value>k__BackingField:
+        m_Value: 2
+    - <Type>k__BackingField: 3
+      <SpecificType>k__BackingField: 3
+      <Value>k__BackingField:
+        m_Value: 7200
+  - packageName: 502
+    nonConsume: 0
+    packageNameToUI: Limited Pack 3
+    packageTag:
+    packageId: com.abi.skewer.newlimitedpack3
+    priceType: 0
+    price: 3.99
+    GameResources:
+    - <Type>k__BackingField: 1
+      <SpecificType>k__BackingField: 1
+      <Value>k__BackingField:
+        m_Value: 4000
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 2
+      <Value>k__BackingField:
+        m_Value: 2
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 5
+      <Value>k__BackingField:
+        m_Value: 2
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 4
+      <Value>k__BackingField:
+        m_Value: 2
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 3
+      <Value>k__BackingField:
+        m_Value: 2
+    - <Type>k__BackingField: 3
+      <SpecificType>k__BackingField: 3
+      <Value>k__BackingField:
+        m_Value: 7200
+  - packageName: 503
+    nonConsume: 0
+    packageNameToUI: Limited Pack 4
+    packageTag:
+    packageId: com.abi.skewer.newlimitedpack4
+    priceType: 0
+    price: 3.99
+    GameResources:
+    - <Type>k__BackingField: 1
+      <SpecificType>k__BackingField: 1
+      <Value>k__BackingField:
+        m_Value: 4000
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 2
+      <Value>k__BackingField:
+        m_Value: 4
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 5
+      <Value>k__BackingField:
+        m_Value: 4
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 4
+      <Value>k__BackingField:
+        m_Value: 4
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 3
+      <Value>k__BackingField:
+        m_Value: 4
+    - <Type>k__BackingField: 3
+      <SpecificType>k__BackingField: 3
+      <Value>k__BackingField:
+        m_Value: 7200
+  - packageName: 600
+    nonConsume: 0
+    packageNameToUI: Moon Cake Pack 1
+    packageTag:
+    packageId: com.abi.skewer.mooncakepack1
+    priceType: 0
+    price: 3.99
+    GameResources:
+    - <Type>k__BackingField: 1
+      <SpecificType>k__BackingField: 50
+      <Value>k__BackingField:
+        m_Value: 200
+    - <Type>k__BackingField: 1
+      <SpecificType>k__BackingField: 1
+      <Value>k__BackingField:
+        m_Value: 1000
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 2
+      <Value>k__BackingField:
+        m_Value: 1
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 4
+      <Value>k__BackingField:
+        m_Value: 1
+  - packageName: 601
+    nonConsume: 0
+    packageNameToUI: Moon Cake Pack 2
+    packageTag:
+    packageId: com.abi.skewer.mooncakepack2
+    priceType: 0
+    price: 8.99
+    GameResources:
+    - <Type>k__BackingField: 1
+      <SpecificType>k__BackingField: 50
+      <Value>k__BackingField:
+        m_Value: 550
+    - <Type>k__BackingField: 1
+      <SpecificType>k__BackingField: 1
+      <Value>k__BackingField:
+        m_Value: 2500
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 5
+      <Value>k__BackingField:
+        m_Value: 2
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 3
+      <Value>k__BackingField:
+        m_Value: 2
+    - <Type>k__BackingField: 3
+      <SpecificType>k__BackingField: 3
+      <Value>k__BackingField:
+        m_Value: 1800
+  - packageName: 602
+    nonConsume: 0
+    packageNameToUI: Moon Cake Pack 3
+    packageTag:
+    packageId: com.abi.skewer.mooncakepack3
+    priceType: 0
+    price: 12.99
+    GameResources:
+    - <Type>k__BackingField: 1
+      <SpecificType>k__BackingField: 50
+      <Value>k__BackingField:
+        m_Value: 800
+    - <Type>k__BackingField: 1
+      <SpecificType>k__BackingField: 1
+      <Value>k__BackingField:
+        m_Value: 5000
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 2
+      <Value>k__BackingField:
+        m_Value: 2
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 4
+      <Value>k__BackingField:
+        m_Value: 2
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 5
+      <Value>k__BackingField:
+        m_Value: 2
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 3
+      <Value>k__BackingField:
+        m_Value: 2
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 7
+      <Value>k__BackingField:
+        m_Value: 2
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 6
+      <Value>k__BackingField:
+        m_Value: 2
+    - <Type>k__BackingField: 3
+      <SpecificType>k__BackingField: 3
+      <Value>k__BackingField:
+        m_Value: 3600
+  - packageName: 700
+    nonConsume: 0
+    packageNameToUI: Group Pack 1
+    packageTag:
+    packageId: com.abi.skewer.grouppack1
+    priceType: 0
+    price: 3.99
+    GameResources:
+    - <Type>k__BackingField: 1
+      <SpecificType>k__BackingField: 1
+      <Value>k__BackingField:
+        m_Value: 1000
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 2
+      <Value>k__BackingField:
+        m_Value: 1
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 4
+      <Value>k__BackingField:
+        m_Value: 1
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 3
+      <Value>k__BackingField:
+        m_Value: 1
+  - packageName: 701
+    nonConsume: 0
+    packageNameToUI: Group Pack 2
+    packageTag:
+    packageId: com.abi.skewer.grouppack2
+    priceType: 0
+    price: 5.99
+    GameResources:
+    - <Type>k__BackingField: 1
+      <SpecificType>k__BackingField: 1
+      <Value>k__BackingField:
+        m_Value: 2000
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 2
+      <Value>k__BackingField:
+        m_Value: 2
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 5
+      <Value>k__BackingField:
+        m_Value: 2
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 4
+      <Value>k__BackingField:
+        m_Value: 2
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 3
+      <Value>k__BackingField:
+        m_Value: 2
+  - packageName: 702
+    nonConsume: 0
+    packageNameToUI: Group Pack 3
+    packageTag:
+    packageId: com.abi.skewer.grouppack3
+    priceType: 0
+    price: 16.99
+    GameResources:
+    - <Type>k__BackingField: 1
+      <SpecificType>k__BackingField: 1
+      <Value>k__BackingField:
+        m_Value: 5000
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 2
+      <Value>k__BackingField:
+        m_Value: 6
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 5
+      <Value>k__BackingField:
+        m_Value: 6
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 4
+      <Value>k__BackingField:
+        m_Value: 6
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 3
+      <Value>k__BackingField:
+        m_Value: 6
+    - <Type>k__BackingField: 3
+      <SpecificType>k__BackingField: 16
+      <Value>k__BackingField:
+        m_Value: 35
+  - packageName: 703
+    nonConsume: 0
+    packageNameToUI: Group Pack 4
+    packageTag:
+    packageId: com.abi.skewer.grouppack4
+    priceType: 0
+    price: 17.99
+    GameResources:
+    - <Type>k__BackingField: 1
+      <SpecificType>k__BackingField: 1
+      <Value>k__BackingField:
+        m_Value: 8000
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 2
+      <Value>k__BackingField:
+        m_Value: 9
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 5
+      <Value>k__BackingField:
+        m_Value: 8
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 4
+      <Value>k__BackingField:
+        m_Value: 9
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 3
+      <Value>k__BackingField:
+        m_Value: 9
+    - <Type>k__BackingField: 3
+      <SpecificType>k__BackingField: 16
+      <Value>k__BackingField:
+        m_Value: 35
+  - packageName: 800
+    nonConsume: 0
+    packageNameToUI: Halloween Pack 1
+    packageTag:
+    packageId: com.abi.skewer.halloweenpack1
+    priceType: 0
+    price: 10.99
+    GameResources:
+    - <Type>k__BackingField: 1
+      <SpecificType>k__BackingField: 1
+      <Value>k__BackingField:
+        m_Value: 1000
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 2
+      <Value>k__BackingField:
+        m_Value: 2
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 5
+      <Value>k__BackingField:
+        m_Value: 2
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 4
+      <Value>k__BackingField:
+        m_Value: 2
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 3
+      <Value>k__BackingField:
+        m_Value: 2
+    - <Type>k__BackingField: 3
+      <SpecificType>k__BackingField: 3
+      <Value>k__BackingField:
+        m_Value: 7200
+    - <Type>k__BackingField: 3
+      <SpecificType>k__BackingField: 13
+      <Value>k__BackingField:
+        m_Value: 7200
+  - packageName: 900
+    nonConsume: 0
+    packageNameToUI: X2 Foodie Star Pack
+    packageTag:
+    packageId: com.abi.skewer.x2foodiestarpack
+    priceType: 0
+    price: 10.99
+    GameResources:
+    - <Type>k__BackingField: 3
+      <SpecificType>k__BackingField: 13
+      <Value>k__BackingField:
+        m_Value: 7200
+    - <Type>k__BackingField: 1
+      <SpecificType>k__BackingField: 1
+      <Value>k__BackingField:
+        m_Value: 1000
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 2
+      <Value>k__BackingField:
+        m_Value: 2
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 5
+      <Value>k__BackingField:
+        m_Value: 2
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 4
+      <Value>k__BackingField:
+        m_Value: 2
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 3
+      <Value>k__BackingField:
+        m_Value: 2
+    - <Type>k__BackingField: 3
+      <SpecificType>k__BackingField: 3
+      <Value>k__BackingField:
+        m_Value: 7200
+  - packageName: 901
+    nonConsume: 0
+    packageNameToUI: X2 Thanksgiving Boost
+    packageTag:
+    packageId: com.abi.skewer.x2thanksgivingboost
+    priceType: 0
+    price: 10.99
+    GameResources:
+    - <Type>k__BackingField: 3
+      <SpecificType>k__BackingField: 13
+      <Value>k__BackingField:
+        m_Value: 7200
+    - <Type>k__BackingField: 1
+      <SpecificType>k__BackingField: 1
+      <Value>k__BackingField:
+        m_Value: 1000
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 2
+      <Value>k__BackingField:
+        m_Value: 2
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 5
+      <Value>k__BackingField:
+        m_Value: 2
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 4
+      <Value>k__BackingField:
+        m_Value: 2
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 3
+      <Value>k__BackingField:
+        m_Value: 2
+    - <Type>k__BackingField: 3
+      <SpecificType>k__BackingField: 3
+      <Value>k__BackingField:
+        m_Value: 7200
+  - packageName: 504
+    nonConsume: 0
+    packageNameToUI: Limited Pack 5
+    packageTag:
+    packageId: com.abi.skewer.newlimitedpack5
+    priceType: 0
+    price: 7.99
+    GameResources:
+    - <Type>k__BackingField: 1
+      <SpecificType>k__BackingField: 1
+      <Value>k__BackingField:
+        m_Value: 12000
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 2
+      <Value>k__BackingField:
+        m_Value: 6
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 5
+      <Value>k__BackingField:
+        m_Value: 6
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 4
+      <Value>k__BackingField:
+        m_Value: 6
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 3
+      <Value>k__BackingField:
+        m_Value: 6
+    - <Type>k__BackingField: 3
+      <SpecificType>k__BackingField: 3
+      <Value>k__BackingField:
+        m_Value: 21600
+    - <Type>k__BackingField: 3
+      <SpecificType>k__BackingField: 1
+      <Value>k__BackingField:
+        m_Value: 1
+  - packageName: 505
+    nonConsume: 0
+    packageNameToUI: Limited Pack 6
+    packageTag:
+    packageId: com.abi.skewer.newlimitedpack6
+    priceType: 0
+    price: 5.99
+    GameResources:
+    - <Type>k__BackingField: 1
+      <SpecificType>k__BackingField: 1
+      <Value>k__BackingField:
+        m_Value: 25000
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 2
+      <Value>k__BackingField:
+        m_Value: 12
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 5
+      <Value>k__BackingField:
+        m_Value: 12
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 4
+      <Value>k__BackingField:
+        m_Value: 12
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 3
+      <Value>k__BackingField:
+        m_Value: 12
+    - <Type>k__BackingField: 3
+      <SpecificType>k__BackingField: 3
+      <Value>k__BackingField:
+        m_Value: 43200
+    - <Type>k__BackingField: 3
+      <SpecificType>k__BackingField: 1
+      <Value>k__BackingField:
+        m_Value: 1
+  - packageName: 506
+    nonConsume: 0
+    packageNameToUI: Limited Pack 7
+    packageTag:
+    packageId: com.abi.skewer.newlimitedpack7
+    priceType: 0
+    price: 3.99
+    GameResources:
+    - <Type>k__BackingField: 1
+      <SpecificType>k__BackingField: 1
+      <Value>k__BackingField:
+        m_Value: 50000
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 2
+      <Value>k__BackingField:
+        m_Value: 24
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 5
+      <Value>k__BackingField:
+        m_Value: 24
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 4
+      <Value>k__BackingField:
+        m_Value: 24
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 3
+      <Value>k__BackingField:
+        m_Value: 24
+    - <Type>k__BackingField: 3
+      <SpecificType>k__BackingField: 3
+      <Value>k__BackingField:
+        m_Value: 86400
+    - <Type>k__BackingField: 3
+      <SpecificType>k__BackingField: 1
+      <Value>k__BackingField:
+        m_Value: 1
+  - packageName: 902
+    nonConsume: 0
+    packageNameToUI: X2 Xmas Streak Boost
+    packageTag:
+    packageId: com.abi.skewer.x2xmasstreakboost
+    priceType: 0
+    price: 10.99
+    GameResources:
+    - <Type>k__BackingField: 3
+      <SpecificType>k__BackingField: 13
+      <Value>k__BackingField:
+        m_Value: 7200
+    - <Type>k__BackingField: 1
+      <SpecificType>k__BackingField: 1
+      <Value>k__BackingField:
+        m_Value: 1000
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 2
+      <Value>k__BackingField:
+        m_Value: 2
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 5
+      <Value>k__BackingField:
+        m_Value: 2
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 4
+      <Value>k__BackingField:
+        m_Value: 2
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 3
+      <Value>k__BackingField:
+        m_Value: 2
+    - <Type>k__BackingField: 3
+      <SpecificType>k__BackingField: 3
+      <Value>k__BackingField:
+        m_Value: 7200
+  - packageName: 903
+    nonConsume: 0
+    packageNameToUI: X2 Streak Boost
+    packageTag:
+    packageId: com.abi.skewer.x2streakboost
+    priceType: 0
+    price: 10.99
+    GameResources:
+    - <Type>k__BackingField: 3
+      <SpecificType>k__BackingField: 13
+      <Value>k__BackingField:
+        m_Value: 7200
+    - <Type>k__BackingField: 1
+      <SpecificType>k__BackingField: 1
+      <Value>k__BackingField:
+        m_Value: 1000
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 2
+      <Value>k__BackingField:
+        m_Value: 2
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 5
+      <Value>k__BackingField:
+        m_Value: 2
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 4
+      <Value>k__BackingField:
+        m_Value: 2
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 3
+      <Value>k__BackingField:
+        m_Value: 2
+    - <Type>k__BackingField: 3
+      <SpecificType>k__BackingField: 3
+      <Value>k__BackingField:
+        m_Value: 7200
+  - packageName: 1000
+    nonConsume: 0
+    packageNameToUI: Card Pack
+    packageTag:
+    packageId: com.abi.skewer.cardpack
+    priceType: 0
+    price: 11.99
+    GameResources:
+    - <Type>k__BackingField: 3
+      <SpecificType>k__BackingField: 100
+      <Value>k__BackingField:
+        m_Value: 4
+    - <Type>k__BackingField: 3
+      <SpecificType>k__BackingField: 100
+      <Value>k__BackingField:
+        m_Value: 4
+    - <Type>k__BackingField: 3
+      <SpecificType>k__BackingField: 100
+      <Value>k__BackingField:
+        m_Value: 4
+    - <Type>k__BackingField: 3
+      <SpecificType>k__BackingField: 100
+      <Value>k__BackingField:
+        m_Value: 3
+    - <Type>k__BackingField: 3
+      <SpecificType>k__BackingField: 100
+      <Value>k__BackingField:
+        m_Value: 3
+    - <Type>k__BackingField: 3
+      <SpecificType>k__BackingField: 100
+      <Value>k__BackingField:
+        m_Value: 3
+  - packageName: 1101
+    nonConsume: 0
+    packageNameToUI: No Ads Bundle
+    packageTag:
+    packageId: com.abi.skewer.noadsbundle
+    priceType: 0
+    price: 11.99
+    GameResources:
+    - <Type>k__BackingField: 3
+      <SpecificType>k__BackingField: 1
+      <Value>k__BackingField:
+        m_Value: 1
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 2
+      <Value>k__BackingField:
+        m_Value: 2
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 5
+      <Value>k__BackingField:
+        m_Value: 2
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 4
+      <Value>k__BackingField:
+        m_Value: 2
+    - <Type>k__BackingField: 2
+      <SpecificType>k__BackingField: 3
+      <Value>k__BackingField:
+        m_Value: 2
+    - <Type>k__BackingField: 1
+      <SpecificType>k__BackingField: 1
+      <Value>k__BackingField:
+        m_Value: 2000
+  - packageName: 1100
+    nonConsume: 0
+    packageNameToUI: No Ads
+    packageTag:
+    packageId: com.abi.skewer.noads
+    priceType: 0
+    price: 7.99
+    GameResources:
+    - <Type>k__BackingField: 3
+      <SpecificType>k__BackingField: 1
+      <Value>k__BackingField:
+        m_Value: 1
+  iapSuggestCondition:
+  - packageName: 50
+    trigger: 1
+    level: 15
+    dayRetention: 0
+    limitRetention: 7
+    repeatTime: 0
+  - packageName: 10
+    trigger: 1
+    level: 0
+    dayRetention: 2
+    limitRetention: 0
+    repeatTime: 0
+  - packageName: 4
+    trigger: 3
+    level: 10
+    dayRetention: 0
+    limitRetention: 0
+    repeatTime: 0
+  - packageName: 5
+    trigger: 3
+    level: 15
+    dayRetention: 0
+    limitRetention: 0
+    repeatTime: 4
+  - packageName: 6
+    trigger: 3
+    level: 20
+    dayRetention: 0
+    limitRetention: 0
+    repeatTime: 8
+  - packageName: 7
+    trigger: 1
+    level: 25
+    dayRetention: 2
+    limitRetention: 0
+    repeatTime: 24
+  - packageName: 8
+    trigger: 3
+    level: 30
+    dayRetention: 3
+    limitRetention: 0
+    repeatTime: 24
+  - packageName: 9
+    trigger: 3
+    level: 30
+    dayRetention: 5
+    limitRetention: 0
+    repeatTime: 24
+  eventIapSuggestPackages: []
+  iapSuggestPackages:
+  - 9
+  - 8
+  - 7
+  - 6
+  - 5
+  - 4

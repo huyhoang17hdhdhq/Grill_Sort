@@ -1,0 +1,5 @@
+NoelHomeAnim_treeL.png
+size:240,400
+filter:Linear,Linear
+tree/tree_L
+bounds:2,2,236,393

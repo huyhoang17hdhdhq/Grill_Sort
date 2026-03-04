@@ -1,0 +1,213 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e5a376f893990c8efedc3d2a5b29836, type: 3}
+  m_Name: ItemGlobalConfig
+  m_EditorClassIdentifier:
+  CurrencyDatas:
+  - CurrencyType: 1
+    Sprite: {fileID: 21300000, guid: 57508c898cb56f747916690cb426f0c7, type: 2}
+  - CurrencyType: 4
+    Sprite: {fileID: 21300000, guid: 907b83a132ba0aa40b18a40a5a221691, type: 2}
+  - CurrencyType: 50
+    Sprite: {fileID: 21300000, guid: 00ffedb58803e344299a39da2b0cdf3a, type: 2}
+  BoosterDatas:
+  - Sprite: {fileID: 21300000, guid: 5b1ffdb4d4a870947831c30589f31c9d, type: 2}
+    BoosterType: 2
+    BoosterName: Storage
+    Description: Storage skewer combo
+    Price: 250
+    Effect: 1
+    UnlockLevel: 4
+    skeletonDataAsset: {fileID: 11400000, guid: 2d3180c8f352bf34bbea3ce757d5df51, type: 2}
+    skeletonMaterial: {fileID: 2100000, guid: 50c544acda2496e47879a51b7a352c76, type: 2}
+  - Sprite: {fileID: 21300000, guid: 661f563f29deff54aa4c799175f47350, type: 2}
+    BoosterType: 4
+    BoosterName: Refresh
+    Description: Readjust all skewer position
+    Price: 250
+    Effect: 1
+    UnlockLevel: 6
+    skeletonDataAsset: {fileID: 11400000, guid: 0755991006f9ccc4ca24a99fdcf57da6, type: 2}
+    skeletonMaterial: {fileID: 2100000, guid: f05dd9883d9e9c14ab32cec8f628ca3c, type: 2}
+  - Sprite: {fileID: 21300000, guid: 4319b9d7404a8f54f8bca8bbab50bead, type: 2}
+    BoosterType: 5
+    BoosterName: Target Storage
+    Description: Pick a skewer to store full combo
+    Price: 350
+    Effect: 30
+    UnlockLevel: 8
+    skeletonDataAsset: {fileID: 11400000, guid: 61e7b965ab0fa004180c0bb071aef67e, type: 2}
+    skeletonMaterial: {fileID: 2100000, guid: 9073d58f160ae0d43a66c1f737c130e7, type: 2}
+  - Sprite: {fileID: 21300000, guid: 488d9ce40c2fd884596931fb6dbf2ef3, type: 2}
+    BoosterType: 3
+    BoosterName: Rolling Pin
+    Description: Break frozen skewer
+    Price: 250
+    Effect: 20
+    UnlockLevel: 20
+    skeletonDataAsset: {fileID: 11400000, guid: 01f75de2d36a7254a8499b75ee6a1041, type: 2}
+    skeletonMaterial: {fileID: 2100000, guid: a1eb73980a2213f499ebc78e358c1d27, type: 2}
+  - Sprite: {fileID: 21300000, guid: 4319b9d7404a8f54f8bca8bbab50bead, type: 2}
+    BoosterType: 1
+    BoosterName: Ice Cube
+    Description: Freezes time for {0} seconds
+    Price: 300
+    Effect: 30
+    UnlockLevel: 8000
+    skeletonDataAsset: {fileID: 0}
+    skeletonMaterial: {fileID: 0}
+  - Sprite: {fileID: 21300000, guid: 95d0a2de484a67947991cd784c2411aa, type: 2}
+    BoosterType: 6
+    BoosterName:
+    Description:
+    Price: 0
+    Effect: 0
+    UnlockLevel: 0
+    skeletonDataAsset: {fileID: 0}
+    skeletonMaterial: {fileID: 0}
+  - Sprite: {fileID: 21300000, guid: 48012d3b08eb2a94fbdf8e428e056d78, type: 2}
+    BoosterType: 7
+    BoosterName:
+    Description:
+    Price: 0
+    Effect: 0
+    UnlockLevel: 0
+    skeletonDataAsset: {fileID: 0}
+    skeletonMaterial: {fileID: 0}
+  SpecialItemDatas:
+  - SpecialResourceType: 1
+    Sprite: {fileID: 21300000, guid: bbf9a13a191c32f42806e367d6113598, type: 2}
+  - SpecialResourceType: 2
+    Sprite: {fileID: 21300000, guid: c118df5354f228b44b4d64e3412560c2, type: 2}
+  - SpecialResourceType: 3
+    Sprite: {fileID: 21300000, guid: c27297bfa761ca146b8b5edec6c3ab00, type: 2}
+  - SpecialResourceType: 14
+    Sprite: {fileID: 21300000, guid: 48012d3b08eb2a94fbdf8e428e056d78, type: 2}
+  - SpecialResourceType: 15
+    Sprite: {fileID: 21300000, guid: 95d0a2de484a67947991cd784c2411aa, type: 2}
+  - SpecialResourceType: 13
+    Sprite: {fileID: 21300000, guid: afdb15ddb1ba5eb44add06def09c197c, type: 2}
+  - SpecialResourceType: 18
+    Sprite: {fileID: 21300000, guid: e84b8d87f89075648b7fd6c382c085c6, type: 2}
+  BlockDatas:
+  - sprite: {fileID: 0}
+    blockType: 1
+    blockName: Hidden Grill
+    description: Finish the matching order to unlock a new grill
+    unlockLevel: 3
+    skeletonDataAsset: {fileID: 11400000, guid: 74ad82d2d2d504b489a0c54d2735530b, type: 2}
+    skeletonMaterial: {fileID: 2100000, guid: 51b3a71e06410504cb3fedcada837081, type: 2}
+  - sprite: {fileID: 0}
+    blockType: 2048
+    blockName: Deliveryman
+    description: Complete the delivery order before time runs out
+    unlockLevel: 7
+    skeletonDataAsset: {fileID: 11400000, guid: 6ba81768bb9775a479d1ef91c2315745, type: 2}
+    skeletonMaterial: {fileID: 2100000, guid: 73d44b1bdbb69664aafa9bed630e8e78, type: 2}
+  - sprite: {fileID: 0}
+    blockType: 512
+    blockName: Hidden Skewer
+    description: Skewer is hidden until placed on the grill
+    unlockLevel: 13
+    skeletonDataAsset: {fileID: 11400000, guid: 3f4edfbac1fa1fc4582627f13293a1c5, type: 2}
+    skeletonMaterial: {fileID: 2100000, guid: 174d5442d93f285428accf09783c985b, type: 2}
+  - sprite: {fileID: 21300000, guid: 6f534a318b44a7f4cb347b0f253f3e8d, type: 2}
+    blockType: 4
+    blockName: Single Grill
+    description: Only one skewer is placed on
+    unlockLevel: 17
+    skeletonDataAsset: {fileID: 11400000, guid: 3f9ba2af79bf8d743ab050bb6698012a, type: 2}
+    skeletonMaterial: {fileID: 2100000, guid: bc4c149bd182ad342915d5737cf8eabd, type: 2}
+  - sprite: {fileID: 0}
+    blockType: 128
+    blockName: Frozen Skewer
+    description: Finish the 3 order to melt frozen skewer
+    unlockLevel: 19
+    skeletonDataAsset: {fileID: 11400000, guid: e0eaeb651f23dde42bdf3d54cd41456b, type: 2}
+    skeletonMaterial: {fileID: 2100000, guid: 2f4acbb61669d474a83e0f51d5d8b76e, type: 2}
+  - sprite: {fileID: 21300000, guid: 3d2af70eb03aa9149840b7b123e7d377, type: 2}
+    blockType: 8
+    blockName: Spicy Grill
+    description: Grill specifically for spicy food
+    unlockLevel: 27
+    skeletonDataAsset: {fileID: 11400000, guid: 038bcc0117fbb9147a512431769dcc65, type: 2}
+    skeletonMaterial: {fileID: 2100000, guid: ea0414772568349419f63cf70f4a4281, type: 2}
+  - sprite: {fileID: 21300000, guid: 3d2af70eb03aa9149840b7b123e7d377, type: 2}
+    blockType: 64
+    blockName: Conveyor Belt
+    description: Pick up skewer on conveyor belt to fill on grill
+    unlockLevel: 42
+    skeletonDataAsset: {fileID: 11400000, guid: bcee7601275d3114bab18a14401a32c3, type: 2}
+    skeletonMaterial: {fileID: 2100000, guid: ff1c1d1e3dfee654cba38ff67c33408d, type: 2}
+  - sprite: {fileID: 21300000, guid: 6f534a318b44a7f4cb347b0f253f3e8d, type: 2}
+    blockType: 16
+    blockName: Timer Grill
+    description: Opens and closes every 15s
+    unlockLevel: 151
+    skeletonDataAsset: {fileID: 11400000, guid: 589b9c7ce108def4bbcbc367eeb10e2e, type: 2}
+    skeletonMaterial: {fileID: 2100000, guid: 32b243402dc02954585bb6254b35957c, type: 2}
+  - sprite: {fileID: 21300000, guid: 6f534a318b44a7f4cb347b0f253f3e8d, type: 2}
+    blockType: 32
+    blockName: Countdown Grill
+    description: Opens after a certain number of dishes cooked
+    unlockLevel: 339
+    skeletonDataAsset: {fileID: 11400000, guid: f7922128333c15f4291faf6c915c0da1, type: 2}
+    skeletonMaterial: {fileID: 2100000, guid: cb63745040151824ab2fe181ddcb68d0, type: 2}
+  - sprite: {fileID: 0}
+    blockType: 1024
+    blockName: Brick
+    description: Movable but unmatchable
+    unlockLevel: 101
+    skeletonDataAsset: {fileID: 11400000, guid: ffcd3a2877f7f1e41b0566edd988326a, type: 2}
+    skeletonMaterial: {fileID: 2100000, guid: 7f7bc60c73abd0d4e90715f8151e437f, type: 2}
+  - sprite: {fileID: 0}
+    blockType: 512
+    blockName: Fixed skewer
+    description: Cannot be moved
+    unlockLevel: 401
+    skeletonDataAsset: {fileID: 11400000, guid: b16412ba9e5b928438a5a9ae9d47932f, type: 2}
+    skeletonMaterial: {fileID: 2100000, guid: 20e868571e276a640bc4355266b4cd3c, type: 2}
+  - sprite: {fileID: 0}
+    blockType: 4096
+    blockName: Special Guest
+    description: 3 dishes one after another
+    unlockLevel: 450
+    skeletonDataAsset: {fileID: 11400000, guid: cb1a3bedcfa92ce45b5336a799178e40, type: 2}
+    skeletonMaterial: {fileID: 2100000, guid: 81cd8b595b62efe4c9a6052a424eff28, type: 2}
+  - sprite: {fileID: 0}
+    blockType: 16384
+    blockName: Grill Broke
+    description: The grill broke after 3 moves
+    unlockLevel: 691
+    skeletonDataAsset: {fileID: 11400000, guid: c379e2e8171bcf74b984c3d1adc273f0, type: 2}
+    skeletonMaterial: {fileID: 2100000, guid: 30195d41ceda9564dad5c08418c939ff, type: 2}
+  - sprite: {fileID: 0}
+    blockType: 8192
+    blockName: Tycoon
+    description: He will reward you generously after you complete all the requirements.
+    unlockLevel: 711
+    skeletonDataAsset: {fileID: 11400000, guid: da20074884d5cbd439f78501032fd525, type: 2}
+    skeletonMaterial: {fileID: 2100000, guid: e2cc0c4bb1055ea46a4a96ae5039160e, type: 2}
+  ExtraBoosterDatas:
+  - sprite: {fileID: 21300000, guid: 48012d3b08eb2a94fbdf8e428e056d78, type: 2}
+    boosterType: 10
+    boosterName: Extra Time
+    description: Add extra {0} seconds
+    price: 250
+    effect: 30
+  - sprite: {fileID: 21300000, guid: 94d1861ede9c4314c9e8d8f8bc5e1020, type: 2}
+    boosterType: 11
+    boosterName: Extra Pack
+    description: Storage skewer combo
+    price: 250
+    effect: 1
+  GoldRewardIcon: {fileID: 21300000, guid: 74a53de73d5c39f4e89e964e9c64b4fb, type: 2}
