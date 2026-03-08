@@ -1,20 +1,17 @@
 using UnityEngine;
+
+
 public enum FoodType
 {
-    dumplings,
-    gingerbread,
-    tamarindCake,
-    bread,
-    eggTart,
-    eggTartVip,
-    abalone,
-    cabbage
+    dumplings = 0,
+    gingerbread = 1,
+    tamarindCake = 2,
+    bread = 3,
+    eggTart = 4,
+    eggTartVip = 5,
+    abalone = 6,
+    cabbage = 7
 }
-
-
-
-
-
 
 public class FoodDrag : MonoBehaviour
 {
@@ -66,14 +63,7 @@ public class FoodDrag : MonoBehaviour
         }
     }
 
-    //void OnTriggerExit2D(Collider2D col)
-    //{
-    //    if (col.CompareTag("Slot"))
-    //    {
-    //        if (targetSlot == col.GetComponent<Slot>())
-    //            targetSlot = null;
-    //    }
-    //}
+   
 
     Vector3 GetMouseWorldPos()
     {

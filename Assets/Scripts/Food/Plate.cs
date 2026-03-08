@@ -1,0 +1,70 @@
+using UnityEngine;
+
+public class Plate : MonoBehaviour
+{
+    [Header("Parent chứa các Slot")]
+    [SerializeField] private Transform slotParent;
+
+    private SpriteRenderer[] slots;
+    private FoodType[] currentFoods;
+
+    public int SlotCount => slots.Length;
+
+    void Awake()
+    {
+        // Tự lấy tất cả SpriteRenderer trong slotParent
+        slots = slotParent.GetComponentsInChildren<SpriteRenderer>();
+    }
+
+    void OnEnable()
+    {
+        PlateManager.Instance.RegisterPlate(this);
+        GameEvents.OnGrillEmpty += HandleGrillEmpty;
+    }
+
+    void OnDisable()
+    {
+        PlateManager.Instance.UnregisterPlate(this);
+        GameEvents.OnGrillEmpty -= HandleGrillEmpty;
+    }
+
+    public void SetFoods(FoodType[] foods)
+    {
+        currentFoods = foods;
+
+        for (int i = 0; i < slots.Length; i++)
+        {
+            if (i < foods.Length)
+                slots[i].sprite = FoodDatabase.Instance.GetImage(foods[i]);
+            else
+                slots[i].sprite = null;
+        }
+    }
+
+    public FoodType[] GetFoods()
+    {
+        return currentFoods;
+    }
+
+    void HandleGrillEmpty(Grill grill)
+    {
+        if (currentFoods == null) return;
+
+        int count = Mathf.Min(currentFoods.Length, grill.slots.Length);
+
+        for (int i = 0; i < count; i++)
+        {
+            GameObject food = ObjectPool.Instance.Spawn(
+                currentFoods[i],
+                grill.slots[i].transform.position,
+                Quaternion.identity
+            );
+
+            food.transform.SetParent(grill.slots[i].transform);
+
+            FoodDrag drag = food.GetComponent<FoodDrag>();
+            grill.slots[i].SetFood(drag);
+            drag.CurrentSlot = grill.slots[i];
+        }
+    }
+}

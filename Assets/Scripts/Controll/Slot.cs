@@ -33,5 +33,11 @@ public class Slot : MonoBehaviour
     {
         currentFood = null;
         slotCollider.enabled = true;
+
+        Grill grill = GetComponentInParent<Grill>();
+        if (grill != null)
+        {
+            grill.CheckEmpty();
+        }
     }
 }
