@@ -12,7 +12,7 @@ public class Plate : MonoBehaviour
 
     void Awake()
     {
-        // Tự lấy tất cả SpriteRenderer trong slotParent
+       
         slots = slotParent.GetComponentsInChildren<SpriteRenderer>();
     }
 

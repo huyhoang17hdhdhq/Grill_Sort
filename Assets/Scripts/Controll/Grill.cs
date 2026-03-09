@@ -33,13 +33,16 @@ public class Grill : MonoBehaviour
             slots[1].ClearFood();
             slots[2].ClearFood();
 
+            GameEvents.OnGrillMatch?.Invoke(this);
+
             CheckEmpty();
         }
     }
 
     public void CheckEmpty()
     {
-        
+        if (GameEvents.IsDraggingFood)
+            return;
         foreach (Slot slot in slots)
         {
             if (slot.currentFood != null)
@@ -54,6 +57,7 @@ public class Grill : MonoBehaviour
     {
         if (plate == null) return;
 
+        
         FoodType[] foods = plate.GetFoods();
         if (foods == null || foods.Length == 0) return;
 
@@ -74,5 +78,8 @@ public class Grill : MonoBehaviour
             slots[i].SetFood(drag);
             drag.CurrentSlot = slots[i];
         }
+
+        
+        PlateManager.Instance.SpawnFoodForPlate(plate);
     }
 }

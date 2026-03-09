@@ -18,16 +18,23 @@ public class FoodDrag : MonoBehaviour
     public FoodType foodType;
 
     public Slot CurrentSlot { get; set; }
+
     private Slot targetSlot;
+
+    private Grill previousGrill;
 
     private Vector3 offset;
 
     void OnMouseDown()
     {
+        GameEvents.IsDraggingFood = true;
+
         offset = transform.position - GetMouseWorldPos();
 
         if (CurrentSlot != null)
         {
+            previousGrill = CurrentSlot.GetComponentInParent<Grill>();
+
             CurrentSlot.ClearFood();
             CurrentSlot = null;
         }
@@ -42,16 +49,23 @@ public class FoodDrag : MonoBehaviour
 
     void OnMouseUp()
     {
+        GameEvents.IsDraggingFood = false;
+
         if (targetSlot != null && targetSlot.IsEmpty())
         {
             targetSlot.SetFood(this);
             CurrentSlot = targetSlot;
 
-            Debug.Log(targetSlot);
-            Debug.Log(targetSlot.GetComponentInParent<Grill>());
-
             Grill grill = targetSlot.GetComponentInParent<Grill>();
-            grill.CheckMatch();
+
+            if (grill != null)
+                grill.CheckMatch();
+        }
+
+        if (previousGrill != null)
+        {
+            previousGrill.CheckEmpty();
+            previousGrill = null;
         }
     }
 

@@ -11,6 +11,15 @@ public class PlateManager : MonoBehaviour
     {
         Instance = this;
     }
+    void OnEnable()
+    {
+        GameEvents.OnGrillMatch += HandleGrillMatch;
+    }
+
+    void OnDisable()
+    {
+        GameEvents.OnGrillMatch -= HandleGrillMatch;
+    }
 
     public void RegisterPlate(Plate plate)
     {
@@ -23,7 +32,16 @@ public class PlateManager : MonoBehaviour
         plates.Remove(plate);
     }
 
-    void SpawnFoodForPlate(Plate plate)
+    void HandleGrillMatch(Grill grill)
+    {
+        Plate plate = grill.plate;
+
+        if (plate == null) return;
+
+        SpawnFoodForPlate(plate);
+    }
+
+    public void SpawnFoodForPlate(Plate plate)
     {
         int randomSlot = Random.Range(1, plate.SlotCount + 1);
 
