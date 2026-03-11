@@ -18,13 +18,21 @@ public class Plate : MonoBehaviour
 
     void OnEnable()
     {
-        PlateManager.Instance.RegisterPlate(this);
+        if (PlateManager.Instance != null)
+        {
+            PlateManager.Instance.RegisterPlate(this);
+        }
+
         GameEvents.OnGrillEmpty += HandleGrillEmpty;
     }
 
     void OnDisable()
     {
-        PlateManager.Instance.UnregisterPlate(this);
+        if (PlateManager.Instance != null)
+        {
+            PlateManager.Instance.UnregisterPlate(this);
+        }
+
         GameEvents.OnGrillEmpty -= HandleGrillEmpty;
     }
 

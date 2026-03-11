@@ -2360,7 +2360,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6655612034958521829}
   m_Layer: 6
-  m_Name: Grill
+  m_Name: GrillChill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -4,9 +4,9 @@ public class Grill : MonoBehaviour
 {
     public Slot[] slots;
 
-    public Plate plate;  
+    public Plate plate;
 
-    void Start()
+    public void Init()
     {
         CheckEmpty();
     }
