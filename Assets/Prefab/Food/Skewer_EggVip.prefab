@@ -165,6 +165,7 @@ GameObject:
   - component: {fileID: 3960922315192621927}
   - component: {fileID: 8613272276522714908}
   - component: {fileID: 3960485491261405611}
+  - component: {fileID: 4141653574961997597}
   m_Layer: 3
   m_Name: Skewer_EggVip
   m_TagString: Untagged
@@ -248,6 +249,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &4141653574961997597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1025080594281038186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ddcde6802a8494488ceeee7dc139854, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1025094934788588722
 GameObject:
   m_ObjectHideFlags: 0

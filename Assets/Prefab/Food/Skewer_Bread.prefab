@@ -935,6 +935,7 @@ GameObject:
   - component: {fileID: 2000444531790716884}
   - component: {fileID: 6535701555648136111}
   - component: {fileID: 2003394839414836063}
+  - component: {fileID: 8681462137394638148}
   m_Layer: 3
   m_Name: Skewer_Bread
   m_TagString: Untagged
@@ -1018,6 +1019,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &8681462137394638148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2522813149422274009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ddcde6802a8494488ceeee7dc139854, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2522818462944526337
 GameObject:
   m_ObjectHideFlags: 0

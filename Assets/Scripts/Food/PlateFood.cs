@@ -1,9 +1,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlateManager : MonoBehaviour
+public class PlateFood : MonoBehaviour
 {
-    public static PlateManager Instance;
+    public static PlateFood Instance;
 
     private List<Plate> plates = new List<Plate>();
 
@@ -38,7 +38,7 @@ public class PlateManager : MonoBehaviour
 
         if (plate == null) return;
 
-        SpawnFoodForPlate(plate);
+        //SpawnFoodForPlate(plate);
     }
 
     public void SpawnFoodForPlate(Plate plate)

@@ -17,6 +17,7 @@ public class LevelManager : MonoBehaviour
     [SerializeField] private Transform grillContainer;
 
     private List<GameObject> activeGrills = new List<GameObject>();
+    private List<Grill> grillScripts = new List<Grill>();
 
     private int currentLevel;
 
@@ -34,8 +35,11 @@ public class LevelManager : MonoBehaviour
     void SpawnLevel()
     {
         Debug.Log("SpawnLevel called frame: " + Time.frameCount);
+
         if (spawnPoints.Count == 0 || grillsPerLevel.Count == 0)
             return;
+
+        grillScripts.Clear();
 
         int levelIndex = Mathf.Clamp(currentLevel - 1, 0, grillsPerLevel.Count - 1);
         int grillCount = Mathf.Min(grillsPerLevel[levelIndex], spawnPoints.Count);
@@ -50,11 +54,17 @@ public class LevelManager : MonoBehaviour
             grillObj.transform.rotation = point.rotation;
 
             Grill grill = grillObj.GetComponent<Grill>();
+
             if (grill != null)
+            {
                 grill.Init();
+                grillScripts.Add(grill);
+            }
 
             activeGrills.Add(grillObj);
         }
+
+        RandomPlateManager.Instance.Generate(grillScripts);
     }
 
     public void ClearLevel()

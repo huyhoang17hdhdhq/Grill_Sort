@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections.Generic;
 
 public class Grill : MonoBehaviour
 {
@@ -6,37 +7,51 @@ public class Grill : MonoBehaviour
 
     public Plate plate;
 
+    [SerializeField] private List<GameObject> plates;
+
     public void Init()
     {
         CheckEmpty();
+
     }
 
     public void CheckMatch()
     {
         if (slots.Length < 3) return;
 
-        if (slots[0].currentFood == null ||
-            slots[1].currentFood == null ||
-            slots[2].currentFood == null)
-            return;
+        var first = slots[0].currentFood;
+        if (first == null) return;
 
-        FoodType type = slots[0].currentFood.foodType;
+        for (int i = 1; i < 3; i++)
+            if (slots[i].currentFood?.foodType != first.foodType)
+                return;
 
-        if (slots[1].currentFood.foodType == type &&
-            slots[2].currentFood.foodType == type)
+        FoodDrag[] foods =
         {
-            ObjectPool.Instance.Despawn(slots[0].currentFood.gameObject);
-            ObjectPool.Instance.Despawn(slots[1].currentFood.gameObject);
-            ObjectPool.Instance.Despawn(slots[2].currentFood.gameObject);
+        slots[0].currentFood,
+        slots[1].currentFood,
+        slots[2].currentFood
+    };
 
-            slots[0].ClearFood();
-            slots[1].ClearFood();
-            slots[2].ClearFood();
+        foreach (var f in foods)
+            f.CurrentSlot.ClearFood();
+
+        int finished = 0;
+
+        void OnFinish()
+        {
+            if (++finished < foods.Length) return;
+
+            foreach (var f in foods)
+                ObjectPool.Instance.Despawn(f.gameObject);
 
             GameEvents.OnGrillMatch?.Invoke(this);
-
             CheckEmpty();
         }
+
+        foreach (var f in foods)
+            f.GetComponent<FoodTween>()
+             .FlyTo(CollectPoint.Instance.position, OnFinish);
     }
 
     public void CheckEmpty()
@@ -80,6 +95,20 @@ public class Grill : MonoBehaviour
         }
 
         
-        PlateManager.Instance.SpawnFoodForPlate(plate);
+        PlateFood.Instance.SpawnFoodForPlate(plate);
+    }
+
+    public void SetPlateCount(int count)
+    {
+        Debug.Log("SetPlateCount: " + count);
+        for (int i = 0; i < plates.Count; i++)
+        {
+            plates[i].SetActive(i < count);
+        }
+    }
+
+    public int GetActivePlateCount()
+    {
+        return RandomPlateManager.Instance.GetPlateCount(this);
     }
 }

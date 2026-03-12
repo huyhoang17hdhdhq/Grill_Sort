@@ -901,6 +901,7 @@ GameObject:
   - component: {fileID: 7569241301162674406}
   - component: {fileID: 2916960918303036573}
   - component: {fileID: 7569241301162674408}
+  - component: {fileID: 3164513776972366399}
   m_Layer: 3
   m_Name: Skewer_Dumplings
   m_TagString: Untagged
@@ -984,6 +985,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &3164513776972366399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5893677400217719531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ddcde6802a8494488ceeee7dc139854, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5893688277259395099
 GameObject:
   m_ObjectHideFlags: 0

@@ -18,9 +18,9 @@ public class Plate : MonoBehaviour
 
     void OnEnable()
     {
-        if (PlateManager.Instance != null)
+        if (PlateFood.Instance != null)
         {
-            PlateManager.Instance.RegisterPlate(this);
+            PlateFood.Instance.RegisterPlate(this);
         }
 
         GameEvents.OnGrillEmpty += HandleGrillEmpty;
@@ -28,9 +28,9 @@ public class Plate : MonoBehaviour
 
     void OnDisable()
     {
-        if (PlateManager.Instance != null)
+        if (PlateFood.Instance != null)
         {
-            PlateManager.Instance.UnregisterPlate(this);
+            PlateFood.Instance.UnregisterPlate(this);
         }
 
         GameEvents.OnGrillEmpty -= HandleGrillEmpty;
@@ -62,17 +62,19 @@ public class Plate : MonoBehaviour
 
         for (int i = 0; i < count; i++)
         {
-            GameObject food = ObjectPool.Instance.Spawn(
-                currentFoods[i],
-                grill.slots[i].transform.position,
-                Quaternion.identity
-            );
+            GameObject food = ObjectPool.Instance.Spawn(currentFoods[i], transform.position, Quaternion.identity);
+
+            food.transform.localScale = Vector3.zero;
+
+            FoodDrag drag = food.GetComponent<FoodDrag>();
+
+            grill.slots[i].SetFood(drag);
+            drag.CurrentSlot = grill.slots[i];
 
             food.transform.SetParent(grill.slots[i].transform);
 
-            FoodDrag drag = food.GetComponent<FoodDrag>();
-            grill.slots[i].SetFood(drag);
-            drag.CurrentSlot = grill.slots[i];
+            food.GetComponent<FoodTween>()
+                .MoveToSlot(grill.slots[i].transform);
         }
     }
 }
