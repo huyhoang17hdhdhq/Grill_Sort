@@ -26,12 +26,7 @@ public class Grill : MonoBehaviour
             if (slots[i].currentFood?.foodType != first.foodType)
                 return;
 
-        FoodDrag[] foods =
-        {
-        slots[0].currentFood,
-        slots[1].currentFood,
-        slots[2].currentFood
-    };
+        FoodDrag[] foods ={slots[0].currentFood,slots[1].currentFood,slots[2].currentFood };
 
         foreach (var f in foods)
             f.CurrentSlot.ClearFood();
@@ -49,9 +44,8 @@ public class Grill : MonoBehaviour
             CheckEmpty();
         }
 
-        foreach (var f in foods)
-            f.GetComponent<FoodTween>()
-             .FlyTo(CollectPoint.Instance.position, OnFinish);
+        foreach (var f in foods) f.GetComponent<FoodTween>().FlyTo(CollectPoint.Instance.position, OnFinish);
+
     }
 
     public void CheckEmpty()
