@@ -13,11 +13,18 @@ public class FoodDrag : MonoBehaviour
 
     private Vector3 offset;
 
+    private Vector3 originalScale;
+    [SerializeField] private float dragScale = 1.2f;
+
     void OnMouseDown()
     {
         GameEvents.IsDraggingFood = true;
 
         offset = transform.position - GetMouseWorldPos();
+
+        originalScale = transform.localScale;
+
+        transform.localScale = originalScale * dragScale;
 
         if (CurrentSlot != null)
         {
@@ -39,6 +46,8 @@ public class FoodDrag : MonoBehaviour
     {
         GameEvents.IsDraggingFood = false;
 
+        transform.localScale = originalScale;
+
         if (targetSlot != null && targetSlot.IsEmpty())
         {
             targetSlot.SetFood(this);
@@ -48,12 +57,18 @@ public class FoodDrag : MonoBehaviour
 
             if (grill != null)
                 grill.CheckMatch();
+               
+ 
         }
 
         if (previousGrill != null)
         {
+            
+            
             previousGrill.CheckEmpty();
             previousGrill = null;
+
+            
         }
     }
 

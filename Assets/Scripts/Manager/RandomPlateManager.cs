@@ -21,15 +21,23 @@ public class RandomPlateManager : MonoBehaviour
         grillPlateCounts.Clear();
         TotalPlate = 0;
 
+        bool hasFree = false;
+
         foreach (var grill in grills)
         {
-            int plateCount = Random.Range(2, 5); 
+            int plateCount = Random.Range(3  , 5 );
+
+            if (plateCount < 3)
+                hasFree = true;
 
             grillPlateCounts.Add(grill, plateCount);
-
             TotalPlate += plateCount;
+        }
 
-            grill.SetPlateCount(plateCount);
+       
+        if (!hasFree && grills.Count > 1 )
+        {
+            grillPlateCounts[grills[0]] = 2;
         }
 
         Debug.Log("Total Plate: " + TotalPlate);

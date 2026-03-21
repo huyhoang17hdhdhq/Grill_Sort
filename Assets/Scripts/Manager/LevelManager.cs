@@ -34,22 +34,21 @@ public class LevelManager : MonoBehaviour
 
     void SpawnLevel()
     {
-        Debug.Log("SpawnLevel called frame: " + Time.frameCount);
-
         if (spawnPoints.Count == 0 || grillsPerLevel.Count == 0)
             return;
 
         grillScripts.Clear();
+        activeGrills.Clear();
 
         int levelIndex = Mathf.Clamp(currentLevel - 1, 0, grillsPerLevel.Count - 1);
         int grillCount = Mathf.Min(grillsPerLevel[levelIndex], spawnPoints.Count);
 
+        // 🔹 Spawn grill
         for (int i = 0; i < grillCount; i++)
         {
             Transform point = spawnPoints[i];
 
             GameObject grillObj = Instantiate(grillPrefab, grillContainer);
-
             grillObj.transform.position = point.position;
             grillObj.transform.rotation = point.rotation;
 
@@ -57,14 +56,23 @@ public class LevelManager : MonoBehaviour
 
             if (grill != null)
             {
-                grill.Init();
-                grillScripts.Add(grill);
+                grillScripts.Add(grill); // chưa init
             }
 
             activeGrills.Add(grillObj);
         }
 
+        // 🔹 1. Random số plate cho từng grill
         RandomPlateManager.Instance.Generate(grillScripts);
+
+        // 🔥 2.LẤY ĐÚNG TOÀN BỘ PLATE ĐANG ACTIVE
+        
+        //PlateFood.Instance.GenerateAllFood(RandomPlateManager.Instance.TotalPlate);
+        // 🔹 5. Init grill (spawn lên bếp)
+        foreach (var grill in grillScripts)
+        {
+            grill.Init();
+        }
     }
 
     public void ClearLevel()
@@ -75,6 +83,20 @@ public class LevelManager : MonoBehaviour
         }
 
         activeGrills.Clear();
+        grillScripts.Clear();
+    }
+
+    public void RemoveGrill(Grill grill)
+    {
+        if (grill == null) return;
+
+        grillScripts.Remove(grill);
+        activeGrills.Remove(grill.gameObject);
+
+        if (activeGrills.Count == 0)
+        {
+            Win();
+        }
     }
 
     public void NextLevel()
@@ -85,5 +107,10 @@ public class LevelManager : MonoBehaviour
 
         ClearLevel();
         SpawnLevel();
+    }
+
+    void Win()
+    {
+        Debug.Log("YOU WIN");
     }
 }
