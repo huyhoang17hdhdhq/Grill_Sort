@@ -15,22 +15,13 @@ public class Plate : MonoBehaviour
        
         slots = slotParent.GetComponentsInChildren<SpriteRenderer>();
     }
-    void Start()
-    {
-        //if (PlateFood.Instance != null)
-        //{
-        //    PlateFood.Instance.SpawnFoodForPlate(plate);
-        //}
-    }
 
     void OnEnable()
     {
-       
-        
+        if (PlateFood.Instance != null)
+        {
             PlateFood.Instance.RegisterPlate(this);
-
-          
-        
+        }
 
         GameEvents.OnGrillEmpty += HandleGrillEmpty;
     }

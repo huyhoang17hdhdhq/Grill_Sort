@@ -9,23 +9,10 @@ public class Grill : MonoBehaviour
 
     [SerializeField] private List<GameObject> plates;
 
-    private bool hasSpawnedAfterReduce = false;
-
-
-
     public void Init()
     {
-        int count = RandomPlateManager.Instance.GetPlateCount(this);
-
-        SetPlateCount(count);
-
-       
-
         CheckEmpty();
-    }
-    void Start ()
-    {
-        
+
     }
 
     public void CheckMatch()
@@ -39,7 +26,7 @@ public class Grill : MonoBehaviour
             if (slots[i].currentFood?.foodType != first.foodType)
                 return;
 
-        FoodDrag[] foods = { slots[0].currentFood, slots[1].currentFood, slots[2].currentFood };
+        FoodDrag[] foods ={slots[0].currentFood,slots[1].currentFood,slots[2].currentFood };
 
         foreach (var f in foods)
             f.CurrentSlot.ClearFood();
@@ -54,10 +41,6 @@ public class Grill : MonoBehaviour
                 ObjectPool.Instance.Despawn(f.gameObject);
 
             GameEvents.OnGrillMatch?.Invoke(this);
-
-            hasSpawnedAfterReduce = false; // 🔥 reset
-
-            ReducePlate();
             CheckEmpty();
         }
 
@@ -69,29 +52,13 @@ public class Grill : MonoBehaviour
     {
         if (GameEvents.IsDraggingFood)
             return;
-
-        if (!IsAllSlotEmpty())
-            return;
-
-        bool noPlateLeft = ReducePlate();
-
-        // 🔥 nếu vừa hết plate → cho spawn 1 lần cuối
-        if (noPlateLeft && !hasSpawnedAfterReduce)
+        foreach (Slot slot in slots)
         {
-            hasSpawnedAfterReduce = true;
-
-            SpawnFromPlate(); // spawn lần cuối
-            return;
+            if (slot.currentFood != null)
+                return;
         }
 
-        // 🔥 sau lần spawn cuối → mới destroy
-        if (noPlateLeft && hasSpawnedAfterReduce)
-        {
-            DestroyGrill();
-            return;
-        }
-
-        // 🔥 còn plate → spawn bình thường
+        
         SpawnFromPlate();
     }
 
@@ -99,7 +66,7 @@ public class Grill : MonoBehaviour
     {
         if (plate == null) return;
 
-
+        
         FoodType[] foods = plate.GetFoods();
         if (foods == null || foods.Length == 0) return;
 
@@ -119,69 +86,19 @@ public class Grill : MonoBehaviour
 
             slots[i].SetFood(drag);
             drag.CurrentSlot = slots[i];
-
-            food.GetComponentInChildren<Animator>(true)?.SetTrigger("Smoke");
-
-            PlateFood.Instance.SpawnFoodForPlate(plate);
-
         }
 
-
-        // PlateFood.Instance.SpawnFoodForPlate(plate);
-        CheckMatch();
-
-
+        
+        PlateFood.Instance.SpawnFoodForPlate(plate);
     }
 
     public void SetPlateCount(int count)
     {
+        Debug.Log("SetPlateCount: " + count);
         for (int i = 0; i < plates.Count; i++)
         {
             plates[i].SetActive(i < count);
         }
-    }
-
-    bool ReducePlate()
-    {
-        for (int i = plates.Count - 1; i >= 0; i--)
-        {
-            if (plates[i].activeSelf)
-            {
-                plates[i].SetActive(false);
-                break;
-            }
-        }
-
-        // check còn plate không
-        foreach (var p in plates)
-        {
-            if (p.activeSelf)
-                return false;
-        }
-
-        // hết plate nhưng CHƯA destroy
-        plate.gameObject.SetActive(false);
-        return true;
-    }
-    bool IsAllSlotEmpty()
-    {
-        foreach (var slot in slots)
-        {
-            if (slot.currentFood != null)
-                return false;
-        }
-        return true;
-    }
-
-    //public void ReducePlateFromEmpty()
-    //{
-    //    ReducePlate(); // dùng lại logic cũ
-    //}
-    void DestroyGrill()
-    {
-        LevelManager.Instance.RemoveGrill(this);
-
-        Destroy(gameObject);
     }
 
     public int GetActivePlateCount()
