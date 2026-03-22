@@ -1,4 +1,4 @@
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
 public class PlateFood : MonoBehaviour
@@ -44,15 +44,22 @@ public class PlateFood : MonoBehaviour
     public void SpawnFoodForPlate(Plate plate)
     {
         int randomSlot = Random.Range(1, plate.SlotCount + 1);
-
         FoodType[] foods = new FoodType[randomSlot];
+
+        // 🔥 thêm dòng này
+        int enumLength = System.Enum.GetValues(typeof(FoodType)).Length;
 
         for (int i = 0; i < randomSlot; i++)
         {
-            foods[i] = (FoodType)Random.Range(
-                0,
-                System.Enum.GetValues(typeof(FoodType)).Length
-            );
+            FoodType newFood;
+
+            do
+            {
+                newFood = (FoodType)Random.Range(0, enumLength);
+            }
+            while (i >= 2 && foods[i - 1] == foods[i - 2] && foods[i - 1] == newFood);
+
+            foods[i] = newFood;
         }
 
         plate.SetFoods(foods);

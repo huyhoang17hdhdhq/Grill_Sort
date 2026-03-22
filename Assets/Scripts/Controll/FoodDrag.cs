@@ -13,11 +13,19 @@ public class FoodDrag : MonoBehaviour
 
     private Vector3 offset;
 
+    private Vector3 originalScale;
+    [SerializeField] private float dragScale = 1.2f;
+
     void OnMouseDown()
     {
         GameEvents.IsDraggingFood = true;
 
         offset = transform.position - GetMouseWorldPos();
+
+    
+        originalScale = transform.localScale;
+
+        transform.localScale = originalScale * dragScale;
 
         if (CurrentSlot != null)
         {
@@ -38,6 +46,9 @@ public class FoodDrag : MonoBehaviour
     void OnMouseUp()
     {
         GameEvents.IsDraggingFood = false;
+
+       
+        transform.localScale = originalScale;
 
         if (targetSlot != null && targetSlot.IsEmpty())
         {
